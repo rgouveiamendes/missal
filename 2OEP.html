@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<title>OEPort</title>
+<script>    //  Check local storage
+    let localS = localStorage.getItem('theme')
+        themeToSet = localS
+        //  if the local storage is not set, we check the OS preference
+    if (!localS === "dark"){themeToSet = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'}
+    //  Set the correct theme
+    document.documentElement.setAttribute('data-theme', themeToSet)
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel="stylesheet" href="xxx-styleMODOS.css" />
+
+
+<script src="js-includeHTML.js"></script>
+
+<style>
+a:link {text-decoration:none;}
+</style>
+<script>var md = localStorage.getItem("md");    var lmd = localStorage.getItem("lmd");</script>
+</head>
+<body style="text-align:left;;word-wrap:break-word; overflow-wrap: break-word" link=yellow vlink=yellow>
+
+
+<a name=OEP1></a>
+<p class=OM14bl><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> ORAÇÃO EUCARÍSTICA
+<span style="color:red;font-size:14pt; font-weight:normal;">
+<span style='background-color:gold;'>&nbsp;I&nbsp;</span>
+<a href="#OEP2InicioPrefacio"class=c>&nbsp;II&nbsp;</a>
+<a href="#OEP3"class=c>&nbsp;III&nbsp;</a>
+<a href="#OEP4"class=c>&nbsp;IV&nbsp;</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ou CÂNONE ROMANO</p><br>
+
+<p class=muda><a href="2OEL.html#OEL1" class=gm>Te ígitur clementissime…</a></p>
+<p class=w><span class=inis>P</span>ai de infinita misericórdia, humildemente Vos suplicamos, por Jesus Cristo, vosso Filho, nosso Senhor, que Vos digneis aceitar e abençoar <span class=r><b>†</b> </span> estes dons, esta oblação pura e santa. Nós Vo-la oferecemos pela vossa Igreja santa e católica: dai-lhe a paz e congregai-a na unidade, defendei-a e governai-a em toda a terra, em comunhão com o vosso servo, o nosso papa <span class=r>N.</span>, o nosso bispo <span class=r>N.</span> e todos os bispos que são fiéis à verdade e professam a fé católica e apostólica.</p>
+
+<a name=OE1LembraivosVivos></a>
+<p class=muda><a href="2OEL.html#OE1MementoDomine" class=gm>Meménto, Dómine…</a></p>
+<p class=w><span class=inis>L</span>embrai-Vos, Senhor, dos vossos servos e servas <span class=r>N.</span> e <span class=r>N. <small>[comemoração dos vivos]</small></span> e de todos os que estão aqui presentes, cuja fé e dedicação ao vosso serviço bem conheceis. Por eles nós Vos oferecemos e também eles Vos oferecem este sacrifício de louvor, por si e por todos os seus, pela redenção das suas almas, para a salvação e segurança que esperam, ó Deus eterno, vivo e verdadeiro.</p><br>
+
+
+<p class=r>[
+<a href="#OE1Domingos" 		class=c>Domingos</a> | 
+<a href="#OE1NatalOitava" 	class=c>Natal e sua oitava</a> | 
+<a href="#OE1Epifania" 		class=c>Epifania</a> | <br>|
+<a href="#OE1QiFeiraSanta" 	class=c>5ª-f Santa</a> | 
+<a href="#OE1VigiliaPascal" class=c>Vigília Pascal até 2º Dom P.</a> | <br>|
+<a href="#OE1Ascensao" 		class=c>Ascensão do Senhor</a> | 
+<a href="#OE1Pentecostes" 	class=c>Pentecostes</a> ]</p><br>
+
+
+<a name=OE1EmComunhao></a>
+<p class=muda><a href="2OEL.html#OE1Communicantes" class=gm>Communicántes…</a></p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo,<br>
+<a name=OE1ETambem></a>
+<span class=r>*</span> e também a de são José, seu esposo, e a dos bem-aventurados apóstolos e mártires: Pedro e Paulo, André,<br>
+<span class=r>[</span>Tiago, João, Tomé, Tiago, Filipe, Bartolomeu, Mateus, Simão e Tadeu; Lino, Cleto, Clemente, Sixto, Cornélio, Cipriano, Lourenço, Crisógono, João e Paulo, Cosme e Damião<span class=r>]</span><br>
+e de todos os santos. Por seus méritos e orações, concedei-nos, em tudo e sempre, auxílio e proteção.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p><br>
+
+
+<p class=r>[ <a href="#OE1VigiliaPascalBis" class=c>Vigília Pascal até 2º Dom Páscoa </a>]</p><br>
+
+<a name=OE1AceitaiBenignamente></a>
+<p class=muda><a href="2OEL.html#OE1HancIgitur" class=gm>Hanc ígitur oblatiónem…</a></p>
+<p class=w><span class=inis>A</span>ceitai benignamente, Senhor, a oblação que nós, vossos servos, com toda a vossa família, Vos apresentamos. Dai a paz aos nossos dias, livrai-nos da condenação eterna e contai-nos entre os vossos eleitos.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p>
+
+<a name=OE1Santificai></a>
+<p class=muda><a href="2OEL.html#OE1QuamOblationem" class=gm>Quam oblatiónem…</a></p>
+<p class=w><span class=inis>S</span>antificai, Senhor, esta oblação com o poder da vossa bênção e recebei-a como sacrifício espiritual perfeito, de modo que se converta para nós no Corpo e Sangue de vosso amado Filho, nosso Senhor Jesus Cristo.</p>
+
+
+<a name=OE1NaVespera></a>
+<p class=muda><a href="2OEL.html#OE1QuiPridie" class=gm>Qui, prídie quam paterétur…</a></p>
+<p class=w><span class=inis>N</span>a véspera da sua paixão, Ele tomou o pão em suas santas e adoráveis mãos e, levantando os olhos ao céu para Vós, Deus, seu Pai todo-poderoso, dando graças Vos bendisse, partiu-o e deu-o aos seus discípulos, dizendo:</p><br>
+
+
+<a name=OE1TomaiTodos></a>
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e comei: isto é o meu Corpo, que será entregue por vós.</span></p><br>
+
+
+<p class=w><span class=inis>D</span>e igual modo, no fim da Ceia, tomou este sagrado cálice em suas santas e adoráveis mãos, dando graças Vos bendisse, e deu-o aos seus discípulos, dizendo:</p><br>
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e bebei: este é o cálice do meu Sangue, o Sangue da nova e eterna aliança, que será derramado por vós e por todos para remissão dos pecados. Fazei isto em memória de Mim.</span></p><br>
+
+
+<a name=OE1MisterioFePrincipal></a>
+<p class=muda><a href="2OEL.html#OE1MysteriumFidei" class=gm>Mystérium fidei</a></p>
+<p class=w><span class=inis>M</span>istério da fé! &nbsp;&nbsp;<span class=r>[ <a href="#OE1MisterioFe" class=c>Ou</a> ]</span></p>
+<p class=w><span class=inip>A</span>nunciamos, Senhor, a vossa morte, proclamamos a vossa ressurreição. Vinde, Senhor Jesus!</p>
+
+
+<a name=OE1CelebrandoAgora></a>
+<p class=muda><a href="2OEL.html#OE1UndeMemores" class=gm>Unde et mémores…</a></p>
+<p class=w><span class=inis>C</span>elebrando agora, Senhor, o memorial da bem-aventurada paixão de Jesus Cristo, vosso Filho, nosso Senhor, da sua ressurreição de entre os mortos e da sua gloriosa ascensão aos céus, nós, vossos servos, com o vosso povo santo, dos próprios bens que nos destes oferecemos à vossa divina majestade o sacrifício perfeito, santo e imaculado, o pão santo da vida eterna e o cálice da eterna salvação.</p>
+
+
+<a name=OE1OlhaiComBenevolencia></a>
+<p class=muda><a href="2OEL.html#OE1SupraQuae" class=gm>Supra quæ propítio…</a></p>
+<p class=w><span class=inis>O</span>lhai com benevolência e agrado para esta oferenda e dignai-Vos aceitá-la, como aceitastes os dons do justo Abel, vosso servo, o sacrifício de Abraão, nosso pai na fé, e a oblação pura e santa do sumo sacerdote Melquisedec.</p>
+
+
+<a name=OE1HumildementeVos></a>
+<p class=muda><a href="2OEL.html#OE1Supplices" class=gm>Súpplices te rogámus…</a></p>
+<p class=w><span class=inis>H</span>umildemente Vos suplicamos, Deus todo-poderoso, que esta nossa oferenda seja apresentada pelo vosso santo anjo no altar celeste, diante da vossa divina majestade, para que todos nós, participando deste altar, pela comunhão do santíssimo Corpo e Sangue do vosso Filho, alcancemos a plenitude das bênçãos e graças do céu.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p><br>
+
+
+<a name=OE1LembraivosDefuntos></a>
+<p class=muda><a href="2OEL.html#OE1MementoEtiam" class=gm>Meménto étiam, Dómine…</a></p>
+<p class=w><span class=inis>L</span>embrai-Vos, Senhor, dos vossos servos e servas <span class=r>N.</span> e <span class=r>N. </span>, que partiram antes de nós, marcados com o sinal da fé, e agora dormem o sono da paz. <small><span class=r>[comemoração dos defuntos]</span></small> Concedei-lhes, Senhor, a eles e a todos os que descansam em Cristo, o lugar da consolação, da luz e da paz.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p><br>
+
+
+<a name=OE1EANosPecadores></a>
+<p class=muda><a href="2OEL.html#OE1NobisQuoque" class=gm>Nobis quoque peccatóribus…</a></p>
+<p class=w><span class=inis>E</span> a nós, pecadores, vossos servos, que esperamos na vossa infinita misericórdia, admiti-nos também na assembleia dos bem-aventurados apóstolos e mártires: João Batista, Estêvão, Matias, Barnabé,<br>
+<span class=r>[</span>Inácio, Alexandre, Marcelino, Pedro, Felicidade, Perpétua, Águeda, Luzia, Inês, Cecília, Anastácia<span class=r>]</span><br>
+e de todos os santos. Recebei-nos em sua companhia, não pelo valor dos nossos méritos, mas segundo a grandeza do vosso perdão.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p>
+
+
+<p class=w><span class=inis>P</span>or nosso Senhor Jesus Cristo, criais todos os bens e lhes dais vida, os santificais, abençoais e distribuís por nós.</p>
+
+
+<a name=OE1PorCristo></a>
+<p class=muda><a href="2OEL.html#OE1PerIpsum" class=gm>Per ipsum…</a></p>
+<p class=w><span class=inis>P</span>or Cristo, com Cristo, em Cristo, a Vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, por todos os séculos dos séculos.</p>
+<p class=w><span class=inip>A</span>men. </p>
+
+
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;">
+<span class=cx4><a href="2OMP.html#P90" class=w> Pai nosso </a></span> ●
+<span class=cx4><a href="2OML.html#L90" class=w> Latim </a></span></p>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a name=OE1MisterioFe></a>
+<p class=w><span class=inis>M</span>istério admirável da nossa fé!</p>
+<p class=w><span class=inip>Q</span>uando comemos deste pão e bebemos deste cálice, anunciamos, Senhor, a vossa morte, esperando a vossa vinda gloriosa.</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1CelebrandoAgora" class=w> Celebrando agora… </a></span></p>
+
+<p class=r>Ou:</p><br>
+<p class=w><span class=inis>M</span>istério da fé para a salvação do mundo!</p>
+<p class=w><span class=inip>G</span>lória a Vós que morreste na Cruz e agora viveis para sempre. Salvador do mundo, salvai-nos. Vinde, Senhor Jesus!</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1CelebrandoAgora" class=w> Celebrando agora… </a></span></p>
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a name=OE1Domingos></a>
+<p class=r>Domingos</p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o primeiro dia da semana, em que nosso Senhor Jesus Cristo ressuscitou dos mortos, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo,<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1ETambem" class=w> …e também a de são José,… </a></span></p><br><br>
+
+<a name=OE1NatalOitava></a>
+<p class=r>Natal do Senhor e sua oitava</p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <span class=r>[</span>a noite santíssima<span class=r>]</span>, em que a Imaculada Virgem Maria deu à luz o Salvador do mundo, veneramos a memória da mesma gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo,<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1ETambem" class=w> …e também a de são José,… </a></span></p><br><br>
+
+
+<a name=OE1Epifania></a>
+<p class=r>Epifania do Senhor</p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que o vosso Filho Unigénito, eterno convosco na glória, Se manifestou visivelmente na realidade da nossa carne, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo,<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1ETambem" class=w> …e também a de são José,… </a></span></p><br><br>
+
+
+
+<a name=OE1QiFeiraSanta></a>
+<p class=r>Quinta-Feira Santa</p>
+<p class=muda><a href="2OEL.html#OE1CenaDomini" class=gm>Communicántes…</a></p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo Se entregou por nós, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, e também a de são José, seu esposo, e a dos bem-aventurados apóstolos e mártires: Pedro e Paulo, André,<br>
+<span class=r>[</span>Tiago, João, Tomé, Tiago, Filipe, Bartolomeu, Mateus, Simão e Tadeu; Lino, Cleto, Clemente, Sixto, Cornélio, Cipriano, Lourenço, Crisógono, João e Paulo, Cosme e Damião<span class=r>]</span><br>
+ e de todos os santos. Por seus méritos e orações, concedei-nos, em tudo e sempre, auxílio e proteção.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p>
+<a name=OE1QiFeiraSantaAceitai></a>
+<p class=muda><a href="2OEL.html#OE1CenaDominiHanc" class=gm>Hanc ígitur oblatiónem…</a></p>
+<p class=w><span class=inis>A</span>ceitai benignamente, Senhor, a oblação que nós, vossos servos, com toda a vossa família, Vos apresentamos. Nós Vo-la oferecemos neste dia, em que nosso Senhor Jesus Cristo confiou aos seus discípulos a celebração dos mistérios do seu Corpo e Sangue. Dai a paz aos nossos dias, livrai-nos da condenação eterna e contai-nos entre os vossos eleitos.Por Cristo nosso Senhor. Amen.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p>
+<a name=OE1QiFeiraSantaSantificai></a>
+<p class=muda><a href="2OEL.html#OE1CenaDominiQuamOblationem" class=gm>Quam oblatiónem…</a></p>
+<p class=w><span class=inis>S</span>antificai, Senhor, esta oblação com o poder da vossa bênção e recebei-a como sacrifício espiritual perfeito, de modo que se converta para nós no Corpo e Sangue de vosso amado Filho, nosso Senhor Jesus Cristo.</p>
+<a name=OE1QiFeiraSantaNaVespera></a>
+<p class=muda><a href="2OEL.html#OE1CenaDominiQuiPridie" class=gm>Qui, prídie quam paterétur…</a></p>
+<p class=w><span class=inis>H</span>oje, véspera da sua paixão, por nós e por todos os homens, Ele tomou o pão em suas santas e adoráveis mãos e, levantando os olhos ao céu, para Vós, Deus, seu Pai todo-poderoso, dando graças, Vos bendisse, partiu-o e deu-o aos seus discípulos, dizendo:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1TomaiTodos" class=w> Tomai, todos e comei… </a></span></p><br><br>
+
+
+<a name=OE1VigiliaPascal></a>
+<p class=r>Vigília Pascal até ao Domingo II da Páscoa</p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <span class=r>[</span>a noite santíssima<span class=r>]</span> da ressurreição de nosso Senhor Jesus Cristo segundo a carne, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1ETambem" class=w> …e também a de são José,… </a></span></p><br><br>
+
+
+<a name=OE1Ascensao></a>
+<p class=r>Ascensão do Senhor</p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo, vosso Filho Unigénito, colocou à direita da vossa glória a nossa frágil natureza humana unida à sua divindade, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <span sclass=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1ETambem" class=w> …e também a de são José,… </a></span></p><br><br>
+
+
+<a name=OE1Pentecostes></a>
+<p class=r>Pentecostes</p>
+<p class=w><span class=inis>E</span>m comunhão com toda a Igreja, ao celebrarmos o dia santíssimo de Pentecostes, em que o Espírito Santo Se manifestou aos apóstolos em numerosas línguas de fogo, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1ETambem" class=w> …e também a de são José,… </a></span></p><br><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a name=OE1VigiliaPascalBis></a>
+<p class=r>Vigília Pascal até ao Domingo II da Páscoa</p>
+<p class=w><span class=inis>A</span>ceitai benignamente, Senhor, a oblação que nós, vossos servos, com toda a vossa família, Vos apresentamos. Nós Vo-la oferecemos também por aqueles que fizestes renascer da água e do Espírito Santo, concedendo-lhes o perdão de todos os pecados. Dai a paz aos nossos dias, livrai-nos da condenação eterna e contai-nos entre os vossos eleitos.<br>
+<span class=r>[</span>Por Cristo nosso Senhor. Amen.<span class=r>]</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE1Santificai" class=w> Santificai, Senhor,… </a></span></p><br><br>
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name=OEP2InicioPrefacio></a>
+<p class=OM14bl><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> ORAÇÃO EUCARÍSTICA
+<span style="color:red;font-size:14pt; font-weight:normal;">
+<a href="#OEP1"class=c>&nbsp;I&nbsp;</a>
+<span style='background-color:gold;'>&nbsp;II&nbsp;</span>
+<a href="#OEP3"class=c>&nbsp;III&nbsp;</a>
+<a href="#OEP4"class=c>&nbsp;IV&nbsp;</a></span></p><br>
+
+<p class=r>Prefácio | <a href="#OEP2Inicio" class=c>Saltar</a> |</p>
+
+<p class=muda><a href="2OEL.html#OEL2InicioPrefacio" class=gm>Vere dignum et iustum est…</a></p>
+<p class=w><span class=inis>S</span>enhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte, por Jesus Cristo, vosso amado Filho.</p>
+
+<p class=w><span class=inis>E</span>le é a vossa palavra, por quem tudo criastes. Enviado por Vós, como Salvador e Redentor, fez-Se homem pelo poder do Espírito Santo e nasceu da Virgem Maria.</p>
+
+<p class=w><span class=inis>P</span>ara cumprir a vossa vontade e adquirir para Vós um povo santo, estendeu os braços e morreu na cruz; e, destruindo assim a morte, manifestou a vitória da ressurreição.</p>
+
+<p class=w><span class=inis>P</span>or isso, com os anjos e todos os santos, proclamamos a vossa glória, dizendo <span class=r>[</span>cantando<span class=r>]</span> numa só voz:</p>
+
+<p class=w><span class=inip>S</span>anto, Santo, Santo, Senhor Deus do Universo. O céu e a terra proclamam a vossa glória. Hossana nas alturas. Bendito O que vem em nome do Senhor. Hossana nas alturas.</p>
+
+<a name=OEP2Inicio></a>
+<p class=muda><a href="2OEL.html#OEL2Inicio" class=gm>Vere Sanctus es…</a></p>
+<p class=w><span class=inis>V</span>ós, Senhor, sois verdadeiramente santo, sois a fonte de toda a santidade.</p><br>
+
+
+
+<p class=r>[ 
+<a href="#OE2Domingos" 			class=c>Domingos</a> | 
+<a href="#OE2NatalOitava" 		class=c>Natal e sua oitava</a> | 
+<a href="#OE2Epifania" 			class=c>Epifania</a> | <br>|
+<a href="#OE25FeiraSanta" 		class=c>5ª-f Santa</a> | 
+<a href="#OE2VigiliaPascal" 	class=c>Vigília Pascal até 2º Dom P.</a> | <br>|
+<a href="#OE2Ascensao" 			class=c>Ascensão do Senhor</a> | 
+<a href="#OE2Pentecostes" 		class=c>Pentecostes</a> | <br>|
+<a href="#OE2ApresentacaoSn" 	class=c>Apresentação do S.</a> |
+<a href="#OE2AnunciacaoSn" 		class=c>Anunciação do S.</a> | <br>|
+<a href="#OE2NascimSJBapt" 		class=c>Nascimento de S. João Batista</a> | <br>|
+<a href="#OE2AssuncaoNS" 		class=c>Assunção de Nª Sª</a> | 
+<a href="#OE2NatividadeNS" 		class=c>Natividade de Nª Sª</a> | <br>|
+<a href="#OE2TodosSantos" 		class=c>Todos os santos</a> | 
+<a href="#OE2Imaculada" 		class=c>Imaculada Conceição </a> ]</p><br>
+
+
+<a name=OE2Santificai></a>
+<p class=w><span class=inis>S</span>antificai estes dons, derramando sobre eles o vosso Espírito, de modo que se convertam, para nós, no Corpo e <span class=r>†</b></span> Sangue de nosso Senhor Jesus Cristo.</p>
+
+<a name=OE2Nahoraemque></a>
+<p class=muda><a href="2OEL.html#OE2QuiCumPassioni" class=gm>Qui cum Passióni…</a></p>
+<p class=w><span class=inis>N</span>a hora em que Ele Se entregava, para voluntariamente sofrer a morte, tomou o pão e, dando graças, partiu-o e deu-o aos seus discípulos, dizendo:</p><br>
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e comei: isto é o meu Corpo, que será entregue por vós.</span></p><br>
+
+<a name=OE2Deigualmodo></a>
+<p class=muda><a href="2OEL.html#OE2SimiliModo" class=gm>Símili modo…</a></p>
+<p class=w><span class=inis>D</span>e igual modo, no fim da Ceia, tomou o cálice, de novo Vos deu graças e deu-o aos seus discípulos, dizendo:</p><br>
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e bebei: este é o cálice do meu Sangue, o Sangue da nova e eterna aliança, que será derramado por vós e por todos para remissão dos pecados. Fazei isto em memória de Mim.</span></p><br>
+
+
+<a name=OE2MisterioFePrincipal></a>
+<p class=muda><a href="2OEL.html#OE2MysteriumFidei" class=gm>Mystérium fidei</a></p>
+<p class=w><span class=inis>M</span>istério da fé! &nbsp;&nbsp;<span class=r>[ <a href="#OE2MisterioFe" class=c>Ou</a> ]</span></p>
+<p class=w><span class=inip>A</span>nunciamos, Senhor, a vossa morte, proclamamos a vossa ressurreição. Vinde, Senhor Jesus!</p>
+
+<a name=OE2CelebrandoAgora></a>
+<p class=muda><a href="2OEL.html#OE2MemoresIgitur" class=gm>Mémores ígitur…</a></p>
+<p class=w><span class=inis>C</span>elebrando agora, Senhor, o memorial da morte e ressurreição de vosso Filho, nós Vos oferecemos o pão da vida e o cálice da salvação e Vos damos graças, porque nos admitistes à vossa presença, para Vos servir nestes santos mistérios.</p>
+
+<a name=OE2HumildementeVos></a>
+<p class=muda><a href="2OEL.html#OE2EtSupplices" class=gm>Et súpplices…</a></p>
+<p class=w><span class=inis>H</span>umildemente Vos suplicamos que, participando no Corpo e Sangue de Cristo, sejamos reunidos, pelo Espírito Santo, num só corpo.</p>
+
+<a name=OE2LembraivosSenhordavossaI></a>
+<p class=muda><a href="2OEL.html#OE2RecordareDomine" class=gm>Recordáre, Dómine…</a></p>
+<p class=w><span class=inis>L</span>embrai-Vos, Senhor, da vossa Igreja, dispersa por toda a terra, e tornai-a perfeita na caridade, em comunhão com o nosso papa <span class=r>N.</span>, o nosso bispo <span class=r>N.</span> e todos os ministros sagrados.</p><br>
+
+
+<p class=r>[ <a href="#OE2Defuntos" class=c>Missa de Defuntos</a> ]</p><br>
+
+
+<a name=OE2LembraiVosTambem></a>
+<p class=w><span class=inis>L</span>embrai-Vos também dos <span class=r>[</span>outros<span class=r>]</span> nossos irmãos, que adormeceram na esperança da ressurreição, e de todos aqueles que na vossa misericórdia partiram deste mundo: admiti-os na luz da vossa presença.</p>
+
+
+<a name=OE2TendeMisericordia></a>
+<p class=muda><a href="2OEL.html#OE2OmniumNostrum" class=gm>Omnium nostrum…</a></p>
+<p class=w><span class=inis>T</span>ende misericórdia de nós, Senhor, e dai-nos a graça de participar na vida eterna, com a Virgem santa Maria, Mãe de Deus, são José, seu esposo, os bem-aventurados apóstolos, <span class=r>[</span>são <span class=r>/</span> santo <span class=r>N. <small>santo do dia ou santo padroeiro</small>]</span> e todos os santos, que, desde o princípio do mundo, viveram na vossa amizade, para cantarmos os vossos louvores, por Jesus Cristo, vosso Filho.</p>
+
+
+<a name=OE2PorCristo></a>
+<p class=muda><a href="2OEL.html#OE2PerIpsum" class=gm>Per ipsum…</a></p>
+<p class=w><span class=inis>P</span>or Cristo, com Cristo, em Cristo, a Vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, por todos os séculos dos séculos.</p><p class=w><span class=inip>A</span>men.</p>
+
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;">
+<span class=cx4><a href="2OMP.html#P90" class=w> Pai nosso </a></span> ●
+<span class=cx4><a href="2OML.html#L90" class=w> Latim </a></span></p>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+<a name=OE2Domingos></a>
+<p class=r>Domingos</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o primeiro dia da semana, em que nosso Senhor Jesus Cristo ressuscitou dos mortos, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<a name=OE2NatalOitava></a>
+<p class=r>Natal do Senhor e sua oitava</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <span class=r>[</span>a noite santíssima<span class=r>]</span> em que a Imaculada Virgem Maria deu à luz o Salvador do mundo, humildemente Vos suplicamos: </p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2Epifania></a>
+<p class=r>Epifania do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa
+presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que o vosso Filho Unigénito, eterno convosco na glória, Se manifestou visivelmente na realidade da nossa carne, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<a name=OE25FeiraSanta></a>
+<p class=r>Quinta-Feira Santa</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo Se entregou por nós, humildemente Vos suplicamos: Santificai estes dons, derramando sobre eles o vosso Espírito, de modo que se convertam, para nós, no Corpo e <span class=r><b>†</b> </span>Sangue de nosso Senhor Jesus Cristo. Hoje, na hora em que Ele Se entregava...</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<a name=OE2VigiliaPascal></a>
+<p class=r>Vigília Pascal até ao Domingo II da Páscoa</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <span class=r>[</span>a noite santíssima<span class=r>]</span> da ressurreição de nosso Senhor Jesus Cristo segundo a carne, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<a name=OE2Ascensao></a>
+<p class=r>Ascensão do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo, vosso Filho Unigénito, colocou à direita da vossa glória a nossa frágil natureza humana unida à sua divindade, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2Pentecostes></a>
+<p class=r>Pentecostes</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo do Pentecostes, em que o Espírito Santo Se manifestou aos apóstolos em numerosas línguas de fogo, humildemente Vos suplicamos: </p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<a name=OE2ApresentacaoSn></a>
+<p class=r>Apresentação do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que o vosso Filho Unigénito foi apresentado no Templo, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<a name=OE2AnunciacaoSn></a>
+<p class=r>Anunciação do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que a Virgem santa Maria concebeu o vosso Filho Unigénito pelo poder do Espírito Santo, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2NascimSJBapt></a>
+<p class=r>Nascimento de são João Batista</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia do nascimento de são João Batista, que preparou o caminho do Salvador do mundo, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2AssuncaoNS></a>
+<p class=r>Assunção da Virgem santa Maria</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que santa Maria Mãe de Deus foi elevada à glória do céu, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2NatividadeNS></a>
+<p class=r>Natividade da Virgem santa Maria</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia do nascimento da Virgem santa Maria, escolhida desde toda a eternidade para ser a Mãe do Redentor, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2TodosSantos></a>
+<p class=r>Dia de Todos os santos</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia consagrado à memória de todos os santos, que durante a vida imitaram a Cristo e na morte receberam d’Ele a coroa da glória, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+<a name=OE2Imaculada></a>
+<p class=r>Imaculada Conceição da Virgem santa Maria</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que a Virgem Maria, escolhida para ser a Mãe do Redentor, foi concebida sem mancha do pecado original, humildemente Vos suplicamos:</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2Santificai" class=w> Santificai estes dons,… </a></span></p><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a name=OE2MisterioFe></a>
+<p class=w><span class=inis>M</span>istério admirável da nossa fé!</p>
+<p class=w><span class=inip>Q</span>uando comemos deste pão e bebemos deste cálice, anunciamos, Senhor, a vossa morte, esperando a vossa vinda gloriosa.</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2CelebrandoAgora" class=w> Celebrando agora… </a></span></p><br>
+
+<p class=r>Ou:</p>
+<p class=w><span class=inis>M</span>istério da fé para a salvação do mundo!</p>
+<p class=w><span class=inip>G</span>lória a Vós que morreste na Cruz e agora viveis para sempre. Salvador do mundo, salvai-nos. Vinde, Senhor Jesus!</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2CelebrandoAgora" class=w> Celebrando agora… </a></span></p><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+<a name=OE2Defuntos></a>
+<p class=r>Nas Missas de Defuntos pode acrescentar-se:</p>
+<p class=w><span class=inis>L</span>embrai-Vos do vosso servo <span class=r>[</span>da vossa serva<span class=r>] N.</span>, a quem <span class=r>[</span>hoje<span class=r>]</span> chamastes para Vós: configurado <span class=r>[</span>a<span class=r>]</span> com Cristo na morte, com Cristo tome parte na ressurreição.</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE2LembraiVosTambem" class=w> Lembrai-Vos também… </a></span></p><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name=OEP3></a>
+<p class=OM14bl><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> ORAÇÃO EUCARÍSTICA 
+<span style="color:red;font-size:14pt; font-weight:normal;">
+<a href="#OEP1"class=c>&nbsp;I&nbsp;</a>
+<a href="#OEP2InicioPrefacio"class=c>&nbsp;II&nbsp;</a>
+<span style='background-color:gold;'>&nbsp;III&nbsp;</span>
+<a href="#OEP4"class=c>&nbsp;IV&nbsp;</a></span>
+</p><br>
+
+<p class=muda><a href="2OEL.html#OEL3" class=gm>Vere Sanctus es…</a></p>
+<p class=w><span class=inis>V</span>ós, Senhor, sois verdadeiramente santo e todas as criaturas cantam os vossos louvores, porque dais a vida e santificais todas as coisas, por nosso Senhor Jesus Cristo, vosso Filho, com o poder do Espírito Santo, e não cessais de reunir para Vós um povo, que, de um extremo ao outro da terra, Vos ofereça uma oblação pura.</p><br>
+
+<p class=r>[
+<a href="#OE3Domingos" 			class=c>Domingos</a> | 
+<a href="#OE3NatalOitava" 		class=c>Natal e sua oitava</a> | 
+<a href="#OE3Epifania" 			class=c>Epifania</a> |<br>|
+<a href="#OE3QiFSanta" 			class=c>5ª-f Santa</a> | 
+<a href="#OE3VigiliaPascal" 	class=c>Vigília Pascal até 2º Dom P.</a> |<br>| 
+<a href="#OE3Ascensao" 			class=c>Ascensão do Senhor</a> | 
+<a href="#OE3Pentecostes" 		class=c>Pentecostes</a> |<br>|  
+<a href="#OE3DedicacaoIgreja" 	class=c>Dedicação de uma igreja</a> |<br>|  
+<a href="#OE3ApresentacaoSn" 	class=c>Apresentação do S.</a> |
+<a href="#OE3AnunciacaoSn" 		class=c>Anunciação do S.</a> | <br>|  
+<a href="#OE3NascimentoSJB" 	class=c>Nascimento de S. João Batista</a> |<br>|  
+<a href="#OE3AssuncaoNS" 		class=c>Assunção Nª Sª</a> |
+<a href="#OE3Natividade" 		class=c>Natividade Nª Sª</a> |<br>| 
+<a href="#OE3TodosSantos" 		class=c>Todos os santos</a> | 
+<a href="#OE3Imaculada" 		class=c>Imaculada Conceição</a> ]</p><br>
+
+<a name=OE3Humildemente></a>
+<p class=muda><a href="2OEL.html#OE3SupplicesErgo" class=gm>Súpplices ergo te…</a></p>
+<p class=w><span class=r>*</span><span class=inis>H</span>umildemente Vos suplicamos, Senhor: santificai, pelo Espírito Santo, estes dons que Vos apresentamos, para que se convertam no Corpo e <span class=r><b>†</b></span> Sangue de nosso Senhor Jesus Cristo, vosso Filho, que nos mandou celebrar estes mistérios.</p>
+
+
+<a name=OE3NaNoite></a>
+<p class=muda><a href="2OEL.html#OE3IpseEnim" class=gm>Ipse enim in qua nocte…</a></p>
+<p class=w><span class=inis>N</span>a noite em que Ele ia ser entregue, tomou o pão, dando graças Vos bendisse, partiu-o e deu-o aos seus discípulos, dizendo:</p><br>
+
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e comei: isto é o meu Corpo, que será entregue por vós.</span></p><br>
+
+<p class=w><span class=inis>D</span>e igual modo, no fim da Ceia, tomou o cálice, dando graças Vos bendisse e deu-o aos seus discípulos, dizendo:</p><br>
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e bebei: este é o cálice do meu Sangue, o Sangue da nova e eterna aliança, que será derramado por vós e por todos para remissão dos pecados. Fazei isto em memória de Mim.</span></p><br>
+
+
+<a name=OE3MisterioFePrincipal></a>
+<p class=muda><a href="2OEL.html#OE3MysteriumFidei" class=gm>Mystérium fidei</a></p>
+<p class=w><span class=inis>M</span>istério da fé! &nbsp;&nbsp;<span class=r>[ <a href="#OE3MisterioFe" class=c>Ou</a> ]</span></p>
+<p class=w><span class=inip>A</span>nunciamos, Senhor, a vossa morte, proclamamos a vossa ressurreição. Vinde, Senhor Jesus!</p>
+
+
+<a name=OE3CelebrandoAgora></a>
+<p class=muda><a href="2OEL.html#OE3MemoresIgitur" class=gm>Mémores ígitur…</a></p>
+<p class=w><span class=inis>C</span>elebrando agora, Senhor, o memorial da paixão redentora de vosso Filho, da sua admirável ressurreição e ascensão aos céus, e esperando a sua vinda gloriosa, nós Vos oferecemos, em ação de graças, este sacrifício vivo e santo.</p>
+
+
+<a name=OE3OlhaiBenignamente></a>
+<p class=muda><a href="2OEL.html#OE3RespiceQuaesumus" class=gm>Réspice, quǽsumus…</a></p>
+<p class=w><span class=inis>O</span>lhai benignamente para a oblação da vossa Igreja: vede nela a vítima que nos reconciliou convosco e fazei que, alimentando-nos do Corpo e Sangue do vosso Filho, cheios do seu Espírito Santo, sejamos em Cristo um só corpo e um só espírito.</p>
+
+
+<a name=OE3OEspiritoSanto></a>
+<p class=muda><a href="2OEL.html#OE3IpseNosTibi" class=gm>Ipse nos tibi…</a></p>
+<p class=w><span class=inis>O</span> Espírito Santo faça de nós uma oferenda permanente, a fim de alcançarmos a herança eterna, em companhia dos vossos eleitos, com a Virgem santa Maria, Mãe de Deus, são José, seu esposo, os bem-aventurados apóstolos e gloriosos mártires, <span class=r>[</span>santo <span class=r>N. <small>santo do dia ou santo padroeiro</small>]</span> e todos os santos, por cuja intercessão esperamos sempre o vosso auxílio.</p>
+
+
+<a name=OE3PorEsteSacrificio></a>
+<p class=muda><a href="2OEL.html#OE3HaecHostia" class=gm>Hæc Hóstia…</a></p>
+<p class=w><span class=inis>P</span>or este sacrifício de reconciliação, dai, Senhor, a salvação e a paz ao mundo inteiro; confirmai a vossa Igreja na fé e na caridade, ao longo da sua peregrinação na terra, com o vosso servo, o nosso papa <span class=r>N.</span>, o nosso bispo <span class=r>N.</span> e todos os bispos e ministros sagrados, e todo o povo por Vós redimido.</p>
+
+
+<a name=OE3AtendeiBenignamente></a>
+<p class=muda><a href="2OEL.html#OE3VotisHuius" class=gm>Votis huius famíliæ…</a></p>
+<p class=w><span class=inis>A</span>tendei benignamente às preces desta família, que Vos dignastes reunir na vossa presença. Reconduzi a Vós, Pai de misericórdia, todos os vossos filhos dispersos.</p><br>
+
+
+<p class=r>[ <a href="#OE3LembracaDefuntos" class=c>Missa de Defuntos</a> ]</p><br>
+
+
+<a name=OE3LembraivosDosNossos></a>
+<p class=muda><a href="2OEL.html#OE3FratresNostros" class=gm>Fratres nostros defúnctos…</a></p>
+<p class=w><span class=inis>L</span>embrai-Vos dos nossos irmãos defuntos e de todos os que morreram na vossa amizade. Acolhei-os com bondade no vosso reino, onde também nós esperamos ser recebidos, para vivermos com eles eternamente na vossa glória, por nosso Senhor Jesus Cristo. Por Ele concedeis ao mundo todos os bens.</p>
+
+
+<a name=OE3PorCristo></a>
+<p class=muda><a href="2OEL.html#OE3PerIpsum" class=gm>Per ipsum…</a></p>
+<p class=w><span class=inis>P</span>or Cristo, com Cristo, em Cristo, a Vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, por todos os séculos dos séculos.</p>
+<p class=w><span class=inip>A</span>men.</p>
+
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;">
+<span class=cx4><a href="2OMP.html#P90" class=w> Pai nosso </a></span> ●
+<span class=cx4><a href="2OML.html#L90" class=w> Latim </a></span></p>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a name=OE3Domingos></a>
+<p class=r>Domingos</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o primeiro dia da semana, em que nosso Senhor Jesus Cristo ressuscitou dos mortos,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+<a name=OE3NatalOitava></a>
+<p class=r>Natal do Senhor e sua oitava</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <span class=r>[</span>a noite santíssima<span class=r>]</span> em que a Imaculada Virgem Maria deu à luz o Salvador do mundo,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+<a name=OE3Epifania></a>
+<p class=r>Epifania do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que o vosso Filho Unigénito, eterno convosco na glória, Se manifestou visivelmente na realidade da nossa carne,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3QiFSanta></a>
+<p class=r>Quinta-Feira Santa</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo Se entregou por nós, humildemente, Vos suplicamos, Senhor: santificai, pelo Espírito Santo, estes dons que Vos apresentamos, para que se convertam no Corpo e <span class=r><b>†</b> </span>Sangue de nosso Senhor Jesus Cristo, vosso Filho, que nos mandou celebrar estes mistérios. Hoje, na noite em que Ele ia ser entregue, ...</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3NaNoite" class=w> …tomou o pão… </a></span></p><br>
+
+
+
+<a name=OE3VigiliaPascal></a>
+<p class=r>Vigília Pascal até ao Domingo II da Páscoa</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <span class=r>[</span>a noite santíssima<span class=r>]</span> da ressurreição de nosso Senhor Jesus Cristo segundo a carne, <span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3Ascensao></a>
+<p class=r>Ascensão do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo, vosso Filho Unigénito, colocou à direita da vossa glória a nossa frágil natureza humana unida à sua divindade, 
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3Pentecostes></a>
+<p class=r>Pentecostes</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo de Pentecostes, em que o Espírito Santo Se manifestou aos apóstolos em numerosas línguas de fogo, 
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3DedicacaoIgreja></a>
+<p class=r>Dedicação de uma igreja</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos a dedicação deste templo, no dia em que o consagrastes e enchestes com a vossa presença, 
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3ApresentacaoSn></a>
+<p class=r>Apresentação do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que o vosso Filho Unigénito foi apresentado no Templo, 
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3AnunciacaoSn></a>
+<p class=r>Anunciação do Senhor</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que a Virgem santa Maria concebeu o vosso Filho Unigénito pelo poder do Espírito Santo, 
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+<a name=OE3NascimentoSJB></a>
+<p class=r>Nascimento de são João Batista</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia do nascimento de são João Bapista, que preparou o caminho do Salvador do mundo,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+<a name=OE3AssuncaoNS></a>
+<p class=r>Assunção da Virgem santa Maria</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que santa Maria Mãe de Deus foi elevada à glória do céu, 
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+<a name=OE3Natividade></a>
+<p class=r>Natividade da Virgem santa Maria</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia do nascimento da Virgem santa Maria, escolhida desde toda a eternidade para ser a Mãe do Redentor,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+
+<a name=OE3TodosSantos></a>
+<p class=r>Dia de Todos os santos</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia consagrado à memória de todos os santos, que durante a vida imitaram a Cristo e na morte receberam d’Ele a coroa da glória,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+<a name=OE3Imaculada></a>
+<p class=r>Imaculada Conceição da Virgem santa Maria</p>
+<p class=w><span class=inis>R</span>eunidos na vossa presença, em comunhão com toda a Igreja, ao celebrarmos o dia em que a Virgem Maria, escolhida para ser a Mãe do Redentor, foi concebida sem mancha do pecado original,
+<span class=r>*</span></p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3Humildemente" class=w> Humildemente Vos suplicamos… </a></span></p><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+<a name=OE3MisterioFe></a>
+
+<p class=w><span class=inis>M</span>istério admirável da nossa fé!</p>
+<p class=w><span class=inip>Q</span>uando comemos deste pão e bebemos deste cálice, anunciamos, Senhor, a vossa morte, esperando a vossa vinda gloriosa.</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3CelebrandoAgora" class=w> Celebrando agora… </a></span></p><br>
+
+<p class=r>Ou:</p>
+<p class=w><span class=inis>M</span>istério da fé para a salvação do mundo!</p>
+<p class=w><span class=inip>G</span>lória a Vós que morreste na Cruz e agora viveis para sempre. Salvador do mundo, salvai-nos. Vinde, Senhor Jesus!</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3CelebrandoAgora" class=w> Celebrando agora… </a></span></p><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a name=OE3LembracaDefuntos></a>
+
+<p class=r>Nas Missas de Defuntos pode dizer-se:</p>
+<p class=w><span class=inip>L</span>embrai-Vos do vosso servo <span class=r>[</span>da vossa serva<span class=r>] N.</span>, que <span class=r>[</span>hoje<span class=r>]</span> chamastes para Vós: configurado <span class=r>[</span>a <span class=r>/</span> os <span class=r>/</span> as<span class=r>]</span> com Cristo na morte, com Cristo tome<span class=r>[</span>m<span class=r>]</span> parte na ressurreição, quando Ele vier ressuscitar os mortos e transformar o nosso corpo mortal à imagem do seu Corpo glorioso.</p>
+
+<p class=w><span class=inip>L</span>embrai-Vos também dos nossos irmãos defuntos e de todos os que morreram na vossa amizade. Acolhei-os com bondade no vosso reino onde também nós esperamos ser recebidos, para vivermos com eles eternamente na vossa glória, quando enxugardes todas as lágrimas dos nossos olhos; e, vendo-Vos tal como sois, Senhor nosso Deus, seremos para sempre semelhantes a Vós e cantaremos sem fim os vossos louvores, por nosso Senhor Jesus Cristo. Por Ele concedeis ao mundo todos os bens.</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE3PorCristo" class=w> Por Cristo, com Cristo… </a></span></p><br>
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name=OEP4></a>
+<p class=OM14bl><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> ORAÇÃO EUCARÍSTICA 
+<span style="color:red;font-size:14pt; font-weight:normal;">
+<a href="#OEP1"class=c>&nbsp;I&nbsp;</a>
+<a href="#OEP2InicioPrefacio"class=c>&nbsp;II&nbsp;</a>
+<a href="#OEP3"class=c>&nbsp;III&nbsp;</a>
+<span style='background-color:gold;'>&nbsp;IV&nbsp;</span></span>
+</p><br>
+
+<p class=r>Prefácio | <a href="#OEP4Inicio" class=c>saltar</a> |</p>
+
+<p class=muda><a href="2OEL.html#OEL4" class=gm>Vere dignum est…</a></p>
+<p class=w><span class=inis>P</span>ai santo, é verdadeiramente nosso dever dar-Vos graças, é nossa salvação glorificar-Vos, porque sois o único Deus vivo e verdadeiro. Vós existis desde sempre e permaneceis eternamente na luz inacessível. Deus de bondade e fonte da vida, criastes o universo para encher de bênçãos todas as criaturas e a muitas alegrar na claridade da vossa luz.</p>
+
+<p class=w><span class=inis>I</span>numeráveis coros de anjos estão na vossa presença para Vos servir e, contemplando a glória do vosso rosto, dia e noite cantam os vossos louvores.</p>
+
+<p class=w><span class=inis>C</span>om eles também nós e, pela nossa voz, a criação inteira, aclamamos o vosso nome, cantando com alegria:</p>
+
+<p class=w><span class=inip>S</span>anto, Santo, Santo, Senhor Deus do Universo. O céu e a terra proclamam a vossa glória. Hossana nas alturas. Bendito O que vem em nome do Senhor. Hossana nas alturas.</p>
+
+
+<a name=OEP4Inicio></a>
+<p class=muda><a href="2OEL.html#OEL4Inicio" class=gm>Confitémur tibi…</a></p>
+<p class=w><span class=inis>P</span>ai santo, nós Vos glorificamos, porque sois grande e tudo criastes com sabedoria e amor. Formastes o homem à vossa imagem e lhe confiastes o universo, para que, servindo-Vos unicamente a Vós, seu Criador, exercesse domínio sobre todas as criaturas.</p>
+
+
+<a name=OE4EQuandoPor></a>
+<p class=muda><a href="2OEL.html#OE4EtCumAmicitiam" class=gm>Et cum amicítiam tuam…</a></p>
+<p class=w><span class=inis>E</span> quando, por desobediência, perdeu a vossa amizade, não o abandonastes ao poder da morte, mas, na vossa misericórdia, a todos socorrestes, para que todos aqueles que Vos procuram Vos encontrem. Repetidas vezes fizestes aliança com os homens e, pelos profetas, os formastes na esperança da salvação.</p>
+
+
+<a name=OE4DeTalModo></a>
+<p class=muda><a href="2OEL.html#OE4EtSicPater" class=gm>Et sic, Pater sancte…</a></p>
+<p class=w><span class=inis>P</span>ai santo, de tal modo amastes o mundo, que, chegada a plenitude dos tempos, nos enviastes, como Salvador, o vosso Filho Unigénito: feito homem pelo poder do Espírito Santo e nascido da Virgem Maria, viveu a nossa condição humana, em tudo igual a nós, exceto no pecado; anunciou a salvação aos pobres, a libertação aos oprimidos, a alegria aos que sofrem.</p>
+
+
+<a name=OE4ParaCumprir></a>
+<p class=muda><a href="2OEL.html#OE4EtTuamVero" class=gm>Et tuam vero…</a></p>
+<p class=w><span class=inis>P</span>ara cumprir o vosso plano salvador, voluntariamente Se entregou à morte e, com a sua ressurreição, destruiu a morte e restaurou a vida. E a fim de vivermos, não já para nós próprios, mas para Ele, que por nós morreu e ressuscitou, de Vós, Pai misericordioso, enviou aos que n’Ele crêem o Espírito Santo, como primícias dos seus dons, para continuar a sua obra no mundo e consumar toda a santificação.</p>
+
+
+
+<a name=OE4NosVosPedimos></a>
+<p class=muda><a href="2OEL.html#OE4QuaesumusIgitur" class=gm>Quǽsumus ígitur…</a></p>
+<p class=w><span class=inis>N</span>ós Vos pedimos, Senhor, que o Espírito Santo santifique estes dons, para que se convertam no Corpo e <span class=r><b>†</b></span> Sangue de nosso Senhor Jesus Cristo, ao celebrarmos este grande mistério, que Ele nos deixou como sinal de aliança eterna.</p>
+
+
+<a name=OE4QuandoChegouA></a>
+<p class=muda><a href="2OEL.html#OE4IpseEnim" class=gm>Ipse enim, cum hora…</a></p>
+<p class=w><span class=inis>P</span>ai santo, quando chegou a hora em que Ele ia ser glorificado por Vós, tendo amado os seus que estavam no mundo, amou-os até ao fim. E, durante a Ceia, tomou o pão, bendisse-Vos, partiu-o e deu-o aos seus discípulos, dizendo:</p><br>
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e comei: isto é o meu Corpo, que será entregue por vós.</p><br>
+
+<p class=w><span class=inis>D</span>e igual modo, tomou o cálice com vinho, deu-Vos graças e deu-o aos seus discípulos, dizendo:</p><br>
+
+<p class=w><span style="font-size:14pt; font-weight:bold;"><span class=inis>T</span>omai, todos, e bebei: este é o cálice do meu Sangue, o Sangue da nova e eterna aliança, que será derramado por vós e por todos para remissão dos pecados. Fazei isto em memória de Mim.</span></p><br>
+
+
+<a name=OE4MisterioFePrincipal></a>
+<p class=muda><a href="2OEL.html#OE4MysteriumFidei" class=gm>Mystérium fidei</a></p>
+<p class=w><span class=inis>M</span>istério da fé! &nbsp;&nbsp;<span class=r>[ <a href="#OE4MisterioFe" class=c>Ou</a> ]</span></p>
+<p class=w><span class=inip>A</span>nunciamos, Senhor, a vossa morte, proclamamos a vossa ressurreição. Vinde, Senhor Jesus!</p>
+
+
+
+<a name=OE4CelebrandoAgora></a>
+<p class=muda><a href="2OEL.html#OE4UndeEtNos" class=gm>Unde et nos…</a></p>
+<p class=w><span class=inis>C</span>elebrando agora, Senhor, o memorial da nossa redenção, recordamos a morte de Cristo e a sua descida à mansão dos mortos; proclamamos a sua ressurreição e ascensão aos céus; e, esperando a sua vinda gloriosa, nós Vos oferecemos o seu Corpo e Sangue, o sacrifício do vosso agrado e de salvação para todo o mundo.</p>
+
+
+<a name=OE4OlhaiSenhor></a>
+<p class=muda><a href="2OEL.html#OE4RespiceDomine" class=gm>Réspice, Dómine…</a></p>
+<p class=w><span class=inis>O</span>lhai, Senhor, para esta oblação, que preparastes para a vossa Igreja, e concedei, por vossa bondade, a quantos vamos participar do mesmo pão e do mesmo cálice, que, reunidos pelo Espírito Santo num só corpo, sejamos em Cristo uma oferenda viva, para louvor da vossa glória.</p>
+
+
+<a name=OE4LembraiVosAgora></a>
+<p class=muda><a href="2OEL.html#OE4NuncErgoDomine" class=gm>Nunc ergo, Dómine…</a></p>
+<p class=w><span class=inis>L</span>embrai-Vos agora, Senhor, de todos aqueles por quem oferecemos este sacrifício: o vosso servo, o nosso papa <span class=r>N.</span>, o nosso bispo <span class=r>N.</span> e todos os bispos, os ministros sagrados e os que Vos apresentam as suas ofertas, os membros desta assembleia, todo o vosso povo santo e todos aqueles que Vos procuram de coração sincero.</p>
+
+
+<a name=OE4LembraiVosTambem></a>
+<p class=muda><a href="2OEL.html#OE4MementoEtiam" class=gm>Memento étiam illórum…</a></p>
+<p class=w><span class=inis>L</span>embrai-Vos também dos nossos irmãos que adormeceram na paz de Cristo e de todos os defuntos cuja fé só Vós conhecestes. E a todos nós, vossos filhos, concedei, Pai de misericórdia, a graça de alcançarmos a herança do céu, com a Virgem santa Maria, Mãe de Deus, são José, seu esposo, os apóstolos e todos os santos, para que, no vosso reino, com a criação inteira liberta do pecado e da morte, cantemos eternamente a vossa glória, por nosso Senhor Jesus Cristo. Por Ele concedeis ao mundo todos os bens.</p>
+
+
+<a name=OE4PorCristo></a>
+<p class=muda><a href="2OEL.html#OE4PerIpsum" class=gm>Per ipsum…</a></p>
+<p class=w><span class=inis>P</span>or Cristo, com Cristo, em Cristo, a Vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, por todos os séculos dos séculos.</p>
+<p class=w><span class=inip>A</span>men.</p>
+
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;">
+<span class=cx4><a href="2OMP.html#P90" class=w> Pai nosso </a></span> ●
+<span class=cx4><a href="2OML.html#L90" class=w> Latim </a></span></p>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+<a name=OE4MisterioFe></a>
+<p class=w><span class=inis>M</span>istério admirável da nossa fé!</p>
+<p class=w><span class=inip>Q</span>uando comemos deste pão e bebemos deste cálice, anunciamos, Senhor, a vossa morte, esperando a vossa vinda gloriosa.</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE4CelebrandoAgora" class=w> Celebrando agora… </a></span></p><br>
+
+<p class=r>Ou:</p>
+<p class=w><span class=inis>M</span>istério da fé para a salvação do mundo!</p>
+<p class=w><span class=inip>G</span>lória a Vós que morreste na Cruz e agora viveis para sempre.</p>
+<p class=w>Salvador do mundo, salvai-nos. Vinde, Senhor Jesus!</p>
+<p class=cx style="margin-top:5pt; margin-bottom:5pt;"><span class=cx4><a href="#OE4CelebrandoAgora" class=w> Celebrando agora… </a></span></p><br>
+
+
+
+<br><br><br>
+<p class=rbc>|<a href="#OEP1" class=c>&nbsp;∆ Top&nbsp;</a>|<br><br>
+- o O o - &nbsp; <a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> &nbsp; - o O o -</p>
+<script>includeHTML();</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+&nbsp; </body> </html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<title>Calendário litúrgico</title>
+<script>    //  Check local storage
+    let localS = localStorage.getItem('theme')
+        themeToSet = localS
+        //  if the local storage is not set, we check the OS preference
+    if (!localS === "dark"){themeToSet = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'}
+    //  Set the correct theme
+    document.documentElement.setAttribute('data-theme', themeToSet)
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel="stylesheet" href="xxx-styleMODOS.css" />
+
+
+<script src="js-includeHTML.js"></script>
+<style>
+a:link {text-decoration:none;}
+table, th, td {  border: 1px solid white;border-collapse: collapse;border-style: none;}
+th {padding-top: 0px; padding-bottom: 0px; padding-left: 4px; padding-right: 4px; border-style: none; background-color: #96959c;color:rgb(110, 4, 4)}
+td {padding-top: 0px; padding-bottom: 0px; padding-left: 4px; padding-right: 4px; border-style: none;}
+span.M	{background-color:green;font-weight:bold;color:black;}
+span.F	{background-color:coral;font-weight:bold;color:black;}
+span.S	{background-color:red;font-weight:bold;color:black;}
+</style>
+<script>
+var dia       = localStorage.getItem("dia");            //  Dia
+var mes       = localStorage.getItem("mes");            //  Mês, 2 dígitos
+var mes3L     = localStorage.getItem("mes3L");          //  Mês, 3 letras
+var ano       = localStorage.getItem("ano");            //  Ano
+var datatotal = localStorage.getItem("datatotal");      //  Dia da semana, dia do mês, mês e ano
+var amd       = localStorage.getItem("amd");            //  Ano mes dia
+//let datahora = Date();
+//let mes = datahora.slice(4, 7);
+//let dia = datahora.slice(8, 10);
+//let mesdia = mes + dia;
+let mesdia = mes3L + dia;
+let mesdia2 = "#" + mesdia;
+amd=ano+"-"+mes+"-"+dia;
+</script>
+</head>
+<body style="text-align:left;;word-wrap:break-word; overflow-wrap: break-word" link=yellow vlink=yellow>
+
+
+
+<a name=Calendario></a>
+<p style="text-align:center;"> <a href="index.html" class=c><b>Página inicial</b></a></p><br>
+
+
+<table class=w style="width:100%; border: 1pt solid white; font-size:10pt; text-align:center;">
+<tr style="border: 1pt solid white;background-color: #5436fc;">
+  <th>A</th>  <th>F</th>    <th>f</th>  <th>Cz</th>  <th>Pasc</th>  <th>Asc</th>  <th>Pent</th>  <th>CD</th>  <th>Ad</th> <th>A</th>
+</tr>
+<tr style="border: 1pt solid white;">
+  <th>2023</th>  <td>A</td>  <td>I</td>  <td>22-02</td>  <td>09-04</td>  <td>21-05</td>  <td>28-05</td>  <td>08-06</td>  <td>03-12</td>  <th>23</th>
+</tr>
+<tr style="border: 1pt solid white;">
+  <th>2024</th>  <td>B</td>  <td>II</td>  <td>14-02</td>  <td>31-03</td>  <td>12-05</td>  <td>19-05</td>  <td>30-05</td>  <td>01-12</td>  <th>24</th>
+</tr>
+<tr style="border: 1pt solid white;">
+  <th>2025</th>  <td>C</td>  <td>I</td>  <td>05-03</td>  <td>20-04</td>  <td>01-06</td>  <td>05-06</td>  <td>19-06</td>  <td>30-11</td>  <th>25</th>
+</tr>
+<tr style="border: 1pt solid white;background-color: #013f27">
+  <th>2026</th>  <td>A</td>  <td>II</td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <th>26</th>
+</tr>
+<tr style="border: 1pt solid white;background-color: #013f27">
+  <th>2027</th>  <td>B</td>  <td>I</td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <th>26</th>
+</tr>
+<tr style="border: 1pt solid white;background-color: #013f27">
+  <th>2027</th>  <td>C</td>  <td>II</td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <th>28</th>
+</tr>
+</table><br>
+<center>
+<table  class=w style="border: 1px solid white; font-size:10pt; ">
+<tr style="border: 1px solid white;"><th>A:</th><td>Ano</td></tr>
+<tr style="border: 1px solid white;"><th>F:</th><td>Ciclo Festivo</td></tr>
+<tr style="border: 1px solid white;"><th>f:</th><td>Ciclo ferial</td></tr>
+<tr style="border: 1px solid white;"><th>Cz:</th><td>4ª-feira de Cinzas</td></tr>
+<tr style="border: 1px solid white;"><th>Pasc:</th><td>Domingo de Páscoa</td></tr>
+<tr style="border: 1px solid white;"><th>Asc:</th><td>Ascensão do Senhor</td></tr>
+<tr style="border: 1px solid white;"><th>Pent:</th><td>Domingo de Pentecostes</td></tr>
+<tr style="border: 1px solid white;"><th>CC:</th><td>Solenidade do Corpo de Deus</td></tr>
+<tr style="border: 1px solid white;"><th>Ad:</th><td>1º Domingo do Advento</td></tr>
+</table></center><br>
+
+
+
+
+
+
+
+
+
+
+
+<center>
+<p style="color:gold; font-size:13pt;font-weight:bold;"><span id="da"></span></p>
+<script>document.getElementById("da").innerHTML = datatotal ;</script>
+
+
+<p class=r16c>Calendario</p>
+<p class=r16c>
+| <a href="#Jan" class=c>Jan</a> 
+| <a href="#Fev" class=c>Fev</a>
+| <a href="#Mar" class=c>Mar</a> 
+| <a href="#Abr" class=c>Abr</a>
+| <a href="#Mai" class=c>Mai</a>
+| <a href="#Jun" class=c>Jun</a> |<br>
+| <a href="#Jul" class=c>Jul</a>
+| <a href="#Ago" class=c>Ago</a>
+| <a href="#Set" class=c>Set</a>
+| <a href="#Out" class=c>Out</a>
+| <a href="#Nov" class=c>Nov</a>
+| <a href="#Dez" class=c>Dez</a> |</p><br>
+
+
+
+<span style='background-color:red;color:black;font-weight:bold;;'>S</span>olenidade &nbsp; &nbsp;
+<span class=F>F</span>esta &nbsp; &nbsp;
+<span style='background-color:green;color:black;;font-weight:bold;'>M</span>emória<br>
+
+
+<p style="color:black">
+<button onclick="document.location= mesdia2" style="background-color:blue; color:white;">Ir para o dia de hoje</button>
+</p>
+</center>
+
+<a name=Jan></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>JANEIRO</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<a name=Jan01>01</a> <span class=S>S:</span> <a href="4TN.html#Jan01"class=c>Santa Maria, Mãe de Deus</a> <br>
+<a name=Jan02>02</a> <span class=M>M:</span> <a href="#jan02" class=c>S. Basílio Magno e S. Gregório Nazianzeno</a>, bispos e doutores da Igreja<br>
+<a name=Jan03>03</a> <a href="4TN.html#Jan03" class=c>Santíssimo Nome de Jesus</a> <br>
+<span class=gr><a name=Jan04>04</a> 
+<a name=Jan05>05</a> Jan</span> <br>
+<a name=Jan06>06</a>  <span class=S>S:</span> <a href="4TN.html#Epifania" class=c>Epifania do Senhor</a> <br>
+<a name=Jan07>07</a> <a href="8TS01.html#jan07" class=c>S. Raimundo de Penhaforte</a>, presbítero<br>
+<span class=gr><a name=Jan08>08</a> <a name=Jan09>09</a> Jan</span> <br>
+<a name=Jan10>10</a> <a href="8TS01.html#jan10" class=c>B. Gonçalo de Amarante</a>, presbítero<br>
+<span class=gr><a name=Jan11>11</a> <a name=Jan12>12</a> Jan</span> <br>
+<a name=Jan13>13</a> <a href="8TS01.html#jan13" class=c>S. Hilário</a>, bispo e doutor da Igreja<br>
+<span class=gr><a name=Jan14>14</a> <a name=Jan15>15</a> <a name=Jan16>16</a> Jan </span> <br>
+<a name=Jan17>17</a> <span class=M>M:</span> <a href="8TS01.html#jan17" class=c>S. Antão</a>, abade<br>
+<span class=gr><a name=Jan18>18</a> <a name=Jan19>19</a> Jan</span>  <br>
+<a name=Jan20>20</a> <a href="8TS01.html#jan20" class=c>S. Fabião</a>, papa e mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS01.html#jan20" class=c>S. Sebastião</a>, mártir<br>
+<a name=Jan21>21</a> <span class=M>M:</span> <a href="8TS01.html#jan21" class=c>S. Inês</a>, virgem e mártir<br>
+<a name=Jan22>22</a> <a href="8TS01.html#jan22" class=c>S. Vicente</a>, diácono e mártir<br>
+<span class=gr><a name=Jan23>23</a> Jan</span>  <br>
+<a name=Jan24>24</a> <span class=M>M:</span> <a href="8TS01.html#jan24" class=c>S. Francisco de Sales</a>, bispo e doutor da Igreja<br>
+<a name=Jan25>25</a> <span class=F>F:</span> <a href="8TS01.html#jan25" class=c>Conversão de S. Paulo</a>, apóstolo<br>
+<a name=Jan26>26</a> <span class=M>M:</span> <a href="8TS01.html#jan26" class=c>S. Timóteo e S. Tito</a>, bispos<br>
+<a name=Jan27>27</a> <a href="8TS01.html#jan27" class=c>S. Ângela Merici</a>, virgem<br>
+<a name=Jan28>28</a> <span class=M>M:</span> <a href="8TS01.html#jan28" class=c>S. Tomás de Aquino</a>, presbítero e doutor da Igreja<br>
+<span class=gr><a name=Jan29>29</a> <a name=Jan30>30</a> Jan</span>  <br>
+<a name=Jan31>31</a> <span class=M>M:</span> <a href="8TS01.html#jan31" class=c>S. João Bosco</a>, presbítero<br><br>
+
+<span class=F>F:</span> <a href="4TN.html#BaptSenhor" class=c>Baptismo do Senhor</a> <small>(Domingo depois do dia 6 de janeiro)</small></p>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<a name=Fev></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>FEVEREIRO</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<span class=gr><a name=Feb01>01</a> Fev</span>  <br>
+<a name=Feb02>02</a> <span class=F>F:</span>  <a href="8TS02.html#fev02" class=c>Apresentação do Senhor</a><br>
+<a name=Feb03>03</a> <a href="8TS02.html#fev03" class=c>S. Brás</a>, bispo e mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS02.html#fev03" class=c>S. Ansgário (Óscar)</a>, bispo<br>
+<a name=Feb04>04</a> <span class=M>M:</span> <a href="8TS02.html#fev04" class=c>S. João de Brito</a>, presbítero e mártir<br>
+<a name=Feb05>05</a> <span class=M>M:</span> <a href="8TS02.html#fev05" class=c>S. Águeda</a>, virgem e mártir<br>
+<a name=Feb06>06</a> <span class=M>M:</span> <a href="8TS02.html#fev06" class=c>Ss. Paulo Miki e Companheiros</a>, mártires<br>
+<a name=Feb07>07</a> <span class=F>F:</span>  <a href="8TS02.html#fev07" class=c>As Cinco Chagas do Senhor</a><br>
+<a name=Feb08>08</a> <a href="8TS02.html#fev08" class=c>S. Jerónimo Emiliano</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="8TS02.html#fev08" class=c>S. Josefina Bakita</a>, virgem<br>
+<span class=gr><a name=Feb09>09</a> Fev</span>  <br>
+<a name=Feb10>10</a> <span class=M>M:</span> <a href="8TS02.html#fev10" class=c>S. Escolástica</a>, virgem<br>
+<a name=Feb11>11</a> <a href="8TS02.html#fev11" class=c>Nossa Senhora de Lurdes</a><br>
+<span class=gr><a name=Feb12>12</a> 
+<a name=Feb13>13</a> Fev</span> <br>
+<a name=Feb14>14</a> <span class=F>F:</span>  <a href="8TS02.html#fev14" class=c>S. Cirilo</a>, monge, e <a href="8TS02.html#fev14" class=c>S. Metódio</a>, bispo, Padroeiros da Europa<br>
+<span class=gr><a name=Feb15>15</a> <a name=Feb16>16</a> Fev</span> <br>
+<a name=Feb17>17</a> <a href="8TS02.html#fev17" class=c>Sete Santos Fundadores da Ordem dos Servos de Maria</a> (Servitas)<br>
+<a name=Feb18>18</a> <span class=M>M:</span> <a href="8TS02.html#fev18" class=c>S. Teotónio</a>, presbítero<br>
+<span class=gr><a name=Feb19>19</a> Fev</span> <br>
+<a name=Feb20>20</a> <span class=M>M:</span> <a href="8TS02.html#fev20" class=c>Ss. Francisco e Jacinta Marto</a><br>
+<a name=Feb21>21</a> <a href="8TS02.html#fev21" class=c>S. Pedro Damião</a>, bispo e doutor da Igreja<br>
+<a name=Feb22>22</a> <span class=F>F:</span>  <a href="8TS02.html#fev22" class=c>Cadeira de S. Pedro</a>, apóstolo<br>
+<a name=Feb23>23</a> <span class=M>M:</span> <a href="8TS02.html#fev23" class=c>S. Policarpo</a>, bispo e mártir<br>
+<span class=gr><a name=Feb24>24</a> <a name=Feb25>25</a> <a name=Feb26>26</a> Fev</span> <br>
+<a name=Feb27>27</a> <a href="8TS02.html#fev27" class=c>S. Gregório de Narek</a>, abade e doutor da Igreja<br>
+<span class=gr><a name=Feb28>28</a> <a name=Feb29>29</a> Fev</span> <br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Mar></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Março</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<span class=gr><a name=Mar01>01</a> <a name=Mar02>02</a> <a name=Mar03>03</a></span>  <br>
+<a name=Mar04>04</a> <a href="8TS03.html#Mar04" class=c>S. Casimiro</a><br>
+<span class=gr><a name=Mar05>05</a> <a name=Mar06>06</a></span>  <br>
+<a name=Mar07>07</a> <span class=M>M:</span> <a href="8TS03.html#Mar07" class=c>S. Perpétua e S. Felicidade</a>, mártires<br>
+<a name=Mar08>08</a> <span class=M>M:</span> <a href="8TS03.html#Mar08" class=c>S. João de Deus</a>, religioso<br>
+<a name=Mar09>09</a> <a href="8TS03.html#Mar09" class=c>S. Francisca Romana</a>, religiosa<br>
+<span class=gr><a name=Mar10>10</a> <a name=Mar11>11</a> <a name=Mar12>12</a> <a name=Mar13>13</a> 
+<a name=Mar14>14</a> <a name=Mar15>15</a> <a name=Mar16>16</a></span>  <br>
+<a name=Mar17>17</a> <a href="8TS03.html#Mar17" class=c>S. Patrício</a>, bispo<br>
+<a name=Mar18>18</a> <a href="8TS03.html#Mar18" class=c>S. Cirilo de Jerusalém</a>, bispo e doutor da Igreja<br>
+<a name=Mar19>19</a>  <span class=S>S:</span> <a href="8TS03.html#Mar19" class=c>S. José</a>, Esposo da Virgem Santa Maria<br>
+<span class=gr><a name=Mar20>20</a> <a name=Mar21>21</a> <a name=Mar22>22</a></span>  <br>
+<a name=Mar23>23</a> <a href="8TS03.html#Mar23" class=c>S. Turíbio de Mongrovejo</a>, bispo<br>
+<span class=gr><a name=Mar24>24</a></span>  <br>
+<a name=Mar25>25</a>  <span class=S>S:</span> <a href="8TS03.html#Mar25" class=c>Anunciação do Senhor</a><br>
+<span class=gr><a name=Mar26>26</a> <a name=Mar27>27</a> <a name=Mar28>28</a> <a name=Mar29>29</a> <a name=Mar30>30</a> 
+<a name=Mar31>31</a></span> <br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Abr></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Abril</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<span class=gr><a name=Apr01>01</a></span> <br>
+<a name=Apr02>02</a> <a href="8TS04.html#Abr02" class=c>S. Francisco de Paula</a>, eremita<br>
+<span class=gr><a name=Apr03>03</a></span> <br>
+<a name=Apr04>04</a> <a href="8TS04.html#Abr04" class=c>S. Isidoro</a>, bispo e doutor da Igreja<br>
+<a name=Apr05>05</a> <a href="8TS04.html#Abr05" class=c>S. Vicente Ferrer</a>, presbítero<br>
+<span class=gr><a name=Apr06>06</a></span> <br>
+<a name=Apr07>07</a> <span class=M>M:</span> <a href="8TS04.html#Abr07" class=c>S. João Baptista de la Salle</a>, presbítero<br>
+<span class=gr><a name=Apr08>08</a>
+<a name=Apr09>09</a>
+<a name=Apr10>10</a></span> <br>
+<a name=Apr11>11</a> <span class=M>M:</span> <a href="8TS04.html#Abr11" class=c>S. Estanislau</a>, bispo e mártir<br>
+<span class=gr><a name=Apr12>12</a></span>  <br>
+<a name=Apr13>13</a> <a href="8TS04.html#Abr13" class=c>S. Martinho I</a>, papa e mártir<br>
+<span class=gr><a name=Apr14>14</a>
+<a name=Apr15>15</a>
+<a name=Apr16>16</a>
+<a name=Apr17>17</a>
+<a name=Apr18>18</a>
+<a name=Apr19>19</a>
+<a name=Apr20>20</a></span> <br>
+<a name=Apr21>21</a> <a href="8TS04.html#Abr21" class=c>S. Anselmo</a>, bispo e doutor da Igreja<br>
+<span class=gr><a name=Apr22>22</a></span> <br>
+<a name=Apr23>23</a> <a href="8TS04.html#Abr23" class=c>S. Jorge</a>, mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS04.html#Abr23" class=c>S. Adalberto</a>, bispo e mártir<br>
+<a name=Apr24>24</a> <a href="8TS04.html#Abr24" class=c>S. Fiel de Sigmaringa</a>, presbítero e mártir<br>
+<a name=Apr25>25</a> <span class=F>F:</span>  <a href="8TS04.html#Abr25" class=c>S. Marcos</a>, evangelista<br>
+<span class=gr><a name=Apr26>26</a>
+<a name=Apr27>27</a></span> <br>
+<a name=Apr28>28</a> <a href="8TS04.html#Abr28" class=c>S. Pedro Chanel</a>, presbítero e mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS04.html#Abr28" class=c>S. Luís Maria Grignion de Monfort</a>, presbítero<br>
+<a name=Apr29>29</a> <span class=F>F:</span>  <a href="8TS04.html#Abr29" class=c>S. Catarina de Sena</a>, virgem e doutora da Igreja, Padroeira da Europa<br>
+<a name=Apr30>30</a> <a href="8TS04.html#Abr30" class=c>S. Pio V</a>, papa
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Mai></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Maio</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<a name=May01>01</a> <a href="8TS05.html#mai01" class=c>S. José Operário</a><br>
+<a name=May02>02</a> <span class=M>M:</span> <a href="8TS05.html#mai02" class=c>S. Atanásio</a>, bispo e doutor da Igreja<br>
+<a name=May03>03</a> <span class=F>F:</span>  <a href="8TS05.html#mai03" class=c>S. Filipe e S. Tiago</a>, apóstolos<br>
+<span class=gr><a name=May04>04</a>
+<a name=May05>05</a>
+<a name=May06>06</a>
+<a name=May07>07</a>
+<a name=May08>08</a>
+<a name=May09>09</a> Maio</span> <br>
+<a name=May10>10</a> <a href="8TS05.html#mai10" class=c>S. João da Ávila</a>, presbítero e doutor da Igeja<br>
+<span class=gr><a name=May11>11</a> Maio</span> <br>
+<a name=May12>12</a> <a href="8TS05.html#mai12" class=c>B. Joana de Portugal</a>, virgem<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS05.html#mai12" class=c>B. Álvaro del Portillo</a>, bispo<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS05.html#mai12" class=c>SS. Nereu e Aquileu</a>, mártires<br>
+<a name=May13>13</a> <span class=F>F:</span>  <a href="8TS05.html#mai13" class=c>Nossa Senhora de Fátima</a><br>
+<a name=May14>14</a> <span class=F>F:</span>  <a href="8TS05.html#mai14" class=c>S. Matias</a>, apóstolo<br>
+<span class=gr><a name=May15>15</a>
+<a name=May16>16</a>
+<a name=May17>17</a> Maio</span> <br>
+<a name=May18>18</a> <a href="8TS05.html#mai18" class=c>S. João I</a>, papa e mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS05.html#mai18" class=c>B. Guadalupe</a>, leiga<br>
+<span class=gr><a name=May19>19</a> Maio</span> <br>
+<a name=May20>20</a> <a href="8TS05.html#mai20" class=c>S. Bernardino de Sena</a>, presbítero<br>
+<a name=May21>21</a> <a href="8TS05.html#mai21" class=c>S. Cristóvão Magallanes e companheiro</a>, martires<br>
+<a name=May22>22</a> <a href="8TS05.html#mai22" class=c>S. Rita de Cássia</a>, religiosa<br>
+<span class=gr><a name=May23>23</a>
+<a name=May24>24</a> Maio</span> <br>
+<a name=May25>25</a> <a href="8TS05.html#mai25" class=c>S. Beda Venerável</a>, presbítero e doutor da Igreja<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS05.html#mai25" class=c>S. Gregório VII</a>, papa<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS05.html#mai25" class=c>S. Maria Madalena de Pazzi</a>, virgem<br>
+<a name=May26>26</a> <span class=M>M:</span> <a href="8TS05.html#mai26" class=c>S. Filipe Néri</a>, presbítero<br>
+<a name=May27>27</a> <a href="8TS05.html#mai27" class=c>S. Agostinho de Cantuária</a>, bispo<br>
+<span class=gr><a name=May28>28</a> Maio</span> <br>
+<a name=May29>29</a> <a href="8TS05.html#mai29" class=c>S. Paulo VI</a>, papa<br>
+<span class=gr><a name=May30>30</a> Maio</span>  <br>
+<a name=May31>31</a> <span class=F>F:</span>  <a href="8TS05.html#mai31" class=c>Visitação de Nossa Senhora</a><br><br>
+
+<span class=S>S:</span> <a href="6TP7.html#Ascensao" class=c>Ascensão do Senhor</a> <small>(Domingo VII da Páscoa)</small><br>
+<span class=M>M:</span> <a href="2MV.html#MVNSenhB" class=c>Santa Maria, Mãe da Igreja</a> <small>(2ª-feira depois de Pentecostes)</small><br>
+<span class=S>S:</span> <a href="7TCSo.html#TcSTrindade" class=c>Santíssima Trindade</a> <small>(1º Domingo depois de Pentecostes)</small><br>
+<span class=S>S:</span> <a href="7TCSo.html#TcSsCSCristo" class=c>Santíssimo Corpo e Sangue de Cristo</a> <small>(5ª-f depois da Santíssima Trindade, ou no Domingo seguinte)</small><br>
+<span class=S>S:</span> <a href="7TCSo.html#TcSCorJesus" class=c>Sagrado Coração de Jesus</a> <small>(6ª-f depois do 2º Domingo depois de Pentecostes)</small><br>
+<span class=F>F:</span>  <a href="7TCSo.html#ICM" class=c>Imaculado Coração da Virgem Santa Maria</a> <small>(Sábado depois do 2º Domingo depois de Pentecostes)</small><br>
+
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Jun></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Junho</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<a name=Jun01>01</a> <span class=M>M:</span> <a href="8TS06.html#jun01" class=c>S.Justino</a>, mártir<br>
+<a name=Jun02>02</a> <a href="8TS06.html#jun02" class=c>S. Marcelino e S. Pedro</a>, mártires<br>
+<a name=Jun03>03</a> <span class=M>M:</span> <a href="8TS06.html#jun03" class=c>Ss. Carlos Lwanga e Companheiros</a>, mártires<br>
+<span class=gr><a name=Jun04>04</a> Junho</span> <br>
+<a name=Jun05>05</a> <span class=M>M:</span> <a href="8TS06.html#jun05" class=c>S. Bonifácio</a>, bispo e mártir<br>
+<a name=Jun06>06</a> <a href="8TS06.html#jun06" class=c>S. Norberto</a>, bispo<br>
+<span class=gr><a name=Jun07>07</a>
+<a name=Jun08>08</a> Junho</span> <br>
+<a name=Jun09>09</a> <a href="8TS06.html#jun09" class=c>S. Efrém</a>, diácono e doutor da Igreja<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS06.html#jun09" class=c>B. José de Anchieta</a>, presbítero<br>
+<a name=Jun10>10</a> <span class=M>M:</span> <a href="8TS06.html#jun10" class=c>S. Anjo da Guarda de Portugal</a><br>
+<a name=Jun11>11</a> <span class=M>M:</span> <a href="8TS06.html#jun11" class=c>S. Barnabé</a>, apóstolo<br>
+<span class=gr><a name=Jun12>12</a> Junho</span> <br>
+<a name=Jun13>13</a> <span class=F>F:</span>  <a href="8TS06.html#jun13" class=c>S. António de Lisboa</a>, presbítero e doutor da Igreja, Padroeiro de Portugal<br>
+<span class=gr><a name=Jun14>14</a>
+<a name=Jun15>15</a>
+<a name=Jun16>16</a>
+<a name=Jun17>17</a>
+<a name=Jun18>18</a> Junho</span> <br>
+<a name=Jun19>19</a> <a href="8TS06.html#jun19" class=c>S. Romualdo</a>, abade<br>
+<a name=Jun20>20</a> <a href="8TS06.html#jun20" class=c>Bb. Sancha e Mafalda</a>, virgens, e <a href="8TS06.html#jun20" class=c>Teresa</a>, religiosa<br>
+<a name=Jun21>21</a> <span class=M>M:</span> <a href="8TS06.html#jun21" class=c>S. Luís Gonzaga</a>, religioso<br>
+<a name=Jun22>22</a> <a href="8TS06.html#jun22" class=c>S. João Fisher</a>, bispo, e <a href="8TS06.html#jun22" class=c>S. Tomás More</a>, mártires<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS06.html#jun22" class=c>S. Paulino de Nola</a>, bispo<br>
+<span class=gr><a name=Jun23>23</a> Junho</span> <br>
+<a name=Jun24>24</a>  <span class=S>S:</span> <a href="8TS06.html#jun24" class=c>Nascimento de S. João Baptista</a><br>
+<span class=gr><a name=Jun25>25</a> Junho</span> <br>
+<a name=Jun26>26</a> <a href="8TS06.html#jun26" class=c>S. Josemaria</a>, presbítero<br>
+<a name=Jun27>27</a> <a href="8TS06.html#jun27" class=c>S. Cirilo de Alexandria</a>, bispo e doutor da Igreja<br>
+<a name=Jun28>28</a> <span class=M>M:</span> <a href="8TS06.html#jun28" class=c>S. Ireneu</a>, bispo e mártir<br>
+<a name=Jun29>29</a>  <span class=S>S:</span> <a href="8TS06.html#jun29" class=c>S. Pedro e S. Paulo</a>, apóstolos<br>
+<a name=Jun30>30</a>  <a href="8TS06.html#jun30" class=c>Primeiros Santos Mártires da Igreja de Roma<br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Jul></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Julho</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<span class=gr><name=Jul01>01</a>
+<a name=Jul02>02</a> Julho</span> <br>
+<a name=Jul03>03</a> <span class=F>F:</span>  <a href="8TS07.html#jul03" class=c>S. Tomé</a>, apóstolo<br>
+<a name=Jul04>04</a> <span class=M>M:</span> <a href="8TS07.html#jul04" class=c>S. Isabel de Portugal</a><br>
+<a name=Jul05>05</a> <a href="8TS07.html#jul05" class=c>S. António Maria Zacarias</a>, presbítero<br>
+<a name=Jul06>06</a> <a href="8TS07.html#jul06" class=c>S. Maria Goretti</a>, virgem e mártir<br>
+<span class=gr><a name=Jul07>07</a> 
+<a name=Jul08>08</a> Julho</span> <br>
+<a name=Jul09>09</a> <a href="8TS07.html#jul09" class=c>Ss Agostinho Zhao Rong</a>, presbítero, e companheiros, mártires<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS07.html#jul09" class=c>S. Paulina</a>, virgem<br>
+<span class=gr><a name=Jul10>10</a> Julho</span> <br>
+<a name=Jul11>11</a> <span class=F>F:</span>  <a href="8TS07.html#jul11" class=c>S. Bento</a>, abade, Padroeiro da Europa<br>
+<span class=gr><a name=Jul12>12</a> Julho</span> <br>
+<a name=Jul13>13</a> <a href="8TS07.html#jul13" class=c>S. Henrique</a><br>
+<a name=Jul14>14</a> <a href="8TS07.html#jul14" class=c>S. Camilo de Lellis</a>, presbítero<br>
+<a name=Jul15>15</a> <span class=M>M:</span> <a href="8TS07.html#jul15" class=c>S. Boaventura</a>, bispo e doutor da Igreja<br>
+<a name=Jul16>16</a> <span class=M>M:</span> <a href="8TS07.html#jul16" class=c>Nossa Senhora do Carmo</a><br>
+<a name=Jul17>17</a> <a href="8TS07.html#jul17" class=c>Bb. Inácio de Azevedo</a>, presbítero, e <a href="8TS07.html#jul17" class=c>Companheiros</a>, mártires<br>
+<a name=Jul18>18</a> <span class=M>M:</span> <a href="8TS07.html#jul18" class=c>S. Bartolomeu dos Mártires</a>, bispo<br>
+<span class=gr><a name=Jul19>19</a> Julho</span> <br>
+<a name=Jul20>20</a> <a href="8TS07.html#jul20" class=c>S. Apolinário</a>, bispo e mártir<br>
+<a name=Jul21>21</a> <a href="8TS07.html#jul21" class=c>S. Lourenço de Brindes</a>, presbítero e doutor da Igreja<br>
+<a name=Jul22>22</a> <span class=F>F:</span>  <a href="8TS07.html#jul22" class=c>S. Maria Madalena</a><br>
+<a name=Jul23>23</a> <span class=F>F:</span>  <a href="8TS07.html#jul23" class=c>S. Brígida</a>, religiosa, Padroeira da Europa<br>
+<a name=Jul24>24</a> <a href="8TS07.html#jul24" class=c>S. Sarbélio (Charbel) Maklüf</a>, presbítero<br>
+<a name=Jul25>25</a> <span class=F>F:</span>  <a href="8TS07.html#jul25" class=c>S. Tiago</a>, apóstolo<br>
+<a name=Jul26>26</a> <span class=M>M:</span> <a href="8TS07.html#jul26" class=c>S. Joaquim e S. Ana</a>, Pais da Virgem Santa Maria<br>
+<span class=gr><a name=Jul27>27</a>
+<a name=Jul28>28</a> Julho</span> <br>
+<a name=Jul29>29</a> <span class=M>M:</span> <a href="8TS07.html#jul29" class=c>Ss. Marta, Maria e Lázaro</a><br>
+<a name=Jul30>30</a> <a href="8TS07.html#jul30" class=c>S. Pedro Crisólogo</a>, bispo e doutor da Igreja<br>
+<a name=jul31>31</a> <span class=M>M:</span>  <a href="8TS07.html#jul31" class=c>S. Inácio de Loiola</a>, presbítero<br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Ago></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Agosto</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<a name=Aug01>01</a> <span class=M>M:</span> <a href="8TS08.html#ago01" class=c>S. Afonso Maria de Ligório</a>, bispo e doutor da Igreja<br>
+<a name=Aug02>02</a> <a href="8TS08.html#ago02" class=c>S. Eusébio de Vercelas</a>, bispo<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS08.html#ago02" class=c>S. Pedro Juliano Eymard</a>, presbítero<br>
+<span class=gr><a name=Aug03>03</a> Agosto</span> <br>
+<a name=Aug04>04</a> <span class=M>M:</span> <a href="8TS08.html#ago04" class=c>S. João Maria Vianney</a>, presbítero<br>
+<a name=Aug05>05</a> <a href="8TS08.html#ago05" class=c>Dedicação da Basílica de Santa Maria Maior</a><br>
+<a name=Aug06>06</a> <span class=F>F:</span>  <a href="8TS08.html#ago06" class=c>Transfiguração do Senhor</a><br>
+<a name=Aug07>07</a> <a href="8TS08.html#ago07" class=c>Ss. Sisto II</a>, papa, e <a href="8TS08.html#ago07" class=c>Companheiros</a>, mártires<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS08.html#ago07" class=c>S. Caetano</a>, presbítero<br>
+<a name=Aug08>08</a> <span class=M>M:</span> <a href="8TS08.html#ago08" class=c>S. Domingos</a>, presbítero<br>
+<a name=Aug09>09</a> <span class=F>F:</span>  <a href="8TS08.html#ago09" class=c>S. Teresa Benedita da Cruz</a>, virgem e mártir, Padroeira da Europa<br>
+<a name=Aug10>10</a> <span class=F>F:</span>  <a href="8TS08.html#ago10" class=c>S. Lourenço</a>, diácono e mártir<br>
+<a name=Aug11>11</a> <span class=M>M:</span> <a href="8TS08.html#ago11" class=c>S. Clara</a>, virgem<br>
+<a name=Aug12>12</a> <a href="8TS08.html#ago12" class=c>S. Joana Francisca de Chantal</a>, religiosa<br>
+<a name=Aug13>13</a>- <a href="8TS08.html#ago13" class=c>S. Ponciano</a>, papa, e <a href="8TS08.html#ago13" class=c>S. Hipólito</a>, presbítero, mártires<br>
+<a name=Aug14>14</a> <span class=M>M:</span> <a href="8TS08.html#ago14" class=c>S. Maximiliano Maria Kolbe</a>, presbítero e mártir<br>
+<a name=Aug15>15</a>  <span class=S>S:</span> <a href="8TS08.html#ago15" class=c>Assunção da Virgem Santa Maria</a><br>
+<a name=Aug16>16</a> <a href="8TS08.html#ago16" class=c>S. Estêvão da Hungria</a><br>
+<a name=Aug17>17</a> <span class=M>M:</span> <a href="8TS08.html#ago17" class=c>S. Beatriz da Silva</a>, virgem<br>
+<span class=gr><a name=Aug18>18</a> Agosto</span> <br>
+<a name=Aug19>19</a> <a href="8TS08.html#ago19" class=c>S. João Eudes</a>, presbítero<br>
+<a name=Aug20>20</a> <span class=M>M:</span> <a href="8TS08.html#ago20" class=c>S. Bernardo</a>, abade e doutor da Igreja<br>
+<a name=Aug21>21</a> <span class=M>M:</span> <a href="8TS08.html#ago21" class=c>S. Pio X</a>, papa<br>
+<a name=Aug22>22</a> <span class=M>M:</span> <a href="8TS08.html#ago22" class=c>Virgem Santa Maria, Rainha</a><br>
+<a name=Aug23>23</a> <a href="8TS08.html#ago23" class=c>S. Rosa de Lima</a>, Padroeira da América Latina<br>
+<a name=Aug24>24</a> <span class=F>F:</span>  <a href="8TS08.html#ago24" class=c>S. Bartolomeu</a>, apóstolo<br>
+<a name=Aug25>25</a> <a href="8TS08.html#ago25" class=c>S. Luís de França</a><br>
+&nbsp; &nbsp; &nbsp;<a href="8TS08.html#ago25" class=c>S. José de Calasanz</a>, presbítero<br>
+<span class=gr><a name=Aug26>26</a> Agosto</span> <br>
+<a name=Aug27>27</a> <span class=M>M:</span> <a href="8TS08.html#ago27" class=c>S. Mónica</a><br>
+<a name=Aug28>28</a> <span class=M>M:</span> <a href="8TS08.html#ago28" class=c>S. Agostinho</a>, bispo e doutor da Igreja<br>
+<a name=Aug29>29</a> <span class=M>M:</span> <a href="8TS08.html#ago29" class=c>Martírio de S. João Baptista</a><br>
+<span class=gr><a name=Aug30>30</a>
+<a name=Aug31>31</a> Agosto</span>  <br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Set></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Setembro</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<span class=gr><a name=Sep01>01</a>
+<a name=Sep02>02</a> Setembro</span> <br>
+<a name=Sep03>03</a> <span class=M>M:</span> <a href="8TS09.html#set03" class=c>S. Gregório Magno</a>, papa e doutor da Igreja<br>
+<span class=gr><a name=Sep04>04</a>
+<a name=Sep05>05</a>
+<a name=Sep06>06</a>
+<a name=Sep07>07</a> Setembro</span> <br>
+<a name=Sep08>08</a> <span class=F>F:</span>  <a href="8TS09.html#set08" class=c>Natividade da Virgem Santa Maria</a><br>
+<a name=Sep09>09</a> <a href="8TS09.html#set09" class=c>S. Pedro Claver</a>, presbítero<br>
+<span class=gr><a name=Sep10>10</a>
+<a name=Sep11>11</a> Setembro</span> <br>
+<a name=Sep12>12</a> <a href="8TS09.html#set12" class=c>Santíssimo Nome de Maria</a><br>
+<a name=Sep13>13</a> <span class=M>M:</span> <a href="8TS09.html#set13" class=c>S. João Crisóstomo</a>, bispo e doutor da Igreja<br>
+<a name=Sep14>14</a> <span class=F>F:</span>  <a href="8TS09.html#set14" class=c>Exaltação da Santa Cruz</a><br>
+<a name=Sep15>15</a> <span class=M>M:</span> <a href="8TS09.html#set15" class=c>Nossa Senhora das Dores</a><br>
+<a name=Sep16>16</a> <span class=M>M:</span> <a href="8TS09.html#set16" class=c>S. Cornélio</a>, papa, e <a href="8TS09.html#set16" class=c>S. Cipriano</a>, bispo, mártires<br>
+<a name=Sep17>17</a> <a href="8TS09.html#set17" class=c>S. Roberto Belarmino</a>, bispo e doutor da Igreja<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS09.html#set17" class=c>S. Hildegarda de Bingen</a>, virgem e doutora da Igreja<br>
+<span class=gr><a name=Sep18>18</a> Setembro</span> <br>
+<a name=Sep19>19</a> <a href="8TS09.html#set19" class=c>S. Januário</a>, bispo e mártir<br>
+<a name=Sep20>20</a> <span class=M>M:</span> <a href="8TS09.html#set20" class=c>SS. André Kim Taegon</a>, presbítero, <a href="8TS09.html#set20" class=c>Paulo Chang Hasang e Companheiros</a>, mártires<br>
+<a name=Sep21>21</a> <span class=F>F:</span>  <a href="8TS09.html#set21" class=c>S. Mateus</a>, apóstolo e evangelista<br>
+<span class=gr><a name=Sep22>22</a> Setembro</span> <br>
+<a name=Sep23>23</a> <span class=M>M:</span> <a href="8TS09.html#set23" class=c>S. Pio de Pietrelcina</a>, presbítero<br>
+<span class=gr><a name=Sep24>24</a>
+<a name=Sep25>25</a> Setembro</span> <br>
+<a name=Sep26>26</a> <a href="8TS09.html#set26" class=c>S. Cosme e S. Damião</a>, mártires<br>
+<a name=Sep27>27</a> <span class=M>M:</span> <a href="8TS09.html#set27" class=c>S. Vicente de Paulo</a>, presbítero<br>
+<a name=Sep28>28</a> <a href="8TS09.html#set28" class=c>S. Venceslau</a>, mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS09.html#set28" class=c>Ss. Lourenço Ruiz e Companheiros</a>, mártires<br>
+<a name=Sep29>29</a> <span class=F>F:</span>  <a href="8TS09.html#set29" class=c>S. Miguel, S. Gabriel e S. Rafael</a>, arcanjos<br>
+<a name=Sep30>30</a> <span class=M>M:</span> <a href="8TS09.html#set30" class=c>S. Jerónimo</a>, presbítero e doutor da Igreja<br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Out></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Outubro</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<a name=Oct01>01</a> <span class=M>M:</span> <a href="8TS10.html#out01" class=c>S. Teresa do Menino Jesus</a>, virgem e doutora da Igreja<br>
+<a name=Oct02>02</a> <span class=M>M:</span> <a href="8TS10.html#out02" class=c>Santos Anjos da Guarda</a><br>
+<a name=Oct03>03</a> <a href="8TS10.html#out03" class=c>B. André de Soveral e companheiros</a>, mártires<br>
+<a name=Oct04>04</a> <span class=M>M:</span> <a href="8TS10.html#out04" class=c>S. Francisco de Assis</a><br>
+<a name=Oct05>05</a> <a href="8TS10.html#out05" class=c>S. Faustina Kowalska</a>, virgem<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS10.html#out05" class=c>S. Benedito, o Negro</a>, religioso<br>
+<a name=Oct06>06</a> <a href="8TS10.html#out06" class=c>S. Bruno</a>, presbítero<br>
+<a name=Oct07>07</a> <span class=M>M:</span> <a href="8TS10.html#out07" class=c>Nossa Senhora do Rosário</a><br>
+<span class=gr><a name=Oct08>08</a> Outubro</span> <br>
+<a name=Oct09>09</a> <a href="8TS10.html#out09" class=c>Ss. Dinis</a>, bispo, e <a href="8TS10.html#out09" class=c>Companheiros</a>, mártires<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS10.html#out09" class=c>S. João Leonardo</a>, presbítero<br>
+<span class=gr><a name=Oct10>10</a> Outubro</span> <br>
+<a name=Oct11>11</a> <a href="8TS10.html#out11" class=c>S. João XXIII</a>, papa<br>
+<a name=Oct12>12</a> <a href="8TS10.html#out12" class=c>Nossa Senhora Aparecida e do Pilar</a><br>
+<span class=gr><a name=Oct13>13</a> Outubro</span> <br>
+<a name=Oct14>14</a> <a href="8TS10.html#out14" class=c>S. Calisto</a>, papa e mártir<br>
+<a name=Oct15>15</a> <span class=M>M:</span> <a href="8TS10.html#out15" class=c>S. Teresa de Jesus</a>, virgem e doutora da Igreja<br>
+<a name=Oct16>16</a> <a href="8TS10.html#out16" class=c>S. Hedviges</a>, religiosa<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS10.html#out16" class=c>S. Margarida Maria Alacoque</a>, virgem<br>
+<a name=Oct17>17</a> <span class=M>M:</span> <a href="8TS10.html#out17" class=c>S. Inácio de Antioquia</a>, bispo e mártir<br>
+<a name=Oct18>18</a> <span class=F>F:</span>  <a href="8TS10.html#out18" class=c>S. Lucas</a>, evangelista<br>
+<a name=Oct19>19</a> <a href="8TS10.html#out19" class=c>Ss. João de Brébeuf e Isaac Jogues</a>, presbíteros, e <a href="8TS10.html#out19" class=c>Companheiros</a>, mártires<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS10.html#out19" class=c>S. Paulo da Cruz</a>, presbítero<br>
+<span class=gr><a name=Oct20>20</a>
+<a name=Oct21>21</a> Outubro</span> <br>
+<a name=Oct22>22</a> <a href="8TS10.html#out22" class=c>S. João Paulo II</a>, papa<br>
+<a name=Oct23>23</a> <a href="8TS10.html#out23" class=c>S. João de Capistrano</a>, presbítero<br>
+<a name=Oct24>24</a> <a href="8TS10.html#out24" class=c>S. António Maria Claret</a>, bispo<br>
+<a name=Oct25>25</a> <a href="8TS10.html#out25" class=c>S. Frei Galvão</a>, religioso<br>
+<span class=gr><a name=Oct26>26</a> Outubro</span> <br>
+<a name=Oct27>27</a> <a href="8TS10.html#out27" class=c>B. Gonçalo de Lagos</a>, presbítero<br>
+<a name=Oct28>28</a> <span class=F>F:</span>  <a href="8TS10.html#out28" class=c>S. Simão e S. Judas</a>, apóstolos<br>
+<span class=gr><a name=Oct29>29</a>
+<a name=Oct30>30</a>
+<a name=Oct31>31</a> Outubro</span>  <br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Nov></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Novembro</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<a name=Nov01>01</a>  <span class=S>S:</span> <a href="8TS11.html#nov01" class=c>Todos os Santos</a><br>
+<a name=Nov02>02</a> <a href="8TS11.html#nov02" class=c>Comemoração de Todos os Fiéis Defuntos</a><br>
+<a name=Nov03>03</a> <a href="8TS11.html#nov03" class=c>S. Martinho de Porres</a>, religioso<br>
+<a name=Nov04>04</a> <span class=M>M:</span> <a href="8TS11.html#nov04" class=c>S. Carlos Borromeu</a>, bispo<br>
+<span class=gr><a name=Nov05>05</a> Novembro</span> <br>
+<a name=Nov06>06</a> <span class=M>M:</span> <a href="8TS11.html#nov06" class=c>S. Nuno de Santa Maria</a>, religioso<br>
+<span class=gr><a name=Nov07>07</a>
+<a name=Nov08>08</a> Novembro</span> <br>
+<a name=Nov09>09</a> <span class=F>F:</span>  <a href="8TS11.html#nov09" class=c>Dedicação da Basílica de Latrão</a><br>
+<a name=Nov10>10</a> <span class=M>M:</span> <a href="8TS11.html#nov10" class=c>S. Leão Magno</a>, papa e doutor da Igreja<br>
+<a name=Nov11>11</a> <span class=M>M:</span> <a href="8TS11.html#nov11" class=c>S. Martinho de Tours</a>, bispo<br>
+<a name=Nov12>12</a> <span class=M>M:</span> <a href="8TS11.html#nov12" class=c>S. Josafat</a>, bispo e mártir<br>
+<span class=gr><a name=Nov13>13</a>
+<a name=Nov14>14</a> Novembro</span> <br>
+<a name=Nov15>15</a> <a href="8TS11.html#nov15" class=c>S. Alberto Magno</a>, bispo e doutor da Igreja<br>
+<a name=Nov16>16</a> <a href="8TS11.html#nov16" class=c>S. Margarida da Escócia</a><br>
+&nbsp; &nbsp; &nbsp;<a href="8TS11.html#nov16" class=c>S. Gertrudes</a>, virgem<br>
+<a name=Nov17>17</a> <span class=M>M:</span> <a href="8TS11.html#nov17" class=c>S. Isabel da Hungria</a>, religiosa<br>
+<a name=Nov18>18</a> <a href="8TS11.html#nov18" class=c>Dedicação das Basílicas de S. Pedro e de S. Paulo</a>, apóstolos<br>
+<a name=Nov19>19</a> <a href="8TS11.html#nov19" class=c>S. Roque Gonzales e companheiros</a>, mártires<br>
+<span class=gr><a name=Nov20>20</a> Novembro</span> <br>
+<a name=Nov21>21</a> <span class=M>M:</span> <a href="8TS11.html#nov21" class=c>Apresentação de Nossa Senhora</a><br>
+<a name=Nov22>22</a> <span class=M>M:</span> <a href="8TS11.html#nov22" class=c>S. Cecília</a>, virgem e mártir<br>
+<a name=Nov23>23</a> <a href="8TS11.html#nov23" class=c>S. Clemente I</a>, papa e mártir<br>
+&nbsp; &nbsp; &nbsp;<a href="8TS11.html#nov23" class=c>S. Columbano</a>, abade<br>
+<a name=Nov24>24</a> <span class=M>M:</span> <a href="8TS11.html#nov24" class=c>Ss. André Dung-Lac e Companheiros</a>, mártires<br>
+<a name=Nov25>25</a> <a href="8TS11.html#nov25" class=c>S. Catarina Alexandrina</a>, virgem e mártir<br>
+<span class=gr><a name=Nov26>26</a>
+<a name=Nov27>27</a>
+<a name=Nov28>28</a>
+<a name=Nov29>29</a> Novembro</span> <br>
+<a name=Nov30>30</a> <span class=F>F:</span>  <a href="8TS11.html#nov30" class=c>S. André</a>, apóstolo<br><br>
+
+<span class=S>S:</span> <a href="7TCSo.html#TcRU" class=c>Nosso Senhor Jesus Cristo, Rei do Universo</a> <small>(Último Domingo do Tempo Comum)</small><br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+<br>
+<a name=Dez></a>
+<p class=r><a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> </p>
+<p class=TS14bc>Dezembro</p>
+<p class=w style="text-indent:0mm;font-size:12pt;">
+<span class=gr><a name=Dec01>01</a>
+<a name=Dec02>02</a> Dezembro</span> <br>
+<a name=Dec03>03</a> <span class=M>M:</span> <a href="8TS12.html#dez03" class=c>S. Francisco Xavier</a>, presbítero<br>
+<a name=Dec04>04</a> <a href="8TS12.html#dez04" class=c>S. João Damasceno</a>, presbítero e doutor da Igreja<br>
+<a name=Dec05>05</a> <span class=M>M:</span> <a href="8TS12.html#dez05" class=c>S. Frutuoso, S. Martinho de Dume e S. Geraldo</a>, bispos<br>
+<a name=Dec06>06</a> <a href="8TS12.html#dez06" class=c>S. Nicolau</a>, bispo<br>
+<a name=Dec07>07</a> <span class=M>M:</span> <a href="8TS12.html#dez07" class=c>S. Ambrósio</a>, bispo e doutor da Igreja<br>
+<a name=Dec08>08</a>  <span class=S>S:</span> <a href="8TS12.html#dez08" class=c>Imaculada Conceição da Virgem Santa Maria</a>, Padroeira de Portugal<br>
+<a name=Dec09>09</a> <a href="8TS12.html#dez09" class=c>S. João Diogo Cuauhtlatoatzin</a><br>
+<a name=Dec10>10</a> <a href="8TS12.html#dez10" class=c>Virgem Santa Maria de Loreto</a><br>
+<a name=Dec11>11</a> <a href="8TS12.html#dez11" class=c>S. Dâmaso I</a>, papa<br>
+<a name=Dec12>12</a> <a href="8TS12.html#dez12" class=c>Nossa Senhora de Guadalupe</a>, Padroeira da América Latina<br>
+<a name=Dec13>13</a> <span class=M>M:</span> <a href="8TS12.html#dez13" class=c>S. Luzia</a>, virgem e mártir<br>
+<a name=Dec14>14</a> <span class=M>M:</span> <a href="8TS12.html#dez14" class=c>S. João da Cruz</a>, presbítero e doutor da Igreja<br>
+<span class=gr><a name=Dec15>15</a>
+<a name=Dec16>16</a>
+<a name=Dec17>17</a>
+<a name=Dec18>18</a>
+<a name=Dec19>19</a>
+<a name=Dec20>20</a> Dezembro</span> <br>
+<a name=Dec21>21</a> <a href="8TS12.html#dez21" class=c>S. Pedro Canísio</a>, presbítero e doutor da Igreja<br>
+<span class=gr><a name=Dec22>22</a> Dezembro</span> <br>
+<a name=Dec23>23</a> <a href="8TS12.html#dez23" class=c>S. João de Kenty</a>, presbítero<br>
+<span class=gr><a name=Dec24>24</a> Dezembro</span> <br>
+<a name=Dec25>25</a>  <span class=S>S:</span> <a href="4TN.html" class=c>Natal do Senhor</a><br>
+<a name=Dec26>26</a> <span class=F>F:</span>  <a href="8TS12.html#dez26" class=c>S. Estêvão</a>, primeiro mártir<br>
+<a name=Dec27>27</a> <span class=F>F:</span>  <a href="8TS12.html#dez27" class=c>S. João</a>, apóstolo e evangelista<br>
+<a name=Dec28>28</a> <span class=F>F:</span>  <a href="8TS12.html#dez28" class=c>Santos Inocentes</a>, mártires<br>
+<a name=Dec29>29</a> <a href="8TS12.html#dez29" class=c>S. Tomás Becket</a>, bispo e mártir<br>
+<span class=gr><a name=Dec30>30</a> Dezembro</span> <br>
+<a name=Dec31>31</a>  <a href="8TS12.html#dez31" class=c>S. Silvestre I</a>, papa<br><br>
+
+<span class=F>F:</span>  <a href="4TN.html#SagFam" class=c>Sagrada Família de Jesus, Maria e José</a><small> (Domingo dentro da oitava do Natal, ou, na sua falta, no dia 30 de Dezembro)</small><br>
+</p><p class=rc><a href="#Calendario" class=c>&nbsp;∆ Top&nbsp;</a></p><br>
+
+
+
+
+
+
+
+
+
+<br><br><br>
+<p class=rbc>
+- o O o - &nbsp; <a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a> &nbsp; - o O o -</p>
+<script>includeHTML();</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+&nbsp; </body> </html>

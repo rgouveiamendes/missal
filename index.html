@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<title>Missal-9</title>
+<script>//  Check local storage
+    let localS = localStorage.getItem('theme');
+        themeToSet = localS;
+        //  if the local storage is not set, we check the OS preference
+    if (!localS === "dark"){themeToSet = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'}
+        //  Set the correct theme
+    document.documentElement.setAttribute('data-theme', themeToSet);
+</script>
+<meta name="author" content="JPFP">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="xxx-styleMODOS.css" />
+<script src="js-includeHTML.js"></script>
+
+<script>
+// DIA  --------------------------------------------------------------------------------------------------------
+let diadehoje = new Date();          //  let hoje = new Date();  let hoje = new Date("2023-11-30"); "2023-10-28"  ou new Date(2023,10,28);
+let diadehojeMS = diadehoje.getTime()/86400000;  //  time (milliseconds since January 1, 1970)
+                                                  //  1 hora =3600000 MS (1000MS*60s*60m) ;  1 dia =86400000 MS (1000MS*60s*60m*24h*)
+let diaMS3 = diadehojeMS.toFixed(3);      // se passa do meio dia, é superior a ... .5
+let diaMS2 = diadehojeMS.toFixed();       // a partir do meio dia, arredondado para amanhã
+let diaMS1 = diaMS3-diaMS2;               // ver se passa do meio dia
+let diaMS = diadehojeMS.toFixed(3);
+if (diaMS1 <= 0 ) { diaMS = diaMS2-1 };   // se passa do meio dia, retirar 1 dia
+let diaMS0 = diaMS;
+let dia = diadehoje.getDate();       if (dia <10) {dia="0"+dia};
+let diatimeMS = diaMS;
+// SEMANA --------------------------------------------------------------------------------------------------------
+const weeks = ["Do","Se","Te","Qa","Qi","Sx","Sa"];
+let feira2L = weeks[diadehoje.getDay()];       // em formato Se Te Qa ...
+const diaferia = ["Domingo","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado"];
+let feira9L = diaferia[diadehoje.getDay()];       // em formato Seunda-feira, 
+// MES  --------------------------------------------------------------------------------------------------------
+let mes = diadehoje.getMonth(); mes=1+mes; if (mes <10) {mes="0"+mes};
+const meses3L = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];  //Atribuir nomes aos meses
+let mes3L = meses3L[diadehoje.getMonth()];
+const meses9L = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+let mes9L = meses9L[diadehoje.getMonth()];
+let lsem ="-";   
+// ANO  --------------------------------------------------------------------------------------------------------
+let ano = diadehoje.getFullYear();
+//COMBINAÇÕES ----------------------------------------------------
+let datatotal = feira9L+", "+dia+" de "+mes9L+" de "+ano;  
+let amd = ano + "-" + mes + "-" + dia;           // em formato 2023-10-28
+
+// TEMPOS LITÚRGICOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+let AN = ano + "-01-01";
+let AnoNovo = new Date(AN);
+let DiaNovo= AnoNovo.getTime()/86400000;         // 19358 = 1-1-2023
+diasdoano = Number(diaMS) - DiaNovo;             //.toFixed(5);
+diasdoano = 1 + Number(diasdoano.toFixed());
+let semanasano = (diasdoano)/7;
+semanasano = Number(semanasano.toFixed());
+if (ano == "2024"){semanasano = 1 + semanasano}
+
+// TEMPO DOS SANTOS  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+let Lmes="8TS01.html#jan";
+if (mes3L=="Jan") {Lmes="8TS01.html#jan"}   if (mes3L=="Fev") {Lmes="8TS02.html#fev"}   if (mes3L=="Mar") {Lmes="8TS03.html#mar"}
+if (mes3L=="Abr") {Lmes="8TS04.html#abr"}   if (mes3L=="Mai") {Lmes="8TS05.html#mai"}   if (mes3L=="Jun") {Lmes="8TS06.html#jun"}
+if (mes3L=="Jul") {Lmes="8TS07.html#jul"}   if (mes3L=="Ago") {Lmes="8TS08.html#ago"}   if (mes3L=="Set") {Lmes="8TS09.html#set"}
+if (mes3L=="Out") {Lmes="8TS10.html#Out"}   if (mes3L=="Nov") {Lmes="8TS11.html#nov"}   if (mes3L=="Dez") {Lmes="8TS12.html#dez"}
+
+//      Variáveis do dia
+localStorage.setItem("diadehoje", diadehoje);       //  
+localStorage.setItem("diadehojeMS", diadehojeMS);   //  
+localStorage.setItem("diaMS0", diaMS);              //  Dia de hoje, em MS
+localStorage.setItem("diaMS", diaMS);               //  Dia novo, em MS
+localStorage.setItem("dia", dia);                   //  Dia
+localStorage.setItem("DiaNovo", DiaNovo);
+localStorage.setItem("diatimeMS", diatimeMS);
+//      Variáveis da semana
+localStorage.setItem("feira2L", feira2L);           //  Dia da semana, por extenso
+localStorage.setItem("feira9L", feira9L);           //  Dia da semana, por extenso
+//      Variáveis do mês
+localStorage.setItem("lsem", lsem);                 //  Link da semana do tempo litúrgico
+localStorage.setItem("mes", mes);                   //  Mês, 2 digitos
+localStorage.setItem("mes3L", mes3L);               //  Mês, 3 letras
+localStorage.setItem("mes9L", mes9L);               //  Mês, por extenso
+//      Variáveis do ano
+localStorage.setItem("ano", ano);                   //  Ano
+localStorage.setItem("datatotal", datatotal);       //  Dia da semana, dia do mês, mês e ano
+localStorage.setItem("diasdoano", diasdoano);       //  Dias do Ano
+localStorage.setItem("semanasano", semanasano);     //  Dias do Ano
+localStorage.setItem("amd", amd);                   //  Ano
+//      Variáveis dos Tempos Litúrgicos
+let tempo ="2023TA";                    localStorage.setItem("tempo", tempo);       //  Tempo litúrgico
+let TL = "TL";                          localStorage.setItem("TL", TL);             //  Tempo litúrgico
+let TLc = "TLc";                        localStorage.setItem("TLc", TLc);           //  Tempo litúrgico
+let semtempo = "Tempo Litúrgico";       localStorage.setItem("semtempo", semtempo); //  Semana do tempo litúrgico
+let semtempoa = "Tempo Litúrgico";      localStorage.setItem("semtempoa", semtempoa); //  Semana do tempo litúrgico
+let cd  = "-";                          localStorage.setItem("cd", cd);             //  Ciclo Dominical                              
+let cfl = "-";                          localStorage.setItem("cfl", cfl);           //  Ciclo Ferial letra
+let cfn = "-";                          localStorage.setItem("cfn", cfn);           //  
+let dm  = dia + mes3L;                  localStorage.setItem("dm", dm);             //dia + mes3L em formato 27Out
+let dado = "da";                        localStorage.setItem("dado", dado);         //  da / do
+//      Variáveis do Tempo dos Santos
+                                        localStorage.setItem("Lmes", Lmes);         //  Link do mês
+let Lmesdia=Lmes+dia;                   localStorage.setItem("Lmesdia", Lmesdia);   //  LINK do mês e do dia Leitura
+let LmesdiaL1=Lmesdia+"L1";             localStorage.setItem("LmesdiaL1", LmesdiaL1);//  LINK do mês e do dia Leitura
+let TSdm= "-";                          localStorage.setItem("TSdm", TSdm);         //  Dia do ano (Tempo dos Santos)
+let ora="000000";                       localStorage.setItem("ora", ora);           //  Orações
+let soc="Não tem - Só or. colecta";     localStorage.setItem("soc", soc);           //  Só or. colecta
+//      Variáveis da Missa Marcada
+let MM = "(Não está Missa marcada)";    localStorage.setItem("MM", MM);             //  Missa Marcada
+let LMM = "xxx-Marcar.html";            localStorage.setItem("LMM", LMM);           //  Link da Missa Marcada
+let LMML = "-";                         localStorage.setItem("LMML", LMML);         //  Link das Leituras da Missa Marcada
+</script>
+<style>
+a:link {text-decoration:none;}
+.modo {background-color:gold; padding: 0px 30px 0px 30px;;font-size: 18px;} 
+table.center {margin-left: auto; margin-right: auto;}
+table, th, td {border-collapse: collapse;}
+</style>
+</head>
+<body style="text-align:left;;word-wrap:break-word; overflow-wrap: break-word"; >
+
+
+
+<p class=missa15C>
+<a href="https://jcabral.pt/Devot"><picture><img src="xxx-home.jpg"></picture></a>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<span style='font-size:20pt; color:yellow'>Pocket</span>
+<span style='font-size:20pt;color:yellow'> Missal</span>
+<span style='font-size:12pt;color:white'> 9</span><span style='font-size:9pt;color:white;font-weight:normal'>.0</span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<span id="theme__switcher"> <img id="theme__image" src="xxx-modo-CE.jpg" alt="" /></span></p>
+
+<center>
+<p class=w style="text-indent:0cm; font-size: 14px;">
+De acordo com a
+<a href=" https://www.conferenciaepiscopal.pt/v1/celebrar-e-viver-melhor-a-eucaristia/" class=c>Nota Pastoral do Conselho Permanente<br>
+da Conferencia Episcopal Portuguesa</a> de 09-02-2022</p>
+<p class=MsoNormal align= style='text-align:center'>
+<img border=0 width=249 height=126 src="xxx-image001.jpg" alt=SST1.jpg v:shapes="Picture_x0020_2"></p>
+<p class=w>
+<span style='font-family:Garamond,serif;'>
+Elaborado, para uso pessoal, por<br>
+FS, JFP &amp; RF | junho 2022</span></p>
+
+<p class=rsc>♦ <span class=g> Actualizado em 30-11-2023</span></span> ♦</p> 
+<p style="font-size:6pt;">&nbsp;</p>
+
+
+
+<p class=missa15C style="line-height: 180%;">
+<a href="xxx-Menu.html" class=c><picture><img src="MENU.jpg"></picture>
+&nbsp; &nbsp; <b> ÍNDICE </b> &nbsp; &nbsp; <picture><img src="MENU.jpg"></picture></a>
+
+<script>//document.write(diasdoano);
+</script> </p>
+
+<p style="font-size:6pt;">&nbsp;</p>
+</center>
+
+
+<p id="ind1" class="w"></p>
+<script>
+//document.getElementById("ind1").innerHTML = MM;
+//console.log("Semana do ano: " + MM + "/cfn: " + cfn);
+//document.write(diasdoano);
+//document.write(LMM);
+//document.write(diadehoje);
+</script>
+
+
+<p class=rc>Novidades da versão 9</p>
+<p class=ws>Com base no calendário, indica-se a Missa do Tempo Litúrgico ( <button class=buttongr onclick="document.location= sano">Ir para a Missa da semana</button></script> ), bem como as leituras da féria ( <button class=buttongr onclick="document.location= lsem">Leituras da Feria</button> ).</p>
+<p class=ws>É também indicada, se houver, a Missa do dia do ano ( <button class=buttonma onclick="document.location= Lmesdia">Missa do dia</button> ).</p>
+<p class=ws>Pode ainda ser escolhida outra Missa ( <button class=buttonbl> Outra  Missa</button> ), que poderá ser "marcada"(com o botão <button class=buttonbl>Marcar Missa</button> (ou simplesmente <button class=buttonbl>MM</button> ) para facilitar o seu acesso nas diferentes partes do Ordinário da Missa ( <button class=buttonbl onclick="document.location= LMM">Ir para a Missa marcada</button> ). </p>
+
+<p class=ws>A página central, ou do índice, é facilmente acessível pelo botão  <a href="xxx-Menu.html"><picture><img src="MENU.jpg"></picture></a>. Aí se encontram, entre outros, os links para as várias partes da Missa, e para as várias Missas.</p>
+
+<p style="font-size:6pt;">&nbsp;</p>
+
+<p class=ws><span class=r>Nota: </span>Esta nova versão está a funcionar até ao fim do ano de 2024. Novas actualizações indicarão as Missas para os anos seguintes.</p>
+<p class=ws>Agradecem-se sugestões ou indicação de erros ou gralhas para <a href="mailto:joaombcabral@gmail.com" class="c">joaombcabral@gmail.com</a>.</p>
+<p style="font-size:6pt;">&nbsp;</p>
+
+<p class=missa15C style="color:coral; line-height: 150%;">
+● <span id="modo1"></span> <span id="modo2"></span> 
+<a href="https://jcabral.pt/Devot/DNL/Missal-9.apk" class=c>APK para Android</a>
+● <a href="https://jcabral.pt/Devot" class=c>DEVOTIO</a > ●</p>
+
+
+<script src="js-app.js"></script>
+<script>includeHTML();</script>
+&nbsp; </body> </html>
+
