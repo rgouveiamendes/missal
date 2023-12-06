@@ -1,0 +1,14 @@
+a {
+    color: var(--litpurple);
+}
+a:hover, a:active {
+    background: var(--litpurple);
+    color:white;
+}
+.background {
+    background:var(--litpurple);
+    color:white;
+}
+.link-button, .nav-button {    
+    border: solid var(--litpurple) 1px;
+}

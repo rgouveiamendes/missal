@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300;1,900&display=swap');
+
+:root{
+    --litpurple:#5727b0;
+    --litblue:#57acdc;
+    --litgreen:#60c689;
+    --litgold:#FBC901;
+    --litred:#c2185b;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    text-align:left;
+    font-family:'Roboto',sans-serif;
+    font-size:22px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 1400px;
+    width: 95%;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 130%;
+}
+h2 {
+    font-size: 110%;
+}
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.link-button {
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 3.5;
+}
+.context-menu {
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+.nav-button {
+    border-radius: 16px;
+    padding: 8px;
+    line-height:normal;
+    font-size: 80%;
+    font-weight: bold;
+}
+.navigation-menu {
+    display: inline-block;
+    width: 100%;
+    margin-top: -0.8em;
+}
+.float-left{
+    float: left;
+    margin-right: 0.25em;
+}
+.float-right {
+    float: right;
+    margin-left: 0.25em;
+}
+.lt{
+    margin-left: 1.5em;
+    margin-top: -0.5em;
+    font-style: italic;
+    color:gray;
+}
+.r {
+    color: var(--litred);
+    font-size: 80%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.ref {
+    font-weight: bold;
+}
+.small {
+    font-size: 60%;
+}

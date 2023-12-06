@@ -1,0 +1,11 @@
+a {
+    color: var(--litgold);
+}
+a:hover, a:active {
+    background: color-mix(in srgb, var(--litgold) 80%, white);
+    color:white;
+}
+.background {
+    background:var(--litgold);
+    color:white;
+}
