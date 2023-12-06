@@ -26,21 +26,32 @@ a {
 }
 h1 {
     font-size: 130%;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1.5em;
 }
 h2 {
     font-size: 110%;
+    color: var(--litred);
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
 }
 p {
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
 }
-.link-button {
+.button {
     border-radius: 16px;
-    padding: 16px;
+    padding: 8px;
+    line-height: normal;
     font-size: 80%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    line-height: 3.5;
+    font-weight: bold;
+}
+.button-group {
+    display: inline-block;
+    margin-right: 0.8em;
+    line-height: 1.8;
 }
 .context-menu {
     display: inline-block;
@@ -48,25 +59,11 @@ p {
     margin-right: 1em;
     margin-bottom: 2em;
 }
-.nav-button {
-    border-radius: 16px;
-    padding: 8px;
-    line-height:normal;
-    font-size: 80%;
-    font-weight: bold;
-}
 .navigation-menu {
     display: inline-block;
     width: 100%;
     margin-top: -0.8em;
-}
-.float-left{
-    float: left;
-    margin-right: 0.25em;
-}
-.float-right {
-    float: right;
-    margin-left: 0.25em;
+    text-align: center;
 }
 .lt{
     margin-left: 1.5em;
@@ -84,5 +81,47 @@ p {
     font-weight: bold;
 }
 .small {
-    font-size: 60%;
+    font-size: 80%;
+}
+a.advento {
+    color: var(--litpurple);
+}
+a.advento:hover, a.advento:active {
+    background: var(--litpurple);
+    color:white;
+}
+.advento.background {
+    background:var(--litpurple);
+    color:white;
+}
+.advento.button {    
+    border: solid var(--litpurple) 1px;
+}
+a.natal {
+    color: var(--litblue);
+}
+a.natal:hover, a.natal:active {
+    background: var(--litblue);
+    color:white;
+}
+.natal.background {
+    background:var(--litblue);
+    color:white;
+}
+.natal.button {    
+    border: solid var(--litblue) 1px;
+}
+a.quaresma {
+    color: var(--litpurple);
+}
+a.quaresma:hover, a.quaresma:active {
+    background: var(--litpurple);
+    color:white;
+}
+.quaresma.background {
+    background:var(--litpurple);
+    color:white;
+}
+.quaresma.button {    
+    border: solid var(--litpurple) 1px;
 }
