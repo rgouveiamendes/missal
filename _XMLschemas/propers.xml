@@ -1,17 +1,16 @@
-<xml>
-    <mass season="" week="" weekday="" common="" feast="" month="" day="" rank="">
-        <entrance>
-            <reference></reference>
-            <text></text>
-        </entrance>
-        <collect>
-        </collect>
-        <offerings>
-        </offerings>
-        <communion>
-            <reference></reference>
-            <text></text>
-        </communion>
-        <post-communion></post-communion>
-    </mass>
-</xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<mass season="" week="" weekday="" common="" feast="" month="" day="" rank="">
+    <entrance>
+        <reference></reference>
+        <text></text>
+    </entrance>
+    <collect>
+    </collect>
+    <offerings>
+    </offerings>
+    <communion>
+        <reference></reference>
+        <text></text>
+    </communion>
+    <post-communion></post-communion>
+</mass>
