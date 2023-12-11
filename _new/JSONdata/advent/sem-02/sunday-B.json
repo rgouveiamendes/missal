@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "02",
+        "weekday": "sunday-B"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Is 40, 1-5.9-11",
+            "snippet": "«Preparai o caminho do Senhor»",
+            "announcement": "Leitura do Livro de Isaías",
+            "text": "Consolai, consolai o meu povo, diz o vosso Deus. Falai ao coração de Jerusalém e dizei-lhe em alta voz que terminaram os seus trabalhos e está perdoada a sua culpa, porque recebeu da mão do Senhor duplo castigo por todos os seus pecados. Uma voz clama: «Preparai no deserto o caminho do Senhor, abri na estepe uma estrada para o nosso Deus. Sejam alteados todos os vales e abatidos os montes e as colinas; endireitem-se os caminhos tortuosos e aplanem-se as veredas escarpadas. Então se manifestará a glória do Senhor e todo o homem verá a sua magnificência, porque a boca do Senhor falou». Sobe ao alto dum monte, arauto de Sião! Grita com voz forte, arauto de Jerusalém! Levanta sem temor a tua voz e diz às cidades de Judá: «Eis o vosso Deus. O Senhor Deus vem com poder, o seu braço dominará. Com Ele vem o seu prémio, precede-O a sua recompensa. Como um pastor apascentará o seu rebanho e reunirá os animais dispersos; tomará os cordeiros em seus braços, conduzirá as ovelhas ao seu descanso»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 84 (85), 9ab-10.11-12.13-14 (R. 8)",
+            "response": "Mostrai-nos o vosso amor e dai-nos a vossa salvação.",
+            "alt-response": "Ou: Mostrai-nos, Senhor, a vossa misericórdia.",
+            "verses": [
+                "Escutemos o que diz o Senhor: Deus fala de paz ao seu povo e aos seus fiéis. A sua salvação está perto dos que O temem e a sua glória habitará na nossa terra.",
+                "Encontraram-se a misericórdia e a fidelidade, abraçaram-se a paz e a justiça. A fidelidade vai germinar da terra e a justiça descerá do Céu.",
+                "O Senhor dará ainda o que é bom e a nossa terra produzirá os seus frutos. A justiça caminhará à sua frente e a paz seguirá os seus passos."
+            ]
+        },
+        {
+            "type": "reading-II",
+            "reference": "2 Pedro 3, 8-14",
+            "snippet": "«Esperamos os novos céus e a nova terra»",
+            "announcement": "Leitura da Segunda Epístola de São Pedro",
+            "text": "Há uma coisa, caríssimos, que não deveis esquecer: um dia diante do Senhor é como mil anos e mil anos como um dia. O Senhor não tardará em cumprir a sua promessa, como pensam alguns. Mas usa de paciência para convosco e não quer que ninguém pereça, mas que todos possam arrepender-se. Entretanto, o dia do Senhor virá como um ladrão: nesse dia, os céus desaparecerão com fragor, os elementos dissolver-se-ão nas chamas e a terra será consumida com todas as obras que nela existem. Uma vez que todas as coisas serão assim dissolvidas, como deve ser santa a vossa vida e grande a vossa piedade, esperando e apressando a vinda do dia de Deus, em que os céus se dissolverão em chamas e os elementos se fundirão no ardor do fogo! Nós esperamos, segundo a promessa do Senhor, os novos céus e a nova terra, onde habitará a justiça. Portanto, caríssimos, enquanto esperais tudo isto, empenhai-vos, sem pecado nem motivo algum de censura, para que o Senhor vos encontre na paz."
+        },
+        {
+            "type": "aleluia",
+            "reference": "Lc 3, 4.6",
+            "response": "Aleluia. Aleluia.",
+            "text": "Preparai o caminho do Senhor, endireitai as suas veredas e toda a criatura verá a salvação de Deus."
+        },
+        {
+            "type": "gospel",
+            "reference": "Mc 1, 1-8",
+            "snippet": "«Endireitai os caminhos do Senhor»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Marcos",
+            "text": "Início do Evangelho de Jesus Cristo, Filho de Deus. Está escrito no profeta Isaías: «Vou enviar à tua frente o meu mensageiro, que preparará o teu caminho. Uma voz clama no deserto: ‘Preparai o caminho do Senhor, endireitai as suas veredas’». Apareceu João Baptista no deserto, a proclamar um baptismo de penitência para remissão dos pecados. Acorria a ele toda a gente da região da Judeia e todos os habitantes de Jerusalém e eram baptizados por ele no rio Jordão, confessando os seus pecados. João vestia-se de pêlos de camelo, com um cinto de cabedal em volta dos rins, e alimentava-se de gafanhotos e mel silvestre. E, na sua pregação, dizia: «Vai chegar depois de mim quem é mais forte do que eu, diante do qual eu não sou digno de me inclinar para desatar as correias das suas sandálias. Eu baptizo-vos na água, mas Ele baptizar-vos-á no Espírito Santo»."
+        }
+    ]
+}

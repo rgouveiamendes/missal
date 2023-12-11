@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "04",
+        "day": "20",
+        "month": "december"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Is 7, 10-14",
+            "snippet": "«A virgem conceberá»",
+            "announcement": "Leitura do Livro de Isaías",
+            "text": "Naqueles dias, o Senhor mandou ao rei Acaz a seguinte mensagem: «Pede um sinal ao Senhor teu Deus, quer nas profundezas do abismo, quer lá em cima nas alturas». Acaz respondeu: «Não pedirei, não porei o Senhor à prova». Então Isaías disse: «Escutai, casa de David: Não vos basta que andeis a molestar os homens para quererdes também molestar o meu Deus? Por isso, o próprio Senhor vos dará um sinal: a virgem conceberá e dará à luz um filho e o seu nome será Emanuel»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 23 (24), 1-2.3-4ab.5-6 (R. 7c e 10b)",
+            "response": "O Senhor virá: Ele é o rei da glória.",
+            "alt-response": "Ou: Venha o Senhor: é Ele o rei glorioso.",
+            "verses": [
+                "Do Senhor é a terra e o que nela existe, o mundo e quantos nele habitam. Ele a fundou sobre os mares e a consolidou sobre as águas.",
+                "Quem poderá subir à montanha do Senhor? Quem habitará no seu santuário? O que tem as mãos inocentes e o coração puro, que não invocou o seu nome em vão nem jurou falso.",
+                "Este será abençoado pelo Senhor e recompensado por Deus, seu Salvador. Esta é a geração dos que O procuram, que procuram a face do Deus de Jacob."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": null,
+            "response": "Aleluia. Aleluia.",
+            "text": "Ó Chave da casa de David, que abris e ninguém pode fechar, fechais e ninguém pode abrir: vinde libertar os que vivem no cativeiro das trevas e nas sombras da morte."
+        },
+        {
+            "type": "gospel",
+            "reference": "Lc 1, 26-38",
+            "snippet": "«Conceberás e darás à luz um Filho»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas",
+            "text": "Naquele tempo, o Anjo Gabriel foi enviado por Deus a uma cidade da Galileia chamada Nazaré, a uma Virgem desposada com um homem chamado José, da descendência de David. O nome da Virgem era Maria. Tendo entrado onde ela estava, disse o Anjo: «Ave, cheia de graça, o Senhor está contigo». Ela ficou perturbada com estas palavras e pensava que saudação seria aquela. Disse-lhe o Anjo: «Não temas, Maria, porque encontraste graça diante de Deus. Conceberás e darás à luz um Filho, a quem porás o nome de Jesus. Ele será grande e chamar-Se-á Filho do Altíssimo. O Senhor Deus Lhe dará o trono de seu pai David; reinará eternamente sobre a casa de Jacob e o seu reinado não terá fim». Maria disse ao Anjo: «Como será isto, se eu não conheço homem?» O Anjo respondeu-lhe: «O Espírito Santo virá sobre ti e a força do Altíssimo te cobrirá com a sua sombra. Por isso o Santo que vai nascer será chamado Filho de Deus. E a tua parenta Isabel concebeu também um filho na sua velhice e este é o sexto mês daquela a quem chamavam estéril; porque a Deus nada é impossível». Maria disse então: «Eis a escrava do Senhor; faça-se em mim segundo a tua palavra»."
+        }
+    ]
+}

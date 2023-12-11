@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "04",
+        "day": "23",
+        "month": "december"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Mal 3, 1-4.23-24",
+            "snippet": "«Vou enviar-vos o profeta Elias, antes de chegar o dia do Senhor»",
+            "announcement": "Leitura da Profecia de Malaquias",
+            "text": "Assim fala o Senhor Deus: «Vou enviar o meu mensageiro, para preparar o caminho diante de Mim. Imediatamente entrará no seu templo o Senhor a quem buscais, o Anjo da Aliança por quem suspirais. Ele aí vem - diz o Senhor do Universo -. Mas quem poderá suportar o dia da sua vinda, quem resistirá quando Ele aparecer? Ele é como o fogo do fundidor e como a lixívia dos lavandeiros. Sentar-Se-á para fundir e purificar: purificará os filhos de Levi, como se purifica o ouro e a prata, e eles serão para o Senhor os que apresentam a oblação segundo a justiça. Então a oblação de Judá e de Jerusalém será agradável ao Senhor, como nos dias antigos, como nos anos de outrora. Eu vos enviarei o profeta Elias, antes de chegar o dia grande e terrível do Senhor. Ele reconduzirá o coração dos pais a seus filhos e o coração dos filhos a seus pais, para que Eu não venha ferir de maldição a terra»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 24 (25), 4bc-5ab.8-9.10.14 (R. Lc 21, 28)",
+            "response": "Erguei-vos e levantai a cabeça: está perto a vossa redenção.",
+            "verses": [
+                "Mostrai-me, Senhor, os vossos caminhos, ensinai-me as vossas veredas. Guiai-me na vossa verdade e ensinai-me, porque Vós sois Deus, meu Salvador.",
+                "O Senhor é bom e recto, ensina o caminho aos pecadores. Orienta os humildes na justiça e dá-lhes a conhecer os seus caminhos.",
+                "Os caminhos do Senhor são misericórdia e fidelidade para os que guardam a sua aliança e os seus preceitos. O Senhor trata com familiaridade os que O temem e dá-lhes a conhecer a sua aliança."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": null,
+            "response": "Aleluia. Aleluia.",
+            "text": "Ó Rei das nações e Pedra angular da Igreja, vinde salvar o homem que formastes do pó da terra."
+        },
+        {
+            "type": "gospel",
+            "reference": "Lc 1, 57-66",
+            "snippet": "«O nascimento de João Baptista»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas",
+            "text": "Naquele tempo, chegou a altura de Isabel ser mãe e deu à luz um filho. Os seus vizinhos e parentes souberam que o Senhor lhe tinha feito tão grande benefício e congratularam-se com ela. Oito dias depois, vieram circuncidar o menino e queriam dar-lhe o nome do pai, Zacarias. Mas a mãe interveio e disse: «Não, ele vai chamar-se João». Disseram-lhe: «Não há ninguém da tua família que tenha esse nome». Perguntaram então ao pai, por meio de sinais, como queria que o menino se chamasse. O pai pediu uma tábua e escreveu: «O seu nome é João». Todos ficaram admirados. Imediatamente se lhe abriu a boca e se lhe soltou a língua e começou a falar, bendizendo a Deus. Todos os vizinhos se encheram de temor e por toda a região montanhosa da Judeia se divulgaram estes factos. Quantos os ouviam contar guardavam-nos em seu coração e diziam: «Quem virá a ser este menino?» Na verdade, a mão do Senhor estava com ele."
+        }
+    ]
+}

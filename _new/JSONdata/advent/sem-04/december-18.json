@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "04",
+        "day": "18",
+        "month": "december"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Jer 23, 5-8",
+            "snippet": "«Farei surgir para David um rebento justo»",
+            "announcement": "Leitura do Livro de Jeremias",
+            "text": "«Dias virão – diz o Senhor – em que farei surgir para David um rebento justo. Será um verdadeiro rei e governará com sabedoria: há-de exercer no país o direito e a justiça. Nos seus dias, Judá será salvo e Israel viverá em  segurança. Este será o seu nome: ‘O Senhor é a nossa justiça’. Por isso, dias virão – oráculo do Senhor – em que já não se dirá: ‘Vive o Senhor, que fez sair os filhos de Israel da terra do Egipto’; mas sim ‘Vive o Senhor, que fez sair e regressar os descendentes da casa de Israel da região do norte e de todos os países em que os tinha dispersado, para poderem habitar na sua própria terra’»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 71 (72), 2.12-13.18-19 (R. cf. 7)",
+            "response": "Nos dias do Senhor, nascerá a justiça e a paz para sempre.",
+            "verses": [
+                "Deus, concedei ao rei o poder de julgar e a vossa justiça ao filho do rei. Ele governará o vosso povo com justiça e os vossos pobres com equidade.",
+                "Socorrerá o pobre que pede auxílio e o miserável que não tem amparo. Terá compaixão dos fracos e dos pobres e defenderá a vida dos oprimidos.",
+                "Bendito seja o Senhor, Deus de Israel: só Ele faz maravilhas. Bendito para sempre o seu nome glorioso: toda a terra se encha da sua glória."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": null,
+            "response": "Aleluia. Aleluia.",
+            "text": "Ó Chefe da casa de Israel, que no Sinai destes a Lei a Moisés: vinde resgatar-nos com o poder do vosso braço."
+        },
+        {
+            "type": "gospel",
+            "reference": "Mt 1, 18-25",
+            "snippet": "«Jesus nascerá de Maria, desposada com José, filho de David»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus",
+            "text": "O nascimento de Jesus deu-se do seguinte modo: Maria, sua Mãe, noiva de José, antes de terem vivido em comum, encontrara-se grávida por virtude do Espírito Santo. Mas José, seu esposo, que era justo e não queria difamá-la, resolveu repudiá-la em  segredo. Tinha ele assim pensado, quando lhe apareceu num sonho o Anjo do Senhor, que lhe disse: «José, filho de David, não temas receber Maria, tua esposa, pois o que nela se gerou é fruto do Espírito Santo. Ela dará à luz um Filho e tu pôr-Lhe-ás o nome de Jesus, porque Ele salvará o povo dos seus pecados». Tudo isto aconteceu para se cumprir o que o Senhor anunciara por meio do Profeta, que diz: «A Virgem conceberá e dará à luz um Filho, que será chamado ‘Emanuel’, que quer dizer ‘Deus connosco’». Quando despertou do sono, José fez como o Anjo do Senhor lhe ordenara e recebeu sua esposa."
+        }
+    ]
+}

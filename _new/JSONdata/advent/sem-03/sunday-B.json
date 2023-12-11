@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "03",
+        "weekday": "sunday-B"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Is 61, 1-2a.10-11",
+            "snippet": "«Exulto de alegria no Senhor»",
+            "announcement": "Leitura do Livro de Isaías",
+            "text": "O espírito do Senhor está sobre mim, porque o Senhor me ungiu e me enviou a anunciar a boa nova aos pobres, a curar os corações atribulados, a proclamar a redenção aos cativos e a liberdade aos prisioneiros, a promulgar o ano da graça do Senhor. Exulto de alegria no Senhor, a minha alma rejubila no meu Deus, que me revestiu com as vestes da salvação e me envolveu num manto de justiça, como noivo que cinge a fronte com o diadema e a noiva que se adorna com as suas jóias. Como a terra faz brotar os germes e o jardim germinar as sementes, assim o Senhor Deus fará brotar a justiça e o louvor diante de todas as nações."
+        },
+        {
+            "type": "psalm",
+            "reference": "Lc 1, 46-48.49-50.53-54 (R. Is 61, 10b)",
+            "response": "Exulto de alegria no Senhor.",
+            "alt-response": "Ou: A minha alma exulta no Senhor.",
+            "verses": [
+                "A minha alma glorifica o Senhor e o meu espírito se alegra em Deus, meu Salvador, porque pôs os olhos na humildade da sua serva: de hoje em diante me chamarão bem-aventurada todas as gerações.",
+                "O Todo-poderoso fez em mim maravilhas: Santo é o seu nome. A sua misericórdia se estende de geração em geração sobre aqueles que O temem.",
+                "Aos famintos encheu de bens e aos ricos despediu-os de mãos vazias. Acolheu a Israel, seu servo, lembrado da sua misericórdia."
+            ]
+        },
+        {
+            "type": "reading-II",
+            "reference": "1 Tes 5, 16-24",
+            "snippet": "«Todo o vosso ser – espírito, alma e corpo – se conserve para a vinda do Senhor»",
+            "announcement": "Leitura da Primeira Epístola do apóstolo São Paulo aos Tessalonicenses",
+            "text": "Irmãos: Vivei sempre alegres, orai sem cessar, dai graças em todas as circunstâncias, pois é esta a vontade de Deus a vosso respeito em Cristo Jesus. Não apagueis o Espírito, não desprezeis os dons proféticos; mas avaliai tudo, conservando o que for bom. Afastai-vos de toda a espécie de mal. O Deus da paz vos santifique totalmente, para que todo o vosso ser – espírito, alma e corpo – se conserve irrepreensível para a vinda de Nosso Senhor Jesus Cristo. É fiel Aquele que vos chama e cumprirá as suas promessas."
+        },
+        {
+            "type": "aleluia",
+            "reference": "Is 61, 1 (cf. Lc 4, 18)",
+            "response": "Aleluia. Aleluia.",
+            "text": "O Espírito do Senhor está sobre mim: enviou-me a anunciar a boa nova aos pobres."
+        },
+        {
+            "type": "gospel",
+            "reference": "Jo 1, 6-8.19-28",
+            "snippet": "«No meio de vós está Alguém que não conheceis»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São João",
+            "text": "Apareceu um homem enviado por Deus, chamado João. Veio como testemunha, para dar testemunho da luz, a fim de que todos acreditassem por meio dele. Ele não era a luz, mas veio para dar testemunho da luz. Foi este o testemunho de João, quando os judeus lhe enviaram, de Jerusalém, sacerdotes e levitas, para lhe perguntarem: «Quem és tu?». Ele confessou a verdade e não negou; ele confessou: «Eu não sou o Messias». Eles perguntaram-lhe: «Então, quem és tu? És Elias?». «Não sou», respondeu ele. «És o Profeta?». Ele respondeu: «Não». Disseram-lhe então: «Quem és tu? Para podermos dar uma resposta àqueles que nos enviaram, que dizes de ti mesmo?». Ele declarou: «Eu sou a voz do que clama no deserto: ‘Endireitai o caminho do Senhor’, como disse o profeta Isaías». Entre os enviados havia fariseus que lhe perguntaram: «Então, porque baptizas, se não és o Messias, nem Elias, nem o Profeta?». João respondeu-lhes: «Eu baptizo na água, mas no meio de vós está Alguém que não conheceis: Aquele que vem depois de mim, a quem eu não sou digno de desatar a correia das sandálias». Tudo isto se passou em Betânia, além do Jordão, onde João estava a baptizar."
+        }
+    ]
+}

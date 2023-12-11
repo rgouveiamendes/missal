@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "02",
+        "weekday": "sunday-A"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Is 11, 1-10",
+            "snippet": "«Julgará os infelizes com justiça»",
+            "announcement": "Leitura do Livro de Isaías",
+            "text": "Naquele dia, sairá um ramo do tronco de Jessé e um rebento brotará das suas raízes. Sobre ele repousará o espírito do Senhor: espírito de sabedoria e de inteligência, espírito de conselho e de fortaleza, espírito de conhecimento e de temor de Deus. Animado assim do temor de Deus, não julgará segundo as aparências, nem decidirá pelo que ouvir dizer. Julgará os infelizes com justiça e com sentenças rectas os humildes do povo. Com o chicote da sua palavra atingirá o violento e com o sopro dos seus lábios exterminará o ímpio. A justiça será a faixa dos seus rins e a lealdade a cintura dos seus flancos. O lobo viverá com o cordeiro e a pantera dormirá com o cabrito; o bezerro e o leãozinho andarão juntos e um menino os poderá conduzir. A vitela e a ursa pastarão juntamente, suas crias dormirão lado a lado; e o leão comerá feno como o boi. A criança de leite brincará junto ao ninho da cobra e o menino meterá a mão na toca da víbora. Não mais praticarão o mal nem a destruição em todo o meu santo monte: o conhecimento do Senhor encherá o país, como as águas enchem o leito do mar. Nesse dia, a raiz de Jessé surgirá como bandeira dos povos; as nações virão procurá-la e a sua morada será gloriosa."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 71 (72), 2.7-8.12-13.17 (R. cf. 7)",
+            "response": "Nos dias do Senhor nascerá a justiça e a paz para sempre.",
+            "verses": [
+                "Ó Deus, dai ao rei o poder de julgar e a vossa justiça ao filho do rei. Ele governará o vosso povo com justiça e os vossos pobres com equidade.",
+                "Florescerá a justiça nos seus dias e uma grande paz até ao fim dos tempos. Ele dominará de um ao outro mar, do grande rio até aos confins da terra.",
+                "Socorrerá o pobre que pede auxílio e o miserável que não tem amparo. Terá compaixão dos fracos e dos pobres e defenderá a vida dos oprimidos.",
+                "O seu nome será eternamente bendito e durará tanto como a luz do sol; nele serão abençoadas todas as nações, todos os povos da terra o hão-de bendizer."
+            ]
+        },
+        {
+            "type": "reading-II",
+            "reference": "Rom 15, 4-9",
+            "snippet": "«Cristo salva todos os homens»",
+            "announcement": "Leitura da Epístola do apóstolo São Paulo aos Romanos",
+            "text": "Irmãos: Tudo o que foi escrito no passado foi escrito para nossa instrução, a fim de que, pela paciência e consolação que vêm das Escrituras, tenhamos esperança. O Deus da paciência e da consolação vos conceda que alimenteis os mesmos sentimentos uns para com os outros, segundo Cristo Jesus, para que, numa só alma e com uma só voz, glorifiqueis a Deus, Pai de Nosso Senhor Jesus Cristo. Acolhei-vos, portanto, uns aos outros, como Cristo vos acolheu, para glória de Deus. Pois Eu vos digo que Cristo Se fez servidor dos judeus, para mostrar a fidelidade de Deus e confirmar as promessas feitas aos nossos antepassados. Por sua vez, os gentios dão glória a Deus pela sua misericórdia, como está escrito: «Por isso eu Vos bendirei entre as nações e cantarei a glória do vosso nome»."
+        },
+        {
+            "type": "aleluia",
+            "reference": "Lc 3, 4.6",
+            "response": "Aleluia. Aleluia.",
+            "text": "Preparai o caminho do Senhor, endireitai as suas veredas e toda a criatura verá a salvação de Deus."
+        },
+        {
+            "type": "gospel",
+            "reference": "Mt 3, 1-12",
+            "snippet": "«Arrependei-vos, porque está perto o reino dos Céus»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus",
+            "text": "Naqueles dias, apareceu João Baptista a pregar no deserto da Judeia, dizendo: «Arrependei-vos, porque está perto o reino dos Céus». Foi dele que o profeta Isaías falou, ao dizer: «Uma voz clama no deserto: ‘Preparai o caminho do Senhor, endireitai as suas veredas’». João tinha uma veste tecida com pêlos de camelo e uma cintura de cabedal à volta dos rins. O seu alimento eram gafanhotos e mel silvestre. Acorria a ele gente de Jerusalém, de toda a Judeia e de toda a região do Jordão; e eram baptizados por ele no rio Jordão, confessando os seus pecados. Ao ver muitos fariseus e saduceus que vinham ao seu baptismo, disse-lhes: «Raça de víboras, quem vos ensinou a fugir da ira que está para vir? Praticai acções que se conformem ao arrependimento que manifestais. Não penseis que basta dizer: ‘Abraão é o nosso pai’, porque eu vos digo: Deus pode suscitar, destas pedras, filhos de Abraão. O machado já está posto à raiz das árvores. Por isso, toda a árvore que não dá fruto será cortada e lançada ao fogo. Eu baptizo-vos com água, para vos levar ao arrependimento. Mas Aquele que vem depois de mim é mais forte do que eu e não sou digno de levar as suas sandálias. Ele baptizar-vos-á no Espírito Santo e no fogo. Tem a pá na sua mão: há-de limpar a eira e recolher o trigo no celeiro. Mas a palha, queimá-la-á num fogo que não se apaga»."
+        }
+    ]
+}
