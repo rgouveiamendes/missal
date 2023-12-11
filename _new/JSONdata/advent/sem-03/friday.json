@@ -1,0 +1,39 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "03",
+        "weekday": "friday"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Is 56, 1-3a. 6-8",
+            "snippet": "«A minha casa será chamada ‘Casa de oração para todos os povos’»",
+            "announcement": "Leitura do Livro de Isaías",
+            "text": "Eis o que diz o Senhor: «Respeitai o direito, praticai a justiça, porque a minha salvação está perto e a minha justiça não tardará a manifestar-se. Feliz o homem que assim procede, o filho do homem que nisto se firma, guardando o sábado, sem o profanar, e abstendo-se de todo o mal. Não diga o estrangeiro que aderiu ao Senhor: ‘O Senhor vai excluir-me do seu povo’. Quanto aos estrangeiros que aderiram ao Senhor para O servirem, para amarem o seu nome e serem seus servos, se guardarem o sábado, sem o profanarem, e forem fiéis à minha aliança, hei-de conduzi-los ao meu santo monte, hei-de enchê-los de alegria na minha casa de oração. Os seus holocaustos e os seus sacrifícios serão aceites no meu altar, porque a minha casa será chamada ‘Casa de oração para todos os povos’». Assim fala o Senhor Deus, que reúne os dispersos de Israel: «Reunirei ainda outros àqueles que já foram reunidos»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 66 (67), 2-3.5.7-8 (R. 4)",
+            "response": "Louvado sejais, Senhor, pelos povos de toda a terra.",
+            "verses": [
+                "Deus Se compadeça de nós e nos dê a sua bênção, resplandeça sobre nós a luz do seu rosto. Na terra se conhecerão os vossos caminhos e entre os povos a vossa salvação.",
+                "Alegrem-se e exultem as nações, porque julgais os povos com justiça e governais as nações sobre a terra.",
+                "A terra produziu os seus frutos, o Senhor nosso Deus nos abençoa. Deus nos dê a sua bênção e chegue o seu louvor aos confins da terra."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": null,
+            "response": "Aleluia. Aleluia.",
+            "text": "Vinde visitar-nos, Senhor, e dai-nos a paz, para que nos alegremos de coração sincero na vossa presença."
+        },
+        {
+            "type": "gospel",
+            "reference": "Jo 5, 33-36",
+            "snippet": "«João era uma lâmpada que ardia e brilhava»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São João",
+            "text": "Naquele tempo, disse Jesus aos judeus: Vós mandastes emissários a João Baptista e ele deu testemunho da verdade. Não é de um homem que Eu recebo testemunho, mas digo-vos isto para que sejais salvos. João era uma lâmpada que ardia e brilhava e vós, por um momento, quisestes alegrar-vos com a sua luz. Mas Eu tenho um testemunho maior que o de João, pois as obras que o Pai Me deu para consumar - as obras que Eu realizo - dão testemunho de que o Pai Me enviou»."
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "04",
+        "day": "21",
+        "month": "december"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Cant 2, 8-14 (Ou)",
+            "snippet": "«O meu amado vem, transpondo os montes»",
+            "announcement": "Leitura do Cântico dos Cânticos",
+            "text": "Eis a voz do meu amado! Ele aí vem, transpondo os montes, saltando sobre as colinas. O meu amado é semelhante a uma gazela ou ao filhinho da corça. Ei-lo detrás do nosso muro, a olhar pela janela, a espreitar através das grades. O meu amado ergue a voz e diz-me: «Levanta-te, minha amada, formosa minha, e vem. Já passou o inverno, já se foram e cessaram as chuvas. Desabrocharam as flores sobre a terra; chegou o tempo das canções e já se ouve nos nossos campos a voz da rola. Na figueira começam a brotar os primeiros figos e a vinha em flor exala o seu perfume. Levanta-te, minha amada, formosa minha, e vem. Minha pomba, escondida nas fendas dos rochedos, ao abrigo das encostas escarpadas, mostra-me o teu rosto, deixa-me ouvir a tua voz. A tua voz é suave e o teu rosto é encantador»."
+        },
+        {
+            "type": "reading-I",
+            "reference": "Sof 3, 14-18a",
+            "snippet": "«O Senhor, rei de Israel, está no meio de ti»",
+            "announcement": "Leitura da Profecia de Sofonias",
+            "text": "Clama jubilosamente, filha de Sião; solta brados de alegria, Israel. Exulta, rejubila de todo o coração, filha de Jerusalém. O Senhor revogou a sentença que te condenava, afastou os teus inimigos. O Senhor, Deus de Israel, está no meio de ti e já não temerás nenhum mal. Naquele dia, dir-se-á a Jerusalém: «Não temas, Sião, não desfaleçam as tuas mãos. O Senhor teu Deus está no meio de ti, como poderoso salvador. Por causa de ti, Ele enche-Se de júbilo, renova-te com o seu amor, exulta de alegria por tua causa, como nos dias de festa»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 32 (33), 2-3.11-12.20-21 (R. 1a.3a)",
+            "response": "Alegrai-vos, justos, no Senhor, cantai-Lhe um cântico novo.",
+            "verses": [
+                "Louvai o Senhor com a cítara, cantai-Lhe salmos ao som da harpa. Cantai-Lhe um cântico novo, cantai-Lhe com arte e com alma.",
+                "O desígnio do Senhor permanece eternamente e os projectos do seu coração por todas as gerações. Feliz a nação que tem o Senhor por seu Deus, o povo que Ele escolheu para sua herança.",
+                "A nossa alma espera o Senhor, Ele é o nosso amparo e protector. N’Ele se alegra o nosso coração, em seu nome santo pomos a nossa confiança."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": null,
+            "response": "Aleluia. Aleluia.",
+            "text": "Ó Emanuel, nosso rei e legislador, esperança das nações e salvador do mundo: vinde salvar-nos, Senhor, nosso Deus."
+        },
+        {
+            "type": "gospel",
+            "reference": "Lc 1, 39-45",
+            "snippet": "«Donde me é dado que venha ter comigo a Mãe do meu Senhor?»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas",
+            "text": "Naqueles dias, Maria pôs-se a caminho e dirigiu-se apressadamente para a montanha, em direcção a uma cidade de Judá. Entrou em casa de Zacarias e saudou Isabel. Quando Isabel ouviu a saudação de Maria, o menino exultou-lhe no seio. Isabel ficou cheia do Espírito Santo e exclamou em alta voz: «Bendita és tu entre as mulheres e bendito é o fruto do teu ventre. Donde me é dado que venha ter comigo a Mãe do meu Senhor? Na verdade, logo que chegou aos meus ouvidos a voz da tua saudação, o menino exultou de alegria no meu seio. Bem-aventurada aquela que acreditou no cumprimento de tudo quanto lhe foi dito da parte do Senhor»."
+        }
+    ]
+}

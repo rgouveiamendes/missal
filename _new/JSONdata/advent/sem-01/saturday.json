@@ -1,0 +1,39 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "01",
+        "weekday": "saturday"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Is 30, 19-21.23-26",
+            "snippet": "«À voz da tua súplica, o Senhor terá compaixão de ti»",
+            "announcement": "Leitura do Livro de Isaías",
+            "text": "Eis o que diz o Senhor Deus, o Santo de Israel: «Povo de Sião, que habitas em Jerusalém, tu não voltarás a chorar. À voz da tua súplica, o Senhor terá compaixão de ti; logo que ouvir os teus clamores, Ele te responderá. O Senhor poderá dar-te a comer o pão da angústia e a beber a água da tribulação; mas Aquele que te ensina não Se esconderá mais e os teus olhos verão Aquele que te ensina. Se te desvias para a direita ou para a esquerda, os teus ouvidos ouvirão dizer atrás de ti: ‘É este o caminho; segui por ele’. O Senhor te dará a chuva para a semente que tiveres lançado à terra e o pão que a terra produzir será farto e nutritivo. Nesse dia, os teus rebanhos pastarão em extensos prados; os bois e os jumentos que lavram a terra comerão forragem com sal, limpa com a pá e a joeira. Em todo o alto monte e em toda a colina elevada, haverá regatos e águas correntes, no dia da grande mortandade, quando as torres se desmoronarem. Então a claridade da lua será como a luz do sol e a luz do sol ficará sete vezes mais forte; nesse dia, o Senhor tratará as chagas do seu povo e curará as feridas dos seus golpes»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 146 (147), 1-2.3-4.5-6 (R. Is 30, 18)",
+            "response": "Felizes os que esperam no Senhor.",
+            "verses": [
+                "Louvai o Senhor, porque é bom cantar, é agradável e justo celebrar o seu louvor. O Senhor edificou Jerusalém, congregou os dispersos de Israel.",
+                "Sarou os corações dilacerados e ligou as suas feridas. Fixou o número das estrelas e deu a cada uma o seu nome.",
+                "Grande é o nosso Deus e todo-poderoso, é sem limites a sua sabedoria. O Senhor conforta os humildes e abate os ímpios até ao chão."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": "Is 33, 22",
+            "response": "Aleluia. Aleluia.",
+            "text": "O Senhor é o nosso legislador, o nosso juiz, o nosso rei: Ele próprio vem salvar-nos."
+        },
+        {
+            "type": "gospel",
+            "reference": "Mt 9, 35 - 10, 1.6-8",
+            "snippet": "«Ao ver as multidões, encheu-Se de compaixão»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus",
+            "text": "Naquele tempo, Jesus percorria todas as cidades e aldeias, ensinando nas sinagogas, pregando o Evangelho do reino e curando todas as doenças e enfermidades. Ao ver as multidões, encheu-Se de compaixão, porque andavam fatigadas e abatidas, como ovelhas sem pastor. Jesus disse então aos seus discípulos: «A seara é grande, mas os trabalhadores são poucos. Pedi ao Senhor da seara que mande trabalhadores para a sua seara». Depois chamou a Si os seus Doze discípulos e deu-lhes poder de expulsar os espíritos impuros e de curar todas as doenças e enfermidades. Jesus deu-lhes também as seguintes instruções: «Ide às ovelhas perdidas da casa de Israel. Pelo caminho, proclamai que está perto o reino dos Céus. Curai os enfermos, ressuscitai os mortos, sarai os leprosos, expulsai os demónios. Recebestes de graça, dai de graça»."
+        }
+    ]
+}

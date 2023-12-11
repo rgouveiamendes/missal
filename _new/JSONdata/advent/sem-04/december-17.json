@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "season": "advent",
+        "week": "04",
+        "day": "17",
+        "month": "december"
+    },
+    "readings": [
+        {
+            "type": "reading-I",
+            "reference": "Gen 49, 2.8-10",
+            "snippet": "«O ceptro não se afastará de Judá»",
+            "announcement": "Leitura do Livro do Génesis",
+            "text": "Naqueles dias, Jacob chamou os seus filhos e disse-lhes: «Reuni-vos e escutai, filhos de Jacob; escutai Israel, vosso pai. Judá, os teus irmãos hão-de louvar-te, a tua mão pesará sobre a cabeça dos teus inimigos e os filhos de teu pai hão-de inclinar- se diante de ti. Judá, tu és um leão novo: voltaste, meu filho, com a tua presa. Ele dobra o joelho e deita-se como o leão, ou como a leoa: quem o fará levantar-se? O ceptro não se afastará de Judá, nem o bastão de comando de entre os seus pés, até que venha Aquele a quem pertence e a quem os povos hão-de obedecer»."
+        },
+        {
+            "type": "psalm",
+            "reference": "Salmo 71 (72), 2.3-4ab.7-8.17 (R. cf. 7)",
+            "response": "Nos dias do Senhor nascerá a justiça e a paz para sempre.",
+            "verses": [
+                "Deus, concedei ao rei o poder de julgar e a vossa justiça ao filho do rei. Ele governará o vosso povo com justiça e os vossos pobres com equidade.",
+                "Os montes trarão a paz ao povo e as colinas a justiça. Ele fará justiça aos humildes e salvará os indigentes.",
+                "Florescerá a justiça nos seus dias e uma grande paz até ao fim dos tempos. Ele dominará de um ao outro mar, do grande rio até aos confins da terra.",
+                "O seu nome será eternamente bendito e durará tanto como a luz do sol; nele serão abençoadas todas as nações, todos os povos o hão-de bendizer."
+            ]
+        },
+        {
+            "type": "aleluia",
+            "reference": null,
+            "response": "Aleluia. Aleluia.",
+            "text": "Ó Sabedoria do Altíssimo, que tudo governais com firmeza e suavidade: vinde ensinar-nos o caminho da salvação."
+        },
+        {
+            "type": "gospel",
+            "reference": "Mt 1, 1-17",
+            "snippet": "«Genealogia de Jesus Cristo, Filho de David.»",
+            "announcement": "Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus",
+            "text": "Genealogia de Jesus Cristo, Filho de David, Filho de Abraão: Abraão gerou Isaac; Isaac gerou Jacob; Jacob gerou Judá e seus irmãos. Judá gerou, de Tamar, Farés e Zara; Farés gerou Esrom; Esrom gerou Arão; Arão gerou Aminadab; Aminadab gerou Naasson; Naasson gerou Salmon; Salmon gerou, de Raab, Booz; Booz gerou, de Rute, Obed; Obed gerou Jessé; Jessé gerou o rei David. David, da mulher de Urias, gerou Salomão; Salomão gerou Roboão; Roboão gerou Abias; Abias gerou Asa; Asa gerou Josafat; Josafat gerou Jorão; Jorão gerou Ozias; Ozias gerou Joatão; Joatão gerou Acaz; Acaz gerou Ezequias; Ezequias gerou Manassés; Manassés gerou Amon; Amon gerou Josias; Josias gerou Jeconias e seus irmãos, ao tempo do desterro de Babilónia. Depois do desterro de Babilónia, Jeconias gerou Salatiel; Salatiel gerou Zorobabel; Zorobabel gerou Abiud; Abiud gerou Eliacim; Eliacim gerou Azor; Azor gerou Sadoc; Sadoc gerou Aquim; Aquim gerou Eliud; Eliud gerou Eleazar; Eleazar gerou Matã; Matã gerou Jacob; Jacob gerou José, esposo de Maria, da qual nasceu Jesus, chamado Cristo. Assim, todas estas gerações são: de Abraão a David, catorze gerações; de David ao desterro de Babilónia, catorze gerações; do desterro de Babilónia até Cristo, catorze gerações."
+        }
+    ]
+}
