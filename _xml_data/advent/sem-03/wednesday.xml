@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="03" weekday="wednesday">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>Is 45, 6b-8.18.21b-25</reference>
+			<snippet>«Desça o orvalho do alto dos céus»</snippet>
+			<announcement>Leitura do Livro de Isaías</announcement>
+			<text>«Eu sou o Senhor e não há outro. Formo a luz e crio as trevas, dou a felicidade e crio a desgraça. Sou Eu, o Senhor, que faço tudo isto. Derramai, ó céus, o orvalho lá do alto e as nuvens chovam a justiça; abra-se a terra e germine a salvação e com ela floresça a justiça. Sou Eu, o Senhor, que o realizo». Assim fala o Senhor, que criou os céus, o Deus que formou a terra e a consolida, que não a criou para ficar deserta, mas a formou para ser habitada: «Eu sou o Senhor e não há outro». Quem anunciou tudo isto no passado? Quem o predisse há tanto tempo? Não fui Eu, o Senhor? Não há outro Deus além de Mim; Eu sou o Deus justo e salvador e não há outro. Voltai-vos para Mim e sereis salvos, todos os confins da terra, porque Eu sou Deus e não há outro. Juro pelo meu nome, é justo o que sai da minha boca, a minha palavra é irrevogável: Diante de Mim se hão-de dobrar todos os joelhos, em meu nome hão-de jurar todas as línguas, dizendo: ‘Só no Senhor está a justiça e a fortaleza’». Hão-de vir, cobertos de vergonha, à sua presença todos os que se levantaram contra Ele. No Senhor terá salvação e glória toda a descendência de Israel. </text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>Salmo 84 (85), 9ab-10.11-12.13-14 (R. cf. Is 45, 8)</reference>
+			<response>Desça o orvalho do alto dos céus e as nuvens chovam o Justo.</response>
+			<latin_response>Roráte, cæli, désuper, et nubes pluant iustum.</latin_response>
+			<verse-1>Escutemos o que diz o Senhor: Deus fala de paz ao seu povo e aos seus fiéis. A sua salvação está perto dos que O temem e a sua glória habitará na nossa terra.</verse-1>
+			<verse-2>Encontraram-se a misericórdia e a fidelidade, abraçaram-se a paz e a justiça. A fidelidade vai germinar da terra e a justiça descerá do Céu.</verse-2>
+			<verse-3>O Senhor dará ainda o que é bom e a nossa terra produzirá os seus frutos. A justiça caminhará à sua frente e a paz seguirá os seus passos.</verse-3>
+		</reading-2>
+		<reading-3>
+			<name>Aleluia</name>
+			<reference>Is 40, 9-10</reference>
+			<response>Aleluia. Aleluia.</response>
+			<text>Clama com voz forte, arauto da boa nova: O Senhor vem com poder e majestade.</text>
+		</reading-3>
+		<reading-4>
+			<name>Evangelho</name>
+			<reference>Lc 7, 19-23</reference>
+			<snippet>«Ide contar a João o que vistes e ouvistes»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas</announcement>
+			<text>Naquele tempo, João Baptista chamou dois dos seus discípulos e enviou-os ao Senhor com esta mensagem: «És Tu Aquele que havia de vir ou devemos esperar outro?» Ao chegarem junto de Jesus, os homens disseram-Lhe: «João Baptista mandou-nos perguntar-Te: ‘És Tu Aquele que havia de vir ou devemos esperar outro?’» Nessa altura Jesus curou muitas pessoas, de doenças, padecimentos e espíritos malignos, e deu a vista a muitos cegos. Então respondeu-lhes: «Ide contar a João o que vistes e ouvistes: os cegos vêem, os coxos andam, os leprosos ficam limpos, os surdos ouvem, os mortos ressuscitam e aos pobres é anunciado o Evangelho; e feliz daquele que não encontrar em Mim ocasião de queda».</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-4>
+	</mass>
+</xml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="03" weekday="monday">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>Num 24, 2-7.15-17a</reference>
+			<snippet>«Surge uma estrela de Jacob»</snippet>
+			<announcement>Leitura do Livro dos Números</announcement>
+			<text>Naqueles dias, o profeta Balaão, erguendo os olhos, viu o povo de Israel acampado por tribos. O Espírito de Deus desceu sobre ele e ele proferiu a sua profecia, dizendo: «Palavra de Balaão, filho de Beor, palavra do homem de olhar penetrante, palavra de quem ouve as revelações de Deus, de quem contempla as visões do Omnipotente, quando cai em êxtase e seus olhos se abrem. Como são belas as tuas tendas, Jacob, e as tuas moradas, Israel! São como vales que se prolongam e jardins à beira dum rio, como aloés plantados pelo Senhor, como cedros junto da corrente. A água transbordará de seus cântaros e a sua semente será abundantemente regada. O seu rei é maior do que Agag e a sua realeza será exaltada. Palavra de Balaão, filho de Beor, palavra do homem de olhar penetrante, palavra de quem ouve as revelações de Deus, de quem conhece a ciência do Altíssimo, de quem contempla as visões do Omnipotente, quando cai em êxtase e seus olhos se abrem. Eu vejo, mas não é para agora; eu contemplo, mas não de perto: Surge uma estrela de Jacob, levanta-se um ceptro de Israel».</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>Salmo 24 (25), 4bc-5ab. 6-7bc. 8-9 (R. 4b)</reference>
+			<response>Mostrai-me, Senhor, os vossos caminhos.</response>
+			<latin_response>Sémitas tuas, Dómine, édoce me.</latin_response>
+			<verse-1>Mostrai-me, Senhor, os vossos caminhos, ensinai-me as vossas veredas. Guiai-me na vossa verdade e ensinai-me, porque Vós sois Deus, meu Salvador.</verse-1>
+			<verse-2>Lembrai-Vos, Senhor, das vossas misericórdias e das vossas graças que são eternas. Lembrai-Vos de mim segundo a vossa clemência, por causa da vossa bondade, Senhor.</verse-2>
+			<verse-3>O Senhor é bom e recto, ensina o caminho aos pecadores. Orienta os humildes na justiça e dá-lhes a conhecer a sua aliança.</verse-3>
+		</reading-2>
+		<reading-3>
+			<name>Aleluia</name>
+			<reference>Salmo 84, 8</reference>
+			<response>Aleluia. Aleluia.</response>
+			<text>Mostrai-nos, Senhor, a vossa misericórdia e dai-nos a vossa salvação.</text>
+		</reading-3>
+		<reading-4>
+			<name>Evangelho</name>
+			<reference>Mt 21, 23-27</reference>
+			<snippet>«Donde era o baptismo de João?»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus</announcement>
+			<text>Naquele tempo, Jesus foi ao templo e, enquanto ensinava, aproximaram-se d’Ele os príncipes dos sacerdotes e os anciãos do povo, que Lhe perguntaram: «Com que autoridade fazes tudo isto? Quem Te deu tal direito?» Jesus respondeu-lhes: «Vou fazer-vos também uma pergunta e, se Me responderdes a ela, dir-vos-ei com que autoridade faço isto. Donde era o baptismo de João? Do Céu ou dos homens?» Mas eles começaram a deliberar, dizendo entre si: «Se respondermos que é do Céu, vai dizer-nos: ‘Porque não lhe destes crédito?’ E se respondermos que é dos homens, ficamos com receio da multidão, pois todos consideram João como profeta». E responderam a Jesus: «Não sabemos». Ele por sua vez disse-lhes: «Então não vos digo com que autoridade faço isto».</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-4>
+	</mass>
+</xml>

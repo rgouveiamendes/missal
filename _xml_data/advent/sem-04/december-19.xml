@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="04" day="19" month="december">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>Jz 13, 2-7.24-25a</reference>
+			<snippet>«É anunciado pelo Anjo o nascimento de Sansão»</snippet>
+			<announcement>Leitura do Livro dos Juizes</announcement>
+			<text>Naqueles dias, vivia em Soreá um homem da tribo de Dã, chamado Manoé, cuja mulher, sendo estéril, não tinha filhos. O Anjo do Senhor apareceu a essa mulher e disse-lhe: «És estéril e sem filhos, mas conceberás e darás à luz um filho. Agora tem cuidado: não bebas vinho nem outra bebida alcoólica, nem comas nada impuro, porque vais conceber e dar à luz um filho. A navalha não tocará na sua cabeça, porque o menino será consagrado a Deus desde o seio materno e começará a libertar Israel das mãos dos filisteus». A mulher foi dizer ao marido: «Veio ter comigo um homem de Deus. Tinha o aspecto de um Anjo do Senhor, cheio de majestade. Não lhe perguntei donde vinha, nem ele me revelou o seu nome. Mas disse-me: «Conceberás e darás à luz um filho. Agora não bebas vinho nem outra bebida alcoólica e não comas nada impuro, porque o menino será consagrado a Deus desde o seio materno até ao dia da sua morte». A mulher deu à luz um filho e pôs-lhe o nome de Sansão. O menino cresceu e o Senhor abençoou-o.</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>Salmo 70 (71), 3-4a.5-6ab.16-17 (R. cf. 8ab)</reference>
+			<response>A minha boca cantará a vossa glória.</response>
+			<latin_response>Repleátur os meum laude, ut cantem glóriam tuam.</latin_response>
+			<verse-1>Sede para mim um refúgio seguro, a fortaleza da minha salvação. Vós sois a minha defesa e o meu refúgio: meu Deus, salvai-me do pecador.</verse-1>
+			<verse-2>Sois Vós, Senhor, a minha esperança, a minha confiança desde a juventude. Desde o nascimento Vós me sustentais, desde o seio materno sois o meu protector.</verse-2>
+			<verse-3>Meu Deus, hei-de narrar os vossos feitos grandiosos, recordarei, Senhor, a vossa justiça sem igual. Desde a juventude Vós me ensinais e até hoje anunciei sempre os vossos prodígios.</verse-3>
+		</reading-2>
+		<reading-3>
+			<name>Aleluia</name>
+			<reference/>
+			<response>Aleluia. Aleluia.</response>
+			<text>Ó rebento da raiz de Jessé, sinal erguido diante dos povos: vinde libertar-nos, não tardeis mais.</text>
+		</reading-3>
+		<reading-4>
+			<name>Evangelho</name>
+			<reference>Lc 1, 5-25</reference>
+			<snippet>«É anunciado pelo Anjo Gabriel o nascimento de João Baptista»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas</announcement>
+			<text>Nos dias de Herodes, rei da Judeia, vivia um sacerdote chamado Zacarias, da classe de Abias, cuja esposa era descendente de Aarão e se chamava Isabel. Eram ambos justos aos olhos de Deus e cumpriam irrepreensivelmente todos os mandamentos e leis do Senhor. Não tinham filhos, porque Isabel era estéril e os dois eram de idade avançada. Quando Zacarias exercia as funções sacerdotais diante de Deus, no turno da sua classe, coube-lhe em sorte, segundo o costume sacerdotal, entrar no Santuário do Senhor para oferecer o incenso. Toda a assembleia do povo, durante a oblação do incenso, estava cá fora em oração. Apareceu-lhe então o Anjo do Senhor, de pé, à direita do altar do incenso. Ao vê-lo, Zacarias ficou perturbado e encheu-se de temor. Mas o Anjo disse-lhe: «Não temas, Zacarias, porque a tua súplica foi atendida. Isabel, tua esposa, dar-te-á um filho, ao qual porás o nome de João. Será para ti motivo de grande alegria e muitos hão-de alegrar-se com o seu nascimento, porque será grande aos olhos do Senhor. Não beberá vinho nem bebida alcoólica; será cheio do Espírito Santo desde o seio materno e reconduzirá muitos dos filhos de Israel ao Senhor, seu Deus. Irá à frente do Senhor, com o espírito e o poder de Elias, para fazer voltar os corações dos pais a seus filhos e os rebeldes à sabedoria dos justos, a fim de preparar um povo para o Senhor». Zacarias disse ao Anjo: «Como hei-de saber que é assim, se eu estou velho e a minha esposa de idade avançada?». O Anjo respondeu-lhe: «Eu sou Gabriel, que assisto na presença de Deus e fui enviado para te anunciar esta boa nova. Mas tu vais guardar silêncio, sem poder falar, até ao dia em que tudo isto aconteça, por não teres acreditado nas minhas palavras, que se cumprirão a seu tempo. Entretanto, o povo esperava por Zacarias e admirava-se por ele se demorar no Santuário. Quando ele saiu, não lhes podia falar e então compreenderam que tinha tido uma visão no Santuário. Ele fazia-lhes sinais e continuava mudo. Ao terminarem os seus dias de serviço, Zacarias voltou para casa. Algum tempo depois, Isabel, sua esposa, concebeu e permaneceu oculta durante cinco meses, dizendo: «Assim procedeu o Senhor para comigo nos dias em que Se dignou livrar-me desta desonra diante dos homens».</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-4>
+	</mass>
+</xml>

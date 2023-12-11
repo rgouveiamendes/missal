@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="01" weekday="sunday-A">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>Is 2, 1-5</reference>
+			<snippet>«O Senhor chama todos os povos à paz eterna do reino de Deus»</snippet>
+			<announcement>Leitura do Livro de Isaías</announcement>
+			<text>Visão de Isaías, filho de Amós, acerca de Judá e de Jerusalém: Sucederá, nos dias que hão-de vir, que o monte do templo do Senhor se há-de erguer no cimo das montanhas e se elevará no alto das colinas. Ali afluirão todas as nações e muitos povos acorrerão, dizendo: «Vinde, subamos ao monte do Senhor, ao templo do Deus de Jacob. Ele nos ensinará os seus caminhos e nós andaremos pelas suas veredas. De Sião há-de vir a lei e de Jerusalém a palavra do Senhor». Ele será juiz no meio das nações e árbitro de povos sem número. Converterão as espadas em relhas de arado e as lanças em foices. Não levantará a espada nação contra nação, nem mais se hão-de preparar para a guerra. Vinde, ó casa de Jacob, caminhemos à luz do Senhor.</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>Salmo 121 (122), 1-2.4-5.6-7.8-9 (R. cf. 1)</reference>
+			<notice>(A terceira e quarta estrofes são facultativas)</notice>
+			<response>Vamos com alegria para a casa do Senhor.</response>
+			<latin_response>In domum Dómini laetántes íbimus.</latin_response>
+			<verse-1>Alegrei-me quando me disseram: «Vamos para a casa do Senhor». Detiveram-se os nossos passos às tuas portas, Jerusalém.</verse-1>
+			<verse-2>Para lá sobem as tribos, as tribos do Senhor, segundo o costume de Israel, para celebrar o nome do Senhor; ali estão os tribunais da justiça, os tribunais da casa de David.</verse-2>
+			<verse-3>Pedi a paz para Jerusalém: «Vivam seguros quantos te amam. Haja paz dentro dos teus muros, tranquilidade em teus palácios».</verse-3>
+			<verse-4>Por amor de meus irmãos e amigos, pedirei a paz para ti. Por amor da casa do Senhor, pedirei para ti todos os bens.</verse-4>
+		</reading-2>
+		<reading-3>
+			<name>Leitura II</name>
+			<reference>Rom 13, 11-14</reference>
+			<snippet>«Está perto a salvação»</snippet>
+			<announcement>Leitura da Epístola do apóstolo São Paulo aos Romanos</announcement>
+			<text>Irmãos: Vós sabeis em que tempo estamos: Chegou a hora de nos levantarmos do sono, porque a salvação está agora mais perto de nós do que quando abraçámos a fé. A noite vai adiantada e o dia está próximo. Abandonemos as obras das trevas e revistamo-nos das armas da luz. Andemos dignamente, como em pleno dia, evitando comezainas e excessos de bebida, as devassidões e libertinagens, as discórdias e ciúmes; não vos preocupeis com a natureza carnal para satisfazer os seus apetites, mas revesti-vos do Senhor Jesus Cristo.</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-3>
+		<reading-4>
+			<name>Aleluia</name>
+			<reference>Salmo 84, 8</reference>
+			<response>Aleluia. Aleluia.</response>
+			<text>Mostrai-nos, Senhor, a vossa misericórdia e dai-nos a vossa salvação.</text>
+		</reading-4>
+		<reading-5>
+			<name>Evangelho</name>
+			<reference>Mt 24, 37-44</reference>
+			<snippet>«Vigiai, para que estejais preparados»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus</announcement>
+			<text>Naquele tempo, disse Jesus aos seus discípulos: «Como aconteceu nos dias de Noé, assim sucederá na vinda do Filho do homem. Nos dias que precederam o dilúvio, comiam e bebiam, casavam e davam em casamento, até ao dia em que Noé entrou na arca; e não deram por nada, até que veio o dilúvio, que a todos levou. Assim será também na vinda do Filho do homem. Então, de dois que estiverem no campo, um será tomado e outro deixado; de duas mulheres que estiverem a moer com a mó, uma será tomada e outra deixada. Portanto, vigiai, porque não sabeis em que dia virá o vosso Senhor. Compreendei isto: se o dono da casa soubesse a que horas da noite viria o ladrão, estaria vigilante e não deixaria arrombar a sua casa. Por isso, estai vós também preparados, porque na hora em que menos pensais, virá o Filho do homem.</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-5>
+	</mass>
+</xml>

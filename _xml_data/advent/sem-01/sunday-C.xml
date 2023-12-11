@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="01" weekday="sunday-C">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>Jer 33, 14-16</reference>
+			<snippet>«Farei germinar para David um rebento de justiça»</snippet>
+			<announcement>Leitura do Livro de Jeremias</announcement>
+			<text>Eis o que diz o Senhor: «Dias virão, em que cumprirei a promessa que fiz à casa de Israel e à casa de Judá: Naqueles dias, naquele tempo, farei germinar para David um rebento de justiça que exercerá o direito e a justiça na terra. Naqueles dias, o reino de Judá será salvo e Jerusalém viverá em segurança. Este é o nome que chamarão à cidade: ‘O Senhor é a nossa justiça’».</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>Salmo 24 (25), 4bc-5ab.8-9.10.14 (R.1b)</reference>
+			<response>Para Vós, Senhor, elevo a minha alma.</response>
+			<latin_response>Ad te, Dómine, levávi ánimam meam.</latin_response>
+			<verse-1>Mostrai-me, Senhor, os vossos caminhos, ensinai-me as vossas veredas. Guiai-me na vossa verdade e ensinai-me, porque Vós sois Deus, meu Salvador.</verse-1>
+			<verse-2>O Senhor é bom e recto, ensina o caminho aos pecadores. Orienta os humildes na justiça e dá-lhes a conhecer os seus caminhos.</verse-2>
+			<verse-3>Os caminhos do Senhor são misericórdia e fidelidade para os que guardam a sua aliança e os seus preceitos. O Senhor trata com familiaridade os que O temem e dá-lhes a conhecer a sua aliança.</verse-3>
+		</reading-2>
+		<reading-3>
+			<name>Leitura II</name>
+			<reference>1 Tes 3, 12 – 4, 2</reference>
+			<snippet>«O Senhor confirme os vossos corações no dia de Cristo»</snippet>
+			<announcement>Leitura da Primeira Epístola do apóstolo São Paulo aos Tessalonicenses</announcement>
+			<text>Irmãos: O Senhor vos faça crescer e abundar na caridade uns para com os outros e para com todos, tal como nós a temos tido para convosco. O Senhor confirme os vossos corações numa santidade irrepreensível, diante de Deus, nosso Pai, no dia da vinda de Jesus, nosso Senhor, com todos os santos. Finalmente, irmãos, eis o que vos pedimos e recomendamos no Senhor Jesus: recebestes de nós instruções sobre o modo como deveis proceder para agradar a Deus e assim estais procedendo; mas deveis progredir ainda mais. Conheceis bem as normas que vos demos da parte do Senhor Jesus.</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-3>
+		<reading-4>
+			<name>Aleluia</name>
+			<reference>Salmo 84, 8</reference>
+			<response>Aleluia. Aleluia.</response>
+			<text>Mostrai-nos, Senhor, a vossa misericórdia e dai-nos a vossa salvação.</text>
+		</reading-4>
+		<reading-5>
+			<name>Evangelho</name>
+			<reference>Lc 21, 25-28.34-36</reference>
+			<snippet>«A vossa libertação está próxima»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas</announcement>
+			<text>Naquele tempo, disse Jesus aos seus discípulos: «Haverá sinais no sol, na lua e nas estrelas e, na terra, angústia entre as nações, aterradas com o rugido e a agitação do mar. Os homens morrerão de pavor, na expectativa do que vai suceder ao universo, pois as forças celestes serão abaladas. Então, hão-de ver o Filho do homem vir numa nuvem, com grande poder e glória. Quando estas coisas começarem a acontecer, erguei-vos e levantai a cabeça, porque a vossa libertação está próxima. Tende cuidado convosco, não suceda que os vossos corações se tornem pesados pela intemperança, a embriaguez e as preocupações da vida, e esse dia não vos surpreenda subitamente como uma armadilha, pois ele atingirá todos os que habitam a face da terra. Portanto, vigiai e orai em todo o tempo, para que possais livrar-vos de tudo o que vai acontecer e comparecer diante do Filho do homem».</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-5>
+	</mass>
+</xml>

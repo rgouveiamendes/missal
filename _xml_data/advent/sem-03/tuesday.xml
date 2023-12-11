@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="03" weekday="tuesday">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>Sof 3, 1-2.9-13</reference>
+			<snippet>«Promete-se a todos os povos a salvação messiânica»</snippet>
+			<announcement>Leitura da Profecia de Sofonias</announcement>
+			<text>Eis o que diz o Senhor: «Ai da cidade rebelde e impura, ai da cidade opressora! Não escutou nenhum apelo, nem aceitou qualquer aviso. Não confiou no Senhor, nem se aproximou do seu Deus. Mas Eu darei aos povos lábios puros, para que todos invoquem o nome do Senhor e O sirvam de coração unânime. Do outro lado dos rios da Etiópia, os meus adoradores virão trazer-Me ofertas. Nesse dia não te envergonharás das acções com que Me ofendeste, porque afastarei do meio de ti os fanfarrões e arrogantes e não tornarás a vangloriar-te no meu santo monte. Só deixarei ficar no meio de ti um povo pobre e humilde e procurarão refúgio no nome do Senhor os sobreviventes de Israel. Não voltarão a cometer injustiças, não tornarão a dizer mentiras, nem mais se encontrará na sua boca uma língua enganadora. Por isso terão pastagem e repouso, sem que ninguém os perturbe».</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>Salmo 33 (34), 2-3.6-7.17-18.19.23 (R. 7a)</reference>
+			<response>O pobre clamou e o Senhor ouviu a sua voz.</response>
+			<latin_response>Pauper clamávit, et Dóminus exaudívit eum.</latin_response>
+			<alt-response>Ou: O Senhor ouviu o clamor do pobre.</alt-response>
+			<verse-1>A toda a hora bendirei o Senhor, o seu louvor estará sempre na minha boca. A minha alma gloria-se no Senhor: escutem e alegrem-se os humildes.</verse-1>
+			<verse-2>Voltai-vos para Ele e ficareis radiantes, o vosso rosto não se cobrirá de vergonha. Este pobre clamou e o Senhor o ouviu, salvou-o de todas as suas angústias.</verse-2>
+			<verse-3>A face do Senhor volta-se contra os que fazem o mal, para apagar da terra a sua memória. Os justos clamaram e o Senhor os ouviu, livrou-os de todas as angústias.</verse-3>
+			<verse-4>O Senhor está perto dos que têm o coração atribulado e salva os de ânimo abatido. O Senhor defende a vida dos seus servos, não serão castigados os que n’Ele se refugiam.</verse-4>
+		</reading-2>
+		<reading-3>
+			<name>Aleluia</name>
+			<reference/>
+			<response>Aleluia. Aleluia.</response>
+			<text>Vinde, Senhor, e não tardeis, perdoai os pecados do vosso povo.</text>
+		</reading-3>
+		<reading-4>
+			<name>Evangelho</name>
+			<reference>Mt 21, 28-32</reference>
+			<snippet>«Veio João e os pecadores acreditaram nele»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Mateus</announcement>
+			<text>Naquele tempo, disse Jesus aos príncipes dos sacerdotes e aos anciãos do povo: «Que vos parece? Um homem tinha dois filhos. Foi ter com o primeiro e disse-lhe: ‘Filho, vai hoje trabalhar na vinha’. Mas ele respondeu-lhe: ‘Não quero’. Depois, porém, arrependeu-se e foi. O homem dirigiu-se ao segundo filho e falou-lhe do mesmo modo. Ele respondeu: ‘Eu vou, Senhor’. Mas de facto não foi. Qual dos dois fez a vontade ao pai?» Eles responderam-Lhe: «O primeiro». Jesus disse-lhes: «Em verdade vos digo: Os publicanos e as mulheres de má vida irão diante de vós para o reino de Deus. João Baptista veio até vós, ensinando-vos o caminho da justiça, e não acreditastes nele; mas os publicanos e as mulheres de má vida acreditaram. E vós, que bem o vistes, não vos arrependestes, acreditando nele».</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-4>
+	</mass>
+</xml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<xml>
+	<mass season="advent" week="04" day="22" month="december">
+		<reading-1>
+			<name>Leitura I</name>
+			<reference>1 Sam 1, 24-28</reference>
+			<snippet>«Ana dá graças pelo nascimento de Samuel»</snippet>
+			<announcement>Leitura do Primeiro Livro de Samuel</announcement>
+			<text>Naqueles dias, Ana tomou Samuel consigo e, levando um novilho de três anos, três medidas de farinha e um odre de vinho, conduziu-o à casa do Senhor, em Silo. O menino era muito pequeno. Imolaram o novilho e apresentaram o menino a Heli. Ana disse-lhe: «Ouve, meu senhor. Por tua vida, eu sou aquela mulher que esteve aqui orando ao Senhor na tua presença. Eis o menino por quem orei: o Senhor ouviu a minha súplica. Por isso também eu o ofereço para que seja consagrado ao Senhor todos os dias da sua vida». E adoraram o Senhor.</text>
+			<endind>Palavra do Senhor.</endind>
+		</reading-1>
+		<reading-2>
+			<name>Salmo Responsorial</name>
+			<reference>1 Sam 2, 1.4-5.6-7.8abcd (R. 1a)</reference>
+			<response>O meu coração exulta no Senhor, meu Salvador.</response>
+			<latin_response>Exsultávit cor meum in Dómino Salvatóre meo.</latin_response>
+			<verse-1>Exulta o meu coração no Senhor, no meu Deus se eleva a minha fronte. Abre-se a minha boca contra os inimigos, porque me alegro com a vossa salvação.</verse-1>
+			<verse-2>A arma dos fortes foi destruída e os fracos foram revestidos de força. Os que viviam na abundância andam em busca de pão e os que tinham fome foram saciados. A mulher estéril deu à luz muitos filhos e a mãe fecunda deixou de conceber.</verse-2>
+			<verse-3>É o Senhor quem dá a morte e dá a vida, faz-nos descer ao túmulo e de novo nos levanta. É o Senhor quem despoja e enriquece, é o Senhor quem humilha e exalta.</verse-3>
+			<verse-4>Levanta do chão os que vivem prostrados, retira da miséria os indigentes; fá-los sentar entre os príncipes e destina-lhes um lugar de honra.</verse-4>
+		</reading-2>
+		<reading-3>
+			<name>Aleluia</name>
+			<reference/>
+			<response>Aleluia. Aleluia.</response>
+			<text>Ó Rei das nações e Pedra angular da Igreja, vinde salvar o homem que formastes do pó da terra.</text>
+		</reading-3>
+		<reading-4>
+			<name>Evangelho</name>
+			<reference>Lc 1, 46-56</reference>
+			<snippet>«O Todo-Poderoso fez em mim maravilhas»</snippet>
+			<announcement>Evangelho de Nosso Senhor Jesus Cristo segundo São Lucas</announcement>
+			<text>Naquele tempo, Maria disse: «A minha alma glorifica o Senhor e o meu espírito se alegra em Deus, meu Salvador. Porque pôs os olhos na humildade da sua serva: de hoje em diante me chamarão bem-aventurada todas as gerações. O Todo-Poderoso fez em mim maravilhas, Santo é o seu nome. A sua misericórdia se estende de geração em geração sobre aqueles que O temem. Manifestou o poder do seu braço e dispersou os soberbos. Derrubou os poderosos de seus tronos e exaltou os humildes. Aos famintos encheu de bens e aos ricos despediu de mãos vazias. Acolheu a Israel, seu servo, lembrado da sua misericórdia, como tinha prometido a nossos pais, a Abraão e à sua descendência para sempre». Maria ficou junto de Isabel cerca de três meses e depois regressou a sua casa.</text>
+			<endind>Palavra da salvação.</endind>
+		</reading-4>
+	</mass>
+</xml>
