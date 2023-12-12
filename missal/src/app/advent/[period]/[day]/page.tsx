@@ -1,6 +1,5 @@
 
 import adventJSON from '@/../public/data/advent.json'
-import { useEffect } from 'react';
 import { DayReadings, AdventJSON } from '@/types/readings';
 import Link from 'next/link';
 
@@ -58,17 +57,17 @@ export default function Page({
         </div>
         {isSunday &&
           <div className="button-group">
-            <Link className="button advento" href="#ano-a">Ano A</Link>
-            <Link className="button advento" href="#ano-c">Ano C</Link>
+            <Link className="button advento" href="/">Ano A</Link>
+            <Link className="button advento" href="/">Ano C</Link>
           </div>}
         <div className="button-group">
-          <Link className="button advento" href="../../se/leituras">Sa</Link>
+          <Link className="button advento" href="/">Sa</Link>
         </div>
         <div className="button-group">
-          <Link className="button advento" href="../../se/leituras">Se</Link>
+          <Link className="button advento" href="/">Se</Link>
         </div>
         <div className="button-group">
-          <Link className="button advento" href="../../../sem-02/do/leituras#ano-b">Semana II</Link>
+          <Link className="button advento" href="/">Semana II</Link>
         </div>
       </div>
 
@@ -114,7 +113,7 @@ export default function Page({
         {dayReadings['aleluia'].reference && <p className="r">{dayReadings['aleluia'].reference}</p>}
         <p className="ref"><span className="r">Refrão:</span> Aleluia. Aleluia.</p>
 
-        <p>{dayReadings['aleluia'].response}</p>
+        <p>{dayReadings['aleluia'].text}</p>
         <p className="lt ref">Lorem ipsum dolot sit amet.</p>
       </section>
 
@@ -131,13 +130,13 @@ export default function Page({
       <div className="context-menu">
         <div className="button-group">
           <p className="r">Credo:</p>
-          <Link href="/ordinario/pt/liturgia-palavra#credo" className="button advento">Português</Link>
-          <Link href="/ordinario/lt/liturgia-palavra#credo" className="button advento">Latim</Link>
+          <Link href="/" className="button advento">Português</Link>
+          <Link href="/" className="button advento">Latim</Link>
         </div>
         <div className="button-group">
           <p className="r">Liturgia Eucarística:</p>
-          <Link href="/ordinario/pt/liturgia-eucaristica" className="button advento">Português</Link>
-          <Link href="/ordinario/lt/liturgia-eucaristica" className="button advento">Latim</Link>
+          <Link href="/" className="button advento">Português</Link>
+          <Link href="/" className="button advento">Latim</Link>
         </div>
       </div>
     </>

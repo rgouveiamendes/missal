@@ -61,6 +61,12 @@ p {
   line-height: 1.8;
 }
 
+/* Temporary */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .context-menu {
   display: inline-block;
   margin-top: 0.5em;
