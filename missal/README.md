@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Descrição da proposta de solução
 
-## Getting Started
+### TypeScript
 
-First, run the development server:
+Em vez de JavaScript (`.js/.jsx`), prefiro usar o TypeScript (`.ts/.tsx`) para essa aplicação, que é igual a JavaScript mas com declaração de tipos (string, Object, number, etc...). Isso é útil porque facilita o processo de lidar com os dados, que vem de um JSON, e garante que eles estão estruturados da forma certa dentro da aplicação.
+Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenção. Posso dar um exemplo mais concreto do motivo na sexta, mas se olhar o arquivo `src/types.ts` talvez consiga entender intuitivamente. Podemos também simplemente não usar e voltar ao JavaScript.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Onde aprender?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  Se já trabalhou com alguma linguagem que usa variáveis tipadas, é muito simples, tem um tutorial breve na página oficial da linguagem que me pareceu bom: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### React.js
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+É uma biblioteca em JavaScript muito popular pra criar interfaces por causa da componentização. Como precisamos criar vários componentes parecidos em que só se muda o conteúdo, acho que facilitaria muito o trabalho. Existem várias alternativas, mas essa é uma das mais populares. A ideia é usar uma abstração em cima do React, não propriamente o React puro.
 
-## Learn More
+- Onde aprender?
+  O tutorial da própria biblioteca é muito bom, aprendi por lá. Talvez faça sentido dar uma lida rápida pra entender mais ou menos como funciona e aprender de fato enquanto fazemos o Missal: https://react.dev/learn. Também achei uma documentação do Next.js explicando o básico necessário de React.js pra usar o Next, talvez faça mais sentido olhar isso: https://nextjs.org/learn/react-foundations
 
-To learn more about Next.js, take a look at the following resources:
+### Next.js 14:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+É uma framework que usa o React.js pra gerar páginas estáticas interativas e rápidas. É uma das mais usadas atualmente pra todo tipo de aplicação, mas no nosso caso é especialmente útil, já que queremos justamente gerar todas as páginas estáticas (HTMLs) a partir do JSON em tempo de build. Por exemplo, para as leituras do advento, em vez de dar manutenção em X arquivos (1 index e vários de leitura), só é preciso alterar o index em `app/page.tsx` (ou no futuro `app/advent/page.tsx`) e o arquivo padrão para leituras em `app/advent/[period]/[day]/page.tsx`, que, usando o `generateStaticParams`, gera todos os HTMLs em tempo de build. Futuramente podemos abstrair ainda mais e ter só um arquivo para todas as leituras do ano em `app/[season]/[period]/[day]/reading/page.tsx`!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Onde aprender?
 
-## Deploy on Vercel
+  A documentação é uma das melhores que já vi: https://nextjs.org/learn e https://nextjs.org/docs. É uma framework com muitas funcionalidades, não precisamos usar boa parte delas. A ideia é focar na geração de páginas estáticas com o a função generateStaticParams, pelo que vi por cima não é explicada no tutorial do next, já não é o mesmo que fiz.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Onde fazer o deploy da aplicação?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  Podemos usar o próprio GitHub pages, com o GitHub actions, ou a Vercel, que é plataforma da empresa que criou o Next.js. Nas duas situações a página é recriada a cada push que damos na main, então depois da configuração inicial, atualizar o site é só uma questão de mudar o que precisa e dar um push!
