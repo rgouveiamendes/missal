@@ -2,8 +2,8 @@
 
 ### TypeScript
 
-Em vez de JavaScript (`.js/.jsx`), prefiro usar o TypeScript (`.ts/.tsx`) para essa aplicação, que é igual a JavaScript mas com declaração de tipos (string, Object, number, etc...). Isso é útil porque facilita o processo de lidar com os dados, que vem de um JSON, e garante que eles estão estruturados da forma certa dentro da aplicação.
-Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenção. Posso dar um exemplo mais concreto do motivo na sexta, mas se olhar o arquivo `src/types.ts` talvez consiga entender intuitivamente. Podemos também simplemente não usar e voltar ao JavaScript.
+Em vez de JavaScript (`.js/.jsx`), prefiro usar o TypeScript (`.ts/.tsx`) para essa aplicação, que é igual a JavaScript mas com declaração de tipos (string, Object, number, etc...). Isso é útil porque facilita o processo de lidar com os dados, que vêm de um JSON, e garante que eles estão estruturados da forma certa dentro da aplicação.
+Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenção. Posso dar um exemplo mais concreto do motivo na sexta, mas se olhar o arquivo `src/types.ts` talvez consiga entender intuitivamente. Podemos também simplemente não usar o TypeScript e voltar ao JavaScript.
 
 - Onde aprender?
 
@@ -14,7 +14,8 @@ Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenç�
 É uma biblioteca em JavaScript muito popular pra criar interfaces por causa da componentização. Como precisamos criar vários componentes parecidos em que só se muda o conteúdo, acho que facilitaria muito o trabalho. Existem várias alternativas, mas essa é uma das mais populares. A ideia é usar uma abstração em cima do React, não propriamente o React puro.
 
 - Onde aprender?
-  O tutorial da própria biblioteca é muito bom, aprendi por lá. Talvez faça sentido dar uma lida rápida pra entender mais ou menos como funciona e aprender de fato enquanto fazemos o Missal: https://react.dev/learn. Também achei uma documentação do Next.js explicando o básico necessário de React.js pra usar o Next, talvez faça mais sentido olhar isso: https://nextjs.org/learn/react-foundations
+  
+  Achei uma documentação muito boa do Next.js explicando o básico necessário de React.js pra usar o Next, talvez faça mais sentido olhar isso: https://nextjs.org/learn/react-foundations. O tutorial da própria biblioteca também é muito bom, aprendi por lá. Talvez faça sentido dar uma lida muito por cima pra entender mais ou menos como funciona se o tutorial do Next não for suficiente, mas podemos aprender de fato enquanto fazemos o Missal: https://react.dev/learn. 
 
 ### Next.js 14:
 
@@ -22,7 +23,7 @@ Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenç�
 
 - Onde aprender?
 
-  A documentação é uma das melhores que já vi: https://nextjs.org/learn e https://nextjs.org/docs. É uma framework com muitas funcionalidades, não precisamos usar boa parte delas. A ideia é focar na geração de páginas estáticas com o a função generateStaticParams, pelo que vi por cima não é explicada no tutorial do next, já não é o mesmo que fiz.
+  A documentação é uma das melhores que já vi: https://nextjs.org/learn e https://nextjs.org/docs. É uma framework com muitas funcionalidades, não precisamos usar boa parte delas. A ideia é focar na geração de páginas estáticas com a função `generateStaticParams`, pelo que vi por cima não é explicada no tutorial do next, já não é o mesmo que fiz.
 
 - Onde fazer o deploy da aplicação?
 
