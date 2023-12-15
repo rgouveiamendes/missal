@@ -1,0 +1,116 @@
+{
+    "introductory-rites": {
+        "greeting": [
+            "Em nome do Pai e do Filho e do Espírito Santo.",
+            "<r/> Amen.",
+            "A graça de nosso Senhor Jesus Cristo, o amor do Pai e a comunhão do Espírito Santo estejam convosco.",
+            "<r/> Bendito seja Deus, que nos reuniu no amor de Cristo."
+        ],
+        "penitential-act": [
+            "Irmãos: Para celebrarmos dignamente os santos mistérios, reconheçamos que somos pecadores.",
+            "Confessemos os nossos pecados.",
+            "<r/> Confesso a Deus todo-poderoso e a vós, irmãos, que pequei muitas vezes, por pensamentos e palavras, atos e omissões,",
+            "<rub>Batendo no peito:</rub>",
+            "por minha culpa, minha culpa, minha tão grande culpa. E peço à Virgem Maria, aos anjos e santos, e a vós, irmãos, que rogueis por mim a Deus, nosso Senhor.",
+            "Deus todo-poderoso tenha compaixão de nós, perdoe os nossos pecados e nos conduza à vida eterna.",
+            "<r/> Amen."
+        ],
+        "kyrie": [
+            "<v/> Senhor, tende piedade de nós.<br/><r/> Senhor, tende piedade de nós.",
+            "<v/> Cristo, tende piedade de nós.<br/><r/> Cristo, tende piedade de nós.",
+            "<v/> Senhor, tende piedade de nós.<br/><r/> Senhor, tende piedade de nós."
+        ],
+        "kyrie-alt-1": [
+            "<v/> Senhor, misericórdia.<br/><r/> Senhor, misericórdia.",
+            "<v/> Cristo, misericórdia.<br/><r/> Cristo, misericórdia.",
+            "<v/> Senhor, misericórdia.<br/><r/> Senhor, misericórdia."
+        ],
+        "kyrie-alt-2": [
+            "<v/> Kýrie, eléison.<br/><r/> Kýrie, eléison.",
+            "<v/> Christe, eléison.<br/><r/> Christe, eléison.",
+            "<v/> Kýrie, eléison.<br/><r/> Kýrie, eléison."
+        ],
+        "glory": "<lett>G</lett>lória a Deus nas alturas e paz na terra aos homens por Ele amados. Senhor Deus, Rei dos céus, Deus Pai todo-poderoso: nós Vos louvamos, nós Vos bendizemos, nós Vos adoramos, nós Vos glorificamos, nós Vos damos graças, por vossa imensa glória. Senhor Jesus Cristo, Filho unigénito, Senhor Deus, Cordeiro de Deus, Filho de Deus Pai: Vós que tirais o pecado do mundo, tende piedade de nós; Vós que tirais o pecado do mundo, acolhei a nossa súplica; Vós que estais à direita do Pai, tende piedade de nós. Só Vós sois o Santo; só Vós, o Senhor; só Vós, o Altíssimo, Jesus Cristo; com o Espírito Santo, na glória de Deus Pai. Amen."
+    },
+    "profession-faith": [
+        "<lett>C</lett>reio em um só Deus, Pai todo-poderoso, Criador do céu e da terra, de todas as coisas visíveis e invisíveis. Creio em um só Senhor, Jesus Cristo, Filho unigénito de Deus, nascido do Pai antes de todos os séculos: Deus de Deus, luz da luz, Deus verdadeiro de Deus verdadeiro; gerado, não criado, consubstancial ao Pai. Por Ele todas as coisas foram feitas. E por nós, homens, e para nossa salvação desceu dos céus.",
+        "<rub>Todos se inclinam às palavras: «E encarnou ... e se fez homem»:</rub>",
+        "E encarnou pelo Espírito Santo, no seio da Virgem Maria, e Se fez homem.",
+        "Também por nós foi crucificado sob Pôncio Pilatos; padeceu e foi sepultado. Ressuscitou ao terceiro dia, conforme as Escrituras; e subiu aos céus, onde está sentado à direita do Pai. De novo há de vir em sua glória, para julgar os vivos e os mortos; e o seu reino não terá fim. Creio no Espírito Santo, Senhor que dá a vida, e procede do Pai e do Filho; e com o Pai e o Filho é adorado e glorificado: Ele que falou pelos profetas. Creio na Igreja una, santa, católica e apostólica. Professo um só batismo para remissão dos pecados. E espero a ressurreição dos mortos, e a vida do mundo que há de vir. Amen."
+]
+    "eucharist": {
+        "preparation": [
+            "Bendito sejais, Senhor, Deus do universo, pelo pão que recebemos da vossa bondade, fruto da terra e do trabalho do homem, que hoje Vos apresentamos e que para nós se vai tornar pão da vida.",
+            "<r/> Bendito seja Deus para sempre.",
+            "<rub>O sacerdote diz em voz baixa:</rub><br><small>Pelo mistério desta água e deste vinho, sejamos participantes da divindade d'Aquele que assumiu a nossa humanidade.</small>",
+            "Bendito sejais, Senhor, Deus do universo, pelo vinho que recebemos da vossa bondade, fruto da videira e do trabalho do homem, que hoje Vos apresentamos e que para nós se vai tornar vinho da salvação.",
+            "<r/> Bendito seja Deus para sempre.",
+            "<rub>O sacerdote diz em voz baixa:</rub><br><small>De coração humilhado e contrito sejamos recebidos por Vós, Senhor. Assim o nosso sacrifício seja agradável a vossos olhos.</small>",
+            "<rub>E durante o lavabo:</rub><br><small>Lavai-me, Senhor, da minha iniquidade e purificai-me do meu pecado.</small>",
+            "Orai, irmãos, para que o meu e vosso sacrifício seja aceite por Deus Pai todo-poderoso.",
+            "<r/> Receba o Senhor por tuas este sacrifício, para glória do seu nome, para nosso bem e de toda a santa Igreja."
+        ],
+        "before-preface": [
+            "<v/> O Senhor esteja convosco.",
+            "<r/> Ele está no meio de nós.",
+            "<v/> Corações ao alto.",
+            "<r/> O nosso coração está em Deus.",
+            "<v/> Dêmos graças ao Senhor nosso Deus.",
+            "<r/> É nosso dever, é nossa salvação."
+        ],
+        "holy": [
+            "<lett>S</lett>anto, Santo, Santo, Senhor Deus do Universo. O céu e a terra proclamam a vossa glória. Hossana nas alturas. Bendito O que vem em nome do Senhor. Hossana nas alturas."
+        ],
+        "eucharistic-prayer": {
+            "I": [
+
+            ],
+            "II": [
+
+            ],
+            "III": [
+
+            ],
+            "IV": [
+
+            ]
+        },
+        "lords-prayer": [
+            "Fiéis aos ensinamentos do Salvador, ousamos dizer:",
+            "<lett>P</lett>ai nosso, que estais nos céus, santificado seja o vosso nome; venha a nós o vosso reino; seja feita a vossa vontade, assim na terra como no céu. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação; mas livrai-nos do mal.",
+            "Livrai-nos de todo o mal, Senhor, e dai ao mundo a paz em nossos dias, para que, ajudados pela vossa misericórdia, sejamos sempre livres do pecado e de toda a perturbação, enquanto esperamos a vinda gloriosa de Jesus Cristo nosso Salvador.",
+            "<r/> Vsso é o reino e o poder e a glória para sempre.",
+            "Senhor Jesus Cristo, que dissestes aos vossos apóstolos: deixo-vos a paz, dou-vos a minha paz: não olheis aos nossos pecados, mas à fé da vossa Igreja, e dai-lhe a união e a paz, segundo a vossa vontade, Vós que viveis e reinais pelos séculos dos séculos.",
+            "<r/> Amen."
+        ],
+        "sign-peace": [
+            "A paz do Senhor esteja sempre convosco.",
+            "<r/> O amor de Cristo nos uniu.",
+            "Saudai-vos na paz de Cristo."
+        ],
+        "lamb": [
+            "Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós.",
+            "Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós.",
+            "Cordeiro de Deus, que tirais o pecado do mundo, dai-nos a paz."
+        ],
+        "invitation": [
+            "<rub>Entretanto, o celebrante reza em silêncio:</rub><br><small>Senhor Jesus Cristo, Filho de Deus vivo, que, por vontade do Pai e com o poder do Espírito Santo, destes a vida ao mundo pela vossa morte, livrai-me de todos os meus pecados e de todo o mal, por este vosso santíssimo Corpo e Sangue; conservai-me sempre fiel aos vossos mandamentos e não permitais que eu me separe de Vós.</small><br><rub>Ou:</rub><br><small>A  comunhão do vosso Corpo e Sangue, Senhor Jesus Cristo, não seja para meu julgamento e condenação, mas, pela vossa misericórdia, me sirva de proteção e remédio para a alma e para o corpo.</small>",
+            "Felizes os convidados para a Ceia do Senhor. Eis o Cordeiro de Deus, que tira o pecado do mundo.",
+            "<r/> Senhor, eu não sou digno de que entreis em minha morada, mas dizei uma palavra e serei salvo.",
+            "<rub>Inicia-se o cântico da comunhão, enquanto o celebrante comunga o Corpo e o Sangue do Senhor rezando em silêncio:</rub><br><small>O corpo de Cristo me guarde para a vida eterna.<br>O sangue de Cristo me guarde para a vida eterna.</small>"
+        ],
+        "communion-rites": [
+            "O Corpo de Cristo.",
+            "<r/> Amen.",
+            "<rub>Concluída a Comunhão, o celebrante reza em silêncio:</rub><br><small>O que em nossa boca recebemos, Senhor, seja por nós acolhido em coração puro, e estes dons da vida temporal se tornem remédio de vida eterna.</small>"
+        ]
+    },
+    "concluding-rites": [
+        "<v/> O Senhor esteja convosco.",
+        "<r/> Ele está no meio de nós.",
+        "<v/> Abençoe-vos Deus todo-poderoso, Pai, Filho e <red>✠</red> Espírito Santo.",
+        "<r/> Amen.",
+        "<v/> Ide em paz e o Senhor vos acompanhe.",
+        "<r/> Graças a Deus.",
+    ]
+}
