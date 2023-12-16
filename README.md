@@ -19,7 +19,7 @@ Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenç�
 
 ### Next.js 14:
 
-É uma framework que usa o React.js pra gerar páginas estáticas interativas e rápidas. É uma das mais usadas atualmente pra todo tipo de aplicação, mas no nosso caso é especialmente útil, já que queremos justamente gerar todas as páginas estáticas (HTMLs) a partir do JSON em tempo de build. Por exemplo, para as leituras do advento, em vez de dar manutenção em X arquivos (1 index e vários de leitura), só é preciso alterar o index em `app/page.tsx` (ou no futuro `app/advent/page.tsx`) e o arquivo padrão para leituras em `app/advent/[period]/[day]/page.tsx`, que, usando o `generateStaticParams`, gera todos os HTMLs em tempo de build. Futuramente podemos abstrair ainda mais e ter só um arquivo para todas as leituras do ano em `app/[season]/[period]/[day]/reading/page.tsx`!
+É uma framework que usa o React.js pra gerar páginas estáticas interativas e rápidas. É uma das mais usadas atualmente pra todo tipo de aplicação, mas no nosso caso é especialmente útil, já que queremos justamente gerar todas as páginas estáticas (HTMLs) a partir do JSON em tempo de build. Por exemplo, para as leituras do advent, em vez de dar manutenção em X arquivos (1 index e vários de leitura), só é preciso alterar o index em `app/page.tsx` (ou no futuro `app/advent/page.tsx`) e o arquivo padrão para leituras em `app/advent/[period]/[day]/page.tsx`, que, usando o `generateStaticParams`, gera todos os HTMLs em tempo de build. Futuramente podemos abstrair ainda mais e ter só um arquivo para todas as leituras do ano em `app/[season]/[period]/[day]/reading/page.tsx`!
 
 - Onde aprender?
 

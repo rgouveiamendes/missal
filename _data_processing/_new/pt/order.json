@@ -2,70 +2,99 @@
     "introductory-rites": {
         "greeting": [
             "Em nome do Pai e do Filho e do Espírito Santo.",
-            "<r/> Amen.",
+            "Amen.",
             "A graça de nosso Senhor Jesus Cristo, o amor do Pai e a comunhão do Espírito Santo estejam convosco.",
-            "<r/> Bendito seja Deus, que nos reuniu no amor de Cristo."
+            "Bendito seja Deus, que nos reuniu no amor de Cristo."
         ],
         "penitential-act": [
             "Irmãos: Para celebrarmos dignamente os santos mistérios, reconheçamos que somos pecadores.",
             "Confessemos os nossos pecados.",
-            "<r/> Confesso a Deus todo-poderoso e a vós, irmãos, que pequei muitas vezes, por pensamentos e palavras, atos e omissões,",
-            "<rub>Batendo no peito:</rub>",
+            "Confesso a Deus todo-poderoso e a vós, irmãos, que pequei muitas vezes, por pensamentos e palavras, atos e omissões,",
+            "Batendo no peito:",
             "por minha culpa, minha culpa, minha tão grande culpa. E peço à Virgem Maria, aos anjos e santos, e a vós, irmãos, que rogueis por mim a Deus, nosso Senhor.",
             "Deus todo-poderoso tenha compaixão de nós, perdoe os nossos pecados e nos conduza à vida eterna.",
-            "<r/> Amen."
+            "Amen."
         ],
         "kyrie": [
-            "<v/> Senhor, tende piedade de nós.<br/><r/> Senhor, tende piedade de nós.",
-            "<v/> Cristo, tende piedade de nós.<br/><r/> Cristo, tende piedade de nós.",
-            "<v/> Senhor, tende piedade de nós.<br/><r/> Senhor, tende piedade de nós."
+            "Senhor, tende piedade de nós.<br/>Senhor, tende piedade de nós.",
+            "Cristo, tende piedade de nós.<br/>Cristo, tende piedade de nós.",
+            "Senhor, tende piedade de nós.<br/>Senhor, tende piedade de nós."
         ],
         "kyrie-alt-1": [
-            "<rub>Ou:</rub>",
-            "<v/> Senhor, misericórdia.<br/><r/> Senhor, misericórdia.",
-            "<v/> Cristo, misericórdia.<br/><r/> Cristo, misericórdia.",
-            "<v/> Senhor, misericórdia.<br/><r/> Senhor, misericórdia."
+            "Ou:",
+            "Senhor, misericórdia.<br/>Senhor, misericórdia.",
+            "Cristo, misericórdia.<br/>Cristo, misericórdia.",
+            "Senhor, misericórdia.<br/>Senhor, misericórdia."
         ],
         "kyrie-alt-2": [
-            "<rub>Ou:</rub>",
-            "<v/> Kýrie, eléison.<br/><r/> Kýrie, eléison.",
-            "<v/> Christe, eléison.<br/><r/> Christe, eléison.",
-            "<v/> Kýrie, eléison.<br/><r/> Kýrie, eléison."
+            "Ou:",
+            "Kýrie, eléison.<br/>Kýrie, eléison.",
+            "Christe, eléison.<br/>Christe, eléison.",
+            "Kýrie, eléison.<br/>Kýrie, eléison."
         ],
-        "glory": "<lett>G</lett>lória a Deus nas alturas e paz na terra aos homens por Ele amados. Senhor Deus, Rei dos céus, Deus Pai todo-poderoso: nós Vos louvamos, nós Vos bendizemos, nós Vos adoramos, nós Vos glorificamos, nós Vos damos graças, por vossa imensa glória. Senhor Jesus Cristo, Filho unigénito, Senhor Deus, Cordeiro de Deus, Filho de Deus Pai: Vós que tirais o pecado do mundo, tende piedade de nós; Vós que tirais o pecado do mundo, acolhei a nossa súplica; Vós que estais à direita do Pai, tende piedade de nós. Só Vós sois o Santo; só Vós, o Senhor; só Vós, o Altíssimo, Jesus Cristo; com o Espírito Santo, na glória de Deus Pai. Amen."
+        "glory": "Glória a Deus nas alturas e paz na terra aos homens por Ele amados. Senhor Deus, Rei dos céus, Deus Pai todo-poderoso: nós Vos louvamos, nós Vos bendizemos, nós Vos adoramos, nós Vos glorificamos, nós Vos damos graças, por vossa imensa glória. Senhor Jesus Cristo, Filho unigénito, Senhor Deus, Cordeiro de Deus, Filho de Deus Pai: Vós que tirais o pecado do mundo, tende piedade de nós; Vós que tirais o pecado do mundo, acolhei a nossa súplica; Vós que estais à direita do Pai, tende piedade de nós. Só Vós sois o Santo; só Vós, o Senhor; só Vós, o Altíssimo, Jesus Cristo; com o Espírito Santo, na glória de Deus Pai. Amen."
     },
     "profession-faith": [
-        "<lett>C</lett>reio em um só Deus, Pai todo-poderoso, Criador do céu e da terra, de todas as coisas visíveis e invisíveis. Creio em um só Senhor, Jesus Cristo, Filho unigénito de Deus, nascido do Pai antes de todos os séculos: Deus de Deus, luz da luz, Deus verdadeiro de Deus verdadeiro; gerado, não criado, consubstancial ao Pai. Por Ele todas as coisas foram feitas. E por nós, homens, e para nossa salvação desceu dos céus.",
-        "<rub>Todos se inclinam às palavras: «E encarnou ... e se fez homem»:</rub>",
+        "Creio em um só Deus, Pai todo-poderoso, Criador do céu e da terra, de todas as coisas visíveis e invisíveis. Creio em um só Senhor, Jesus Cristo, Filho unigénito de Deus, nascido do Pai antes de todos os séculos: Deus de Deus, luz da luz, Deus verdadeiro de Deus verdadeiro; gerado, não criado, consubstancial ao Pai. Por Ele todas as coisas foram feitas. E por nós, homens, e para nossa salvação desceu dos céus.",
+        "Todos se inclinam às palavras: «E encarnou ... e se fez homem»:",
         "E encarnou pelo Espírito Santo, no seio da Virgem Maria, e Se fez homem.",
         "Também por nós foi crucificado sob Pôncio Pilatos; padeceu e foi sepultado. Ressuscitou ao terceiro dia, conforme as Escrituras; e subiu aos céus, onde está sentado à direita do Pai. De novo há de vir em sua glória, para julgar os vivos e os mortos; e o seu reino não terá fim. Creio no Espírito Santo, Senhor que dá a vida, e procede do Pai e do Filho; e com o Pai e o Filho é adorado e glorificado: Ele que falou pelos profetas. Creio na Igreja una, santa, católica e apostólica. Professo um só batismo para remissão dos pecados. E espero a ressurreição dos mortos, e a vida do mundo que há de vir. Amen."
 ],
     "eucharist": {
         "preparation": [
             "Bendito sejais, Senhor, Deus do universo, pelo pão que recebemos da vossa bondade, fruto da terra e do trabalho do homem, que hoje Vos apresentamos e que para nós se vai tornar pão da vida.",
-            "<r/> Bendito seja Deus para sempre.",
-            "<rub>O sacerdote diz em voz baixa:</rub><br><small>Pelo mistério desta água e deste vinho, sejamos participantes da divindade d'Aquele que assumiu a nossa humanidade.</small>",
+            "Bendito seja Deus para sempre.",
+            "O sacerdote diz em voz baixa:",
+            "<small>Pelo mistério desta água e deste vinho, sejamos participantes da divindade d'Aquele que assumiu a nossa humanidade.</small>",
             "Bendito sejais, Senhor, Deus do universo, pelo vinho que recebemos da vossa bondade, fruto da videira e do trabalho do homem, que hoje Vos apresentamos e que para nós se vai tornar vinho da salvação.",
-            "<r/> Bendito seja Deus para sempre.",
-            "<rub>O sacerdote diz em voz baixa:</rub><br><small>De coração humilhado e contrito sejamos recebidos por Vós, Senhor. Assim o nosso sacrifício seja agradável a vossos olhos.</small>",
-            "<rub>E durante o lavabo:</rub><br><small>Lavai-me, Senhor, da minha iniquidade e purificai-me do meu pecado.</small>",
+            "Bendito seja Deus para sempre.",
+            "O sacerdote diz em voz baixa:",
+            "<small>De coração humilhado e contrito sejamos recebidos por Vós, Senhor. Assim o nosso sacrifício seja agradável a vossos olhos.</small>",
+            "E durante o lavabo:",
+            "<small>Lavai-me, Senhor, da minha iniquidade e purificai-me do meu pecado.</small>",
             "Orai, irmãos, para que o meu e vosso sacrifício seja aceite por Deus Pai todo-poderoso.",
-            "<r/> Receba o Senhor por tuas este sacrifício, para glória do seu nome, para nosso bem e de toda a santa Igreja."
+            "Receba o Senhor por tuas este sacrifício, para glória do seu nome, para nosso bem e de toda a santa Igreja."
         ],
         "before-preface": [
-            "<v/> O Senhor esteja convosco.",
-            "<r/> Ele está no meio de nós.",
-            "<v/> Corações ao alto.",
-            "<r/> O nosso coração está em Deus.",
-            "<v/> Dêmos graças ao Senhor nosso Deus.",
-            "<r/> É nosso dever, é nossa salvação."
+            "O Senhor esteja convosco.",
+            "Ele está no meio de nós.",
+            "Corações ao alto.",
+            "O nosso coração está em Deus.",
+            "Dêmos graças ao Senhor nosso Deus.",
+            "É nosso dever, é nossa salvação."
         ],
         "holy": [
-            "<lett>S</lett>anto, Santo, Santo, Senhor Deus do Universo. O céu e a terra proclamam a vossa glória. Hossana nas alturas. Bendito O que vem em nome do Senhor. Hossana nas alturas."
+            "Santo, Santo, Santo, Senhor Deus do Universo. O céu e a terra proclamam a vossa glória. Hossana nas alturas. Bendito O que vem em nome do Senhor. Hossana nas alturas."
         ],
         "eucharistic-prayer": {
             "I": [
-
+                "Pai de infinita misericórdia, humildemente Vos suplicamos, por Jesus Cristo, vosso Filho, nosso Senhor, que Vos digneis aceitar e abençoar <red>✠</red> estes dons, esta oblação pura e santa. Nós Vo-la oferecemos pela vossa Igreja santa e católica: dai-lhe a paz e congregai-a na unidade, defendei-a e governai-a em toda a terra, em comunhão com o vosso servo, o nosso papa <red>N.</red>, o nosso bispo <red>N.</red> e todos os bispos que são fiéis à verdade e professam a fé católica e apostólica.",
+                "Lembrai-Vos, Senhor, dos vossos servos e servas <red>N.</red> e <red>N.</red> <rub>(comemoração dos vivos)</rub> e de todos os que estão aqui presentes, cuja fé e dedicação ao vosso serviço bem conheceis. Por eles nós Vos oferecemos e também eles Vos oferecem este sacrifício de louvor, por si e por todos os seus, pela redenção das suas almas, para a salvação e segurança que esperam, ó Deus eterno, vivo e verdadeiro.",
+                "Em comunhão com toda a Igreja, ao celebrarmos o primeiro dia da semana, em que nosso Senhor Jesus Cristo ressuscitou dos mortos, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo,<red>*</red>",
+                "Em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo <red>(</red>a noite santíssima<red>)</red>, em que a Imaculada Virgem Maria deu à luz o Salvador do mundo, veneramos a memória da mesma gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <red>*</red>",
+                "Em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que o vosso Filho Unigénito, eterno convosco na glória, Se manifestou visivelmente na realidade da nossa carne, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <red>*</red>",
+                "Em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo Se entregou por nós, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <red>*</red>",
+                "Em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo  <red>(</red>a noite santíssima<red>)</red> da ressurreição de nosso Senhor Jesus Cristo segundo a carne, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <red>*</red>",
+                "Em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo em que nosso Senhor Jesus Cristo, vosso Filho Unigénito, colocou à direita da vossa glória a nossa frágil natureza humana unida à sua divindade, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <red>*</red>",
+                "Em comunhão com toda a Igreja, ao celebrarmos o dia santíssimo de Pentecostes, em que o Espírito Santo Se manifestou aos apóstolos em numerosas línguas de fogo, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo, <red>*</red>",
+                "Em comunhão com toda a Igreja, veneramos a memória da gloriosa sempre Virgem Maria, Mãe do nosso Deus e Senhor, Jesus Cristo,<red>*</red> e também a de são José, seu esposo, e a dos bem-aventurados apóstolos e mártires: Pedro e Paulo, André, <red>(</red>Tiago, João, Tomé, Tiago, Filipe, Bartolomeu, Mateus, Simão e Tadeu; Lino, Cleto, Clemente, Sixto, Cornélio, Cipriano, Lourenço, Crisógono, João e Paulo, Cosme e Damião<red>)</red> e de todos os santos. Por seus méritos e orações, concedei-nos, em tudo e sempre, auxílio e proteção. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "Aceitai benignamente, Senhor, a oblação que nós, vossos servos, com toda a vossa família, Vos apresentamos. Dai a paz aos nossos dias, livrai-nos da condenação eterna e contai-nos entre os vossos eleitos. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "Aceitai benignamente, Senhor, a oblação que nós, vossos servos, com toda a vossa família, Vos apresentamos. Nós Vo-la oferecemos neste dia em que nosso Senhor Jesus Cristo confiou aos seus discípulos a celebração dos mistérios do seu Corpo e Sangue. Dai a paz aos nossos dias, livrai-nos da condenação eterna e contai-nos entre os vossos eleitos. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "Aceitai benignamente, Senhor, a oblação que nós, vossos servos, com toda a vossa família, Vos apresentamos. Nós Vo-la oferecemos também por aqueles que fizestes renascer da água e do Espírito Santo, concedendo-lhes o perdão de todos os pecados. Dai a paz aos nossos dias, livrai-nos da condenação eterna e contai-nos entre os vossos eleitos. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "Santificai, Senhor, esta oblação com o poder da vossa bênção e recebei-a como sacrifício espiritual perfeito, de modo que se converta para nós no Corpo e Sangue de vosso amado Filho, nosso Senhor Jesus Cristo.",
+                "Na véspera da sua paixão, Ele tomou o pão em suas santas e adoráveis mãos e, levantando os olhos ao céu para Vós, Deus, seu Pai todo-poderoso, dando graças Vos bendisse, partiu-o e deu-o aos seus discípulos, dizendo:",
+                "Hoje, véspera da sua paixão, por nós e por todos os homens, Ele tomou o pão em suas santas e adoráveis mãos e, levantando os olhos ao céu, para Vós, Deus, seu Pai todo-poderoso, dando graças, abençoou-o, partiu-o e deu-o aos seus discípulos, dizendo:",
+                "Tomai, todos, e comei: isto é o meu Corpo, que será entregue por vós.",
+                "De igual modo, no fim da Ceia, tomou este sagrado cálice em suas santas e adoráveis mãos, dando graças Vos bendisse, e deu-o aos seus discípulos, dizendo:",
+                "Tomai, todos, e bebei: este é o cálice do meu Sangue, o Sangue da nova e eterna aliança, que será derramado por vós e por todos para remissão dos pecados. Fazei isto em memória de Mim.",
+                "Mistério da fé!",
+                "Anunciamos, Senhor, a vossa morte, proclamamos a vossa ressurreição. Vinde, Senhor Jesus!",
+                "Celebrando agora, Senhor, o memorial da bem-aventurada paixão de Jesus Cristo, vosso Filho, nosso Senhor, da sua ressurreição de entre os mortos e da sua gloriosa ascensão aos céus, nós, vossos servos, com o vosso povo santo, dos próprios bens que nos destes oferecemos à vossa divina majestade o sacrifício perfeito, santo e imaculado, o pão santo da vida eterna e o cálice da eterna salvação.",
+                "Olhai com benevolência e agrado para esta oferenda e dignai-Vos aceitá-la, como aceitastes os dons do justo Abel, vosso servo, o sacrifício de Abraão, nosso pai na fé, e a oblação pura e santa do sumo sacerdote Melquisedec",
+                "Humildemente Vos suplicamos, Deus todo-poderoso, que esta nossa oferenda seja apresentada pelo vosso santo anjo no altar celeste, diante da vossa divina majestade, para que todos nós, participando deste altar, pela comunhão do santíssimo Corpo e Sangue do vosso Filho, alcancemos a plenitude das bênçãos e graças do céu. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "Lembrai-Vos, Senhor, dos vossos servos e servas <red>N.</red> e <red>N.</red>, que partiram antes de nós, marcados com o sinal da fé, e agora dormem o sono da paz. <rub>(comemoração dos defuntos)</rub> Concedei-lhes, Senhor, a eles e a todos os que descansam em Cristo, o lugar da consolação, da luz e da paz. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "E a nós, pecadores, vossos servos, que esperamos na vossa infinita misericórdia, admiti-nos também na assembleia dos bem-aventurados apóstolos e mártires: João Batista, Estêvão, Matias, Barnabé, <red>(</red>Inácio, Alexandre, Marcelino, Pedro, Felicidade, Perpétua, Águeda, Luzia, Inês, Cecília, Anastácia<red>)</red> e de todos os santos. Recebei-nos em sua companhia, não pelo valor dos nossos méritos, mas segundo a grandeza do vosso perdão. <red>(</red>Por Cristo nosso Senhor. Ámen.<red>)</red>",
+                "Por nosso Senhor Jesus Cristo, criais todos os bens e lhes dais vida, os santificais, abençoais e distribuís por nós."
             ],
             "II": [
 
@@ -77,17 +106,21 @@
 
             ]
         },
+        "doxology": [
+            "Por Cristo, com Cristo, em Cristo, a Vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, por todos os séculos dos séculos.",
+            "Amen."
+        ],
         "lords-prayer": [
             "Fiéis aos ensinamentos do Salvador, ousamos dizer:",
-            "<lett>P</lett>ai nosso, que estais nos céus, santificado seja o vosso nome; venha a nós o vosso reino; seja feita a vossa vontade, assim na terra como no céu. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação; mas livrai-nos do mal.",
+            "Pai nosso, que estais nos céus, santificado seja o vosso nome; venha a nós o vosso reino; seja feita a vossa vontade, assim na terra como no céu. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação; mas livrai-nos do mal.",
             "Livrai-nos de todo o mal, Senhor, e dai ao mundo a paz em nossos dias, para que, ajudados pela vossa misericórdia, sejamos sempre livres do pecado e de toda a perturbação, enquanto esperamos a vinda gloriosa de Jesus Cristo nosso Salvador.",
-            "<r/> Vosso é o reino e o poder e a glória para sempre.",
+            "Vosso é o reino e o poder e a glória para sempre.",
             "Senhor Jesus Cristo, que dissestes aos vossos apóstolos: deixo-vos a paz, dou-vos a minha paz: não olheis aos nossos pecados, mas à fé da vossa Igreja, e dai-lhe a união e a paz, segundo a vossa vontade, Vós que viveis e reinais pelos séculos dos séculos.",
-            "<r/> Amen."
+            "Amen."
         ],
         "sign-peace": [
             "A paz do Senhor esteja sempre convosco.",
-            "<r/> O amor de Cristo nos uniu.",
+            "O amor de Cristo nos uniu.",
             "Saudai-vos na paz de Cristo."
         ],
         "lamb": [
@@ -96,23 +129,29 @@
             "Cordeiro de Deus, que tirais o pecado do mundo, dai-nos a paz."
         ],
         "invitation": [
-            "<rub>Entretanto, o celebrante reza em silêncio:</rub><br><small>Senhor Jesus Cristo, Filho de Deus vivo, que, por vontade do Pai e com o poder do Espírito Santo, destes a vida ao mundo pela vossa morte, livrai-me de todos os meus pecados e de todo o mal, por este vosso santíssimo Corpo e Sangue; conservai-me sempre fiel aos vossos mandamentos e não permitais que eu me separe de Vós.</small><br><rub>Ou:</rub><br><small>A  comunhão do vosso Corpo e Sangue, Senhor Jesus Cristo, não seja para meu julgamento e condenação, mas, pela vossa misericórdia, me sirva de proteção e remédio para a alma e para o corpo.</small>",
+            "Entretanto, o celebrante reza em silêncio:",
+            "<small>Senhor Jesus Cristo, Filho de Deus vivo, que, por vontade do Pai e com o poder do Espírito Santo, destes a vida ao mundo pela vossa morte, livrai-me de todos os meus pecados e de todo o mal, por este vosso santíssimo Corpo e Sangue; conservai-me sempre fiel aos vossos mandamentos e não permitais que eu me separe de Vós.</small>",
+            "Ou:",
+            "<small>A  comunhão do vosso Corpo e Sangue, Senhor Jesus Cristo, não seja para meu julgamento e condenação, mas, pela vossa misericórdia, me sirva de proteção e remédio para a alma e para o corpo.</small>",
             "Felizes os convidados para a Ceia do Senhor. Eis o Cordeiro de Deus, que tira o pecado do mundo.",
-            "<r/> Senhor, eu não sou digno de que entreis em minha morada, mas dizei uma palavra e serei salvo.",
-            "<rub>Inicia-se o cântico da comunhão, enquanto o celebrante comunga o Corpo e o Sangue do Senhor rezando em silêncio:</rub><br><small>O corpo de Cristo me guarde para a vida eterna.<br>O sangue de Cristo me guarde para a vida eterna.</small>"
+            "Senhor, eu não sou digno de que entreis em minha morada, mas dizei uma palavra e serei salvo.",
+            "Inicia-se o cântico da comunhão, enquanto o celebrante comunga o Corpo e o Sangue do Senhor rezando em silêncio:",
+            "<small>O corpo de Cristo me guarde para a vida eterna.",
+            "O sangue de Cristo me guarde para a vida eterna.</small>"
         ],
         "communion-rites": [
             "O Corpo de Cristo.",
-            "<r/> Amen.",
-            "<rub>Concluída a Comunhão, o celebrante reza em silêncio:</rub><br><small>O que em nossa boca recebemos, Senhor, seja por nós acolhido em coração puro, e estes dons da vida temporal se tornem remédio de vida eterna.</small>"
+            "Amen.",
+            "Concluída a Comunhão, o celebrante reza em silêncio:",
+            "<small>O que em nossa boca recebemos, Senhor, seja por nós acolhido em coração puro, e estes dons da vida temporal se tornem remédio de vida eterna.</small>"
         ]
     },
     "concluding-rites": [
-        "<v/> O Senhor esteja convosco.",
-        "<r/> Ele está no meio de nós.",
-        "<v/> Abençoe-vos Deus todo-poderoso, Pai, Filho e <red>✠</red> Espírito Santo.",
-        "<r/> Amen.",
-        "<v/> Ide em paz e o Senhor vos acompanhe.",
-        "<r/> Graças a Deus."
+        "O Senhor esteja convosco.",
+        "Ele está no meio de nós.",
+        "Abençoe-vos Deus todo-poderoso, Pai, Filho e <red>✠</red> Espírito Santo.",
+        "Amen.",
+        "Ide em paz e o Senhor vos acompanhe.",
+        "Graças a Deus."
     ]
 }

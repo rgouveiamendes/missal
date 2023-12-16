@@ -49,24 +49,24 @@ export default function Page({
 
   return (
     <>
-      <h1 className="background advento"><b>I Semana do Advento</b><br />Quinta-feira</h1>
+      <h1 className="background advent"><b>I Semana do Advento</b><br />Quinta-feira</h1>
       <div className="navigation-menu">
         <div className="button-group">
-          <Link className="button advento" href="../oracoes">Orações dia</Link>
+          <Link className="button advent" href="../oracoes">Orações dia</Link>
         </div>
         {isSunday &&
           <div className="button-group">
-            <Link className="button advento" href="/">Ano A</Link>
-            <Link className="button advento" href="/">Ano C</Link>
+            <Link className="button advent" href="/">Ano A</Link>
+            <Link className="button advent" href="/">Ano C</Link>
           </div>}
         <div className="button-group">
-          <Link className="button advento" href="/">Sa</Link>
+          <Link className="button advent" href="/">Sa</Link>
         </div>
         <div className="button-group">
-          <Link className="button advento" href="/">Se</Link>
+          <Link className="button advent" href="/">Se</Link>
         </div>
         <div className="button-group">
-          <Link className="button advento" href="/">Semana II</Link>
+          <Link className="button advent" href="/">Semana II</Link>
         </div>
       </div>
 
@@ -129,13 +129,13 @@ export default function Page({
       <div className="context-menu">
         <div className="button-group">
           <p className="red">Credo:</p>
-          <Link href="/" className="button advento">Português</Link>
-          <Link href="/" className="button advento">Latim</Link>
+          <Link href="/" className="button advent">Português</Link>
+          <Link href="/" className="button advent">Latim</Link>
         </div>
         <div className="button-group">
           <p className="red">Liturgia Eucarística:</p>
-          <Link href="/" className="button advento">Português</Link>
-          <Link href="/" className="button advento">Latim</Link>
+          <Link href="/" className="button advent">Português</Link>
+          <Link href="/" className="button advent">Latim</Link>
         </div>
       </div>
     </>

@@ -51,6 +51,7 @@ p {
   border-radius: 16px;
   padding: 8px;
   margin-right: 4px;
+  margin-top: 8px;
   line-height: normal;
   font-size: 80%;
   font-weight: bold;
@@ -59,20 +60,20 @@ p {
 .button-group {
   display: inline-block;
   margin-right: 0.8em;
-  line-height: 1.8;
 }
 
 /* Temporary */
 .button-container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: -8px;
 }
 
 .context-menu {
   display: inline-block;
   margin-top: 0.5em;
   margin-right: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 .navigation-menu {
@@ -100,54 +101,58 @@ p {
   color: var(--litred);
 }
 
+.lett::first-letter {
+    initial-letter: 3;
+  }
+
 .ref {
   font-weight: bold;
 }
 .small {
   font-size: 80%;
 }
-a.advento {
+a.advent {
   color: var(--litpurple);
 }
-a.advento:hover,
-a.advento:active {
+a.advent:hover,
+a.advent:active {
   background: var(--litpurple);
   color: white;
 }
-.advento.background {
+.advent.background {
   background: var(--litpurple);
   color: white;
 }
-.advento.button {
+.advent.button {
   border: solid var(--litpurple) 1px;
 }
-a.natal {
+a.christmas {
   color: var(--litblue);
 }
-a.natal:hover,
-a.natal:active {
+a.christmas:hover,
+a.christmas:active {
   background: var(--litblue);
   color: white;
 }
-.natal.background {
+.christmas.background {
   background: var(--litblue);
   color: white;
 }
-.natal.button {
+.christmas.button {
   border: solid var(--litblue) 1px;
 }
-a.quaresma {
+a.lent {
   color: var(--litpurple);
 }
-a.quaresma:hover,
-a.quaresma:active {
+a.lent:hover,
+a.lent:active {
   background: var(--litpurple);
   color: white;
 }
-.quaresma.background {
+.lent.background {
   background: var(--litpurple);
   color: white;
 }
-.quaresma.button {
+.lent.button {
   border: solid var(--litpurple) 1px;
 }
