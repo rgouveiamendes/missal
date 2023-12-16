@@ -83,13 +83,13 @@ export default function Page({
       <section id="salmo">
         <h2>Salmo Responsorial</h2>
         <p className="rub">{dayReadings['psalm'].reference}</p>
-        <p className="ref"><span className="rub">Refrão:</span> {dayReadings['psalm'].response}</p>
+        <p className="ref"><span className="red">Refrão:</span> {dayReadings['psalm'].response}</p>
         <p className="lt ref">Lorem ipsum dolot sit amet.</p>
 
         {dayReadings['psalm'].verses.map(verse => (
           <>
             <p>{verse}</p>
-            <p className="ref"><span className="rub">Refrão:</span> {dayReadings['psalm'].response}</p>
+            <p className="ref"><span className="red">Refrão:</span> {dayReadings['psalm'].response}</p>
             <p className="lt ref">Lorem ipsum dolot sit amet.</p>
           </>
         ))}

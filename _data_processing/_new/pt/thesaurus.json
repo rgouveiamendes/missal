@@ -45,5 +45,9 @@
     "reading": "Leitura",
     "psalm": "Salmo Responsorial",
     "aleluia": "Aleluia",
-    "gospel": "Evangelho"
+    "gospel": "Evangelho",
+    "after-reading-v": "Palavra do Senhor.",
+    "after-reading-r": "Graças a Deus.",
+    "after-gospel-v": "Palavra da salvação.",
+    "after-gospel-r": "Glória a Vós, Senhor."
 }
