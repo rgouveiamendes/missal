@@ -72,8 +72,8 @@ export default function Page({
 
       <section id="leitura-1">
         <h2>Leitura I</h2>
-        <p className="r">{dayReadings['reading-I'].reference}</p>
-        <p className="r">{dayReadings['reading-I'].snippet}</p>
+        <p className="rub">{dayReadings['reading-I'].reference}</p>
+        <p className="rub">{dayReadings['reading-I'].snippet}</p>
 
         <p>{dayReadings['reading-I'].announcement}</p>
         <p>{dayReadings['reading-I'].text}</p>
@@ -82,14 +82,14 @@ export default function Page({
 
       <section id="salmo">
         <h2>Salmo Responsorial</h2>
-        <p className="r">{dayReadings['psalm'].reference}</p>
-        <p className="ref"><span className="r">Refrão:</span> {dayReadings['psalm'].response}</p>
+        <p className="rub">{dayReadings['psalm'].reference}</p>
+        <p className="ref"><span className="rub">Refrão:</span> {dayReadings['psalm'].response}</p>
         <p className="lt ref">Lorem ipsum dolot sit amet.</p>
 
         {dayReadings['psalm'].verses.map(verse => (
           <>
             <p>{verse}</p>
-            <p className="ref"><span className="r">Refrão:</span> {dayReadings['psalm'].response}</p>
+            <p className="ref"><span className="rub">Refrão:</span> {dayReadings['psalm'].response}</p>
             <p className="lt ref">Lorem ipsum dolot sit amet.</p>
           </>
         ))}
@@ -98,8 +98,8 @@ export default function Page({
       {dayReadings['reading-II'] &&
         <section id="leitura-2">
           <h2>Leitura II</h2>
-          <p className="r">{dayReadings['reading-II'].reference}</p>
-          <p className="r">{dayReadings['reading-II'].snippet}</p>
+          <p className="rub">{dayReadings['reading-II'].reference}</p>
+          <p className="rub">{dayReadings['reading-II'].snippet}</p>
 
           <p>{dayReadings['reading-II'].announcement}</p>
           <p>{dayReadings['reading-II'].text}</p>
@@ -109,8 +109,8 @@ export default function Page({
 
       <section id="aleluia">
         <h2>Aleluia</h2>
-        {dayReadings['aleluia'].reference && <p className="r">{dayReadings['aleluia'].reference}</p>}
-        <p className="ref"><span className="r">Refrão:</span> Aleluia. Aleluia.</p>
+        {dayReadings['aleluia'].reference && <p className="rub">{dayReadings['aleluia'].reference}</p>}
+        <p className="ref"><span className="red">Refrão:</span> Aleluia. Aleluia.</p>
 
         <p>{dayReadings['aleluia'].text}</p>
         <p className="lt ref">Lorem ipsum dolot sit amet.</p>
@@ -118,22 +118,22 @@ export default function Page({
 
       <section id="evangelho">
         <h2>Evangelho</h2>
-        <p className="r">{dayReadings['gospel'].reference}</p>
-        {dayReadings['gospel'].snippet && <p className="r">{dayReadings['gospel'].snippet}</p>}
+        <p className="rub">{dayReadings['gospel'].reference}</p>
+        {dayReadings['gospel'].snippet && <p className="rub">{dayReadings['gospel'].snippet}</p>}
 
-        <p><span className="r">✠</span> {dayReadings['gospel'].announcement}</p>
+        <p><span className="red">✠</span> {dayReadings['gospel'].announcement}</p>
         <p>{dayReadings['gospel'].text}</p>
         <p>Palavra da salvação.</p>
       </section>
 
       <div className="context-menu">
         <div className="button-group">
-          <p className="r">Credo:</p>
+          <p className="red">Credo:</p>
           <Link href="/" className="button advento">Português</Link>
           <Link href="/" className="button advento">Latim</Link>
         </div>
         <div className="button-group">
-          <p className="r">Liturgia Eucarística:</p>
+          <p className="red">Liturgia Eucarística:</p>
           <Link href="/" className="button advento">Português</Link>
           <Link href="/" className="button advento">Latim</Link>
         </div>

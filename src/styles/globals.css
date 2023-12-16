@@ -89,11 +89,15 @@ p {
   color: gray;
 }
 
-.r {
+.rub {
   color: var(--litred);
   font-size: 80%;
   margin-top: 0em;
   margin-bottom: 0em;
+}
+
+.red {
+  color: var(--litred);
 }
 
 .ref {

@@ -1,0 +1,16 @@
+{
+    "week": "Semana",
+    "week-days": [
+        "domingo",
+        "segunda-feira",
+        "terça-feira",
+        "quarta-feira",
+        "quinta-feira",
+        "sexta-feira",
+        "sábado"
+    ],
+    "advent": "Avento",
+    "lent": "Quaresma",
+    "easter": "Páscoa",
+    "christmas": "Natal"
+}

@@ -9,7 +9,7 @@ export default function Home() {
         <h2>Leituras</h2>
 
         <div className="context-menu">
-          <p className="r">I Semana:</p>
+          <p className="rub">I Semana:</p>
           <div className="button-container">
             <Link href="./advent/week-01/1" className="button advento">Do</Link>
             <Link href="./advent/week-01/2" className="button advento">Se</Link>
@@ -21,7 +21,7 @@ export default function Home() {
           </div></div>
 
         <div className="context-menu">
-          <p className="r">II Semana:</p>
+          <p className="rub">II Semana:</p>
           <div className="button-container">
             <Link href="./advent/week-02/1" className="button advento">Do</Link>
             <Link href="./advent/week-02/2" className="button advento">Se</Link>
@@ -33,7 +33,7 @@ export default function Home() {
           </div></div>
 
         <div className="context-menu">
-          <p className="r">III Semana:</p>
+          <p className="rub">III Semana:</p>
           <div className="button-container">
             <Link href="./advent/week-03/1" className="button advento">Do</Link>
             <Link href="./advent/week-03/2" className="button advento">Se</Link>
@@ -44,13 +44,13 @@ export default function Home() {
           </div></div>
 
         <div className="context-menu">
-          <p className="r">IV Semana:</p>
+          <p className="rub">IV Semana:</p>
           <div className="button-container">
             <Link href="./advent/week-04/1" className="button advento">Do</Link>
           </div></div>
 
         <div className="context-menu">
-          <p className="r">Dias de dezembro:</p>
+          <p className="rub">Dias de dezembro:</p>
           <div className="button-container">
             <Link href="./advent/december/17" className="button advento">17.dez</Link>
             <Link href="./advent/december/18" className="button advento">18.dez</Link>
