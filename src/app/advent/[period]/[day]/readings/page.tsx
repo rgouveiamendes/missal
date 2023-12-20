@@ -1,6 +1,10 @@
 import adventJSON from '@/../public/data/pt/advent.json'
-import { DayReadings, SeasonJSON } from '@/types/readings';
+import thesaurusJSON from '@/../public/data/pt/thesaurus.json'
+import { DayReadings, SeasonJSON } from '@/types/day-specifics';
+import { Thesaurus } from '@/types/thesaurus';
 import Link from 'next/link';
+import convertToTitleCase from '@/lib/convertToTitleCase';
+import convertToRomanNumerals from '@/lib/convertToRomanNumerals';
 
 interface DatePath {
   period: string;
@@ -41,46 +45,70 @@ export default function Page({
   params: DatePath;
 }) {
   const typedAdventJSON = adventJSON as SeasonJSON;
+  const typedThesaurusJSON = thesaurusJSON as Thesaurus;
+
   const weekday = day.split('-')[0]
   const liturgical_year = day.split('-')[1]
 
   let dayReadings: DayReadings;
   let isSunday: boolean;
 
-  if (weekday == '1') {
-    const daysData = typedAdventJSON.readings[period][weekday] as DayReadings[];
-    const cycles = daysData.map((dayData: DayReadings) => dayData.cycle);
-    const idx = cycles.indexOf(liturgical_year);
-    dayReadings = daysData[idx] as DayReadings;
-    isSunday = true;
-    console.log('if');
+  let isNumberedWeek;
+  let cycles: string[] = [];
+
+  if (period.split('-')[0] == 'week') {
+    isNumberedWeek = true;
+    if (weekday == '1') {
+      const daysData = typedAdventJSON.readings[period][weekday] as DayReadings[];
+      cycles = daysData.map((dayData: DayReadings) => dayData.cycle) as string[];
+      const idx = cycles.indexOf(liturgical_year);
+      dayReadings = daysData[idx] as DayReadings;
+      isSunday = true;
+    } else {
+      dayReadings = typedAdventJSON.readings[period][weekday] as DayReadings;
+      isSunday = false;
+    }
   } else {
-    console.log('else');
-    dayReadings = typedAdventJSON.readings[period][weekday] as DayReadings;
+    isNumberedWeek = false;
+    dayReadings = typedAdventJSON.readings[period][day] as DayReadings;
     isSunday = false;
   }
 
   return (
     <>
-      <h1 className="background advent"><b>I Semana do Advento</b><br />Quinta-feira</h1>
+      <h1 className="background advent">
+        {isNumberedWeek ? (
+          <><b>{convertToRomanNumerals(parseInt(period.split('-')[1]))} Semana do Advento</b>
+            <br />
+            {convertToTitleCase(typedThesaurusJSON['week-days'][parseInt(weekday) - 1])}
+            {isSunday && ` - Ano ${liturgical_year}`}</>
+        ) : (<>
+          <b>Advento</b>
+          <br />{day} de {convertToTitleCase(typedThesaurusJSON.months[11])}
+        </>
+        )
+        }
+      </h1>
       <div className="navigation-menu">
         <div className="button-group">
-          <Link className="button advent" href="/">Orações dia</Link>
+          <Link className="button advent" href={`/advent/${period}/${weekday}/propers`}>Orações dia</Link>
         </div>
         {isSunday &&
-          <div className="button-group">
-            <Link className="button advent" href="/">Ano A</Link>
-            <Link className="button advent" href="/">Ano C</Link>
-          </div>}
+          <>
+            <div className="button-group">
+              {cycles?.map((cycle: string) => (
+                liturgical_year != cycle && <Link key={cycle} className="button advent" href={`/advent/${period}/${weekday}-${cycle}/readings`}>Ano {cycle}</Link>
+              ))}
+            </div>
+          </>
+        }
         <div className="button-group">
           <Link className="button advent" href="/">Sa</Link>
-        </div>
-        <div className="button-group">
           <Link className="button advent" href="/">Se</Link>
         </div>
-        <div className="button-group">
+        {/* <div className="button-group">
           <Link className="button advent" href="/">Semana II</Link>
-        </div>
+        </div> */}
       </div>
 
       <section id="leitura-1">

@@ -1,6 +1,10 @@
 import adventJSON from '@/../public/data/pt/advent.json'
-import { DayPropers, SeasonJSON } from '@/types/readings';
+import { DayPropers, SeasonJSON } from '@/types/day-specifics';
 import Link from 'next/link';
+import convertToTitleCase from '@/lib/convertToTitleCase';
+import convertToRomanNumerals from '@/lib/convertToRomanNumerals';
+import thesaurusJSON from '@/../public/data/pt/thesaurus.json'
+import { Thesaurus } from '@/types/thesaurus';
 
 interface DatePath {
   period: string;
@@ -34,23 +38,55 @@ export default function Page({
   params: DatePath;
 }) {
   const typedAdventJSON = adventJSON as unknown as SeasonJSON;
+  const typedThesaurusJSON = thesaurusJSON as Thesaurus;
 
   const dayPropers = typedAdventJSON.propers[period][day] as DayPropers;
 
+  let isSunday;
+  let isNumberedWeek;
+
+  if (period.split('-')[0] == 'week') {
+    isNumberedWeek = true;
+    if (day == '1') {
+      isSunday = true;
+    } else {
+      isSunday = false;
+    }
+  } else {
+    isNumberedWeek = false;
+    isSunday = false;
+  }
+
   return (
     <>
-      <h1 className="background advent"><b>I Semana do Advento</b><br />Quarta-feira</h1>
+      <h1 className="background advent">
+        {isNumberedWeek ? (
+          <><b>{convertToRomanNumerals(parseInt(period.split('-')[1]))} Semana do Advento</b>
+            <br />
+            {convertToTitleCase(typedThesaurusJSON['week-days'][parseInt(day) - 1])}</>
+        ) : (<>
+          <b>Advento</b>
+          <br />{day} de {convertToTitleCase(typedThesaurusJSON.months[11])}
+        </>
+        )
+        }
+      </h1>
       <div className="navigation-menu">
+        {!isSunday && <div className="button-group">
+          <Link className="button advent" href={`/advent/${period}/${day}/readings`}>Leituras do dia</Link>
+        </div>}
+        {isSunday && <div className="button-group">
+          <Link className="button advent" href={`/advent/${period}/${day}-A/readings`}>Leituras Do A</Link>
+          <Link className="button advent" href={`/advent/${period}/${day}-B/readings`}>Leituras Do B</Link>
+          <Link className="button advent" href={`/advent/${period}/${day}-C/readings`}>Leituras Do C</Link>
+        </div>}
         <div className="button-group">
-          <a className="button advent" href="../leituras">Leituras dia</a>
+          <Link className="button advent" href="/">Sa</Link>
+          <Link className="button advent" href="/">Se</Link>
         </div>
-        <div className="button-group">
-          <a className="button advent" href="../../te/oracoes">Te</a>
-          <a className="button advent" href="../../qi/oracoes">Qi</a>
-        </div>
-        <div className="button-group">
+        {/* <div className="button-group">
           <a className="button advent" href="../../../sem-02/qa/oracoes">Semana II</a>
-        </div>
+        </div> */}
       </div>
 
       <section id="ant-entrada">
