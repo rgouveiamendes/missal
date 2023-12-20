@@ -35,12 +35,42 @@ export interface DayReadings {
   [key: string]: Reading | Psalm | Aleluia | Gospel | string | undefined;
 }
 
-export interface Period {
+export interface DayPropers {
+  entrance: {
+    reference: string | null;
+    text: string;
+  };
+  collect: {
+    reference: string | null;
+    text: string;
+  };
+  offerings: {
+    reference: string | null;
+    text: string;
+  };
+  communion: {
+    reference: string | null ;
+    text: string;
+  };
+  "post-communion": {
+    reference: string | null;
+    text: string;
+  };
+}
+
+export interface PeriodReadings {
   [day: string]: DayReadings[] | DayReadings;
 }
 
-export interface AdventJSON {
+export interface PeriodPropers {
+  [day: string]: DayPropers;
+}
+
+export interface SeasonJSON {
+  propers: {
+    [period: string]: PeriodPropers;
+  };
   readings: {
-    [periodKey: string]: Period;
+    [period: string]: PeriodReadings;
   };
 }

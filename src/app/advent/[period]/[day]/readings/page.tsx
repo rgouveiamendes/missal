@@ -1,5 +1,5 @@
-import adventJSON from '@/../public/data/advent.json'
-import { DayReadings, AdventJSON } from '@/types/readings';
+import adventJSON from '@/../public/data/pt/advent.json'
+import { DayReadings, SeasonJSON } from '@/types/readings';
 import Link from 'next/link';
 
 interface DatePath {
@@ -13,7 +13,7 @@ export async function generateStaticParams({
   params: DatePath;
 }) {
 
-  const typedAdventJSON = adventJSON as AdventJSON;
+  const typedAdventJSON = adventJSON as SeasonJSON;
 
   let paths: DatePath[] = [];
 
@@ -21,8 +21,14 @@ export async function generateStaticParams({
   Object.entries(typedAdventJSON.readings).forEach(([period, days]) => {
     Object.keys(days).forEach(day => {
 
-      // Add the path object to the array
-      paths.push({ period: period, day: day });
+      if (days[day] && Array.isArray(days[day])) {
+        (days[day] as DayReadings[]).forEach((dayReading: DayReadings) => {
+          paths.push({ period: period, day: `${day}-${dayReading.cycle}` });
+        });
+
+      } else {
+        paths.push({ period: period, day: day });
+      }
     });
   });
 
@@ -34,16 +40,23 @@ export default function Page({
 }: {
   params: DatePath;
 }) {
-  const typedAdventJSON = adventJSON as AdventJSON;
-  const dayData = typedAdventJSON.readings[period][day];
+  const typedAdventJSON = adventJSON as SeasonJSON;
+  const weekday = day.split('-')[0]
+  const liturgical_year = day.split('-')[1]
 
   let dayReadings: DayReadings;
   let isSunday: boolean;
-  if (Array.isArray(dayData)) {
-    dayReadings = dayData[0];
+
+  if (weekday == '1') {
+    const daysData = typedAdventJSON.readings[period][weekday] as DayReadings[];
+    const cycles = daysData.map((dayData: DayReadings) => dayData.cycle);
+    const idx = cycles.indexOf(liturgical_year);
+    dayReadings = daysData[idx] as DayReadings;
     isSunday = true;
+    console.log('if');
   } else {
-    dayReadings = dayData;
+    console.log('else');
+    dayReadings = typedAdventJSON.readings[period][weekday] as DayReadings;
     isSunday = false;
   }
 
@@ -52,7 +65,7 @@ export default function Page({
       <h1 className="background advent"><b>I Semana do Advento</b><br />Quinta-feira</h1>
       <div className="navigation-menu">
         <div className="button-group">
-          <Link className="button advent" href="../oracoes">Orações dia</Link>
+          <Link className="button advent" href="/">Orações dia</Link>
         </div>
         {isSunday &&
           <div className="button-group">
@@ -84,13 +97,13 @@ export default function Page({
         <h2>Salmo Responsorial</h2>
         <p className="rub">{dayReadings['psalm'].reference}</p>
         <p className="ref"><span className="red">Refrão:</span> {dayReadings['psalm'].response}</p>
-        <p className="lt ref">Lorem ipsum dolot sit amet.</p>
+        <p className="lt ref">Lorem ipsum dolor sit amet.</p>
 
         {dayReadings['psalm'].verses.map(verse => (
           <>
             <p>{verse}</p>
             <p className="ref"><span className="red">Refrão:</span> {dayReadings['psalm'].response}</p>
-            <p className="lt ref">Lorem ipsum dolot sit amet.</p>
+            <p className="lt ref">Lorem ipsum dolor sit amet.</p>
           </>
         ))}
       </section >
@@ -113,7 +126,7 @@ export default function Page({
         <p className="ref"><span className="red">Refrão:</span> Aleluia. Aleluia.</p>
 
         <p>{dayReadings['aleluia'].text}</p>
-        <p className="lt ref">Lorem ipsum dolot sit amet.</p>
+        <p className="lt ref">Lorem ipsum dolor sit amet.</p>
       </section>
 
       <section id="evangelho">

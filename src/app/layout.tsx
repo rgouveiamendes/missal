@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Teste',
 }
 
-export const dynamicParams = false
+// export const dynamicParams = true
 
 export default function RootLayout({
   children,
