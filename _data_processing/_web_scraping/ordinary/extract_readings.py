@@ -193,6 +193,7 @@ possible_sections = [
 
 ordinary_readings = defaultdict(recursive_defaultdict)
 
+
 # Week 1 of Ordinary Time
 
 file_paths = [
@@ -231,7 +232,58 @@ for i, file_path in enumerate(file_paths):
     ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
 
 
+# print(repr(ordinary_readings.keys()))
+# print(repr(ordinary_readings['week-01'].keys()))
+# print(repr(ordinary_readings['week-01']['2'].keys()))
+# print(repr(ordinary_readings['week-01']['2-even'].keys()))
+
+
+
+# Weeks 2.. 
+
+file_paths = [
+    "../../_old/TCSemana02.htm",
+]
+
+weekdays = ["1", "1", "1", 
+            "2", "3", "4", "5", "6", "7", 
+            "2-even", "3-even", "4-even",
+            "5-even", "6-even", "7-even"]
+cycles = ["A", "B", "C"]
+
+for i, file_path in enumerate(file_paths):
+  masses_raw_text = extract_sections(file_path)
+  # print(repr(masses_raw_text.keys()))
+  # print(repr(masses_raw_text['I Semana do Tempo Comum']))
+
+  for i, key in enumerate(list(masses_raw_text.keys())[1:]):
+    # [1:] == Exclusion of first key in masses_raw_text as the 
+    #   first key refers to the initial week page containg its propers
+    mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
+    
+    sections = list(mass_by_section.keys())
+
+    keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
+    reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
+    # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
+    # # Is a dictionary an **ordered** collection of key-value pairs, as opposed to a unorderd collection of key-value pairs?
+
+    readings = create_json_mass_readings(reading_idxs, mass_by_section)
+    # print(repr(readings.keys()))
+    # if 'gospel' in readings:
+    #   print(f"{repr(readings['gospel'])}\n")
+
+    if weekdays[i] == '1':
+      if ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] == {}:
+        ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = []
+      # readings['cycle'] = [cycles][i]
+      readings = {**{'cycle': cycles[i]}, **readings}
+      ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]].append(readings)
+    else:
+      ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
+
 print(repr(ordinary_readings.keys()))
-print(repr(ordinary_readings['week-01'].keys()))
-print(repr(ordinary_readings['week-01']['2'].keys()))
-print(repr(ordinary_readings['week-01']['2-even'].keys()))
+print(repr(ordinary_readings['week-02'].keys()))
+print(repr(ordinary_readings['week-02']['1']))
+print(repr(ordinary_readings['week-02']['2'].keys()))
+print(repr(ordinary_readings['week-02']['2-even'].keys()))
