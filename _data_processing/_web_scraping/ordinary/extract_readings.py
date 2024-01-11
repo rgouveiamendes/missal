@@ -193,6 +193,8 @@ possible_sections = [
 
 ordinary_readings = defaultdict(recursive_defaultdict)
 
+# Week 1 of Ordinary Time
+
 file_paths = [
     "../../_old/TCSemana01.htm",
 ]
