@@ -222,15 +222,14 @@ for i, file_path in enumerate(file_paths):
     # # Is a dictionary an **ordered** collection of key-value pairs, as opposed to a unorderd collection of key-value pairs?
 
     readings = create_json_mass_readings(reading_idxs, mass_by_section)
-    print(repr(readings.keys()))
-    # if readings['reading-I']:
-    #   print(repr(readings['leitura-I']))
+    # print(repr(readings.keys()))
+    # if 'gospel' in readings:
+    #   print(f"{repr(readings['gospel'])}\n")
 
-    # if weekdays[i] == '1':
-    #   if advent_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] == {}:
-    #     advent_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = []
-    #   # readings['cycle'] = [cycles][i]
-    #   readings = {**{'cycle': cycles[i]}, **readings}
-    #   advent_readings[f'week-{file_path[-6:-4]}'][weekdays[i]].append(readings)
-    # else:
-    #   advent_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
+    ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
+
+
+print(repr(ordinary_readings.keys()))
+print(repr(ordinary_readings['week-01'].keys()))
+print(repr(ordinary_readings['week-01']['2'].keys()))
+print(repr(ordinary_readings['week-01']['2-even'].keys()))
