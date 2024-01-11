@@ -197,8 +197,9 @@ file_paths = [
     "../../_old/TCSemana01.htm",
 ]
 
-weekdays = ["1", "1", "1", "2", "3", "4", "5", "6", "7"]
-cycles = ["A", "B", "C"]
+weekdays = ["2", "3", "4", "5", "6", "7", 
+            "2-even", "3-even", "4-even",
+            "5-even", "6-even", "7-even"]
 
 for i, file_path in enumerate(file_paths):
   masses_raw_text = extract_sections(file_path)
