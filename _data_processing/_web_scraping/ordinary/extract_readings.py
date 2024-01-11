@@ -18,7 +18,7 @@ def defaultdict_to_dict(d):
 
 # A change to extract_sections(file_path) is required for ordinary time.
 # Masses are not separated by h3 elements but by div elements.
-# In addition to that there's an initial that aggregates the whole page.
+# In addition to that there's an initial div that aggregates the whole page.
 # Meaning: an extra conditional flow had to be incorporated into
 #           extract_sections for previous functioning logic to work
 #           with div elements instead of h3 elements.
@@ -154,22 +154,21 @@ def create_json_mass_readings(reading_idxs, mass_by_section):
       reading_data['reference'] = reference
 
       base_idx = 0
-      if section_content[0][0] == '(':
-        reading_data['notice'] = section_content[0]
-        base_idx = 1
+      # if section_content[0][0] == '(':
+      #   reading_data['notice'] = section_content[0]
+      #   base_idx = 1
       
-      reading_data['response'] = ': '.join(section_content[base_idx + 2].split(': ')[1:])
+      reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
 
       if section_content[base_idx + 2].split(' ')[0] == 'Ou:':
         reading_data['alt-response'] = ' '.join(section_content[base_idx+2].split(' ')[1:])
-        if len(section_content[base_idx+3:]) % 3 == 1:
-          reading_data['verses'] = section_content[base_idx+4::3]
-        else:
-          reading_data['verses'] = section_content[base_idx+3::3]
+        # if len(section_content[base_idx+3:]) % 3 == 1:
+        #   print(repr(section_content[base_idx+4::3]))
+        #   reading_data['verses'] = section_content[base_idx+4::3]
+        # else:
+        reading_data['verses'] = section_content[base_idx+3::3]
       else:
         reading_data['verses'] = section_content[base_idx+2::3]
-      # Example of need for ':Ou' conditional flow?
-      # Shouldn't there also be some sort of alt-verses?
       # Slicing notation [start:stop:step]
      
     if reading_type != None:
@@ -211,17 +210,20 @@ for i, file_path in enumerate(file_paths):
     #   first key refers to the initial week page containg its propers
     mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
     
-    # print(repr(mass_by_section.keys()))
-    # print(repr(mass_by_section['LEITURA I - Hebr 1, 1-6']))
+    # print(f"{repr(mass_by_section.keys())}")
+    # print(repr(mass_by_section['SALMO RESPONSORIAL - Salmo 96 (97), 1 e 2b.6 e 7c.9 (R. cf. 7c)']))
 
-    # sections = list(mass_by_section.keys())
+    sections = list(mass_by_section.keys())
 
-    # keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
-    # reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
+    keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
+    reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
     # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
     # # Is a dictionary an **ordered** collection of key-value pairs, as opposed to a unorderd collection of key-value pairs?
 
-    # readings = create_json_mass_readings(reading_idxs, mass_by_section)
+    readings = create_json_mass_readings(reading_idxs, mass_by_section)
+    print(repr(readings.keys()))
+    # if readings['reading-I']:
+    #   print(repr(readings['leitura-I']))
 
     # if weekdays[i] == '1':
     #   if advent_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] == {}:
