@@ -284,6 +284,13 @@ for i, file_path in enumerate(file_paths):
 
 print(repr(ordinary_readings.keys()))
 print(repr(ordinary_readings['week-02'].keys()))
-print(repr(ordinary_readings['week-02']['1']))
+# print(repr(ordinary_readings['week-02']['1']))
 print(repr(ordinary_readings['week-02']['2'].keys()))
 print(repr(ordinary_readings['week-02']['2-even'].keys()))
+
+for sunday in ordinary_readings['week-02']['1']:
+  print(f"{sunday['gospel']}\n")
+
+for day in ordinary_readings['week-02']:
+  if 'gospel' in ordinary_readings['week-02'][day]:
+    print(f"{ordinary_readings['week-02'][day]['gospel']}\n")
