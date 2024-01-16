@@ -8,9 +8,7 @@ def recursive_defaultdict():
 
 def defaultdict_to_dict(d):
   if isinstance(d, defaultdict):
-    # Convert the defaultdict itself to a dict
     d = dict(d)
-    # Recursively apply this conversion
     for key, value in d.items():
       d[key] = defaultdict_to_dict(value)
   return d
@@ -33,8 +31,8 @@ def extract_sections(file_path):
 
     masses_raw_text = {}
     for element in soup.body.find_all():
-      if element.get_text() == '\xa0': # Matches a " " chr [code 160])
-        continue                       # no-break space
+      if element.get_text() == '\xa0':
+        continue
 
       if element.name == 'div':
         if was_div == False and first_div == True:
@@ -48,12 +46,9 @@ def extract_sections(file_path):
       elif element.name == 'p':
         if was_div == True:
           current_mass = current_mass.strip().replace('\n', ' ')
-          # print(repr(current_mass))
           masses_raw_text[current_mass] = []
         if current_mass != '':
           masses_raw_text[current_mass].append(element.get_text())
-          # if len(masses_raw_text[current_mass]) == 1 :
-            # print(repr(masses_raw_text[current_mass]))
         was_div = False
   
   return masses_raw_text
@@ -87,9 +82,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section):
 
     data_from_title = sections[idx].split(' - ')
     name = data_from_title[0].title() # Correct words' casing
-    if name.split(' ')[0] == 'Leitura':
-      name = name.split(' ')[0].title() + ' ' + name.split(' ')[1].upper() 
-      # Couldn't this be done more efficiently?
+
     reference = ' - '.join(data_from_title[1:])
     # In case data_from_title contains more than one ' - ' substring?
 
