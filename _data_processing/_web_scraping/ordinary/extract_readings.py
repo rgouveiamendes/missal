@@ -247,6 +247,7 @@ file_paths = [
     # "../../_old/TCSemana04.htm",
     # "../../_old/TCSemana05.htm",
     "../../_old/TCSemana06.htm",
+    "../../_old/TCSemana07.htm",
 ]
 
 weekdays = ["1", "1", "1", 
@@ -287,21 +288,21 @@ for i, file_path in enumerate(file_paths):
       ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
 
 print(repr(ordinary_readings.keys()))
-print(repr(ordinary_readings['week-06'].keys()))
+# print(repr(ordinary_readings['week-06'].keys()))
 # print(repr(ordinary_readings['week-02']['1']))
-print(repr(ordinary_readings['week-06']['2'].keys()))
-print(repr(ordinary_readings['week-06']['2-even'].keys()))
+# print(repr(ordinary_readings['week-06']['2'].keys()))
+# print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
-# for sunday in ordinary_readings['week-06']['1']:
+# for sunday in ordinary_readings['week-07']['1']:
 #   print(f"{sunday['reading-I']}\n")
 #   print(f"{sunday['psalm']}\n")
 #   print(f"{sunday['reading-II']}\n")
 #   print(f"{sunday['aleluia']}\n")
 #   print(f"{sunday['gospel']}\n")
 
-for day in ordinary_readings['week-06']:
-  if 'psalm' in ordinary_readings['week-06'][day]:
-    print(f"{ordinary_readings['week-06'][day]['reading-I']}\n")
-    print(f"{ordinary_readings['week-06'][day]['psalm']}\n")
-    # print(f"{ordinary_readings['week-06'][day]['aleluia']}\n")
-    # print(f"{ordinary_readings['week-06'][day]['gospel']}\n")
+for day in ordinary_readings['week-07']:
+  if 'gospel' in ordinary_readings['week-07'][day]:
+    print(f"{ordinary_readings['week-07'][day]['reading-I']}\n")
+    print(f"{ordinary_readings['week-07'][day]['psalm']}\n")
+    print(f"{ordinary_readings['week-07'][day]['aleluia']}\n")
+    print(f"{ordinary_readings['week-07'][day]['gospel']}\n")
