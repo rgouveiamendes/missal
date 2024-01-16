@@ -50,7 +50,7 @@ def extract_sections(file_path):
         if current_mass != '':
           masses_raw_text[current_mass].append(element.get_text())
         was_div = False
-  
+
   return masses_raw_text
 
 def get_mass_by_sections(mass_raw_text, sections):
@@ -97,6 +97,22 @@ def gospel_extraction(reading_data, section_content, reference):
   # There might not be a need for:
   #   - conditional flow around base_idx;
 
+def psalm_extraction(reading_data, section_content, reference):
+  reading_data['reference'] = reference
+
+  base_idx = 0
+  # if section_content[0][0] == '(':
+  #   reading_data['notice'] = section_content[0]
+  #   base_idx = 1
+
+  reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
+
+  if section_content[base_idx + 2].split(' ')[0] == 'Ou:':
+    reading_data['alt-response'] = ' '.join(section_content[base_idx+2].split(' ')[1:])
+    reading_data['verses'] = section_content[base_idx+3::3]
+  else:
+    reading_data['verses'] = section_content[base_idx+2::3]
+
 def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   readings = {}
@@ -108,7 +124,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     name = data_from_title[0].title() # Correct words' casing
     name_split = name.split(' ')
     if name_split[0] == 'Leitura':
-      name = name_split[0].title() + ' ' + name_split[1].upper() 
+      name = name_split[0].title() + ' ' + name_split[1].upper()
     reference = ' - '.join(data_from_title[1:])
 
     if reference == '':
@@ -126,37 +142,18 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     if 'Evangelho' in name:
       reading_type = 'gospel'
       gospel_extraction(reading_data, section_content, reference)
-    
+
     if 'Aleluia' in name:
       reading_type = 'aleluia'
       reading_data['reference'] = reference
       reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
-      # In case of extra ': ' beyond that separating response from 'Refrão', right?
       reading_data['text'] = section_content[1]
       # Missing latin text?
 
     if 'Salmo' in name:
       reading_type = 'psalm'
-      reading_data['reference'] = reference
+      psalm_extraction(reading_data, section_content, reference)
 
-      base_idx = 0
-      # if section_content[0][0] == '(':
-      #   reading_data['notice'] = section_content[0]
-      #   base_idx = 1
-      
-      reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
-
-      if section_content[base_idx + 2].split(' ')[0] == 'Ou:':
-        reading_data['alt-response'] = ' '.join(section_content[base_idx+2].split(' ')[1:])
-        # if len(section_content[base_idx+3:]) % 3 == 1:
-        #   print(repr(section_content[base_idx+4::3]))
-        #   reading_data['verses'] = section_content[base_idx+4::3]
-        # else:
-        reading_data['verses'] = section_content[base_idx+3::3]
-      else:
-        reading_data['verses'] = section_content[base_idx+2::3]
-      # Slicing notation [start:stop:step]
-     
     if reading_type != None:
       readings[reading_type] = reading_data
     else:
