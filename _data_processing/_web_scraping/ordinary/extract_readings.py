@@ -70,14 +70,11 @@ def get_mass_by_sections(mass_raw_text, sections):
   return mass_by_section
 
 
-def create_json_mass_readings(reading_idxs, mass_by_section):
+def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   readings = {}
-
-  sections = list(mass_by_section.keys()) 
-  # Couldn't this also be passed in as an argument?
-
   readings_present = []
+
   for idx in reading_idxs:
 
     data_from_title = sections[idx].split(' - ')
@@ -270,12 +267,8 @@ for i, file_path in enumerate(file_paths):
     keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
     reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
     # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
-    # # Is a dictionary an **ordered** collection of key-value pairs, as opposed to a unorderd collection of key-value pairs?
 
-    readings = create_json_mass_readings(reading_idxs, mass_by_section)
-    # print(repr(readings.keys()))
-    # if 'gospel' in readings:
-    #   print(f"{repr(readings['gospel'])}\n")
+    readings = create_json_mass_readings(reading_idxs, mass_by_section, sections)
 
     if weekdays[i] == '1':
       if ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] == {}:
