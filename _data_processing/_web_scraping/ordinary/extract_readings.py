@@ -82,8 +82,9 @@ def create_json_mass_readings(reading_idxs, mass_by_section):
 
     data_from_title = sections[idx].split(' - ')
     name = data_from_title[0].title() # Correct words' casing
-    if name.split(' ')[0] == 'Leitura':
-      name = name.split(' ')[0].title() + ' ' + name.split(' ')[1].upper() 
+    name_split = name.split(' ')
+    if name_split[0] == 'Leitura':
+      name = name_split[0].title() + ' ' + name_split[1].upper() 
       # Couldn't this be done more efficiently?
     reference = ' - '.join(data_from_title[1:])
     # In case data_from_title contains more than one ' - ' substring?
