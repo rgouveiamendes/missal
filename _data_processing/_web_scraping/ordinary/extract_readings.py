@@ -50,7 +50,7 @@ def extract_sections(file_path):
         if current_mass != '':
           masses_raw_text[current_mass].append(element.get_text())
         was_div = False
-
+  
   return masses_raw_text
 
 def get_mass_by_sections(mass_raw_text, sections):
@@ -104,7 +104,7 @@ def psalm_extraction(reading_data, section_content, reference):
   # if section_content[0][0] == '(':
   #   reading_data['notice'] = section_content[0]
   #   base_idx = 1
-
+  
   reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
 
   if section_content[base_idx + 2].split(' ')[0] == 'Ou:':
@@ -124,7 +124,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     name = data_from_title[0].title() # Correct words' casing
     name_split = name.split(' ')
     if name_split[0] == 'Leitura':
-      name = name_split[0].title() + ' ' + name_split[1].upper()
+      name = name_split[0].title() + ' ' + name_split[1].upper() 
     reference = ' - '.join(data_from_title[1:])
 
     if reference == '':
@@ -142,7 +142,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     if 'Evangelho' in name:
       reading_type = 'gospel'
       gospel_extraction(reading_data, section_content, reference)
-
+    
     if 'Aleluia' in name:
       reading_type = 'aleluia'
       reading_data['reference'] = reference
@@ -153,7 +153,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     if 'Salmo' in name:
       reading_type = 'psalm'
       psalm_extraction(reading_data, section_content, reference)
-
+     
     if reading_type != None:
       readings[reading_type] = reading_data
     else:
@@ -225,15 +225,15 @@ ordinary_readings = defaultdict(recursive_defaultdict)
 # Weeks 2.. 
 
 file_paths = [
-    # "../../_old/TCSemana02.htm",
+    "../../_old/TCSemana02.htm",
     # "../../_old/TCSemana03.htm",
     # "../../_old/TCSemana04.htm",
     # "../../_old/TCSemana05.htm",
-    "../../_old/TCSemana06.htm",
-    "../../_old/TCSemana07.htm",
-    "../../_old/TCSemana08.htm",
-    "../../_old/TCSemana09.htm",
-    "../../_old/TCSemana10.htm",
+    # "../../_old/TCSemana06.htm",
+    # "../../_old/TCSemana07.htm",
+    # "../../_old/TCSemana08.htm",
+    # "../../_old/TCSemana09.htm",
+    # "../../_old/TCSemana10.htm",
 ]
 
 weekdays = ["1", "1", "1", 
@@ -244,8 +244,6 @@ cycles = ["A", "B", "C"]
 
 for i, file_path in enumerate(file_paths):
   masses_raw_text = extract_sections(file_path)
-  # print(repr(masses_raw_text.keys()))
-  # print(repr(masses_raw_text['I Semana do Tempo Comum']))
 
   for i, key in enumerate(list(masses_raw_text.keys())[1:]):
     # [1:] == Exclusion of first key in masses_raw_text as the 
@@ -275,16 +273,18 @@ print(repr(ordinary_readings.keys()))
 # print(repr(ordinary_readings['week-06']['2'].keys()))
 # print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
-# for sunday in ordinary_readings['week-10']['1']:
-#   print(f"{sunday['reading-I']}\n")
-#   print(f"{sunday['psalm']}\n")
-#   print(f"{sunday['reading-II']}\n")
-#   print(f"{sunday['aleluia']}\n")
-#   print(f"{sunday['gospel']}\n")
+for sunday in ordinary_readings['week-2']['1']:
+  print(f"{sunday['reading-I']}\n")
+  print(f"{sunday['psalm']}\n")
+  print(f"{sunday['reading-II']}\n")
+  print(f"{sunday['aleluia']}\n")
+  print(f"{sunday['gospel']}\n")
 
-for day in ordinary_readings['week-10']:
-  if 'gospel' in ordinary_readings['week-10'][day]:
-    print(f"{ordinary_readings['week-10'][day]['reading-I']}\n")
-    print(f"{ordinary_readings['week-10'][day]['psalm']}\n")
-    print(f"{ordinary_readings['week-10'][day]['aleluia']}\n")
-    print(f"{ordinary_readings['week-10'][day]['gospel']}\n")
+# for day in ordinary_readings['week-10']:
+#   if 'gospel' in ordinary_readings['week-10'][day]:
+#     print(f"{ordinary_readings['week-10'][day]['reading-I']}\n")
+#     print(f"{ordinary_readings['week-10'][day]['psalm']}\n")
+#     print(f"{ordinary_readings['week-10'][day]['aleluia']}\n")
+#     print(f"{ordinary_readings['week-10'][day]['gospel']}\n")
+
+
