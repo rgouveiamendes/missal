@@ -84,6 +84,19 @@ def reading_extraction(reading_type, reading_data, readings_present, section_con
   reading_data["announcement"] = section_content[base_idx + 1]
   reading_data['text'] = ' '.join(section_content[base_idx + 2 : -1])
 
+def gospel_extraction(reading_data, section_content, reference):
+  reading_data['reference'] = reference
+  base_idx = 0
+  if section_content[0][0] == '«':
+    reading_data['snippet'] = section_content[base_idx]
+  else:
+    base_idx = -1
+  reading_data['snippet'] = section_content[0]
+  reading_data['announcement'] = section_content[base_idx + 1]
+  reading_data['text'] = ' '.join(section_content[base_idx + 2 : -2])
+  # There might not be a need for:
+  #   - conditional flow around base_idx;
+
 def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   readings = {}
@@ -96,7 +109,6 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     name_split = name.split(' ')
     if name_split[0] == 'Leitura':
       name = name_split[0].title() + ' ' + name_split[1].upper() 
-      # Couldn't this be done more efficiently?
     reference = ' - '.join(data_from_title[1:])
 
     if reference == '':
@@ -113,17 +125,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
     if 'Evangelho' in name:
       reading_type = 'gospel'
-      reading_data['reference'] = reference
-      if section_content[0][0] == '«':
-        reading_data['snippet'] = section_content[base_idx]
-      else:
-        base_idx = -1
-        # Is there a need for this conditional new assignemnt of base_idx?
-      reading_data['snippet'] = section_content[0]
-      reading_data['announcement'] = section_content[1]
-      reading_data['text'] = re.sub(r"(Palavra da salvação\.)$", "", section_content[2])
-      # Again is this substitution required? For Primeira Semana Advento Domingo Ano A 
-      # e Quinta-Feira it was not.
+      gospel_extraction(reading_data, section_content, reference)
     
     if 'Aleluia' in name:
       reading_type = 'aleluia'
