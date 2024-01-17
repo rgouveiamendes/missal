@@ -86,8 +86,9 @@ def reading_extraction(reading_type, reading_data, readings_present, section_con
   reading_data["announcement"] = section_content[base_idx + 1]
   reading_data['text'] = re.sub(r" (Palavra do Senhor\.)$", "", ' '.join(section_content[base_idx + 2 : -1]))
 
-def gospel_extraction(reading_data, section_content, reference):
-  reading_data['reference'] = reference
+def gospel_extraction(reading_type, reading_data, readings_present, section_content, reference):
+  readings_present.append(reading_type)
+  set_reference(reading_data, reference)
   base_idx = 0
   if section_content[0][0] == '«':
     reading_data['snippet'] = section_content[base_idx]
@@ -146,7 +147,10 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
     if 'Evangelho' in name:
       reading_type = 'gospel'
-      gospel_extraction(reading_data, section_content, reference)
+      if reading_type in readings_present:
+        readings_present.append('alt-gospel')
+        reading_type = f"alt-gospel--{readings_present.count('alt-gospel')}"
+      gospel_extraction(reading_type, reading_data, readings_present, section_content, reference)
     
     if 'Aleluia' in name:
       reading_type = 'aleluia'
