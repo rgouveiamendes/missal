@@ -126,7 +126,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   for idx in reading_idxs:
 
-    data_from_title = sections[idx].split(' - ')
+    data_from_title = re.split(' - | – ', sections[idx])
     name = data_from_title[0].title() # Correct words' casing
     name_split = name.split(' ')
     if name_split[0] == 'Leitura':
@@ -238,13 +238,13 @@ ordinary_readings = defaultdict(recursive_defaultdict)
 
 file_paths = [
     # "../../_old/TCSemana02.htm",
-    # "../../_old/TCSemana03.htm",
+    "../../_old/TCSemana03.htm",
     # "../../_old/TCSemana04.htm",
     # "../../_old/TCSemana05.htm",
     # "../../_old/TCSemana06.htm",
     # "../../_old/TCSemana07.htm",
     # "../../_old/TCSemana08.htm",
-    "../../_old/TCSemana09.htm",
+    # "../../_old/TCSemana09.htm",
     # "../../_old/TCSemana10.htm",
 ]
 
@@ -296,11 +296,11 @@ print(repr(ordinary_readings.keys()))
   # print(f"{sunday['aleluia']}\n")
   # print(f"{sunday['gospel']}\n")
 
-# for day in ordinary_readings['week-10']:
-#   if 'gospel' in ordinary_readings['week-10'][day]:
-#     print(f"{ordinary_readings['week-10'][day]['reading-I']}\n")
-#     print(f"{ordinary_readings['week-10'][day]['psalm']}\n")
-#     print(f"{ordinary_readings['week-10'][day]['aleluia']}\n")
-#     print(f"{ordinary_readings['week-10'][day]['gospel']}\n")
+for day in ordinary_readings['week-03']:
+  if 'gospel' in ordinary_readings['week-03'][day]:
+    print(f"{ordinary_readings['week-03'][day]['reading-I']}\n")
+#     print(f"{ordinary_readings['week-03'][day]['psalm']}\n")
+#     print(f"{ordinary_readings['week-03'][day]['aleluia']}\n")
+#     print(f"{ordinary_readings['week-03'][day]['gospel']}\n")
 
 
