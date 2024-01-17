@@ -116,6 +116,9 @@ def psalm_extraction(reading_data, section_content, reference):
   else:
     reading_data['verses'] = section_content[base_idx+2::3]
 
+  if reading_data['verses'][-1] == '| Aleluia e Evangelho |':
+    reading_data['verses'].pop()
+
 def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   readings = {}
@@ -234,14 +237,14 @@ ordinary_readings = defaultdict(recursive_defaultdict)
 # Weeks 2.. 
 
 file_paths = [
-    "../../_old/TCSemana02.htm",
+    # "../../_old/TCSemana02.htm",
     # "../../_old/TCSemana03.htm",
     # "../../_old/TCSemana04.htm",
     # "../../_old/TCSemana05.htm",
     # "../../_old/TCSemana06.htm",
     # "../../_old/TCSemana07.htm",
     # "../../_old/TCSemana08.htm",
-    # "../../_old/TCSemana09.htm",
+    "../../_old/TCSemana09.htm",
     # "../../_old/TCSemana10.htm",
 ]
 
@@ -282,12 +285,16 @@ print(repr(ordinary_readings.keys()))
 # print(repr(ordinary_readings['week-06']['2'].keys()))
 # print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
-for sunday in ordinary_readings['week-2']['1']:
-  print(f"{sunday['reading-I']}\n")
-  print(f"{sunday['psalm']}\n")
-  print(f"{sunday['reading-II']}\n")
-  print(f"{sunday['aleluia']}\n")
-  print(f"{sunday['gospel']}\n")
+# for sunday in ordinary_readings['week-06']['1']:
+  # print(sunday.keys())
+  # if 'alt-gospel--1' in sunday:
+  #   print(f"{sunday['gospel']}\n")
+  #   print(sunday['alt-gospel--1'])
+  # print(f"{sunday['reading-I']}\n")
+  # print(f"{sunday['psalm']}\n")
+  # print(f"{sunday['reading-II']}\n")
+  # print(f"{sunday['aleluia']}\n")
+  # print(f"{sunday['gospel']}\n")
 
 # for day in ordinary_readings['week-10']:
 #   if 'gospel' in ordinary_readings['week-10'][day]:
