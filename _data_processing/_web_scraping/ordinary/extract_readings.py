@@ -78,7 +78,7 @@ def reading_extraction(reading_type, reading_data, readings_present, section_con
   else:
     base_idx = -1
   reading_data["announcement"] = section_content[base_idx + 1]
-  reading_data['text'] = ' '.join(section_content[base_idx + 2 : -1])
+  reading_data['text'] = re.sub(r" (Palavra do Senhor\.)$", "", ' '.join(section_content[base_idx + 2 : -1]))
 
 def gospel_extraction(reading_data, section_content, reference):
   reading_data['reference'] = reference
