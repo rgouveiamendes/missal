@@ -70,11 +70,7 @@ def get_mass_by_sections(mass_raw_text, sections):
   return mass_by_section
 
 def reading_extraction(reading_type, reading_data, readings_present, section_content, reference):
-  if reading_type in readings_present:
-    readings_present.append('alt-' + reading_type)
-    reading_type = f"alt-{reading_type}--{readings_present.count('alt-' + reading_type) + 1}"
-  else:
-    readings_present.append(reading_type)
+  readings_present.append(reading_type)
   reading_data["reference"] = reference
   base_idx = 0
   if section_content[0][0] == '«':
@@ -137,6 +133,9 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
     if 'Leitura' in name:
       reading_type = 'reading-' + name.split(' ')[-1]
+      if reading_type in readings_present:
+        readings_present.append('alt-' + reading_type)
+        reading_type = f"alt-{reading_type}--{readings_present.count('alt-' + reading_type)}"
       reading_extraction(reading_type, reading_data, readings_present, section_content, reference)
 
     if 'Evangelho' in name:
