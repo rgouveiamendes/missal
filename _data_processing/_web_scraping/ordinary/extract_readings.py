@@ -227,15 +227,15 @@ for i, file_path in enumerate(file_paths):
 # Weeks 2.. 
 
 file_paths = [
-    # "../../_old/TCSemana02.htm",
+    "../../_old/TCSemana02.htm",
     "../../_old/TCSemana03.htm",
-    # "../../_old/TCSemana04.htm",
-    # "../../_old/TCSemana05.htm",
-    # "../../_old/TCSemana06.htm",
-    # "../../_old/TCSemana07.htm",
-    # "../../_old/TCSemana08.htm",
-    # "../../_old/TCSemana09.htm",
-    # "../../_old/TCSemana10.htm",
+    "../../_old/TCSemana04.htm",
+    "../../_old/TCSemana05.htm",
+    "../../_old/TCSemana06.htm",
+    "../../_old/TCSemana07.htm",
+    "../../_old/TCSemana08.htm",
+    "../../_old/TCSemana09.htm",
+    "../../_old/TCSemana10.htm",
 ]
 
 weekdays = ["1", "1", "1", 
@@ -270,10 +270,11 @@ for i, file_path in enumerate(file_paths):
       ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
 
 print(repr(ordinary_readings.keys()))
-# print(repr(ordinary_readings['week-06'].keys()))
+print(repr(ordinary_readings['week-01'].keys()))
+print(repr(ordinary_readings['week-01'].keys()))
 # print(repr(ordinary_readings['week-02']['1']))
-# print(repr(ordinary_readings['week-06']['2'].keys()))
-# print(repr(ordinary_readings['week-06']['2-even'].keys()))
+print(repr(ordinary_readings['week-06']['2'].keys()))
+print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
 # for sunday in ordinary_readings['week-06']['1']:
   # print(sunday.keys())
@@ -286,11 +287,11 @@ print(repr(ordinary_readings.keys()))
   # print(f"{sunday['aleluia']}\n")
   # print(f"{sunday['gospel']}\n")
 
-for day in ordinary_readings['week-03']:
-  if 'gospel' in ordinary_readings['week-03'][day]:
-    print(f"{ordinary_readings['week-03'][day]['reading-I']}\n")
-#     print(f"{ordinary_readings['week-03'][day]['psalm']}\n")
-#     print(f"{ordinary_readings['week-03'][day]['aleluia']}\n")
-#     print(f"{ordinary_readings['week-03'][day]['gospel']}\n")
+# for day in ordinary_readings['week-07']:
+#   if 'reading-I' in ordinary_readings['week-07'][day]:
+#     print(f"{ordinary_readings['week-07'][day]['reading-I']}\n")
+#     print(f"{ordinary_readings['week-07'][day]['psalm']}\n")
+#     print(f"{ordinary_readings['week-07'][day]['aleluia']}\n")
+#     print(f"{ordinary_readings['week-07'][day]['gospel']}\n")
 
 
