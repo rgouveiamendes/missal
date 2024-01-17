@@ -238,7 +238,8 @@ file_paths = [
   # "../../_old/TCSemana10.htm",
   # "../../_old/TCSemana11.htm",
   # "../../_old/TCSemana12.htm",
-  "../../_old/TCSemana13.htm",
+  # "../../_old/TCSemana13.htm",
+  "../../_old/TCSemana14.htm",
 ]
 
 weekdays = ["1", "1", "1", 
@@ -279,7 +280,7 @@ print(repr(ordinary_readings.keys()))
 # print(repr(ordinary_readings['week-06']['2'].keys()))
 # print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
-# for sunday in ordinary_readings['week-13']['1']:
+# for sunday in ordinary_readings['week-14']['1']:
 #   print(f"{sunday.keys()}\n")
 #   print(f"{sunday['reading-I']}\n")
 #   if 'alt-reading-I--2' in sunday:
@@ -293,15 +294,15 @@ print(repr(ordinary_readings.keys()))
 #   if 'alt-gospel--1' in sunday:
 #     print(f"{sunday['alt-gospel--1']}\n")
 
-for day in ordinary_readings['week-13']:
-  if 'gospel' in ordinary_readings['week-13'][day]:
-    print(f"{ordinary_readings['week-13'][day]['reading-I']}\n")
-    if 'alt-reading-I--1' in  ordinary_readings['week-13'][day]:
-      print(f"{ordinary_readings['week-13'][day]['alt-reading-I--1']}\n")
-    print(f"{ordinary_readings['week-13'][day]['psalm']}\n")
-    print(f"{ordinary_readings['week-13'][day]['aleluia']}\n")
-    print(f"{ordinary_readings['week-13'][day]['gospel']}\n")
-    if 'alt-gospel--1' in ordinary_readings['week-13'][day]:
-      print(f"{ordinary_readings['week-13'][day]['alt-gospel--1']}\n")
+for day in ordinary_readings['week-14']:
+  if 'gospel' in ordinary_readings['week-14'][day]:
+    print(f"{ordinary_readings['week-14'][day]['reading-I']}\n")
+    if 'alt-reading-I--1' in  ordinary_readings['week-14'][day]:
+      print(f"{ordinary_readings['week-14'][day]['alt-reading-I--1']}\n")
+    print(f"{ordinary_readings['week-14'][day]['psalm']}\n")
+    print(f"{ordinary_readings['week-14'][day]['aleluia']}\n")
+    print(f"{ordinary_readings['week-14'][day]['gospel']}\n")
+    if 'alt-gospel--1' in ordinary_readings['week-14'][day]:
+      print(f"{ordinary_readings['week-14'][day]['alt-gospel--1']}\n")
 
 
