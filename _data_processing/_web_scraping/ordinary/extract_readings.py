@@ -69,9 +69,15 @@ def get_mass_by_sections(mass_raw_text, sections):
 
   return mass_by_section
 
+def set_reference(reading_data, reference):
+  if reference is not None:
+    reading_data["reference"] = re.sub(r" \(Forma breve\)$", "", reference)
+  else:
+    reading_data["reference"] = reference
+
 def reading_extraction(reading_type, reading_data, readings_present, section_content, reference):
   readings_present.append(reading_type)
-  reading_data["reference"] = reference
+  set_reference(reading_data, reference)
   base_idx = 0
   if section_content[0][0] == '«':
     reading_data['snippet'] = section_content[base_idx]
