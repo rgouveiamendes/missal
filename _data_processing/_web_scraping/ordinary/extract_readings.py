@@ -107,6 +107,7 @@ def psalm_extraction(reading_data, section_content, reference):
 
   response = section_content[0]
   response_latin = section_content[1]
+  was_response = True
 
   nbr_alt_responses = 0
 
@@ -115,28 +116,14 @@ def psalm_extraction(reading_data, section_content, reference):
       nbr_alt_responses += 1
       reading_data[f"alt-response--{nbr_alt_responses}"] = ': '.join(i.split(': ')[1:])
     elif i == response or i == response_latin:
+      was_response = True
       continue
     else:
-      reading_data['verses'].append(i)
-
-  if reading_data['verses'][-1] == '| Aleluia e Evangelho |':
-    reading_data['verses'].pop()
-
-def old_psalm_extraction(reading_data, section_content, reference):
-  reading_data['reference'] = reference
-
-  base_idx = 0
-  # if section_content[0][0] == '(':
-  #   reading_data['notice'] = section_content[0]
-  #   base_idx = 1
-  
-  reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
-
-  if section_content[base_idx + 2].split(' ')[0] == 'Ou:':
-    reading_data['alt-response'] = ' '.join(section_content[base_idx+2].split(' ')[1:])
-    reading_data['verses'] = section_content[base_idx+3::3]
-  else:
-    reading_data['verses'] = section_content[base_idx+2::3]
+      if was_response == False:
+        reading_data['verses'][-1] = reading_data['verses'][-1] + ' ' + i
+      else:
+        reading_data['verses'].append(i)
+        was_response = False
 
   if reading_data['verses'][-1] == '| Aleluia e Evangelho |':
     reading_data['verses'].pop()
