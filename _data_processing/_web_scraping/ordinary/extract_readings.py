@@ -100,7 +100,8 @@ def gospel_extraction(reading_type, reading_data, sections_present, section_cont
   # There might not be a need for:
   #   - conditional flow around base_idx;
 
-def psalm_extraction(reading_data, section_content, reference):
+def psalm_extraction(reading_type, reading_data, sections_present, section_content, reference):
+  sections_present.append(reading_type)
   reading_data['reference'] = reference
   reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
   reading_data['verses'] = []
@@ -175,7 +176,10 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
     if 'Salmo' in name:
       reading_type = 'psalm'
-      psalm_extraction(reading_data, section_content, reference)
+      if reading_type in sections_present:
+        sections_present.append('alt-' + reading_type)
+        reading_type = f"alt-{reading_type}--{sections_present.count('alt-' + reading_type)}"
+      psalm_extraction(reading_type, reading_data, sections_present, section_content, reference)
      
     if reading_type != None:
       readings[reading_type] = reading_data
@@ -251,9 +255,9 @@ file_paths = [
   # "../../_old/TCSemana12.htm",
   # "../../_old/TCSemana13.htm",
   # "../../_old/TCSemana14.htm",
-  # "../../_old/TCSemana15.htm",
+  "../../_old/TCSemana15.htm",
   # "../../_old/TCSemana16.htm",
-  "../../_old/TCSemana17.htm",
+  # "../../_old/TCSemana17.htm",
   # "../../_old/TCSemana18.htm",
   # "../../_old/TCSemana19.htm",
   # "../../_old/TCSemana20.htm",
