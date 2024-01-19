@@ -75,8 +75,8 @@ def set_reference(reading_data, reference):
   else:
     reading_data["reference"] = reference
 
-def reading_extraction(reading_type, reading_data, readings_present, section_content, reference):
-  readings_present.append(reading_type)
+def reading_extraction(reading_type, reading_data, sections_present, section_content, reference):
+  sections_present.append(reading_type)
   set_reference(reading_data, reference)
   base_idx = 0
   if section_content[0][0] == '«':
@@ -86,8 +86,8 @@ def reading_extraction(reading_type, reading_data, readings_present, section_con
   reading_data["announcement"] = section_content[base_idx + 1]
   reading_data['text'] = re.sub(r" (Palavra do Senhor\.)$", "", ' '.join(section_content[base_idx + 2 : -1]))
 
-def gospel_extraction(reading_type, reading_data, readings_present, section_content, reference):
-  readings_present.append(reading_type)
+def gospel_extraction(reading_type, reading_data, sections_present, section_content, reference):
+  sections_present.append(reading_type)
   set_reference(reading_data, reference)
   base_idx = 0
   if section_content[0][0] == '«':
@@ -125,13 +125,15 @@ def psalm_extraction(reading_data, section_content, reference):
         reading_data['verses'].append(i)
         was_response = False
 
-  if reading_data['verses'][-1] == '| Aleluia e Evangelho |':
+  last_verse = reading_data['verses'][-1]
+
+  if last_verse == '| Aleluia e Evangelho |' or last_verse == '| Leitura II |' :
     reading_data['verses'].pop()
 
 def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   readings = {}
-  readings_present = []
+  sections_present = []
 
   for idx in reading_idxs:
 
@@ -152,17 +154,17 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
     if 'Leitura' in name:
       reading_type = 'reading-' + name.split(' ')[-1]
-      if reading_type in readings_present:
-        readings_present.append('alt-' + reading_type)
-        reading_type = f"alt-{reading_type}--{readings_present.count('alt-' + reading_type)}"
-      reading_extraction(reading_type, reading_data, readings_present, section_content, reference)
+      if reading_type in sections_present:
+        sections_present.append('alt-' + reading_type)
+        reading_type = f"alt-{reading_type}--{sections_present.count('alt-' + reading_type)}"
+      reading_extraction(reading_type, reading_data, sections_present, section_content, reference)
 
     if 'Evangelho' in name:
       reading_type = 'gospel'
-      if reading_type in readings_present:
-        readings_present.append('alt-gospel')
-        reading_type = f"alt-gospel--{readings_present.count('alt-gospel')}"
-      gospel_extraction(reading_type, reading_data, readings_present, section_content, reference)
+      if reading_type in sections_present:
+        sections_present.append('alt-gospel')
+        reading_type = f"alt-gospel--{sections_present.count('alt-gospel')}"
+      gospel_extraction(reading_type, reading_data, sections_present, section_content, reference)
     
     if 'Aleluia' in name:
       reading_type = 'aleluia'
