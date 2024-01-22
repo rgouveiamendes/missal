@@ -262,7 +262,7 @@ ordinary_readings = defaultdict(recursive_defaultdict)
 
 file_paths = [
   # "../../_old/TCSemana02.htm",
-  "../../_old/TCSemana03.htm",
+  # "../../_old/TCSemana03.htm",
   # "../../_old/TCSemana04.htm",
   # "../../_old/TCSemana05.htm",
   # "../../_old/TCSemana06.htm",
@@ -344,12 +344,12 @@ print(repr(ordinary_readings.keys()))
 #   if 'alt-gospel--1' in sunday:
 #     print(f"{sunday['alt-gospel--1']}\n")
 
-# for day in ordinary_readings['week-06']:
-#   if 'reading-I' in ordinary_readings['week-06'][day] and 'gospel' not in ordinary_readings['week-06'][day]:
-#     print(f"{ordinary_readings['week-06'][day]['reading-I']}\n")
-#     if 'alt-reading-I--1' in  ordinary_readings['week-06'][day]:
-#       print(f"{ordinary_readings['week-06'][day]['alt-reading-I--1']}\n")
-#     print(f"{ordinary_readings['week-06'][day]['psalm']}\n")
+# for day in ordinary_readings['week-13']:
+#   if 'reading-I' in ordinary_readings['week-13'][day] and 'gospel' not in ordinary_readings['week-13'][day]:
+#     print(f"{ordinary_readings['week-13'][day]['reading-I']}\n")
+#     if 'alt-reading-I--1' in  ordinary_readings['week-13'][day]:
+#       print(f"{ordinary_readings['week-13'][day]['alt-reading-I--1']}\n")
+#     print(f"{ordinary_readings['week-13'][day]['psalm']}\n")
 
     
 # for day in ordinary_readings['week-06']:
