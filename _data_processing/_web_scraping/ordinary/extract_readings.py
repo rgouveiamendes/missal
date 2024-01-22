@@ -277,7 +277,8 @@ file_paths = [
   # "../../_old/TCSemana24.htm",
   # "../../_old/TCSemana25.htm",
   # "../../_old/TCSemana26.htm",
-  "../../_old/TCSemana27.htm",
+  # "../../_old/TCSemana27.htm",
+  "../../_old/TCSemana28.htm",
 ]
 
 weekdays = ["1", "1", "1", 
@@ -318,7 +319,7 @@ print(repr(ordinary_readings.keys()))
 # print(repr(ordinary_readings['week-06']['2'].keys()))
 # print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
-for sunday in ordinary_readings['week-27']['1']:
+for sunday in ordinary_readings['week-28']['1']:
   print(f"{sunday.keys()}\n")
   print(f"{sunday['reading-I']}\n")
   if 'alt-reading-I--1' in sunday:
@@ -332,24 +333,24 @@ for sunday in ordinary_readings['week-27']['1']:
   if 'alt-gospel--1' in sunday:
     print(f"{sunday['alt-gospel--1']}\n")
 
-for day in ordinary_readings['week-27']:
-  if 'reading-I' in ordinary_readings['week-27'][day] and 'gospel' not in ordinary_readings['week-27'][day]:
-    print(f"{ordinary_readings['week-27'][day]['reading-I']}\n")
-    if 'alt-reading-I--1' in  ordinary_readings['week-27'][day]:
-      print(f"{ordinary_readings['week-27'][day]['alt-reading-I--1']}\n")
-    print(f"{ordinary_readings['week-27'][day]['psalm']}\n")
+for day in ordinary_readings['week-28']:
+  if 'reading-I' in ordinary_readings['week-28'][day] and 'gospel' not in ordinary_readings['week-28'][day]:
+    print(f"{ordinary_readings['week-28'][day]['reading-I']}\n")
+    if 'alt-reading-I--1' in  ordinary_readings['week-28'][day]:
+      print(f"{ordinary_readings['week-28'][day]['alt-reading-I--1']}\n")
+    print(f"{ordinary_readings['week-28'][day]['psalm']}\n")
 
     
-for day in ordinary_readings['week-27']:
-  if 'gospel' in ordinary_readings['week-27'][day]:
-    print(f"{ordinary_readings['week-27'][day]['reading-I']}\n")
-    if 'alt-reading-I--1' in  ordinary_readings['week-27'][day]:
-      print(f"{ordinary_readings['week-27'][day]['alt-reading-I--1']}\n")
-    print(f"{ordinary_readings['week-27'][day]['psalm']}\n")
-    if 'aleluia' in ordinary_readings['week-27'][day]:
-      print(f"{ordinary_readings['week-27'][day]['aleluia']}\n")
-    print(f"{ordinary_readings['week-27'][day]['gospel']}\n")
-    if 'alt-gospel--1' in ordinary_readings['week-27'][day]:
-      print(f"{ordinary_readings['week-27'][day]['alt-gospel--1']}\n")
+for day in ordinary_readings['week-28']:
+  if 'gospel' in ordinary_readings['week-28'][day]:
+    print(f"{ordinary_readings['week-28'][day]['reading-I']}\n")
+    if 'alt-reading-I--1' in  ordinary_readings['week-28'][day]:
+      print(f"{ordinary_readings['week-28'][day]['alt-reading-I--1']}\n")
+    print(f"{ordinary_readings['week-28'][day]['psalm']}\n")
+    if 'aleluia' in ordinary_readings['week-28'][day]:
+      print(f"{ordinary_readings['week-28'][day]['aleluia']}\n")
+    print(f"{ordinary_readings['week-28'][day]['gospel']}\n")
+    if 'alt-gospel--1' in ordinary_readings['week-28'][day]:
+      print(f"{ordinary_readings['week-28'][day]['alt-gospel--1']}\n")
 
 
