@@ -172,22 +172,19 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
         sections_present.append('alt-' + reading_type)
         reading_type = f"alt-{reading_type}--{sections_present.count('alt-' + reading_type)}"
       reading_extraction(reading_type, reading_data, sections_present, section_content, reference)
-
-    if 'Evangelho' in name:
+    elif 'Evangelho' in name:
       reading_type = 'gospel'
       if reading_type in sections_present:
         sections_present.append('alt-gospel')
         reading_type = f"alt-gospel--{sections_present.count('alt-gospel')}"
       gospel_extraction(reading_type, reading_data, sections_present, section_content, reference)
-    
-    if 'Aleluia' in name:
+    elif 'Aleluia' in name:
       reading_type = 'aleluia'
       reading_data['reference'] = reference
       reading_data['response'] = ': '.join(section_content[0].split(': ')[1:])
       reading_data['text'] = section_content[1]
       # Missing latin text?
-
-    if 'Salmo' in name:
+    elif 'Salmo' in name:
       reading_type = 'psalm'
       if reading_type in sections_present:
         sections_present.append('alt-' + reading_type)
