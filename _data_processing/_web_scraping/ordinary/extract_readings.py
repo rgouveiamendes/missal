@@ -139,6 +139,19 @@ def spaced_reference(title):
   else:
     return ' '.join(title.split(' ')[1:])
 
+def set_reading_name(name_split):
+  if len(name_split) == 1:
+    return name_split[0]
+  else:
+    return name_split[0].title() + ' ' + name_split[1].upper()
+
+def set_reading_type(name):
+  name_split = name.split(' ')
+  if len(name_split) == 1:
+      return 'reading-I'
+  else:
+      return 'reading-' + name_split[1].upper()
+
 def create_json_mass_readings(reading_idxs, mass_by_section, sections):
 
   readings = {}
@@ -159,7 +172,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     name = data_from_title[0].title()
     name_split = name.split(' ')
     if name_split[0] == 'Leitura':
-      name = name_split[0].title() + ' ' + name_split[1].upper()
+      name = set_reading_name(name_split)
 
     section_content = mass_by_section[sections[idx]]
 
@@ -167,7 +180,7 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     reading_type = None
 
     if 'Leitura' in name:
-      reading_type = 'reading-' + name.split(' ')[-1]
+      reading_type = set_reading_type(name)
       if reading_type in sections_present:
         sections_present.append('alt-' + reading_type)
         reading_type = f"alt-{reading_type}--{sections_present.count('alt-' + reading_type)}"
@@ -204,6 +217,7 @@ possible_sections = [
     "ALELUIA",
     "LEITURA II",
     "EVANGELHO",
+    "LEITURA"
 ]
 
 ordinary_readings = defaultdict(recursive_defaultdict)
@@ -248,7 +262,7 @@ ordinary_readings = defaultdict(recursive_defaultdict)
 
 file_paths = [
   # "../../_old/TCSemana02.htm",
-  # "../../_old/TCSemana03.htm",
+  "../../_old/TCSemana03.htm",
   # "../../_old/TCSemana04.htm",
   # "../../_old/TCSemana05.htm",
   # "../../_old/TCSemana06.htm",
@@ -275,7 +289,7 @@ file_paths = [
   # "../../_old/TCSemana27.htm",
   # "../../_old/TCSemana28.htm",
   # "../../_old/TCSemana29.htm",
-  "../../_old/TCSemana30.htm",
+  # "../../_old/TCSemana30.htm",
 ]
 
 weekdays = ["1", "1", "1", 
@@ -291,7 +305,7 @@ for i, file_path in enumerate(file_paths):
     # [1:] == Exclusion of first key in masses_raw_text as the 
     #   first key refers to the initial week page containg its propers
     mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
-    
+
     sections = list(mass_by_section.keys())
 
     keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
@@ -316,38 +330,38 @@ print(repr(ordinary_readings.keys()))
 # print(repr(ordinary_readings['week-06']['2'].keys()))
 # print(repr(ordinary_readings['week-06']['2-even'].keys()))
 
-for sunday in ordinary_readings['week-30']['1']:
-  print(f"{sunday.keys()}\n")
-  print(f"{sunday['reading-I']}\n")
-  if 'alt-reading-I--1' in sunday:
-    print(f"{sunday['alt-reading-I--1']}\n")
-  print(f"{sunday['psalm']}\n")
-  print(f"{sunday['reading-II']}\n")
-  if 'alt-reading-II--1' in sunday:
-    print(f"{sunday['alt-reading-II--1']}\n")
-  print(f"{sunday['aleluia']}\n")
-  print(f"{sunday['gospel']}\n")
-  if 'alt-gospel--1' in sunday:
-    print(f"{sunday['alt-gospel--1']}\n")
+# for sunday in ordinary_readings['week-06']['1']:
+#   print(f"{sunday.keys()}\n")
+#   print(f"{sunday['reading-I']}\n")
+#   if 'alt-reading-I--1' in sunday:
+#     print(f"{sunday['alt-reading-I--1']}\n")
+#   print(f"{sunday['psalm']}\n")
+#   print(f"{sunday['reading-II']}\n")
+#   if 'alt-reading-II--1' in sunday:
+#     print(f"{sunday['alt-reading-II--1']}\n")
+#   print(f"{sunday['aleluia']}\n")
+#   print(f"{sunday['gospel']}\n")
+#   if 'alt-gospel--1' in sunday:
+#     print(f"{sunday['alt-gospel--1']}\n")
 
-for day in ordinary_readings['week-30']:
-  if 'reading-I' in ordinary_readings['week-30'][day] and 'gospel' not in ordinary_readings['week-30'][day]:
-    print(f"{ordinary_readings['week-30'][day]['reading-I']}\n")
-    if 'alt-reading-I--1' in  ordinary_readings['week-30'][day]:
-      print(f"{ordinary_readings['week-30'][day]['alt-reading-I--1']}\n")
-    print(f"{ordinary_readings['week-30'][day]['psalm']}\n")
+# for day in ordinary_readings['week-06']:
+#   if 'reading-I' in ordinary_readings['week-06'][day] and 'gospel' not in ordinary_readings['week-06'][day]:
+#     print(f"{ordinary_readings['week-06'][day]['reading-I']}\n")
+#     if 'alt-reading-I--1' in  ordinary_readings['week-06'][day]:
+#       print(f"{ordinary_readings['week-06'][day]['alt-reading-I--1']}\n")
+#     print(f"{ordinary_readings['week-06'][day]['psalm']}\n")
 
     
-for day in ordinary_readings['week-30']:
-  if 'gospel' in ordinary_readings['week-30'][day]:
-    print(f"{ordinary_readings['week-30'][day]['reading-I']}\n")
-    if 'alt-reading-I--1' in  ordinary_readings['week-30'][day]:
-      print(f"{ordinary_readings['week-30'][day]['alt-reading-I--1']}\n")
-    print(f"{ordinary_readings['week-30'][day]['psalm']}\n")
-    if 'aleluia' in ordinary_readings['week-30'][day]:
-      print(f"{ordinary_readings['week-30'][day]['aleluia']}\n")
-    print(f"{ordinary_readings['week-30'][day]['gospel']}\n")
-    if 'alt-gospel--1' in ordinary_readings['week-30'][day]:
-      print(f"{ordinary_readings['week-30'][day]['alt-gospel--1']}\n")
+# for day in ordinary_readings['week-06']:
+#   if 'gospel' in ordinary_readings['week-06'][day]:
+#     print(f"{ordinary_readings['week-06'][day]['reading-I']}\n")
+#     if 'alt-reading-I--1' in  ordinary_readings['week-06'][day]:
+#       print(f"{ordinary_readings['week-06'][day]['alt-reading-I--1']}\n")
+#     print(f"{ordinary_readings['week-06'][day]['psalm']}\n")
+#     if 'aleluia' in ordinary_readings['week-06'][day]:
+#       print(f"{ordinary_readings['week-06'][day]['aleluia']}\n")
+#     print(f"{ordinary_readings['week-06'][day]['gospel']}\n")
+#     if 'alt-gospel--1' in ordinary_readings['week-06'][day]:
+#       print(f"{ordinary_readings['week-06'][day]['alt-gospel--1']}\n")
 
 
