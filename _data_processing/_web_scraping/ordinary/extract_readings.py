@@ -199,16 +199,11 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
   return readings
 
 possible_sections = [
-    "ANTÍFONA DE ENTRADA",
-    "ORAÇÃO COLECTA",
-    "ANTÍFONA DA COMUNHÃO",
-    "ORAÇÃO SOBRE AS OBLATAS",
-    "ORAÇÃO DEPOIS DA COMUNHÃO",
     "LEITURA I ",
     "SALMO RESPONSORIAL",
     "ALELUIA",
     "LEITURA II",
-    "EVANGELHO"
+    "EVANGELHO",
 ]
 
 ordinary_readings = defaultdict(recursive_defaultdict)
