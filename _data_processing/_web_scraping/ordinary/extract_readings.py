@@ -96,7 +96,7 @@ def gospel_extraction(reading_type, reading_data, sections_present, section_cont
     base_idx = -1
   reading_data['snippet'] = section_content[0]
   reading_data['announcement'] = section_content[base_idx + 1]
-  reading_data['text'] =  re.sub(r" (Palavra da salvação\. *)", "", ' '.join(section_content[base_idx + 2 : -2]))
+  reading_data['text'] =  re.sub(r" (Palavra da salvação\. *)$", "", ' '.join(section_content[base_idx + 2 : -2]))
   # There might not be a need for:
   #   - conditional flow around base_idx;
 
