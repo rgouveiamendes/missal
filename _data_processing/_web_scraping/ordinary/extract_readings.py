@@ -116,7 +116,7 @@ def psalm_extraction(reading_type, reading_data, sections_present, section_conte
     if 'Ou:' in i:
       nbr_alt_responses += 1
       reading_data[f"alt-response--{nbr_alt_responses}"] = ': '.join(i.split(': ')[1:])
-    elif i == response or i == response_latin:
+    elif response in i or response_latin in i:
       was_response = True
       continue
     else:
