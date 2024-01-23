@@ -225,31 +225,31 @@ ordinary_readings = defaultdict(recursive_defaultdict)
 
 # Week 1 of Ordinary Time
 
-file_paths = [
-  "../../_old/TCSemana01.htm",
-  "../../_old/TCSemana34.htm",
-]
+# file_paths = [
+#   "../../_old/TCSemana01.htm",
+#   "../../_old/TCSemana34.htm",
+# ]
 
-weekdays = ["2", "3", "4", "5", "6", "7", 
-            "2-even", "3-even", "4-even",
-            "5-even", "6-even", "7-even"]
+# weekdays = ["2", "3", "4", "5", "6", "7", 
+#             "2-even", "3-even", "4-even",
+#             "5-even", "6-even", "7-even"]
 
-for i, file_path in enumerate(file_paths):
-  masses_raw_text = extract_sections(file_path)
-  for i, key in enumerate(list(masses_raw_text.keys())[1:]):
-    # [1:] == Exclusion of first key in masses_raw_text as the 
-    #   first key refers to the initial week page containg its propers
+# for i, file_path in enumerate(file_paths):
+#   masses_raw_text = extract_sections(file_path)
+#   for i, key in enumerate(list(masses_raw_text.keys())[1:]):
+#     # [1:] == Exclusion of first key in masses_raw_text as the 
+#     #   first key refers to the initial week page containg its propers
 
-    mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
-    sections = list(mass_by_section.keys())
+#     mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
+#     sections = list(mass_by_section.keys())
 
-    keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
-    reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
-    # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
+#     keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
+#     reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
+#     # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
 
-    readings = create_json_mass_readings(reading_idxs, mass_by_section, sections)
+#     readings = create_json_mass_readings(reading_idxs, mass_by_section, sections)
 
-    ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
+#     ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
 
 
 # print(repr(ordinary_readings.keys()))
@@ -289,45 +289,45 @@ file_paths = [
   # "../../_old/TCSemana26.htm",
   # "../../_old/TCSemana27.htm",
   # "../../_old/TCSemana28.htm",
-  # "../../_old/TCSemana29.htm",
+  "../../_old/TCSemana29.htm",
   # "../../_old/TCSemana30.htm",
   # "../../_old/TCSemana31.htm",
   # "../../_old/TCSemana32.htm",
   # "../../_old/TCSemana33.htm",
 ]
 
-# weekdays = ["1", "1", "1", 
-#             "2", "3", "4", "5", "6", "7", 
-#             "2-even", "3-even", "4-even",
-#             "5-even", "6-even", "7-even"]
-# cycles = ["A", "B", "C"]
+weekdays = ["1", "1", "1", 
+            "2", "3", "4", "5", "6", "7", 
+            "2-even", "3-even", "4-even",
+            "5-even", "6-even", "7-even"]
+cycles = ["A", "B", "C"]
 
-# for i, file_path in enumerate(file_paths):
-#   masses_raw_text = extract_sections(file_path)
+for i, file_path in enumerate(file_paths):
+  masses_raw_text = extract_sections(file_path)
 
-#   for i, key in enumerate(list(masses_raw_text.keys())[1:]):
-#     # [1:] == Exclusion of first key in masses_raw_text as the 
-#     #   first key refers to the initial week page containg its propers
-#     mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
+  for i, key in enumerate(list(masses_raw_text.keys())[1:]):
+    # [1:] == Exclusion of first key in masses_raw_text as the 
+    #   first key refers to the initial week page containg its propers
+    mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
 
-#     sections = list(mass_by_section.keys())
+    sections = list(mass_by_section.keys())
 
-#     keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
-#     reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
-#     # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
+    keywords = ["EVANGELHO", "LEITURA", "ALELUIA", "SALMO"]
+    reading_idxs = [i for i, element in enumerate(sections) if any(word in element for word in keywords)]
+    # # CHATGPT: reading_idxs will contain the indices of elements in the sections list where any of the keywords are found.
 
-#     readings = create_json_mass_readings(reading_idxs, mass_by_section, sections)
+    readings = create_json_mass_readings(reading_idxs, mass_by_section, sections)
 
-#     if weekdays[i] == '1':
-#       if ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] == {}:
-#         ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = []
-#       # readings['cycle'] = [cycles][i]
-#       readings = {**{'cycle': cycles[i]}, **readings}
-#       ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]].append(readings)
-#     else:
-#       ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
+    if weekdays[i] == '1':
+      if ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] == {}:
+        ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = []
+      # readings['cycle'] = [cycles][i]
+      readings = {**{'cycle': cycles[i]}, **readings}
+      ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]].append(readings)
+    else:
+      ordinary_readings[f'week-{file_path[-6:-4]}'][weekdays[i]] = readings
 
-# print(repr(ordinary_readings.keys()))
+print(repr(ordinary_readings.keys()))
 # print(repr(ordinary_readings['week-01'].keys()))
 # print(repr(ordinary_readings['week-01'].keys()))
 # print(repr(ordinary_readings['week-02']['1']))
@@ -356,16 +356,16 @@ for day in ordinary_readings['week-34']:
     print(f"{ordinary_readings['week-34'][day]['psalm']}\n")
 
     
-for day in ordinary_readings['week-34']:
-  if 'gospel' in ordinary_readings['week-34'][day]:
-    print(f"{ordinary_readings['week-34'][day]['reading-I']}\n")
-    if 'alt-reading-I--1' in  ordinary_readings['week-34'][day]:
-      print(f"{ordinary_readings['week-34'][day]['alt-reading-I--1']}\n")
-    print(f"{ordinary_readings['week-34'][day]['psalm']}\n")
-    if 'aleluia' in ordinary_readings['week-34'][day]:
-      print(f"{ordinary_readings['week-34'][day]['aleluia']}\n")
-    print(f"{ordinary_readings['week-34'][day]['gospel']}\n")
-    if 'alt-gospel--1' in ordinary_readings['week-34'][day]:
-      print(f"{ordinary_readings['week-34'][day]['alt-gospel--1']}\n")
+# for day in ordinary_readings['week-34']:
+#   if 'gospel' in ordinary_readings['week-34'][day]:
+#     print(f"{ordinary_readings['week-34'][day]['reading-I']}\n")
+#     if 'alt-reading-I--1' in  ordinary_readings['week-34'][day]:
+#       print(f"{ordinary_readings['week-34'][day]['alt-reading-I--1']}\n")
+#     print(f"{ordinary_readings['week-34'][day]['psalm']}\n")
+#     if 'aleluia' in ordinary_readings['week-34'][day]:
+#       print(f"{ordinary_readings['week-34'][day]['aleluia']}\n")
+#     print(f"{ordinary_readings['week-34'][day]['gospel']}\n")
+#     if 'alt-gospel--1' in ordinary_readings['week-34'][day]:
+#       print(f"{ordinary_readings['week-34'][day]['alt-gospel--1']}\n")
 
 
