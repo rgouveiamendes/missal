@@ -131,12 +131,19 @@ for i in range(1, 35):
 
   ordinary_propers[f"week-{i}"] = propers
 
-print(repr(ordinary_propers.keys()))
-print(repr(ordinary_propers['week-1'].keys()))
-print(repr(ordinary_propers['week-1']['entrance']))
-print(repr(ordinary_propers['week-1']['collect']))
-print(repr(ordinary_propers['week-1']['offerings']))
-print(repr(ordinary_propers['week-1']['communion']))
-if 'alt-communion' in ordinary_propers['week-1']:
-  print(repr(ordinary_propers['week-1']['alt-communion']))
-print(repr(ordinary_propers['week-1']['post-communion']))
+# print(repr(ordinary_propers.keys()))
+# print(repr(ordinary_propers['week-1'].keys()))
+# print(repr(ordinary_propers['week-1']['entrance']))
+# print(repr(ordinary_propers['week-1']['collect']))
+# print(repr(ordinary_propers['week-1']['offerings']))
+# print(repr(ordinary_propers['week-1']['communion']))
+# if 'alt-communion' in ordinary_propers['week-1']:
+#   print(repr(ordinary_propers['week-1']['alt-communion']))
+# print(repr(ordinary_propers['week-1']['post-communion']))
+
+
+for week in ordinary_propers.keys():
+  print(week)
+  for proper_type in ordinary_propers[week]:
+    print(proper_type)
+    print(ordinary_propers[week][proper_type])
