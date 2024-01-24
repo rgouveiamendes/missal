@@ -70,7 +70,7 @@ def create_json_mass_propers(propers_sections):
     data_from_title = re.split(' - | – ', key)
     name = data_from_title[0].title()
 
-    if 'Ou: ' in key:
+    if 'Ou:' in key:
       reference = ' '.join(key.split(' ')[1:])
     else:
       reference = ' - '.join(data_from_title[1:])
@@ -90,7 +90,7 @@ def create_json_mass_propers(propers_sections):
       proper_type = 'offerings'
     elif 'Antífona Da Comunhão' in name:
       proper_type = 'communion'
-    elif 'Ou: ' in name:
+    elif 'Ou:' in name:
       proper_type = 'alt-communion'
     elif 'Depois' in name:
       proper_type = 'post-communion'
@@ -114,7 +114,7 @@ possible_sections = [
     "ORAÇÃO SOBRE AS OBLATAS",
     "ANTÍFONA DA COMUNHÃO",
     "ORAÇÃO DEPOIS DA COMUNHÃO",
-    "Ou: "
+    "Ou:"
 ]
 
 for i in range(1, 35):
@@ -130,17 +130,6 @@ for i in range(1, 35):
   propers = create_json_mass_propers(propers_sections)
 
   ordinary_propers[f"week-{i}"] = propers
-
-# print(repr(ordinary_propers.keys()))
-# print(repr(ordinary_propers['week-1'].keys()))
-# print(repr(ordinary_propers['week-1']['entrance']))
-# print(repr(ordinary_propers['week-1']['collect']))
-# print(repr(ordinary_propers['week-1']['offerings']))
-# print(repr(ordinary_propers['week-1']['communion']))
-# if 'alt-communion' in ordinary_propers['week-1']:
-#   print(repr(ordinary_propers['week-1']['alt-communion']))
-# print(repr(ordinary_propers['week-1']['post-communion']))
-
 
 for week in ordinary_propers.keys():
   print(week)
