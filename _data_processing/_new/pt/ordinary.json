@@ -1,4 +1,890 @@
 {
+    "propers": {
+        "week-1": {
+            "entrance": {
+                "reference": null,
+                "text": "Sobre um trono elevado vi sentado um homem, que uma multidão de Anjos adora, cantando em coro: Eis Aquele que reina eternamente."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Atendei, Senhor, as orações do vosso povo; dai-lhe luz para conhecer a vossa vontade e coragem para a cumprir fielmente. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai benignamente, Senhor, a oblação do vosso povo e fazei que ela santifique a nossa vida e torne eficaz a nossa oração. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 35, 10",
+                "text": "Em vós, Senhor, está a fonte da vida: na vossa luz veremos a luz."
+            },
+            "alt-communion": {
+                "reference": "Jo 10, 10",
+                "text": "Eu vim para que tenham vida e a tenham em abundância, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Deus todo-poderoso, que nos alimentais com os vossos sacramentos, dai-nos a graça de Vos servir com uma vida santa. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-2": {
+            "entrance": {
+                "reference": "Salmo 65, 4",
+                "text": "Toda a terra Vos adore, Senhor, e entoe hinos ao vosso nome, ó Altíssimo."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus eterno e omnipotente, que governais o céu e a terra, escutai misericordiosamente as súplicas do vosso povo e concedei a paz aos nossos dias. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Concedei-nos, Senhor, a graça de participar dignamente nestes mistérios, pois todas as vezes que celebramos o memorial deste sacrifício realiza-se a obra da nossa redenção. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 22, 5",
+                "text": "Para mim preparais a mesa e o meu cálice transborda."
+            },
+            "alt-communion": {
+                "reference": "1 Jo 4, 16",
+                "text": "Nós conhecemos e acreditámos no amor de Deus para connosco."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Infundi em nós, Senhor, o espírito da vossa caridade, para que vivam unidos num só coração e numa só alma aqueles que saciastes com o mesmo pão do Céu. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-3": {
+            "entrance": {
+                "reference": "Salmo 95, 1.6",
+                "text": "Cantai ao Senhor um cântico novo, cantai ao Senhor, terra inteira. Glória e poder na sua presença, esplendor e majestade no seu templo."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus todo-poderoso e eterno, dirigi a nossa vida segundo a vossa vontade, para que mereçamos produzir abundantes frutos de boas obras, em nome de Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai benignamente, Senhor, e santificai os nossos dons, a fim de que se tornem para nós fonte de salvação. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 33, 6",
+                "text": "Voltai-vos para o Senhor e sereis iluminados, o vosso rosto não será confundido."
+            },
+            "alt-communion": {
+                "reference": "Jo 8, 12",
+                "text": "Eu sou a luz do mundo, diz o Senhor. Quem Me segue não anda nas trevas, mas terá a luz da vida."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Deus omnipotente, nós Vos pedimos que, tendo sido vivificados pela vossa graça, nos alegremos sempre nestes dons sagrados. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-4": {
+            "entrance": {
+                "reference": "Salmo 105, 47",
+                "text": "Salvai-nos, Senhor nosso Deus, e reuni-nos de todas as nações, para dar graças ao vosso santo nome e nos alegrarmos no vosso louvor."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Concedei, Senhor nosso Deus, que Vos adoremos de todo o coração e amemos todos os homens com sincera caridade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Apresentamos, Senhor, ao vosso altar os dons do vosso povo santo; aceitai-os benignamente e fazei deles o sacramento da nossa redenção. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 30, 17-18",
+                "text": "Fazei brilhar sobre mim o vosso rosto, salvai-me, Senhor, pela vossa bondade e não serei confundido por Vos ter invocado."
+            },
+            "alt-communion": {
+                "reference": "Mt 5, 3-4",
+                "text": "Bem-aventurados os pobres em espírito, porque deles é o reino dos Céus. Bem-aventurados os humildes, porque possuirão a terra prometida."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Fortalecidos pelo sacramento da nossa redenção, nós Vos suplicamos, Senhor, que, por este auxílio de salvação eterna, cresça sempre no mundo a verdadeira fé. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-5": {
+            "entrance": {
+                "reference": "Salmo 94, 6-7",
+                "text": "Vinde, prostremo-nos em terra, adoremos o Senhor que nos criou. O Senhor é o nosso Deus."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Guardai, Senhor, com paternal bondade a vossa família; e, porque só em Vós põe a sua confiança, defendei-a sempre com a vossa protecção. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor nosso Deus, que criastes o pão e o vinho para auxílio da nossa fraqueza concedei que eles se tornem para nós sacramento de vida eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 106, 8-9",
+                "text": "Dêmos graças ao Senhor pela sua misericórdia, pelos seus prodígios em favor dos homens, porque Ele deu de beber aos que tinham sede e saciou os que tinham fome."
+            },
+            "alt-communion": {
+                "reference": null,
+                "text": "Bem-aventurados os que choram, porque serão consolados. Bem-aventurados os que têm fome e sede de justiça, porque serão saciados."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Deus de bondade, que nos fizestes participantes do mesmo pão e do mesmo cálice, concedei que, unidos na alegria e no amor de Cristo, dêmos fruto abundante para a salvação do mundo. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-6": {
+            "entrance": {
+                "reference": "Salmo 30, 3-4",
+                "text": "Sede a rocha do meu refúgio, Senhor, e a fortaleza da minha salvação. Para glória do vosso nome, guiai-me e conduzi-me."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor, que prometestes estar presente nos corações rectos e sinceros, ajudai-nos com a vossa graça a viver de tal modo que mereçamos ser vossa morada. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Concedei, Senhor, que estes dons sagrados nos purifiquem e renovem, para que, obedecendo sempre à vossa vontade, alcancemos a recompensa eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 77, 24.29",
+                "text": "O Senhor deu-lhes o pão do Céu: comeram e ficaram saciados."
+            },
+            "alt-communion": {
+                "reference": "Jo 3, 16",
+                "text": "Deus amou tanto o mundo que lhe deu o seu Filho Unigénito. Quem acredita n’Ele tem a vida eterna."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos alimentastes com o pão do Céu, concedei-nos a graça de buscarmos sempre aquelas realidades que nos dão a verdadeira vida. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-7": {
+            "entrance": {
+                "reference": "cf. Salmo 12, 6",
+                "text": "Eu confio, Senhor, na vossa bondade. O meu coração alegra-se com a vossa salvação. Cantarei ao Senhor por tudo o que Ele fez por mim."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Concedei-nos, Deus todo-poderoso, que, meditando continuamente nas realidades espirituais, pratiquemos sempre, em palavras e obras, o que Vos agrada. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Concedei, Senhor, que celebremos dignamente estes divinos mistérios, de modo que os dons oferecidos para vossa glória sejam para nós fonte de eterna salvação. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 9, 2-3",
+                "text": "Cantarei todas as vossas maravilhas. Quero alegrar-me e exultar em Vós.  Cantarei ao vosso nome, ó Altíssimo."
+            },
+            "alt-communion": {
+                "reference": "cf. Jo 11, 27",
+                "text": "Senhor, eu creio que sois Cristo, Filho de Deus vivo, o Salvador do mundo."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Nós Vos pedimos, Deus omnipotente, que este sacramento de salvação seja para nós penhor seguro de vida eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-8": {
+            "entrance": {
+                "reference": "Salmo 17, 19-20",
+                "text": "O Senhor veio em meu auxílio, livrou-me da angústia e pôs-me em liberdade. Levou-me para lugar seguro, salvou-me pelo seu amor."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Fazei, Senhor, que os acontecimentos do mundo decorram para nós segundo os vossos desígnios de paz e a Igreja Vos possa servir na tranquilidade e na alegria. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor, que nos concedeis estes dons que Vos oferecemos e nos atribuís o mérito do oferecimento, nós Vos suplicamos: o que nos dais como fonte de mérito nos obtenha o prémio da felicidade eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 12, 6",
+                "text": "Cantarei ao Senhor pelo bem que me fez, exaltarei o nome do Senhor, cantarei hinos ao Altíssimo."
+            },
+            "alt-communion": {
+                "reference": "Mt 28, 20",
+                "text": "Eu estou sempre convosco até ao fim dos tempos, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos saciais com os vossos dons sagrados, concedei-nos, por este sacramento com que nos alimentais na vida presente, a comunhão convosco na vida eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-9": {
+            "entrance": {
+                "reference": "Salmo 24, 16.18",
+                "text": "Olhai para mim, Senhor, e tende compaixão, porque estou só e desamparado. Vede a minha miséria e o meu tormento e perdoai todos os meus pecados."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus todo-poderoso e eterno, cuja providência não se engana em seus decretos, humildemente Vos suplicamos: afastai de nós todos os males e concedei-nos todos os bens. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Confiando na vossa bondade, Senhor, trazemos ao altar os nossos dons, para que estes mistérios que celebramos nos purifiquem de todo o pecado. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 16, 6",
+                "text": "Escutai, Senhor, as minhas palavras, respondei-me quando Vos invoco."
+            },
+            "alt-communion": {
+                "reference": "Mc 11, 23",
+                "text": "Tudo o que pedirdes na oração vos será concedido, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Guiai, Senhor, com o vosso Espírito aqueles que alimentais com o Corpo e o Sangue do vosso Filho, de modo que, dando testemunho de Vós, não só com palavras mas em obras e verdade, mereçamos entrar no reino dos Céus. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-10": {
+            "entrance": {
+                "reference": "Salmo 26, 1-2",
+                "text": "O Senhor é minha luz e salvação: a quem temerei? O Senhor é protector da minha vida: de quem hei-de ter medo?"
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus, fonte de todo o bem, ensinai-nos com a vossa inspiração a pensar o que é recto e ajudai-nos com a vossa providência a pô-lo em prática. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Olhai com bondade, Senhor, para os dons que apresentamos ao vosso altar e fazei que esta oblação Vos seja agradável e aumente em nós a caridade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 17, 3",
+                "text": "Sois o meu protector e o meu refúgio, Senhor; sois o meu libertador; meu Deus, em Vós confio."
+            },
+            "alt-communion": {
+                "reference": "1 Jo 4, 16",
+                "text": "Deus é amor. Quem permanece no amor permanece em Deus e Deus permanece nele."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Nós Vos pedimos, Senhor, que a acção santificadora deste sacramento nos liberte das más inclinações e nos conduza a uma vida santa. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-11": {
+            "entrance": {
+                "reference": "Salmo 26, 7.9",
+                "text": "Ouvi, Senhor, a voz da minha súplica. Vós sois o meu refúgio: não me abandoneis, meu Deus, meu Salvador."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus misericordioso, fortaleza dos que esperam em Vós, atendei propício as nossas súplicas; e, como sem Vós nada pode a fraqueza humana, concedei-nos sempre o auxílio da vossa graça, para que as nossas vontades e acções Vos sejam agradáveis no cumprimento fiel dos vossos mandamentos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor nosso Deus, que pelo pão e o vinho apresentados ao vosso altar dais ao homem o alimento que o sustenta e o sacramento que o renova, fazei que nunca falte este auxílio ao nosso corpo e à nossa alma. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 26, 4",
+                "text": "Uma só coisa peço ao Senhor, por ela anseio: habitar na casa do Senhor todos os dias da minha vida."
+            },
+            "alt-communion": {
+                "reference": "Jo 17, 11",
+                "text": "Pai santo, guarda no teu nome os que Me deste, para que sejam em nós confirmados na unidade, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Fazei, Senhor, que a sagrada comunhão nos vossos mistérios, sinal da nossa união convosco, realize a unidade na vossa Igreja. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-12": {
+            "entrance": {
+                "reference": "Salmo 27, 8-9",
+                "text": "O Senhor é a força do seu povo, o baluarte salvador do seu Ungido. Salvai o vosso povo, Senhor, abençoai a vossa herança, sede o seu pastor e guia através dos tempos."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor, fazei-nos viver a cada instante no temor e no amor do vosso Santo nome, porque nunca a vossa providência abandona aqueles que formais solidamente no vosso amor. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Por este sacrifício de reconciliação e de louvor, purificai, Senhor, os nossos corações, para que se tornem uma oblação agradável a vossos olhos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 144, 15",
+                "text": "Os olhos de todos esperam em Vós, Senhor, e a seu tempo lhes dais o alimento."
+            },
+            "alt-communion": {
+                "reference": "Jo 10, 11.15",
+                "text": "Eu sou o Bom Pastor e dou a vida pelas minhas ovelhas, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos renovastes pela comunhão do Corpo e do Sangue de Cristo, fazei que a participação nestes mistérios nos alcance a plenitude da redenção. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-13": {
+            "entrance": {
+                "reference": "cf. Salmo 46, 2",
+                "text": "Louvai o Senhor, povos de toda a terra, aclamai a Deus com brados de alegria."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor, que pela vossa graça nos tornastes filhos da luz, não permitais que sejamos envolvidos pelas trevas do erro, mas permaneçamos sempre no esplendor da verdade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor nosso Deus, que assegurais a eficácia dos vossos sacramentos, fazei que este serviço divino seja digno dos mistérios que celebramos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 102, 1",
+                "text": "A minha alma louva o Senhor, todo o meu ser bendiz o seu nome santo."
+            },
+            "alt-communion": {
+                "reference": "cf. Jo 17, 20-21",
+                "text": "Pai santo, Eu rogo por aqueles que hão-de acreditar em Mim, para que sejam em Nós confirmados na unidade e o mundo acredite que Tu Me enviaste."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Concedei-nos, Senhor, que o Corpo e o Sangue do vosso Filho, oferecidos em sacrifício e recebidos em comunhão, nos dêem a verdadeira vida, para que, unidos convosco em amor eterno, dêmos frutos que permaneçam para sempre. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-14": {
+            "entrance": {
+                "reference": "Salmo 47, 10-11",
+                "text": "Recordamos, Senhor, a vossa misericórdia no meio do vosso templo. Toda a terra proclama o louvor do vosso nome, porque sois justo e santo, Senhor nosso Deus."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus de bondade infinita, que, pela humilhação do vosso Filho, levantastes o mundo decaído, dai aos vossos fiéis uma santa alegria, para que, livres da escravidão do pecado, possam chegar à felicidade eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Fazei, Senhor, que a oblação consagrada ao vosso nome nos purifique e nos conduza, dia após dia, a viver mais intensamente a vida da graça. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 33, 9",
+                "text": "Saboreai e vede como o Senhor é bom: feliz o homem que n’Ele se refugia."
+            },
+            "alt-communion": {
+                "reference": "Mt 11, 28",
+                "text": "Vinde a Mim, todos vós que andais cansados e oprimidos, e Eu vos aliviarei, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos saciastes com estes dons tão excelentes, fazei que alcancemos os benefícios da salvação e nunca cessemos de cantar os vossos louvores. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-15": {
+            "entrance": {
+                "reference": "cf. Salmo 16, 15",
+                "text": "Eu venho, Senhor, à vossa presença: ficarei saciado ao contemplar a vossa glória."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor nosso Deus, que mostrais aos errantes a luz da vossa verdade para poderem voltar ao bom caminho, concedei a quantos se declaram cristãos que, rejeitando tudo o que é indigno deste nome, sigam fielmente as exigências da sua fé. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Olhai, Senhor, para os dons da vossa Igreja em oração e concedei aos fiéis que os vão receber a graça de crescerem na santidade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 83, 4-5",
+                "text": "As aves do céu encontram abrigo e as andorinhas um ninho para os seus filhos, junto dos vossos altares, Senhor dos Exércitos, meu Rei e meu Deus. Felizes os que moram em vossa casa e a toda a hora cantam os vossos louvores."
+            },
+            "alt-communion": {
+                "reference": "Jo 6, 57",
+                "text": "Quem come a minha Carne e bebe o meu Sangue permanece em Mim e Eu nele, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos alimentais à vossa mesa santa, humildemente Vos suplicamos: sempre que celebramos estes mistérios, aumentai em nós os frutos da salvação. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-16": {
+            "entrance": {
+                "reference": "Salmo 53, 6.8",
+                "text": "Deus vem em meu auxílio, o Senhor sustenta a minha vida. De todo o coração Vos oferecerei sacrifícios, cantando a glória do vosso nome."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Sede propício, Senhor, aos vossos servos e multiplicai neles os dons da vossa graça, para que, fervorosos na fé, esperança e caridade, perseverem na fiel observância dos vossos mandamentos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor, que levastes à plenitude os sacrifícios da Antiga Lei no único sacrifício de Cristo, aceitai e santificai esta oblação dos vossos fiéis, como outrora abençoastes a oblação de Abel; e fazei que os dons oferecidos em vossa honra por cada um de nós sirvam para a salvação de todos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "cf. Salmo 110, 4-5",
+                "text": "O Senhor misericordioso e compassivo instituiu o memorial das suas maravilhas, deu sustento àqueles que O temem."
+            },
+            "alt-communion": {
+                "reference": "Ap 3, 20",
+                "text": "Eu estou à porta e chamo, diz o Senhor. Se alguém ouvir a minha voz e Me abrir a porta, entrarei em sua casa, cearei com ele e ele comigo."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Protegei, Senhor, o vosso povo que saciastes nestes divinos mistérios e fazei-nos passar da antiga condição do pecado à vida nova da graça. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-17": {
+            "entrance": {
+                "reference": "Salmo 67, 6-7.36",
+                "text": "Deus vive na sua morada santa, Ele prepara uma casa para o pobre. É a força e o vigor do seu povo."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus, protector dos que em Vós esperam: sem Vós nada tem valor, nada é santo. Multiplicai sobre nós a vossa misericórdia, para que, conduzidos por Vós, usemos de tal modo os bens temporais que possamos aderir desde já aos bens eternos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai, Senhor, os dons que recebemos da vossa generosidade e trazemos ao vosso altar, e fazei que estes sagrados mistérios, por obra da vossa graça, nos santifiquem na vida presente e nos conduzam às alegrias eternas. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 102, 2",
+                "text": "Bendiz, ó minha alma, o Senhor, e não esqueças os seus benefícios."
+            },
+            "alt-communion": {
+                "reference": "Mt 5, 7-8",
+                "text": "Bem-aventurados os misericordiosos, porque alcançarão misericórdia. Bem-aventurados os puros de coração, porque verão a Deus."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos destes a graça de participar neste divino sacramento, memorial perene da paixão do vosso Filho, fazei que este dom do seu amor infinito sirva para a nossa salvação. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-18": {
+            "entrance": {
+                "reference": "Salmo 69, 2.6",
+                "text": "Deus, vinde em meu auxílio, Senhor, socorrei-me e salvai-me. Sois o meu libertador e o meu refúgio: não tardeis, Senhor."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Mostrai, Senhor, a vossa imensa bondade aos filhos que Vos imploram e dignai-Vos renovar e conservar os dons da vossa graça naqueles que se gloriam de Vos ter por seu criador e sua providência. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Santificai, Senhor, estes dons que Vos oferecemos como sacrifício espiritual, e fazei de nós mesmos uma oblação eterna para vossa glória. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Sab 16, 20",
+                "text": "Saciastes o vosso povo com o pão dos Anjos, destes-nos, Senhor, o pão do Céu."
+            },
+            "alt-communion": {
+                "reference": "Jo 6, 35",
+                "text": "Eu sou o pão da vida, diz o Senhor. Quem vem a Mim nunca mais terá fome, quem crê em Mim nunca mais terá sede."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos renovais com o pão do Céu, protegei-nos sempre com o vosso auxílio, fortalecei-nos todos os dias da nossa vida e tornai-nos dignos da redenção eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-19": {
+            "entrance": {
+                "reference": "Salmo 73, 20.19.22.23",
+                "text": "Lembrai-Vos, Senhor, da vossa aliança, não esqueçais para sempre a vida dos vossos fiéis. Levantai-Vos, Senhor, defendei a vossa causa, escutai a voz daqueles que Vos procuram."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus eterno e omnipotente, a quem podemos chamar nosso Pai, fazei crescer o espírito filial em nossos corações para merecermos entrar um dia na posse da herança prometida. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai benignamente, Senhor, os dons que Vós mesmo concedestes à vossa Igreja e transformai-os, com o vosso poder, em sacramento da nossa salvação. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 147, 12.14",
+                "text": "Louva, Jerusalém, o Senhor, que te saciou com a flor da farinha."
+            },
+            "alt-communion": {
+                "reference": "Jo 6, 52",
+                "text": "O pão que Eu vos darei, diz o Senhor, é a minha carne pela vida do mundo."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Nós Vos pedimos, Senhor, que a comunhão do vosso sacramento nos salve e nos confirme na luz da vossa verdade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-20": {
+            "entrance": {
+                "reference": "Salmo 83, 10-11",
+                "text": "Senhor Deus, nosso protector, ponde os olhos no rosto do vosso Ungido. Um dia em vossos átrios vale mais de mil longe de Vós."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus de bondade infinita, que preparastes bens invisíveis para aqueles que Vos amam, infundi em nós o vosso amor, para que, amando-Vos em tudo e acima de tudo, alcancemos as vossas promessas, que excedem todo o desejo. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai, Senhor, o que trazemos ao vosso altar, nesta admirável permuta de dons, de modo que, oferecendo-Vos o que nos destes, mereçamos receber-Vos a Vós mesmo. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 129, 7",
+                "text": "No Senhor está a misericórdia, no Senhor está a plenitude da redenção."
+            },
+            "alt-communion": {
+                "reference": "Jo 6, 51-52",
+                "text": "Eu sou o pão vivo descido do Céu, diz o Senhor. Quem comer deste pão viverá eternamente."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que neste sacramento nos fizestes participar mais intimamente no mistério de Cristo, transformai-nos à sua imagem na terra para merecermos ser associados à sua glória no Céu. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-21": {
+            "entrance": {
+                "reference": "Salmo 85, 1-3",
+                "text": "Inclinai o vosso ouvido e atendei-me, Senhor, salvai o vosso servo, que em vós confia. Tende compaixão de mim, Senhor, que a Vós clamo o dia inteiro."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor Deus, que unis os corações dos fiéis num único desejo, fazei que o vosso povo ame o que mandais e espere o que prometeis, para que, no meio da instabilidade deste mundo, fixemos os nossos corações onde se encontram as verdadeiras alegrias. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor, que pelo único sacrifício da cruz, formastes para Vós um povo de adopção filial, concedei à vossa Igreja o dom da unidade e da paz. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 103, 13-15",
+                "text": "Encheis a terra, Senhor, com o fruto das vossas obras. Da terra fazeis brotar o pão e o vinho que alegra o coração do homem."
+            },
+            "alt-communion": {
+                "reference": "Jo 6, 55",
+                "text": "Quem come a minha carne e bebe o meu sangue tem a vida eterna, diz o Senhor, e Eu o ressuscitarei no último dia."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Realizai em nós plenamente, Senhor, a acção redentora da vossa misericórdia e fazei-nos tão generosos e fortes que possamos ajudar-Vos em toda a nossa vida. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-22": {
+            "entrance": {
+                "reference": "Salmo 85, 3.5",
+                "text": "Tende compaixão de mim, Senhor, que a Vós clamo o dia inteiro. Vós, Senhor, sois bom e indulgente, cheio de misericórdia para aqueles que Vos invocam."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus do universo, de quem procede todo o dom perfeito, infundi em nossos corações o amor do vosso nome e, estreitando a nossa união convosco, dai vida ao que em nós é bom e protegei com solicitude esta vida nova. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Santificai, Senhor, a oferta que Vos apresentamos e realizai em nós, com o poder da vossa graça, a redenção que celebramos nestes mistérios. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 30, 20",
+                "text": "Como é grande, Senhor, a vossa bondade para aqueles que Vos servem!"
+            },
+            "alt-communion": {
+                "reference": "Mt 5, 9-10",
+                "text": "Bem-aventurados os pacíficos, porque serão chamados filhos de Deus. Bem-aventurados os perseguidos por amor da justiça, porque deles é o reino dos céus."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos alimentastes com o pão da mesa celeste, fazei que esta fonte de caridade fortaleça os nossos corações e nos leve a servir-Vos nos nossos irmãos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-23": {
+            "entrance": {
+                "reference": "Salmo 118, 137.124",
+                "text": "Vós sois justo, Senhor, e são rectos os vossos julgamentos. Tratai o vosso servo segundo a vossa bondade."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor nosso Deus, que nos enviastes o Salvador e nos fizestes vossos filhos adoptivos, atendei com paternal bondade as nossas súplicas e concedei que, pela nossa fé em Cristo, alcancemos a verdadeira liberdade e a herança eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor nosso Deus, fonte da verdadeira devoção e da paz, fazei que esta oblação Vos glorifique dignamente e que a nossa participação nos sagrados mistérios reforce os laços da nossa unidade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 41, 2-3",
+                "text": "Como suspira o veado pela corrente das águas, assim minha alma suspira por Vós, Senhor. A minha alma tem sede do Deus vivo."
+            },
+            "alt-communion": {
+                "reference": "Jo 8, 12",
+                "text": "Eu sou a luz do mundo, diz o Senhor; quem Me segue não anda nas trevas, mas terá a luz da vida."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor, que nos alimentais e fortaleceis à mesa da palavra e do pão da vida, fazei que recebamos de tal modo estes dons do vosso Filho que mereçamos participar da sua vida imortal. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-24": {
+            "entrance": {
+                "reference": "cf. Sir 36, 18",
+                "text": "Dai a paz, Senhor, aos que em Vós esperam e confirmai a verdade dos vossos profetas. Escutai a prece dos vossos servos e abençoai o vosso povo."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus, Criador e Senhor de todas as coisas, lançai sobre nós o vosso olhar; e para sentirmos em nós os efeitos do vosso amor, dai-nos a graça de Vos servirmos com todo o coração. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Ouvi, Senhor, com bondade as nossas súplicas e recebei estas ofertas dos vossos fiéis, para que os dons oferecidos por cada um de nós para glória do vosso nome sirvam para a salvação de todos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 35, 8",
+                "text": "Como é admirável, Senhor, a vossa bondade! À sombra das vossas asas se refugiam os homens."
+            },
+            "alt-communion": {
+                "reference": "cf. 1 Cor 10, 16",
+                "text": "O cálice de bênção é comunhão no Sangue de Cristo; e o pão que partimos é comunhão no Corpo do Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Senhor nosso Deus, concedei que este sacramento celeste nos santifique totalmente a alma e o corpo, para que não sejamos conduzidos pelos nossos sentimentos mas pela virtude vivificante do vosso Espírito. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-25": {
+            "entrance": {
+                "reference": null,
+                "text": "Eu sou a salvação do meu povo, diz o Senhor. Quando chamar por Mim nas suas tribulações, Eu o atenderei e serei o seu Deus para sempre."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor, que fizestes consistir a plenitude da lei no vosso amor e no amor do próximo, dai-nos a graça de cumprirmos este duplo mandamento, para alcançarmos a vida eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai benignamente, Senhor, os dons da vossa Igreja, para que receba nestes santos mistérios os bens em que pela fé acredita. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 118, 4-5",
+                "text": "Promulgastes, Senhor, os vossos preceitos para se cumprirem fielmente. Fazei que os meus passos sejam firmes na observância dos vossos mandamentos."
+            },
+            "alt-communion": {
+                "reference": "Jo 10, 14",
+                "text": "Eu sou o Bom Pastor, diz o Senhor; conheço as minhas ovelhas e as minhas ovelhas conhecem-Me."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Sustentai, Senhor, com o auxílio da vossa graça aqueles que alimentais nos sagrados mistérios, para que os frutos de salvação que recebemos neste sacramento se manifestem em toda a nossa vida. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-26": {
+            "entrance": {
+                "reference": "Dan 3, 31.29.30.43.42",
+                "text": "Vós sois justo, Senhor, em tudo o que fizestes. Pecámos contra Vós, não observámos os vossos mandamentos. Mas para glória do vosso nome, mostrai-nos a vossa infinita misericórdia."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor, que dais a maior prova do vosso poder quando perdoais e Vos compadeceis, infundi sobre nós a vossa graça, para que, correndo prontamente para os bens prometidos, nos tornemos um dia participantes da felicidade celeste. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Deus de misericórdia infinita, aceitai esta nossa oblação e fazei que por ela se abra para nós a fonte de todas as bênçãos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "cf. Salmo 118, 9-5",
+                "text": "Senhor, lembrai-Vos da palavra que destes ao vosso servo. A consolação da minha amargura é a esperança na vossa promessa."
+            },
+            "alt-communion": {
+                "reference": "1 Jo 3, 16",
+                "text": "Nisto conhecemos o amor de Deus: Ele deu a vida por nós; também nós devemos dar a vida pelos nossos irmãos."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Fazei, Senhor, que este sacramento celeste renove a nossa alma e o nosso corpo, para que, unidos a Cristo neste memorial da sua morte, possamos tomar parte na sua herança gloriosa. Ele que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-27": {
+            "entrance": {
+                "reference": "Est 13, 9.10-11",
+                "text": "Senhor, Deus omnipotente, tudo está sujeito ao vosso poder e ninguém pode resistir à vossa vontade. Vós criastes o céu e a terra e todas as maravilhas que estão sob o firmamento. Vós sois o Senhor do universo."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus eterno e omnipotente, que, no vosso amor infinito, cumulais de bens os que Vos imploram muito além dos seus méritos e desejos, pela vossa misericórdia, libertai a nossa consciência de toda a inquietação e dai-nos o que nem sequer ousamos pedir. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai, Senhor, o sacrifício que Vós mesmo nos mandastes oferecer e, por estes sagrados mistérios que celebramos, confirmai em nós a obra da redenção. Por Nosso Senhor."
+            },
+            "communion": {
+                "reference": "Lam 3, 25",
+                "text": "O Senhor é bom para quem n’Ele confia, para a alma que O procura."
+            },
+            "alt-communion": {
+                "reference": "cf. 1 Cor 10, 17",
+                "text": "Porque há um só pão, todos somos um só corpo, nós que participamos do mesmo cálice e do mesmo pão."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Deus todo-poderoso, que neste sacramento saciais a nossa fome e a nossa sede, fazei que, ao comungarmos o Corpo e o Sangue do vosso Filho, nos transformemos n’Aquele que recebemos. Ele que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-28": {
+            "entrance": {
+                "reference": "Salmo 129, 3-4",
+                "text": "Se tiverdes em conta as nossas faltas, Senhor, quem poderá salvar-se? Mas em Vós está o perdão, Senhor Deus de Israel."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Nós Vos pedimos, Senhor, que a vossa graça preceda e acompanhe sempre as nossas acções e nos torne cada vez mais atentos à prática das boas obras. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Aceitai, Senhor, as orações e as ofertas dos vossos fiéis e fazei que esta celebração sagrada nos encaminhe para a glória do Céu. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 33, 11",
+                "text": "Os ricos empobrecem e passam fome; mas nada falta aos que procuram o Senhor."
+            },
+            "alt-communion": {
+                "reference": "cf. 1 Jo 3, 2",
+                "text": "Quando o Senhor Se manifestar, seremos semelhantes a Ele, porque O veremos na sua glória."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Deus de infinita bondade, que nos alimentais com o Corpo e o Sangue do vosso Filho, tornai-nos também participantes da sua natureza divina. Ele que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-29": {
+            "entrance": {
+                "reference": "Salmo 16, 6.8.9",
+                "text": "Respondei-me, Senhor, quando Vos invoco, ouvi a minha voz, escutai as minhas palavras. Guardai-me dos meus inimigos, Senhor. Protegei-me à sombra das vossas asas."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus eterno e omnipotente, dai-nos a graça de consagrarmos sempre ao vosso serviço a dedicação da nossa vontade e a sinceridade do nosso coração. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Fazei, Senhor, que possamos servir ao vosso altar com plena liberdade de espírito, para que estes mistérios que celebramos nos purifiquem de todo o pecado. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 32, 18-19",
+                "text": "O Senhor vela sobre os seus fiéis, sobre aqueles que esperam na sua bondade, para libertar da morte as suas almas, para os alimentar no tempo da fome."
+            },
+            "alt-communion": {
+                "reference": "Mc 10, 45",
+                "text": "O Filho do homem veio ao mundo para dar a vida pela redenção dos homens."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Concedei, Senhor, que a participação nos mistérios celestes nos faça progredir na santidade, nos obtenha as graças temporais e nos confirme nos bens eternos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-30": {
+            "entrance": {
+                "reference": "Salmo 104, 3-4",
+                "text": "Alegre-se o coração dos que procuram o Senhor. Buscai o Senhor e o seu poder, procurai sempre a sua face."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus eterno e omnipotente, aumentai em nós a fé, a esperança e a caridade; e para merecermos alcançar o que prometeis, fazei-nos amar o que mandais. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Olhai, Senhor, para os dons que Vos apresentamos e fazei que a celebração destes mistérios dê glória ao vosso nome. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "cf. Salmo 19, 6",
+                "text": "Celebramos, Senhor, a vossa salvação e glorificamos o vosso santo nome."
+            },
+            "alt-communion": {
+                "reference": "Ef 5, 2",
+                "text": "Cristo amou-nos e deu a vida por nós, oferecendo-Se em sacrifício agradável a Deus."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Fazei, Senhor, que os vossos sacramentos realizem em nós o que significam, para alcançarmos um dia em plenitude o que celebramos nestes santos mistérios. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-31": {
+            "entrance": {
+                "reference": "Salmo 37, 22-23",
+                "text": "Não me abandoneis, Senhor; meu Deus, não Vos afasteis de mim. Senhor, socorrei-me e salvai-me."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus omnipotente e misericordioso, de quem procede a graça de Vos servirmos fiel e dignamente, fazei-nos caminhar sem obstáculos para os bens por Vós prometidos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Senhor, fazei que este sacrifício seja para Vós uma oblação pura e para nós o dom generoso da vossa misericórdia. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 15, 11",
+                "text": "O Senhor me ensinará o caminho da vida, a seu lado viverei na plenitude da alegria."
+            },
+            "alt-communion": {
+                "reference": "Jo 6, 58",
+                "text": "Assim como o Pai que Me enviou é o Deus vivo e Eu vivo pelo Pai, também o que Me come viverá por Mim, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Multiplicai em nós, Senhor, os frutos da vossa graça, para que os sacramentos celestes que nos alimentam na vida presente nos preparem para alcançarmos a herança prometida. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-32": {
+            "entrance": {
+                "reference": "Salmo 87, 3",
+                "text": "Chegue até Vós, Senhor, a minha oração, inclinai o ouvido ao meu clamor."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Deus eterno e misericordioso, afastai de nós toda a adversidade, para que, sem obstáculos do corpo ou do espírito, possamos livremente cumprir a vossa vontade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Olhai, Senhor, com benevolência para o sacrifício que Vos apresentamos, a fim de participarmos com sincera piedade no memorial da paixão do vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 22, 1-2",
+                "text": "O Senhor é meu pastor: nada me falta. Leva-me a descansar em verdes prados. Conduz-me às águas refrescantes e reconforta a minha alma."
+            },
+            "alt-communion": {
+                "reference": "Lc 24, 35",
+                "text": "Os discípulos reconheceram o Senhor Jesus ao partir o pão."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Nós Vos damos graças, Senhor, pelo alimento celeste que recebemos e imploramos da vossa misericórdia que, pela acção do Espírito Santo, perseverem na vossa graça os que receberam a força do alto. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-33": {
+            "entrance": {
+                "reference": "Jer 29, 11.12.14",
+                "text": "Os meus pensamentos são de paz e não de desgraça, diz o Senhor. Invocar-Me-eis e atenderei o vosso clamor, e farei regressar os vossos cativos de todos os lugares da terra."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Senhor nosso Deus, concedei-nos a graça de encontrar sempre a alegria no vosso serviço, porque é uma felicidade duradoira e profunda ser fiel ao autor de todos os bens. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Concedei-nos, Senhor, que os dons oferecidos para glória do vosso nome nos obtenham a graça de Vos servirmos fielmente e nos alcancem a posse da felicidade eterna. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 72, 28",
+                "text": "A minha alegria é estar junto de Deus, buscar no Senhor o meu refúgio."
+            },
+            "alt-communion": {
+                "reference": "Mc 11, 23.24",
+                "text": "Tudo o que pedirdes na oração vos será concedido, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Depois de recebermos estes dons sagrados, humildemente Vos pedimos, Senhor: o sacramento que o vosso Filho nos mandou celebrar em sua memória aumente sempre a nossa caridade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        },
+        "week-34": {
+            "entrance": {
+                "reference": "Salmo 84,9",
+                "text": "O Senhor fala de paz ao seu povo e aos seus fiéis e a todos os que a Ele se convertem de coração sincero."
+            },
+            "collect": {
+                "reference": null,
+                "text": "Despertai, Senhor, a vontade dos vosso fiéis, para que, correspondendo mais generosamente à acção da graça divina, recebamos maiores auxílios da vossa bondade. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "offerings": {
+                "reference": null,
+                "text": "Recebei, Senhor, estes dons sagrados que nos mandastes oferecer em honra do vosso nome e fazei que, obedecendo sempre aos vossos mandamentos, nos tornemos também nós uma oblação agradável aos vosso olhos. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            },
+            "communion": {
+                "reference": "Salmo 116, 1-2",
+                "text": "Louvai o Senhor, povos de toda a terra, porque é eterna a sua misericórdia."
+            },
+            "alt-communion": {
+                "reference": "Mt 28. 20",
+                "text": "Eu estou sempre convosco até ao fim dos tempos, diz o Senhor."
+            },
+            "post-communion": {
+                "reference": null,
+                "text": "Deus todo-poderoso e eterno, não permitais que se separem de Vós aqueles a quem deste a graça de participar neste divino sacramento. Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo."
+            }
+        }
+    },
     "readings": {
         "week-01": {
             "2": {

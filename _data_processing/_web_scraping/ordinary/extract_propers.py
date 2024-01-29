@@ -131,8 +131,27 @@ for i in range(1, 35):
 
   ordinary_propers[f"week-{i}"] = propers
 
-for week in ordinary_propers.keys():
-  print(week)
-  for proper_type in ordinary_propers[week]:
-    print(proper_type)
-    print(ordinary_propers[week][proper_type])
+# for week in ordinary_propers.keys():
+#   print(week)
+#   for proper_type in ordinary_propers[week]:
+#     print(proper_type)
+#     print(ordinary_propers[week][proper_type])
+  
+
+# Adding propers to JSON's readings file
+
+output_file_path = '../../_new/pt/ordinary.json'
+
+# Open file and lod its contents as a Python dictionary
+with open(output_file_path, 'r', encoding='utf-8') as file:
+  ordinary_readings = json.load(file)['readings']
+
+ordinary = {
+  'propers': ordinary_propers,
+  'readings': ordinary_readings
+}
+
+with open(output_file_path, 'w', encoding='utf-8') as file:
+  json.dump(ordinary, file, ensure_ascii=False, indent=4)
+
+
