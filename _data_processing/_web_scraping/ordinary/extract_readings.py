@@ -162,9 +162,9 @@ def create_json_mass_readings(reading_idxs, mass_by_section, sections):
     data_from_title = re.split(' - | – ', sections[idx])
 
     if data_from_title[0] == sections[idx]:
-      reference = spaced_reference(data_from_title[0])
+      reference = spaced_reference(data_from_title[0]).strip()
     else:
-      reference = ' - '.join(data_from_title[1:])
+      reference = ' - '.join(data_from_title[1:]).strip()
 
     if reference == '':
       reference = None
