@@ -13,6 +13,15 @@ def defaultdict_to_dict(d):
       d[key] = defaultdict_to_dict(value)
   return d
 
+def get_bold(bolds):
+  if bolds:
+    bold = ''
+    for i in bolds:
+      bold += i.get_text()
+    return re.sub(r"\n", ' ', bold).strip()
+  else:
+    return None
+
 def extract_sections(file_path):
   with open(file_path, 'r', encoding='utf-8') as file:
     soup = BeautifulSoup(file, 'html.parser')
@@ -24,7 +33,6 @@ def extract_sections(file_path):
   for element in soup.body.find_all():
     if element.get_text() == '\xa0':
       continue
-
     if element.name == 'h3':
       if was_h3 == False:
         current_section = ''
@@ -33,11 +41,16 @@ def extract_sections(file_path):
     elif element.name == 'p':
       if was_h3 == True:
         current_section = re.sub(r"\n|\xa0| *\| *|Top|Latim", '', current_section.strip())
-        prefaces_raw_text[current_section] = []
+        prefaces_raw_text[current_section] = {}
+        prefaces_raw_text[current_section]['text'] = []
       if current_section != '':
         text = re.sub(r"\n", ' ', element.get_text())
-        text = re.sub(r"\xa0| *\| *|Santo, Santo, Santo... *|Latim", '', text)
-        prefaces_raw_text[current_section].append(text)
+        if 'Santo, Santo, Santo...' in text:
+          was_h3 = False
+          continue
+        bolds = element.select('b')
+        prefaces_raw_text[current_section]['bold'] = get_bold(bolds)
+        prefaces_raw_text[current_section]['text'].append(text)
       was_h3 = False
 
   return prefaces_raw_text
@@ -98,14 +111,14 @@ possible_sections = [
 
 file_path = '../../_old/Prefacios_V2.html'
 prefaces_raw_text = extract_sections(file_path)
-raw_ordinary_prefaces = get_raw_prefaces(prefaces_raw_text, possible_sections)
-ordinary_prefaces = create_json_prefaces(raw_ordinary_prefaces)
+# raw_ordinary_prefaces = get_raw_prefaces(prefaces_raw_text, possible_sections)
+# ordinary_prefaces = create_json_prefaces(raw_ordinary_prefaces)
 
 # print(prefaces_raw_text.keys())
 # print(raw_ordinary_prefaces.keys())
-print(ordinary_prefaces.keys())
+# print(ordinary_prefaces.keys())
 
-for key in ordinary_prefaces.keys():
-  print(key)
-  print(ordinary_prefaces[key])
+# for key in ordinary_prefaces.keys():
+#   print(key)
+#   print(ordinary_prefaces[key])
   
