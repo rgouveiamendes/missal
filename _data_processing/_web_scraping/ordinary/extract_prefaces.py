@@ -72,18 +72,19 @@ def create_json_prefaces(raw_prefaces):
     section = raw_prefaces[key]
     preface_data = {}
 
-    preface_data['snippet'] = section[0]
-    preface_data['text'] = ''.join(section[1:])
+    preface_data['snippet'] = section['text'][0]
+    preface_data['text'] = ''.join(section['text'][1:])
+    preface_data['bold'] = ''.join(section['bold'])
 
     if i < 10:
       prefaces[f"common-{i}"] = preface_data
     else:
-      prefaces[f"sundays-{i % 10 + 1}"] = preface_data
+      prefaces[f"sunday-{i % 10 + 1}"] = preface_data
 
   return prefaces
 
 
-# Extraction of Common Prefaces
+# Extraction of Common and Common Sundays' Prefaces
 
 ordinary_prefaces = defaultdict(recursive_defaultdict)
 
@@ -111,8 +112,8 @@ possible_sections = [
 
 file_path = '../../_old/Prefacios_V2.html'
 prefaces_raw_text = extract_sections(file_path)
-# raw_ordinary_prefaces = get_raw_prefaces(prefaces_raw_text, possible_sections)
-# ordinary_prefaces = create_json_prefaces(raw_ordinary_prefaces)
+raw_ordinary_prefaces = get_raw_prefaces(prefaces_raw_text, possible_sections)
+ordinary_prefaces = create_json_prefaces(raw_ordinary_prefaces)
 
 # print(prefaces_raw_text.keys())
 # print(raw_ordinary_prefaces.keys())
@@ -121,4 +122,23 @@ prefaces_raw_text = extract_sections(file_path)
 # for key in ordinary_prefaces.keys():
 #   print(key)
 #   print(ordinary_prefaces[key])
-  
+
+
+# Adding prefaces to Ordinary Time's JSON file
+
+output_file_path = '../../_new/pt/ordinary.json'
+
+with open(output_file_path, 'r', encoding='utf-8') as file:
+  ordinary = json.load(file)
+
+ordinary_propers = ordinary['propers']
+ordinary_readings = ordinary['readings']
+
+ordinary = {
+  'prefaces': ordinary_prefaces,
+  'propers': ordinary_propers,
+  'readings': ordinary_readings
+}
+
+with open(output_file_path, 'w', encoding='utf-8') as file:
+  json.dump(ordinary, file, ensure_ascii=False, indent=4)

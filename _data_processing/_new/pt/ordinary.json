@@ -1,4 +1,101 @@
 {
+    "prefaces": {
+        "common-1": {
+            "snippet": "A restauração universal em Cristo",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte, por Cristo, nosso Senhor. N’Ele quisestes restaurar todas as coisas e a todos destes a graça de participar da sua plenitude. Sendo Ele de condição divina, aniquilou-Se a Si próprio e, pelo sangue derramado na cruz, deu a paz a todo o universo. Por isso foi exaltado sobre todas as criaturas e tornou-Se, para todos os que Lhe obedecem, fonte de salvação eterna. Por Ele, com os Anjos e os Santos e todos os coros celestes, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "N’Ele quisestes restaurar todas as coisas"
+        },
+        "common-2": {
+            "snippet": "A salvação por Cristo",
+            "text": "Senhor, Pai Santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Por amor criastes o homem; e, embora justamente condenado, em vossa misericórdia o salvastes por Cristo, nosso Senhor. Por Ele, numa só voz, os Anjos e os Arcanjos e todos os coros celestes proclamam alegremente a vossa glória. Permiti que nos associemos às suas vozes, cantando humildemente o vosso louvor:",
+            "bold": "Por amor criastes o homem"
+        },
+        "common-3": {
+            "snippet": "Louvor a Deus pela criação e redenção do homem",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Pelo vosso Filho muito amado, criastes o homem à vossa imagem e o fizestes renascer para a vida nova. Por isso Vos servem todas as criaturas, Vos louvam todos os redimidos e Vos aclamam os Anjos e os Santos. Com eles, também nós proclamamos a vossa glória, cantando com alegria:",
+            "bold": "Pelo vosso Filho muito amado"
+        },
+        "common-4": {
+            "snippet": "O louvor é um dom de Deus",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Vós não precisais dos nossos louvores e poder glorificar-Vos é dom da vossa bondade; porque os nossos hinos de bênção, nada aumentando à vossa infinita grandeza, alcançam-nos a graça da salvação, por Cristo, nosso Senhor. Por Ele, com todos os coros dos Anjos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Vós não precisais dos nossos louvores"
+        },
+        "common-5": {
+            "snippet": "Proclamação do mistério de Cristo",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação, dar-Vos graças, sempre e em toda a parte, por Cristo, nosso Senhor. Unidos na caridade, celebramos a sua morte; com fé viva, proclamamos a sua ressurreição; com ardente esperança, aguardamos a sua vinda gloriosa. Por isso, com os Anjos e os Santos, Vos glorificamos e bendizemos, cantando numa só voz:",
+            "bold": "Unidos na caridade, celebramos a sua morte"
+        },
+        "common-6": {
+            "snippet": "O mistério da salvação em Cristo",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte, por Cristo, nosso Senhor. Ele é a vossa palavra, por quem tudo criastes. Enviado por Vós como Salvador e Redentor, fez-Se homem pelo poder do Espírito Santo e nasceu da Virgem Maria. Para cumprir a vossa vontade e adquirir para Vós um povo santo, estendeu os braços e morreu na cruz; e, destruindo assim a morte, manifestou a vitória da ressurreição. Por isso, com os Anjos e os Santos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Ele é a vossa palavra, por quem tudo criastes"
+        },
+        "common-7": {
+            "snippet": "Cristo, hóspede e peregrino no meio de nós",
+            "text": "Senhor, Pai santo, Deus da aliança e da paz, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Vós chamastes e fizestes sair Abraão da sua terra para o constituir pai de todas as nações. Suscitastes Moisés para libertar o vosso povo e conduzi-lo à terra prometida. Na plenitude dos tempos, enviastes o vosso Filho, hóspede e peregrino no meio de nós, para nos redimir do pecado e da morte; e destes ao mundo o vosso Espírito, para fazer de todas as nações um só povo, que caminha para o vosso reino na liberdade dos filhos de Deus, segundo o mandamento novo do amor. Por isso, com os Anjos e os Santos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Vós chamastes e fizestes sair Abraão da sua terra"
+        },
+        "common-8": {
+            "snippet": "Cristo, o bom samaritano",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação louvar-Vos e dar-Vos graças, em todos os momentos da nossa vida, na saúde e na doença, no sofrimento e na alegria, por Cristo, vosso servo e nosso Redentor. Na sua vida mortal, Ele passou fazendo o bem e socorrendo todos os que eram prisioneiros do mal. Ainda hoje, como bom samaritano, vem ao encontro de todos os homens atribulados no corpo ou no espírito e derrama sobre as suas feridas o óleo da consolação e o vinho da esperança. Por este dom da vossa graça, também a noite da dor se abre à luz pascal do vosso Filho crucificado e ressuscitado. Por isso, com os Anjos e os Santos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "em todos os momentos da nossa vida"
+        },
+        "common-9": {
+            "snippet": "A glória de Deus é o homem vivo",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação louvar-Vos e dar-Vos graças, sempre e em toda a parte. Vós sois o único Deus vivo e verdadeiro e estais presente em todo o universo; mas é sobretudo no homem, criado à vossa imagem, que imprimistes o sinal da vossa glória. Vós o chamais a colaborar, com o trabalho de cada dia, no projecto da criação e lhe dais o vosso Espírito para que em Cristo, homem novo, se torne construtor da justiça e da paz. Por isso, com os Anjos e os Santos, proclamamos a vossa glória, cantando com alegria:",
+            "bold": "Vós sois o único Deus vivo e verdadeiro"
+        },
+        "sunday-1": {
+            "snippet": "O mistério pascal e o povo de Deus",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte, por Cristo, nosso Senhor. Pelo seu mistério pascal, Ele realizou a obra admirável de nos chamar do pecado e da morte à glória de geração escolhida, sacerdócio real, nação santa, povo resgatado, a fim de que, libertos do poder das trevas para a claridade da vossa luz, anunciemos por toda a parte as vossas maravilhas. Por isso, com os Anjos e os Arcanjos e todos os coros celestes, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Pelo seu mistério pascal"
+        },
+        "sunday-2": {
+            "snippet": "O mistério da salvação",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte, por Cristo, nosso Senhor. Compadecido dos errados caminhos dos homens, dignou-Se nascer da Virgem Maria; com a sua morte na cruz, livrou-nos da morte eterna; com a sua ressurreição, deu-nos a vida imortal. Por isso, com os Anjos e os Arcanjos e todos os coros celestes, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Compadecido dos errados caminhos dos homens"
+        },
+        "sunday-3": {
+            "snippet": "A salvação do homem pelo Filho do homem",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Para manifestar o esplendor da vossa glória, viestes em auxílio da fragilidade humana com o poder da vossa divindade; da nossa condição mortal tirastes o remédio para vencer a morte e da nossa ruína abristes o caminho da salvação, por Cristo, nosso Senhor. Por Ele, com a multidão dos Anjos, que adoram a vossa majestade e se alegram eternamente na vossa presença, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Para manifestar o esplendor da vossa glória"
+        },
+        "sunday-4": {
+            "snippet": "A história da salvação",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte, por Cristo, nosso Senhor. Nascendo da Virgem Maria, Ele renovou a antiga condição humana; com a sua morte destruiu os nossos pecados; com a sua ressurreição conduziu-nos à vida eterna; e na sua ascensão abriu-nos as portas do céu. Por isso, com os Anjos e os Santos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Nascendo da Virgem Maria"
+        },
+        "sunday-5": {
+            "snippet": "A criação",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Vós criastes os elementos do mundo, estabelecendo o curso dos tempos e as estações do ano; formastes o homem à vossa imagem e semelhança e lhe confiastes as maravilhas do universo, para que, em vosso nome, domine sobre todas as criaturas e Vos glorifique sem cessar pela grandeza das vossas obras, por Cristo, nosso Senhor. Por Ele, com todos os coros dos Anjos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Vós criastes os elementos do mundo,"
+        },
+        "sunday-6": {
+            "snippet": "O penhor da Páscoa eterna",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Em Vós vivemos, nos movemos e existimos e, durante a nossa vida terrena, sentimos cada dia os efeitos da vossa bondade e possuímos desde já o penhor da vida futura; tendo recebido as primícias do Espírito, pelo qual ressuscitastes Jesus Cristo de entre os mortos, vivemos na esperança da Páscoa eterna. Por isso, com os Anjos e os Santos, proclamamos a vossa glória, cantando numa só voz: ",
+            "bold": "Em Vós vivemos, nos movemos e existimos"
+        },
+        "sunday-7": {
+            "snippet": "A salvação pela obediência de Cristo",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Na vossa infinita misericórdia, de tal modo amastes o mundo que nos enviastes Jesus Cristo, nosso Salvador, em tudo semelhante ao homem, menos no pecado, para poderdes amar em nós o que amáveis em vosso Filho Unigénito: pela sua obediência Ele restaurou a aliança que a nossa desobediência tinha destruído. Por isso, com todos os coros dos Anjos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Na vossa infinita misericórdia, de tal modo amastes o mundo"
+        },
+        "sunday-8": {
+            "snippet": "A Igreja reunida à imagem da Santíssima Trindade",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Pelo sangue do vosso Filho e pela força do Espírito, quisestes reconduzir à unidade do vosso povo os filhos dispersos pelo pecado, para que a Igreja, reunida à imagem da Santíssima Trindade, apareça no mundo como corpo de Cristo e templo do Espírito Santo, para louvor da vossa infinita sabedoria. Por isso, com todos os coros dos Anjos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Pelo sangue do vosso Filho e pela força do Espírito"
+        },
+        "sunday-9": {
+            "snippet": "A acção do Espírito Santo na Igreja",
+            "text": "Senhor, Pai santo, Deus eterno e omnipotente, é verdadeiramente nosso dever, é nossa salvação dar-Vos graças, sempre e em toda a parte. Com admirável providência ordenais a evolução dos tempos e com o poder do Espírito Santo conduzis a vossa Igreja, para que, sempre fiel ao vosso amor, nunca deixe de invocar-Vos nas suas tribulações nem de Vos dar graças nas suas alegrias, por Cristo, nosso Senhor. Por Ele, com todos os coros dos Anjos, proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "Com admirável providência ordenais a evolução dos tempos"
+        },
+        "sunday-10": {
+            "snippet": "O dia do Senhor",
+            "text": "Senhor, Pai santo, fonte da verdade e da vida, é verdadeiramente nosso dever, é nossa salvação bendizer-Vos e dar-Vos graças, porque neste dia de festa nos congregastes na vossa casa. Hoje a vossa família, reunida para escutar a palavra da salvação e participar no pão da vida, celebra o memorial do Senhor ressuscitado, na esperança do domingo que não tem ocaso, quando toda a humanidade entrar no vosso descanso. Então veremos o vosso rosto e louvaremos sem fim a vossa misericórdia. Nesta feliz esperança, com os Anjos e os Santos proclamamos a vossa glória, cantando numa só voz:",
+            "bold": "porque neste dia de festa nos congregastes na vossa casa"
+        }
+    },
     "propers": {
         "week-1": {
             "entrance": {
