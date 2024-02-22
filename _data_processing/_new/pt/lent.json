@@ -74,14 +74,14 @@
             "4": {
                 "entrance": {
                     "text": "De todos Vos compadeceis, Senhor, e amais tudo quanto fizestes; perdoais aos pecadores arrependidos, porque sois o Senhor nosso Deus.",
-                    "reference": "cf. Sab 11, 24-25.27"
+                    "reference": "cf. Sab 11, 23-24"
                 },
                 "collect": {
                     "text": "Concedei-nos, Senhor, a graça de começar com santo jejum este tempo da Quaresma, para que, no combate contra o espírito do mal, sejamos fortalecidos com o auxílio da temperança. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
-                    "text": "Recebei, Senhor, este sacrifício, com o qual iniciamos solenemente a Quaresma, e fazei que, pela penitência e pela caridade, nos afastemos do caminho do mal, a fim de que, livres de todo o pecado, nos preparemos para celebrar fervorosamente a paixão de Cristo, vosso Filho. Por Cristo nosso Senhor.",
+                    "text": "Recebei, Senhor, este sacrifício, com o qual iniciamos solenemente a Quaresma, e fazei que, pela penitência e pela caridade, nos afastemos do caminho do mal, a fim de que, livres de todo o pecado, nos preparemos para celebrar fervorosamente a paixão de Cristo, vosso Filho. Ele que vive e reina pelos séculos dos séculos.",
                     "reference": null
                 },
                 "communion": {
@@ -96,7 +96,7 @@
             "5": {
                 "entrance": {
                     "text": "Quando clamei ao Senhor, Ele ouviu a minha voz e livrou-me dos inimigos. Confia ao Senhor os teus cuidados e Ele te salvará.",
-                    "reference": "cf. Salmo 54, 17-20.23"
+                    "reference": "cf. Salmo 54, 17-19.23"
                 },
                 "collect": {
                     "text": "Fazei, Senhor, que a vossa graça inspire sempre as nossas obras e as sustente até ao fim, para que toda a nossa actividade por Vós comece e em Vós acabe. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
@@ -108,7 +108,7 @@
                 },
                 "communion": {
                     "text": "Criai em mim, Senhor, um coração puro e renovai em mim a firmeza de alma.",
-                    "reference": "Mt 7, 8"
+                    "reference": "cf. Sl 50, 12"
                 },
                 "post-communion": {
                     "text": "Concedei, Deus omnipotente, que este alimento celeste que recebemos seja para nós fonte inesgotável de perdão e de salvação eterna. Por Cristo nosso Senhor.",
@@ -167,11 +167,11 @@
                     "reference": "Salmo 90, 15-16"
                 },
                 "collect": {
-                    "text": "Concedei-nos, Deus omnipotente, que, pela observância quaresmal, alcancemos maior compreensão do mistério de Cristo e a nossa vida seja dele um digno testemunho. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Concedei-nos, Deus todo-poderoso, que, pelas práticas anuais do sacramento quaresmal, alcancemos maior compreensão do mistério de Cristo e demos testemunho dele com uma vida digna. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
-                    "text": "Fazei que a nossa vida, Senhor, corresponda à oferta das nossas mãos, com a qual damos início à celebração do tempo santo da Quaresma. Por Cristo nosso Senhor.",
+                    "text": "Fazei que a nossa vida, Senhor, corresponda à oferta das nossas mãos, com a qual damos início à celebração do venerável sacramento da Quaresma. Por Cristo nosso Senhor.",
                     "reference": null
                 },
                 "communion": {
@@ -331,7 +331,7 @@
                     "reference": "cf. Salmo 24, 6.3.22"
                 },
                 "collect": {
-                    "text": "Deus de infinita bondade, que nos mandais ouvir o vosso amado Filho, fortalecei-nos com o alimento interior da vossa palavra, de modo que, purificado o nosso olhar espiritual, possamos alegrar-nos um dia na visão da vossa glória. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que nos mandais ouvir o vosso amado Filho, fortalecei-nos com o alimento interior da vossa palavra, de modo que, purificado o nosso olhar espiritual, possamos alegrar-nos um dia na visão da vossa glória. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -353,7 +353,7 @@
                     "reference": "Salmo 25, 11-12 "
                 },
                 "collect": {
-                    "text": "Deus de infinita misericórdia, que nos ordenais a penitência do corpo para remédio do espírito, concedei que possamos evitar todo o pecado e cumprir fielmente as exigências da vossa lei. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que nos ordenais a penitência do corpo para remédio do espírito, concedei que possamos evitar todo o pecado e cumprir fielmente as exigências da vossa lei. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -419,7 +419,7 @@
                     "reference": "Salmo, 138, 23-24"
                 },
                 "collect": {
-                    "text": "Senhor, Pai santo, que amais a inocência e a restituís aos que a perderam, dirigi para Vós os corações dos vossos servos pelo fervor do Espírito Santo, para que sejam firmes na fé e eficientes nas boas obras. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que amais a inocência e a restituís aos que a perderam, dirigi para Vós os corações dos vossos servos pelo fervor do Espírito Santo, para que sejam firmes na fé e eficientes nas boas obras. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -445,7 +445,7 @@
                     "reference": null
                 },
                 "offerings": {
-                    "text": "A vossa misericórdia, Senhor, prepare os vossos servos para que possam celebrar dignamente estes mistérios e se dediquem de todo o coração ao vosso serviço. Por Cristo nosso Senhor.",
+                    "text": "Senhor nosso Deus, a vossa misericórdia prepare os vossos servos para que possam celebrar dignamente estes mistérios e se dediquem de todo o coração ao vosso serviço. Por Cristo nosso Senhor.",
                     "reference": null
                 },
                 "communion": {
@@ -463,7 +463,7 @@
                     "reference": "Sal. 114, 8-9"
                 },
                 "collect": {
-                    "text": "Deus de bondade, que pelos vossos dons maravilhosos nos fazeis participantes dos bens eternos ainda nesta vida mortal, guiai-nos de tal modo nos caminhos deste mundo que possamos chegar à luz eterna em que habitais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que pelos vossos dons maravilhosos nos fazeis participantes dos bens eternos ainda nesta vida mortal, guiai-nos de tal modo nos caminhos deste mundo que possamos chegar à luz eterna em que habitais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -491,7 +491,7 @@
                     "reference": "Ez 36, 23-26"
                 },
                 "collect": {
-                    "text": "Deus, Pai de misericórdia e fonte de toda a bondade, que nos fizestes encontrar no jejum, na oração e no amor fraterno os remédios do pecado, olhai benigno para a confissão da nossa humildade, de modo que, abatidos pela consciência da culpa, sejamos confortados pela vossa misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, autor de todas as misericórdias e de toda a bondade, que nos fizestes encontrar no jejum, na oração e no amor fraterno os remédios do pecado, olhai benigno para a confissão da nossa humildade, de modo que, abatidos pela consciência da culpa, sejamos confortados pela vossa misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -538,7 +538,7 @@
             "3": {
                 "entrance": {
                     "text": "Respondei-me, Senhor, quando Vos invoco; ouvi a minha voz, escutai as minhas palavras. Guardai-me dos meus inimigos, Senhor, protegei-me à sombra das vossas asas.",
-                    "reference": "Salmo 16, 6.9"
+                    "reference": "Salmo 16, 6.8"
                 },
                 "collect": {
                     "text": "Não nos abandone, Senhor, a vossa graça: ela nos torne dedicados ao vosso serviço e nos obtenha sempre a vossa ajuda. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
@@ -653,7 +653,7 @@
                     "reference": "cf. Is 66, 10-11"
                 },
                 "collect": {
-                    "text": "Deus de misericórdia, que, pelo vosso Filho, realizais admiravelmente a reconciliação do género humano, concedei ao povo cristão fé viva e espírito generoso, a fim de caminhar alegremente para as próximas solenidades pascais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que, pelo vosso Verbo, realizais admiravelmente a reconciliação do género humano, concedei ao povo cristão fé viva e espírito generoso, a fim de caminhar alegremente para as próximas solenidades pascais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -686,7 +686,7 @@
                     "reference": "Salmo 30, 7-8"
                 },
                 "collect": {
-                    "text": "Deus de infinita bondade, que renovais o mundo com admiráveis sacramentos, fazei que a vossa Igreja se enriqueça sempre mais com estes benefícios eternos e nunca lhe faltem os auxílios temporais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que renovais o mundo com admiráveis sacramentos, fazei que a vossa Igreja se enriqueça sempre mais com estes benefícios eternos e nunca lhe faltem os auxílios temporais. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -824,7 +824,7 @@
                     "reference": null
                 },
                 "offerings": {
-                    "text": "Ouvi-nos, Senhor Deus omnipotente, e, pela virtude deste sacrifício, purificai os vossos servos que iluminastes com os ensinamentos da fé. Por Cristo nosso Senhor.",
+                    "text": "Ouvi-nos, Deus todo-poderoso, e, pela virtude deste sacrifício, purificai os vossos servos, a quem destes as primícias da fé cristã. Por Cristo nosso Senhor.",
                     "reference": null
                 },
                 "communion": {
@@ -843,7 +843,7 @@
                     "notice": "Quando se lê o outro Evangelho"
                 },
                 "post-communion": {
-                    "text": "Deus omnipotente, concedei-nos a graça de sermos sempre contados entre os membros de Cristo, nós que comungámos o seu Corpo e Sangue. Por Cristo nosso Senhor.",
+                    "text": "Deus todo-poderoso, concedei-nos a graça de sermos sempre contados entre os membros de Cristo, nós que comungámos o seu Corpo e Sangue. Por Cristo nosso Senhor.",
                     "reference": null
                 }
             },
@@ -950,6 +950,9 @@
                     "text": "Perdoai, Senhor, as culpas do vosso povo e livrai-nos, pela vossa bondade, do poder do pecado que nos oprime. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
+                "alt-collect": {
+                    "text": "Senhor nosso Deus, que, neste tempo, exortais a vossa Igreja a imitar piedosamente a Virgem santa Maria, na contemplação da paixão de Cristo, concedei, por sua intercessão, que, seguindo cada vez mais firmemente o vosso Filho unigénito, alcancemos um dia a plenitude da sua graça. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos."
+                },
                 "offerings": {
                     "text": "Concedei-nos, Deus de misericórdia, a graça de Vos servirmos dignamente ao vosso altar, para que a assídua participação neste sacrifício nos alcance a salvação eterna. Por Cristo nosso Senhor.",
                     "reference": null
@@ -969,11 +972,11 @@
                     "reference": "Salmo 21, 20.7"
                 },
                 "collect": {
-                    "text": "Deus de misericórdia, que em todo o momento realizais a salvação dos homens e agora alegrais o vosso povo com graças mais abundantes, olhai benignamente para os vossos eleitos e fortalecei, com o auxílio da vossa protecção, os que se preparam para o renascimento do Baptismo e aqueles que já o receberam. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que fizestes de todos os que renasceram em Cristo uma geração eleita e um sacerdócio real, dai-nos a vontade e a força de fazer o que mandais, para que o povo chamado ao vosso reino viva animado pela mesma fé e manifeste nas obras o mesmo espírito de caridade. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
-                    "text": "Deus eterno e omnipotente, que fazeis renascer para a vida eterna os que no sacramento do Baptismo proclamam a fé no vosso nome, recebei as ofertas e as orações dos vossos servos, para que se confirme a esperança dos que em Vós confiam e sejam perdoados todos os seus pecados. Por Cristo nosso Senhor.",
+                    "text": "Fazei, Senhor, que as ofertas do nosso jejum Vos sejam agradáveis; que elas, servindo de expiação dos nossos pecados, nos tornem dignos da vossa graça e nos conduzam à bem-aventurança eterna prometida. Por Cristo nosso Senhor.",
                     "reference": null
                 },
                 "communion": {
@@ -987,9 +990,9 @@
             }
         },
         "week-holy": {
-            "1": {
+            "palm-sunday": {
                 "collect": {
-                    "text": "Deus eterno e omnipotente, que, para dar aos homens um exemplo de humildade, quisestes que o nosso Salvador se fizesse homem e padecesse o suplício da cruz, fazei que sigamos os ensinamentos da sua paixão, para merecermos tomar parte na glória da sua ressurreição. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Deus todo-poderoso e eterno, que, para salvar a humanidade, quisestes que o nosso Salvador Se fizesse homem e suportasse a cruz, fazei que vivamos unidos a Ele na sua paixão para chegarmos a tomar parte na glória da sua ressurreição. Ele que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -1011,7 +1014,7 @@
                     "reference": "Salmo 34, 1-2; 139, 8"
                 },
                 "collect": {
-                    "text": "Olhai, Senhor, para a fragilidade da nossa natureza mortal e fortalecei a esperança dos vossos fiéis pelos méritos do vosso Filho Unigénito. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Deus todo-poderoso, olhai para a fragilidade da nossa natureza mortal e fortalecei a esperança dos vossos fiéis pelos méritos do vosso Filho Unigénito. Ele que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -1033,7 +1036,7 @@
                     "reference": "Salmo 26, 12"
                 },
                 "collect": {
-                    "text": "Deus eterno e omnipotente, concedei-nos a graça de celebrar dignamente os mistérios da paixão do Senhor, para merecermos alcançar o seu perdão. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Deus todo-poderoso e eterno, concedei-nos a graça de celebrar dignamente os mistérios da paixão do Senhor, para merecermos alcançar o vosso perdão. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -1067,7 +1070,7 @@
                     "reference": "Mt 20, 28"
                 },
                 "post-communion": {
-                    "text": "Senhor nosso Deus, dai-nos a graça de acreditar firmemente que, pela morte temporal do vosso Filho, proclamada nestes santos mistérios, recebemos das vossas mãos o penhor da vida eterna. Por Cristo nosso Senhor.",
+                    "text": "Deus todo-poderoso, dai-nos a graça de acreditar firmemente que, pela morte temporal do vosso Filho, proclamada nestes santos mistérios, recebemos das vossas mãos o penhor da vida eterna. Por Cristo nosso Senhor.",
                     "reference": null
                 }
             },
@@ -1077,7 +1080,7 @@
                     "reference": "Ap 1, 6"
                 },
                 "collect": {
-                    "text": "Deus de bondade infinita, que, pela unção do Espírito Santo, constituistes o vosso Filho Unigénito Messias e Senhor, concedei-nos que, participando na sua consagração, sejamos no mundo testemunhas do seu Evangelho. Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
+                    "text": "Senhor nosso Deus, que, pela unção do Espírito Santo, constituistes o vosso Filho Unigénito Messias e Senhor, concedei-nos que, participando na sua consagração, sejamos no mundo testemunhas do seu Evangelho. Ele que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.",
                     "reference": null
                 },
                 "offerings": {
@@ -1089,7 +1092,7 @@
                     "reference": "Salmo 88, 2"
                 },
                 "post-communion": {
-                    "text": "Deus todo-poderoso, que nos alimentastes com os vossos sacramentos, fazei que sejamos no mundo fiéis testemunhas de Cristo. Por Cristo nosso Senhor.",
+                    "text": "Deus todo-poderoso, que nos alimentastes com os vossos sacramentos, fazei que sejamos no mundo fiéis testemunhas de Cristo. Ele que vive e reina pelos séculos dos séculos.",
                     "reference": null
                 }
             },
