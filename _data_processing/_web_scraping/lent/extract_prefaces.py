@@ -77,12 +77,12 @@ def create_json_prefaces(raw_prefaces):
     if section['bold'] != None:
       preface_data['bold'] = ''.join(section['bold'])
 
-    if i < 7:
-      prefaces[f"lent-{i}"] = preface_data
+    if i < 6:
+      prefaces[f"sunday-{i}"] = preface_data
     elif i < 12:
-      prefaces[f"sunday-{i - 6}"] = preface_data
+      prefaces[f"lent-{i - 5}"] = preface_data
     elif i < 14:
-      prefaces[f"passion-{i - 13}"] = preface_data
+      prefaces[f"passion-{i - 11}"] = preface_data
     elif i == 14:
       prefaces[f"palm-sunday"] = preface_data
     else:
@@ -96,17 +96,17 @@ def create_json_prefaces(raw_prefaces):
 lent_prefaces = defaultdict(recursive_defaultdict)
 
 possible_sections = [
+  'I DOMINGO DA QUARESMA',
+  'II DOMINGO DA QUARESMA',
+  'III DOMINGO DA QUARESMA',
+  'IV DOMINGO DA QUARESMA',
+  'V DOMINGO DA QUARESMA',
   'QUARESMA I',
   'QUARESMA II',
   'QUARESMA III',
   'QUARESMA IV',
   'QUARESMA V',
   'QUARESMA VI',
-  'I DOMINGO DA QUARESMA',
-  'II DOMINGO DA QUARESMA',
-  'III DOMINGO DA QUARESMA',
-  'IV DOMINGO DA QUARESMA',
-  'V DOMINGO DA QUARESMA',
   'PAIXÃO DO SENHOR I',
   'PAIXÃO DO SENHOR II',
   'DOMINGO DE RAMOS',
@@ -130,19 +130,19 @@ lent_prefaces = create_json_prefaces(raw_lent_prefaces)
 
 # Adding prefaces to Lent Time's JSON file
 
-# output_file_path = '../../_new/pt/lent.json'
+output_file_path = '../../_new/pt/lent.json'
 
-# with open(output_file_path, 'r', encoding='utf-8') as file:
-#   lent = json.load(file)
+with open(output_file_path, 'r', encoding='utf-8') as file:
+  lent = json.load(file)
 
-# lent_propers = lent['propers']
-# lent_readings = lent['readings']
+lent_propers = lent['propers']
+lent_readings = lent['readings']
 
-# lent = {
-#   'prefaces': lent_prefaces,
-#   'propers': lent_propers,
-#   'readings': lent_readings
-# }
+lent = {
+  'prefaces': lent_prefaces,
+  'propers': lent_propers,
+  'readings': lent_readings
+}
 
-# with open(output_file_path, 'w', encoding='utf-8') as file:
-#   json.dump(lent, file, ensure_ascii=False, indent=4)
+with open(output_file_path, 'w', encoding='utf-8') as file:
+  json.dump(lent, file, ensure_ascii=False, indent=4)

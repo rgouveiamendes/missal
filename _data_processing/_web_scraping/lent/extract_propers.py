@@ -127,6 +127,8 @@ def create_json_mass_propers(propers_sections):
     #   proper_type = 'alt-communion'
     elif 'Depois' in name:
       proper_type = 'post-communion'
+    elif 'Sobre' in name:
+      proper_type = 'over-people'
     
     proper_s = set_proper(proper_type, section, reference)
 
@@ -221,7 +223,7 @@ lent_propers[f"week-holy"]['1'] = propers
 # Holy Week: week days.
 
 file_path = '../../_old/QrmSemSS.htm'
-weekdays = ['2', '3', '4', '5', '6', '7']
+weekdays = ['2', '3', '4', '5-chrism', '6', '7']
 
 week_sections = extract_sections(file_path)
 week_keys = list(week_sections.keys())[8:]
@@ -233,6 +235,23 @@ for j, day in enumerate(week_keys):
 
   lent_propers[f"week-holy"][weekdays[j]] = propers
 
+
+# Sacred Paschal Triduum: Holy Thursday and Good Friday
+
+possible_sections.append('ORAÇÃO SOBRE O POVO')
+
+file_path = '../../_old/QrmTridSacro.htm'
+weekdays = ['5', '6']
+
+week_sections = extract_sections(file_path)
+week_keys = list(week_sections.keys())[0:2]
+
+for j, day in enumerate(week_keys):
+
+  propers_sections = get_mass_by_sections(week_sections[day], possible_sections)
+  propers = create_json_mass_propers(propers_sections)
+
+  lent_propers[f"week-holy"][weekdays[j]] = propers
 
 # for week in lent_propers.keys():
 #   print(week)

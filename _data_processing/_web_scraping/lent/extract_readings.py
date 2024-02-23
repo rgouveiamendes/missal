@@ -290,7 +290,7 @@ weekdays = ["1", "1", "1",
             "5", "6", "7",]
 cycles = ["A", "B", "C"]
 
-for i, file_path in enumerate(file_paths):
+for j, file_path in enumerate(file_paths):
   masses_raw_text = extract_sections(file_path)
 
   for i, key in enumerate(list(masses_raw_text.keys())[1:]):
@@ -321,30 +321,6 @@ for i, file_path in enumerate(file_paths):
 #     print(key)
 #     print(lent_readings['week-05'][day][key])
 
-
-
-# Holy Week: everything less Palm Sunday
-
-file_path = "../../_old/QrmSemSS.htm"
-masses_raw_text = extract_sections(file_path)
-weekdays = ["2", "3", "4",
-            "5", "6", "7",]
-
-for i, key in enumerate(list(masses_raw_text.keys())[8:]):
-  mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
-
-  readings = create_json_mass_readings(mass_by_section)
-
-  lent_readings['week-holy'][weekdays[i]] = readings
-
-# print(repr(lent_readings.keys()))
-
-# for day in list(lent_readings['week-holy'].keys()):
-#   for key in lent_readings['week-holy'][day]:
-#     print(key)
-#     print(lent_readings['week-holy'][day][key])
-
-
 # Holy Week: Palm Sunday readings, except gospel and procession
 
 file_path = "../../_old/QrmSemSS.htm"
@@ -358,6 +334,49 @@ readings = create_json_mass_readings(mass_by_section)
 del readings['reading-DA']
 
 lent_readings['week-holy']['palm-sunday'] = readings
+
+# Holy Week: everything less Palm Sunday
+
+file_path = "../../_old/QrmSemSS.htm"
+masses_raw_text = extract_sections(file_path)
+weekdays = ["2", "3", "4",
+            "5", "6", "7",]
+
+for i, key in enumerate(list(masses_raw_text.keys())[8:]):
+  mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
+
+  readings = create_json_mass_readings(mass_by_section)
+
+  if weekdays[i] == '5':
+    lent_readings['week-holy'][f'{weekdays[i]}-chrism'] = readings
+  else:
+    lent_readings['week-holy'][weekdays[i]] = readings
+
+
+# Sacred Paschal Triduum: Holy Thursday and Good Friday
+
+file_path = "../../_old/QrmTridSacro.htm"
+masses_raw_text = extract_sections(file_path)
+weekdays = ["5", "6"]
+
+for i, key in enumerate(list(masses_raw_text.keys())[0:2]):
+  if i == 1:
+    # Good Friday's "gospel" requires different parsing.
+    # Done in extract_gospels.py
+    del possible_sections[4]
+
+  mass_by_section = get_mass_by_sections(masses_raw_text[key], possible_sections)
+
+  readings = create_json_mass_readings(mass_by_section)
+
+  lent_readings['week-holy'][weekdays[i]] = readings
+
+# print(repr(lent_readings.keys()))
+
+# for day in list(lent_readings['week-holy'].keys()):
+#   for key in lent_readings['week-holy'][day]:
+#     print(key)
+#     print(lent_readings['week-holy'][day][key])
 
 # print(repr(lent_readings.keys()))
 # print(repr(lent_readings['week-holy'].keys()))

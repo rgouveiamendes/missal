@@ -39,9 +39,27 @@ def extract_sections(file_path):
   
   return masses_raw_text
 
+def get_mass_by_sections(mass_raw_text, sections):
+  mass_by_section = {}
+  current_section = ''
+  for text in mass_raw_text:
+    text = text.replace('\n', ' ')
+    is_section_title = False
+    for section in sections:
+      if section in text:
+        is_section_title = True
+        current_section = text
+        mass_by_section[current_section] = []
+    if not is_section_title and current_section != '':
+      mass_by_section[current_section].append(text)
+
+  return mass_by_section
+
 output_file_path = '../../_new/pt/lent.json'
 with open(output_file_path, 'r', encoding='utf-8') as file:
   lent = json.load(file)
+
+# Extraction of Palm Sunday's gospels.
 
 lent['readings']['week-holy']['palm-sunday']['gospel'] = {}
 palm_sunday_gospel = lent['readings']['week-holy']['palm-sunday']['gospel']
@@ -67,6 +85,35 @@ for i, gospel_key in enumerate(palm_gospel_keys):
 
   # print(palm_sunday_gospel[cycles[i]])
   # print("\n")
+
+# Extraction of Good Friday's gospel
+
+lent['readings']['week-holy']['6']['gospel'] = {}
+
+file_path = "../../_old/QrmTridSacro.htm"
+masses_raw_text = extract_sections(file_path)
+friday_key = list(masses_raw_text.keys())[1]
+friday_raw = masses_raw_text[friday_key]
+
+friday_sections = get_mass_by_sections(friday_raw, ['EVANGELHO'])
+friday_gospel_key  = list(friday_sections.keys())[1]
+gospel_raw = friday_sections[friday_gospel_key]
+
+reference = re.split(' - | – ', friday_gospel_key)
+reference = " - ".join(reference[1:3]).strip()
+
+gospel = {}
+gospel['reference'] = reference
+gospel['snippet'] = gospel_raw.pop(0)
+gospel['text'] = []
+
+for i in gospel_raw:
+  if i == 'Faz-se, se convier, uma breve homilia.':
+    break
+  else:
+    gospel['text'].append(i)
+
+lent['readings']['week-holy']['6']['gospel'] = gospel
 
 
 with open(output_file_path, 'w', encoding='utf-8') as file:
