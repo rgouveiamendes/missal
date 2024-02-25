@@ -28,3 +28,21 @@ Adiciona alguma complexidade ao código, mas a longo prazo facilita a manutenç�
 - Onde fazer o deploy da aplicação?
 
   Podemos usar o próprio GitHub pages, com o GitHub actions, ou a Vercel, que é plataforma da empresa que criou o Next.js. Nas duas situações a página é recriada a cada push que damos na main, então depois da configuração inicial, atualizar o site é só uma questão de mudar o que precisa e dar um push!
+
+## Workflow de colaboração no Github
+
+### Branches
+
+Por agora vamos ter apenas uns poucos branches "oficiais":
+- **main**: a partir de onde se faz o build e deploy do site, e desde onde se fazem as releases.
+- **dev**: onde se desenvolve a próxima versão. É para este branch que se devem dirigir os Pull Requests com contribuições.
+- outros branches criados para alguém ir trabalhando nalguma feature à parte. Em princípio estes branches devem ser começados a partir de **dev**. Deve ser um branch por feature, mantendo alguma separação.
+
+### Merges e Releases
+
+- quando há alguma feature nova, ou pacote de textos novo, está pronto e testado em **dev**, pode-se fazer o Pull Request para **dev**.
+- os commits devem ser squashed de forma a manter a git history limpa e fácil de seguir. Não tem de ser só um commit por PR, mas sim um número reduzido e lógico.
+- mesmo que alguém tenha direito de escrita, não deve fazer merge dos seus próprios PR's, a não ser que sejam _muito_ triviais.
+- o normal será outra pessoa fazer o code review e aprovar o PR antes de se fazer o merge, para garantir que há dois pares de olhos a rever cada alteração e a comentar possíveis melhorias.
+- quando houver um número de melhoramentos relevante em **dev**, faz-se merge desse branch para dentro de **main** e faz-se uma nova **Release**.
+- nesse momento, quem tiver outros branches com trabalho inacabado, deve fazer um update do seu branch para ficar a par com o novo estado de **dev** e **main**.
