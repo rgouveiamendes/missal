@@ -9,7 +9,7 @@ import json
 
 # ordinary_propers = ordinary['propers']
 # ordinary_readings = ordinary['readings']
-# ordinary_prefaces = ordinary['readings']
+# ordinary_prefaces = ordinary['prefaces']
 
 # old_sentence = 'Por Nosso Senhor Jesus Cristo, vosso Filho, que é Deus convosco na unidade do Espírito Santo.'
 # new_sentence_a = 'Por nosso Senhor Jesus Cristo, vosso Filho, que é Deus e convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos.'
